@@ -12,4 +12,5 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
 function noReturn initApp   <//> 《
 	renameWindow</ mainWindow :: appTitlePrefix pointer />;
+	
 》
