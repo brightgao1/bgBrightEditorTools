@@ -13,6 +13,6 @@ function noReturn initApp   <//>;
 
 
 
-global unicodeString appTitlePrefix;
+global :" appTitlePrefix;
 
 global windowPointer mainWindow;
