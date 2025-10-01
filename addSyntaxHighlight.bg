@@ -23,6 +23,6 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[addSyntaxHighlightRedEdit isEqualTo?? null]|           做Edit</ @@addSyntaxHighlightRedEdit          ::150::150::200::30::mainWindow />;
 	? |[addSyntaxHighlightGreenEdit isEqualTo?? null]|         做Edit</ @@addSyntaxHighlightGreenEdit        ::150::220::200::30::mainWindow />;
 	? |[addSyntaxHighlightBlueEdit isEqualTo?? null]|          做Edit</ @@addSyntaxHighlightBlueEdit         ::150::270::200::30::mainWindow />;
-	
+		
 	resizeWindowAddSyntaxHighlight<//>;
 》
