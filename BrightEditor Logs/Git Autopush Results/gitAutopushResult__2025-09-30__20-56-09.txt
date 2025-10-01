@@ -1,0 +1,26 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-09-30__20-56-04.txt', LF will be replaced by CRLF the next time Git touches it
+[master 36ad136] BrightEditor autopush 20:56:04 9/30/2025 CST
+ 22 files changed, 50 insertions(+), 11 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-09-30__20-56-04.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-01__613__A
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-01__701__D
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-01__853__D
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-02__102__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-02__221__Y
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-02__382__N
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-02__452__T
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-02__501__A
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-02__5__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-02__669__X
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-03__198__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-03__270__H
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-03__397__I
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-03__525__G
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-03__542__H
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-03__765__L
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-03__813__I
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-03__981__G
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-04__149__T
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-56-04__78__H
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   6a18f5c..36ad136  master -> master
