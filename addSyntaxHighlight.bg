@@ -18,6 +18,6 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[addSyntaxHighlightBlueText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightBlueText::{Blue: }::20::240::300::30::mainWindow />;
 
 	? |[addSyntaxHighlightFileExtensionEdit isEqualTo?? null]| 做Edit</ @@addSyntaxHighlightFileExtensionEdit::150::20::200::30::mainWindow />;
-	
+	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]| 做Edit</ @@addSyntaxHighlightToHighlightEdit::150::80::200::30::mainWindow />;
 
 》
