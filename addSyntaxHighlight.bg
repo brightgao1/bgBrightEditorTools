@@ -17,7 +17,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[addSyntaxHighlightGreenText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightGreenText::{Green: }::20::190::300::30::mainWindow />;
 	? |[addSyntaxHighlightBlueText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightBlueText::{Blue: }::20::240::300::30::mainWindow />;
 
-	? |[addSyntaxHighlightFileExtensionEdit isEqualTo?? null]| 做Text</ @@addSyntaxHighlightFileExtensionEdit::150::20::200::30::mainWindow />;
+	? |[addSyntaxHighlightFileExtensionEdit isEqualTo?? null]| 做Text</ @@addSyntaxHighlightFileExtensionEdit::150::20::200::mainWindow />;
 	
 
 》
