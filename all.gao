@@ -16,3 +16,6 @@ function noReturn initApp   <//>;
 global :" appTitlePrefix;
 
 global windowPointer mainWindow;
+
+windowPointer addSyntaxHighlightFileExtensionText.. addSyntaxHighlightToHighlightText.. addSyntaxHighlightRedText.. addSyntaxHighlightGreenText;
+windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
