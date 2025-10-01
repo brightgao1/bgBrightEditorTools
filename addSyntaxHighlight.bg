@@ -11,7 +11,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 加  								 	all.gao;
 
 function noReturn goToAddSyntaxHighlight   <//> 《
-	? |[addSyntaxHighlightFileExtensionText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightFileExtensionText::{test}::20::20::300::30::mainWindow />;
-	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]| 做Text</ 	
+	? |[addSyntaxHighlightFileExtensionText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightFileExtensionText::{File extension}::20::20::300::30::mainWindow />;
+	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightToHighlightText::{To highlight: }	
 
 》
