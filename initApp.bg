@@ -16,5 +16,5 @@ function noReturn initApp   <//> 《
 	
 》
 function noReturn initFonts   <//> 《 
-	CreateFontW</  0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Arial} />;	
+	arialFont << CreateFontW</  0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Arial} />;	
 》
