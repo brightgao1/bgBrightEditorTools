@@ -1,0 +1,29 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:55:49 , 9/29/2,025
+
+File author:              Bright Gao
+
+File name when created:   globalVariables.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+
+  	加   	all.gao;
+
+
+:"appTitlePrefix << {bgBrightEditorTools};
+
+windowPointer addSyntaxHighlightFileExtensionText.. addSyntaxHighlightToHighlightText.. addSyntaxHighlightRedText.. addSyntaxHighlightGreenText;
+windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
+
+windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
+windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit;
+
+fontPointer arialFont;
+
+rectangle mainWindowRectangle;
+
