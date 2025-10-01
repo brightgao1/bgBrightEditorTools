@@ -13,6 +13,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 function noReturn resizeWindowAddSyntaxHighlight   <//> 《
 	getRectangle</ mainWindow::@@mainWindowRectangle />;
 	:#l.. r.. t.. b;
-	l << mainWindowRectangle get left >> r << mainWindowRectangle get right >> t << 
+	l << mainWindowRectangle get left >> r << mainWindowRectangle get right >> t << mainWindowRectangle get top >> b << mainWindowRectangle get bottom;
+	
 
 》
