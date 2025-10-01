@@ -12,7 +12,20 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
 []</ windowPointer::@@addSyntaxHighlightControls />;
 
-function noReturn goToAddSyntaxHighlight   <//> 《
+function noReturn initAddSyntaxHighlightControlArray   <//> 《
+	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightFileExtensionText />;
+	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightToHighlightText />;
+	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightRedText />;
+	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightGreenText />;
+	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightBlueText />;
+	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightOtherText />;
+
+	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightFileExtensionEdit />;
+	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightToHighlightEdit />;
+	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightRedEdit />;
+	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightGreenEdit />;
+	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightBlueEdit />;
+	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightOtherEdit />;
 	
 》
 function noReturn goToAddSyntaxHighlight   <//> 《
