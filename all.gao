@@ -13,8 +13,6 @@ function noReturn initApp   <//>;
 function noReturn initFonts   <//>;
 	
 function noReturn goToAddSyntaxHighlight   <//>;
-function noReturn initAddSyntaxHighlightControlArray   <//>;
-
 
 function noReturn resizeWindowAddSyntaxHighlight   <//>;
 
