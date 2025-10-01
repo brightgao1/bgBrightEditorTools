@@ -21,3 +21,7 @@ global windowPointer mainWindow;
 
 global windowPointer addSyntaxHighlightFileExtensionText.. addSyntaxHighlightToHighlightText.. addSyntaxHighlightRedText.. addSyntaxHighlightGreenText;
 global windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
+
+
+global windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
+global windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit;
