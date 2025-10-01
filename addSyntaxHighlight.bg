@@ -17,12 +17,26 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[addSyntaxHighlightGreenText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightGreenText        ::{Green: }         ::20::160::200::30::mainWindow />;
 	? |[addSyntaxHighlightBlueText isEqualTo?? null]|          做Text</ @@addSyntaxHighlightBlueText         ::{Blue: }          ::20::200::200::30::mainWindow />;
 	? |[addSyntaxHighlightOtherText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightOtherText	    ::{Other styles: }  ::20::240::200::30::mainWindow />; 
-
+	SendMessageW</ addSyntaxHighlightFileExtensionText::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightToHighlightText  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightRedText		  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightGreenText        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightBlueText         ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightOtherText        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	? |[addSyntaxHighlightFileExtensionEdit isEqualTo?? null]| 做Edit</ @@addSyntaxHighlightFileExtensionEdit::150::20::200::30::mainWindow />;
 	? |[addSyntaxHighlightToHighlightEdit isEqualTo?? null]|   做Edit</ @@addSyntaxHighlightToHighlightEdit  ::150::80::200::30::mainWindow />;
 	? |[addSyntaxHighlightRedEdit isEqualTo?? null]|           做Edit</ @@addSyntaxHighlightRedEdit          ::150::150::200::30::mainWindow />;
 	? |[addSyntaxHighlightGreenEdit isEqualTo?? null]|         做Edit</ @@addSyntaxHighlightGreenEdit        ::150::220::200::30::mainWindow />;
 	? |[addSyntaxHighlightBlueEdit isEqualTo?? null]|          做Edit</ @@addSyntaxHighlightBlueEdit         ::150::270::200::30::mainWindow />;
-	SendMessageW</ addSyntaxHighlightControls[i]::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightFileExtensionText::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightToHighlightText  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightRedText		  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightGreenText        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightBlueText         ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightOtherText        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	
+	SendMessageW</ addSyntaxHighlightToHighlightText  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightToHighlightText  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+
 	resizeWindowAddSyntaxHighlight<//> >> SetFocus</ addSyntaxHighlightFileExtensionEdit />;
 》
