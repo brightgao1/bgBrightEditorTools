@@ -1,0 +1,31 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     20:05:51 , 9/30/2,025
+
+File author:              Bright Gao
+
+File name when created:   addSyntaxHighlight.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+加  								 	all.gao;
+
+function noReturn goToAddSyntaxHighlight   <//> 《
+	? |[addSyntaxHighlightFileExtensionText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightFileExtensionText::{File extension: }::20::20::200::30::mainWindow />;
+	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]|   做Text</ @@addSyntaxHighlightToHighlightText  ::{To highlight: }  ::20::60::200::30::mainWindow />;
+	? |[addSyntaxHighlightRedText isEqualTo?? null]| 	      做Text</ @@addSyntaxHighlightRedText          ::{Red: }           ::20::120::200::30::mainWindow />;
+	? |[addSyntaxHighlightGreenText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightGreenText        ::{Green: }         ::20::160::200::30::mainWindow />;
+	? |[addSyntaxHighlightBlueText isEqualTo?? null]|          做Text</ @@addSyntaxHighlightBlueText         ::{Blue: }          ::20::200::200::30::mainWindow />;
+	? |[addSyntaxHighlightOtherText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightOtherText	    ::{Other styles: }  ::20::240::200::30::mainWindow />; 
+
+	? |[addSyntaxHighlightFileExtensionEdit isEqualTo?? null]| 做Edit</ @@addSyntaxHighlightFileExtensionEdit::150::20::200::30::mainWindow />;
+	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]|   做Edit</ @@addSyntaxHighlightToHighlightEdit  ::150::80::200::30::mainWindow />;
+	? |[addSyntaxHighlightRedEdit isEqualTo?? null]|           做Edit</ @@addSyntaxHighlightRedEdit          ::150::150::200::30::mainWindow />;
+	? |[addSyntaxHighlightGreenEdit isEqualTo?? null]|         做Edit</ @@addSyntaxHighlightGreenEdit        ::150::220::200::30::mainWindow />;
+	? |[addSyntaxHighlightBlueEdit isEqualTo?? null]|          做Edit</ @@addSyntaxHighlightBlueEdit         ::150::270::200::30::mainWindow />;
+	
+
+》
