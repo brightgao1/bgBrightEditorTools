@@ -9,7 +9,7 @@ File name when created:   addSyntaxHighlight.bg
 Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
 
 加  								 	all.gao;
-
+ 
 function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[addSyntaxHighlightFileExtensionText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightFileExtensionText::{File extension: }::20::20::200::30::mainWindow />;
 	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]|   做Text</ @@addSyntaxHighlightToHighlightText  ::{To highlight: }  ::20::60::200::30::mainWindow />;
