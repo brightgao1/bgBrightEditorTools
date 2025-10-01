@@ -26,7 +26,7 @@ function noReturn initAddSyntaxHighlightControlArray   <//> 《
 	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightGreenEdit />;
 	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightBlueEdit />;
 	addSyntaxHighlightControls addToEnd</ addSyntaxHighlightOtherEdit />;
-	
+	/!addSyntaxHighlightControls elementCount;
 》
 function noReturn goToAddSyntaxHighlight   <//> 《
 	initAddSyntaxHighlightControlArray<//>;
