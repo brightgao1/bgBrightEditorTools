@@ -14,6 +14,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
 :"appTitlePrefix << {bgBrightEditorTools};
 
+
 windowPointer addSyntaxHighlightFileExtensionText.. addSyntaxHighlightToHighlightText.. addSyntaxHighlightRedText.. addSyntaxHighlightGreenText;
 windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
 
