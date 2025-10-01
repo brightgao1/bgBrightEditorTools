@@ -10,7 +10,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
 
 function noReturn initApp   <//>;
-function noReturn initFonts   <//> 《 
+function noReturn initFonts   <//>;
 	
 function noReturn goToAddSyntaxHighlight   <//>;
 
