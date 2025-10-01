@@ -12,6 +12,6 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
 function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[addSyntaxHighlightFileExtensionText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightFileExtensionText::{test}::20::20::300::30::mainWindow />;
-	? |[	
+	? |[addSyntaxHighlight	
 
 》
