@@ -28,12 +28,12 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[addSyntaxHighlightRedEdit isEqualTo?? null]|           做Edit</ @@addSyntaxHighlightRedEdit          ::150::150::200::30::mainWindow />;
 	? |[addSyntaxHighlightGreenEdit isEqualTo?? null]|         做Edit</ @@addSyntaxHighlightGreenEdit        ::150::220::200::30::mainWindow />;
 	? |[addSyntaxHighlightBlueEdit isEqualTo?? null]|          做Edit</ @@addSyntaxHighlightBlueEdit         ::150::270::200::30::mainWindow />;
-	SendMessageW</ addSyntaxHighlightFileExtensionText::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
-	SendMessageW</ addSyntaxHighlightToHighlightText  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
-	SendMessageW</ addSyntaxHighlightRedText		  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
-	SendMessageW</ addSyntaxHighlightGreenText        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
-	SendMessageW</ addSyntaxHighlightBlueText         ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
-	SendMessageW</ addSyntaxHighlightOtherText        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightFileExtensionEdit::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightToHighlightEdit  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightRedEdit		  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightGreenEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightBlueEdit         ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightOtherEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	
 	SendMessageW</ addSyntaxHighlightToHighlightText  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightToHighlightText  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
