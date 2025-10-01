@@ -20,7 +20,7 @@ windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
 windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
 windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit;
 
-fontPointer 
+fontPointer arialFont;
 
 rectangle mainWindowRectangle;
 
