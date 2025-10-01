@@ -1,0 +1,26 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-09-30__20-42-04.txt', LF will be replaced by CRLF the next time Git touches it
+[master 6393e48] BrightEditor autopush 20:42:04 9/30/2025 CST
+ 22 files changed, 41 insertions(+), 12 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-09-30__20-42-04.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-00__202__R
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-00__266__E
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-00__418__C
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-00__58__Enter
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-00__890__T
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-00__970__A
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-01__139__G
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-01__192__L
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-01__26__N
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-01__298__E
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-01__593__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-02__242__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-04__154__M
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-04__266__A
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-04__323__I
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-04__362__N
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-04__489__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-04__617__W
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-04__763__I
+ create mode 100644 BrightEditor Logs/keypresses/2025-09-30__20-42-04__795__N
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   559589c..6393e48  master -> master
