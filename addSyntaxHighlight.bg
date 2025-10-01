@@ -18,8 +18,8 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[addSyntaxHighlightBlueText isEqualTo?? null]|          做Text</ @@addSyntaxHighlightBlueText         ::{Blue: }          ::20::240::300::30::mainWindow />;
 
 	? |[addSyntaxHighlightFileExtensionEdit isEqualTo?? null]| 做Edit</ @@addSyntaxHighlightFileExtensionEdit::150::20::200::30::mainWindow />;
-	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]| 做Edit</ @@addSyntaxHighlightToHighlightEdit::150::80::200::30::mainWindow />;
-	? |[addSyntaxHighlightRedEdit isEqualTo?? null]| 做Edit</ @@addSyntaxHighlightRedEdit::150::150::200::30::mainWindow />;
-	? |[addSyntaxHighlightGreenEdit isEqualTo?? null]| 做Edit</ @@addSyntaxHighlightGreenEdit::150::220::200::30::mainWindow />;
-	? |[addSyntaxHighlightBlueEdit isEqualTo?? null]| 做Edit</ @@addSyntaxHighlightBlueEdit::150::270::200::30::mainWindow />;
+	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]|   做Edit</ @@addSyntaxHighlightToHighlightEdit::150::80::200::30::mainWindow />;
+	? |[addSyntaxHighlightRedEdit isEqualTo?? null]|           做Edit</ @@addSyntaxHighlightRedEdit::150::150::200::30::mainWindow />;
+	? |[addSyntaxHighlightGreenEdit isEqualTo?? null]|         做Edit</ @@addSyntaxHighlightGreenEdit::150::220::200::30::mainWindow />;
+	? |[addSyntaxHighlightBlueEdit isEqualTo?? null]|          做Edit</ @@addSyntaxHighlightBlueEdit::150::270::200::30::mainWindow />;
 》
