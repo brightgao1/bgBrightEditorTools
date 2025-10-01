@@ -27,3 +27,4 @@ global windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
 
 global windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
 global windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit;
+global rectangle 
