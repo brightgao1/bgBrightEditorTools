@@ -16,6 +16,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[addSyntaxHighlightRedText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightRedText::{Red: }::20::140::300::30::mainWindow />;
 	? |[addSyntaxHighlightGreenText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightGreenText::{Green: }::20::190::300::30::mainWindow />;
 	? |[addSyntaxHighlightBlueText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightBlueText::{Blue: }::20::240::300::30::mainWindow />;
+
 	? |[
 	
 
