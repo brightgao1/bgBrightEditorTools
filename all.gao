@@ -28,7 +28,7 @@ global windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
 
 
 global windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
-global windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit;
+global windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSyntaxHighlightOtherEdit;
 
 global fontPointer arialFont;
 
