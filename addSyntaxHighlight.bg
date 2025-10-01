@@ -13,9 +13,9 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[addSyntaxHighlightFileExtensionText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightFileExtensionText::{File extension: }::20::20::300::30::mainWindow />;
 	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightToHighlightText::{To highlight: }::20::80::300::30::mainWindow />;
-	? |[addSyntaxHighlightRedText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightRedText::{Red: }::20::80::300::30::mainWindow />;
-	? |[addSyntaxHighlightGreenText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightGreenText::{Green: }::20::80::300::30::mainWindow />;
-	? |[addSyntaxHighlightBlueText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightBlueText::{Blue: }::20::80::300::30::mainWindow />;
+	? |[addSyntaxHighlightRedText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightRedText::{Red: }::20::140::300::30::mainWindow />;
+	? |[addSyntaxHighlightGreenText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightGreenText::{Green: }::20::190::300::30::mainWindow />;
+	? |[addSyntaxHighlightBlueText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightBlueText::{Blue: }::20::240::300::30::mainWindow />;
 		
 
 》
