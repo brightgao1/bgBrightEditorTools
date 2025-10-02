@@ -1,0 +1,26 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-01__21-59-19.txt', LF will be replaced by CRLF the next time Git touches it
+[master b383c34] BrightEditor autopush 21:59:19 10/1/2025 CST
+ 23 files changed, 92 insertions(+), 14 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-01__21-59-19.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-15__642__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-15__674__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-15__705__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-15__737__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-16__150__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-16__613__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-16__964__U
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-17__628__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-17__744__,
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-18__194__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-18__754__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-18__872__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-18__89__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-19__551__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-19__696__F
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-19__782__D
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-19__823__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-20__236__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-20__260__D
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__21-59-20__5__F
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   9292fc0..b383c34  master -> master
