@@ -34,8 +34,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	SendMessageW</ addSyntaxHighlightGreenEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightBlueEdit         ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightOtherEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
-	
-	</test lol ok this is great@@</ >> @@<< wow there islkds why @@doing this ?? ? >>dkfjsfdlk;
-			
+		
+
 	resizeWindowAddSyntaxHighlight<//> >> SetFocus</ addSyntaxHighlightFileExtensionEdit />;            
 》  
