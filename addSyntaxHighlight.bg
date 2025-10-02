@@ -17,7 +17,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[addSyntaxHighlightGreenText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightGreenText        ::{Green: }         ::20::160::200::30::mainWindow />;
 	? |[addSyntaxHighlightBlueText isEqualTo?? null]|          做Text</ @@addSyntaxHighlightBlueText         ::{Blue: }          ::20::200::200::30::mainWindow />;
 	? |[addSyntaxHighlightOtherText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightOtherText	    ::{Other styles: }  ::20::240::200::30::mainWindow />; 
-	SendMessagseW</ addSyntaxHighlightFileExtensionText::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightFileExtensionText::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightToHighlightText  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightRedText		  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightGreenText        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
