@@ -35,7 +35,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	SendMessageW</ addSyntaxHighlightBlueEdit         ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightOtherEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	
-	test</ 
+	test</ok wow uhh was that a bug@@ejlwrj;
 	
 	test </  /> :: sdflkj jlkds@@fsd][]dwelk
 	test lol</@@:##:"</</ </ :: lkjlkj@@[] [] []    [][]][]]][ ;
