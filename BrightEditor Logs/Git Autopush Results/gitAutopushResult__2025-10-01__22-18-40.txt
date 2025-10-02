@@ -1,0 +1,26 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-01__22-18-35.txt', LF will be replaced by CRLF the next time Git touches it
+[master 47339ce] BrightEditor autopush 22:18:35 10/1/2025 CST
+ 22 files changed, 43 insertions(+), 3 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-01__22-18-35.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-31__233__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-31__552__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-31__865__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-32__105__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-32__344__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-32__584__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-32__944__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-33__304__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-33__40__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-33__505__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-33__777__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-33__952__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-34__185__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-34__512__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-34__745__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-34__984__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-35__128__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-35__344__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-35__465__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-18-35__688__S
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   cf142c8..47339ce  master -> master
