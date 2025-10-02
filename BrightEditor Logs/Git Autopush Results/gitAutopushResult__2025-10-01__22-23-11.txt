@@ -1,0 +1,25 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-01__22-23-06.txt', LF will be replaced by CRLF the next time Git touches it
+[master 7d64ecc] BrightEditor autopush 22:23:06 10/1/2025 CST
+ 22 files changed, 41 insertions(+), 5 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-01__22-23-06.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-02__127__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-02__277__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-02__431__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-02__556__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-02__715__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-02__852__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-03__2__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-03__572__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-03__667__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-04__331__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-04__492__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-04__642__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-04__769__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-04__929__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-05__236__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-05__73__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-06__348__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-06__395__,
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-23-06__650__Space
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   1deb1d6..7d64ecc  master -> master
