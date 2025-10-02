@@ -35,7 +35,6 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	SendMessageW</ addSyntaxHighlightBlueEdit         ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightOtherEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	
-	test</ok wow uhh was that a bug@@ejlwr</ </ </ </okplease don't be bug
-		
+			
 	resizeWindowAddSyntaxHighlight<//> >> SetFocus</ addSyntaxHighlightFileExtensionEdit />;            
 》  
