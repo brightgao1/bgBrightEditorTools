@@ -31,7 +31,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	SendMessageW</ addSyntaxHighlightFileExtensionEdit::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightToHighlightEdit  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightRedEdit		  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
-	SendMessageW</fdsf addSyntaxHighlightGreenEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</fdsfsd f this is not good lol addSyntaxHighlightGreenEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightBlueEdit         ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightOtherEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	
