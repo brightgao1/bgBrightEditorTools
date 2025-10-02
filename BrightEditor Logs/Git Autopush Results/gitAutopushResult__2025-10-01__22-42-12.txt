@@ -1,0 +1,17 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-01__22-42-07.txt', LF will be replaced by CRLF the next time Git touches it
+[master d095cfc] BrightEditor autopush 22:42:07 10/1/2025 CST
+ 13 files changed, 31 insertions(+), 5 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-01__22-42-07.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-42-03__319__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-42-03__475__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-42-03__731__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-42-03__808__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-42-05__605__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-42-06__113__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-42-06__256__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-42-06__446__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-42-06__678__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-42-06__983__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-01__22-42-07__76__S
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   1795e4b..d095cfc  master -> master
