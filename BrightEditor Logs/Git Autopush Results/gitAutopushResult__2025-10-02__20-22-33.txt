@@ -1,0 +1,26 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-02__20-22-28.txt', LF will be replaced by CRLF the next time Git touches it
+[master ddb0956] BrightEditor autopush 20:22:28 10/2/2025 CST
+ 22 files changed, 37 insertions(+), 2 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-02__20-22-28.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-24__690__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-25__183__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-25__644__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-26__248__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-26__435__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-26__655__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-26__69__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-26__854__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-27__260__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-27__449__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-27__53__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-27__662__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-27__856__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-28__266__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-28__479__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-28__679__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-28__69__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-28__876__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-29__301__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-02__20-22-29__94__S
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   90523f7..ddb0956  master -> master
