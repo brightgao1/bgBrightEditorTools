@@ -40,5 +40,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	
 	
 	
-	resizeWindowAddSyntaxHighlight<//> >> SetFocus</ addSyntaxHighlightFileExtensionEdit />;            
+	resizeWindowAddSyntaxHighlight<//> >> SetFocus</ addSyntaxHighlightFileExtensionEdit />;
+	renameWindow</ mainWindow::(appTitlePrefix plus { - Add Syntax Highlight} pointer />;
+
 》  
