@@ -1,0 +1,11 @@
+[master f47823d] BrightEditor autopush 12:19:57 10/5/2025 CST
+ 10 files changed, 249 insertions(+), 1 deletion(-)
+ create mode 100644 bgBackups/2025-10-05__12-19-56__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-10-05__12-19-56__all.gao
+ create mode 100644 bgBackups/2025-10-05__12-19-56__globalVariables.bg
+ create mode 100644 bgBackups/2025-10-05__12-19-56__initApp.bg
+ create mode 100644 bgBackups/2025-10-05__12-19-56__main.bg
+ create mode 100644 bgBackups/2025-10-05__12-19-56__resizeWindow.bg
+ create mode 100644 bgRelease/tmp.exe
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   fb75ec8..f47823d  master -> master
