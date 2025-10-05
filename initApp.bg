@@ -19,5 +19,5 @@ function noReturn initFonts   <//> 《
 	arialFont << CreateFontW</  0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Arial} />;	
 》
 function noReturn initPaths   <//> 《
-	getAppDataPath</ @@appDataPath />; 
+	getAppDataPath</ @@appDataPath /> >> /!appDataPath;
 》
