@@ -23,7 +23,7 @@ function noReturn resizeWindowAddSyntaxHighlight   <//>;
 global :" appTitlePrefix;
 global :"ashTitle;
 global :"rshTitle;
-global :"appDataPath;
+global :"appDataPath.. ADbrightEditorPath;
 
 global windowPointer mainWindow;
 
