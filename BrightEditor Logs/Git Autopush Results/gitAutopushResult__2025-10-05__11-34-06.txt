@@ -1,0 +1,25 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-05__11-34-01.txt', LF will be replaced by CRLF the next time Git touches it
+[master de0e2c0] BrightEditor autopush 11:34:01 10/5/2025 CST
+ 21 files changed, 40 insertions(+), 6 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-05__11-34-01.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-33-57__457__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-33-57__546__2
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-33-57__889__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-33-57__898__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-33-58__169__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-33-58__402__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-33-58__706__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-33-58__746__2
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-33-59__146__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-33-59__442__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-33-59__506__2
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-33-59__874__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-34-00__226__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-34-00__298__2
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-34-01__658__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-34-01__835__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-34-01__994__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-34-02__137__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-05__11-34-02__294__Down
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   eb6df44..de0e2c0  master -> master
