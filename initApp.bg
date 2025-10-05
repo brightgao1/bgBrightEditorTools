@@ -19,7 +19,7 @@ function noReturn initFonts   <//> 《
 	arialFont << CreateFontW</  0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Arial} />;	
 》
 function noReturn initPaths   <//> 《
-	getAppDataPath</ @@appDataPath /> >> ADbrightEditorPath << appDataPath plus {\\BrightEditor};
+	getAppDataPath</ @@appDataPath /> >> ADbrightEditorPath << appDataPath plus {\\BrightWin\\BrightEditor};
 	? |[pathExists</ ADbrightEditorPath /> ]| /!{yay};
 	/^ >> /!ADbrightEditorPath;
 》
