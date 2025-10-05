@@ -21,7 +21,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
     
 	】
 	~? |[message isEqualTo?? WM_SIZE]| 【
-    		? |[
+    		
 	】
     ··· |[ message isEqualTo?? WM_PAINT ]| 【
         changeable PAINTSTRUCT ps;
