@@ -24,10 +24,10 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	SendMessageW</ addSyntaxHighlightBlueText         ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightOtherText        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	? |[addSyntaxHighlightFileExtensionEdit isEqualTo?? null]| 做Edit</ @@addSyntaxHighlightFileExtensionEdit::170::20::200::30::mainWindow />;
-	? |[addSyntaxHighlightToHighlightEdit isEqualTo?? null]|   做Edit</ @@addSyntaxHighlightToHighlightEdit  ::170::80::200::30::mainWindow />;
-	? |[addSyntaxHighlightRedEdit isEqualTo?? null]|           做Edit</ @@addSyntaxHighlightRedEdit          ::170::150::200::30::mainWindow />;
-	? |[addSyntaxHighlightGreenEdit isEqualTo?? null]|         做Edit</ @@addSyntaxHighlightGreenEdit        ::170::220::200::30::mainWindow />;
-	? |[addSyntaxHighlightBlueEdit isEqualTo?? null]|          做Edit</ @@addSyntaxHighlightBlueEdit         ::170::270::200::30::mainWindow />;
+	? |[addSyntaxHighlightToHighlightEdit isEqualTo?? null]|   做Edit</ @@addSyntaxHighlightToHighlightEdit  ::170::60::200::30::mainWindow />;
+	? |[addSyntaxHighlightRedEdit isEqualTo?? null]|           做Edit</ @@addSyntaxHighlightRedEdit          ::170::120::200::30::mainWindow />;
+	? |[addSyntaxHighlightGreenEdit isEqualTo?? null]|         做Edit</ @@addSyntaxHighlightGreenEdit        ::170::160::200::30::mainWindow />;
+	? |[addSyntaxHighlightBlueEdit isEqualTo?? null]|          做Edit</ @@addSyntaxHighlightBlueEdit         ::170::240::200::30::mainWindow />;
 	SendMessageW</ addSyntaxHighlightFileExtensionEdit::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightToHighlightEdit  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightRedEdit		  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
