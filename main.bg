@@ -25,6 +25,9 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 		getEditText</ mainWindow::@@title />;
 		? |[title isEqualTo?? ashTitle]| resizeWindowAddSyntaxHighlight<//>;
 	】
+	~? |[message isEqualTo?? WM_CTLCOLORSTATIC]| 【
+    		
+	】
     ··· |[ message isEqualTo?? WM_PAINT ]| 【
         changeable PAINTSTRUCT ps;
         changeable HDC hdc stores BeginPaint</ window, &ps />;
