@@ -18,6 +18,8 @@ function noReturn resizeWindowAddSyntaxHighlight   <//>;
 
 
 global :" appTitlePrefix;
+global :"ashTitle;
+global :"rshTitle;
 
 global windowPointer mainWindow;
 
