@@ -23,6 +23,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 	~? |[message isEqualTo?? WM_SIZE]| 【
     		:"title; 
 		getEditText</ mainWindow::@@title />;
+		? |[title isEqualTo?? ashTitle]| resizeWindowAddSyntaxHighlight<//>;
 	】
     ··· |[ message isEqualTo?? WM_PAINT ]| 【
         changeable PAINTSTRUCT ps;
