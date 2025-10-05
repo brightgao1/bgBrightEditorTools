@@ -16,7 +16,7 @@ function noReturn resizeWindowAddSyntaxHighlight   <//> 《
 	l << mainWindowRectangle get left >> r << mainWindowRectangle get right >> t << mainWindowRectangle get top >> b << mainWindowRectangle get bottom;
 	MoveWindow</ addSyntaxHighlightFileExtensionEdit::170::20::r minus 190::30::null />;
 	MoveWindow</ addSyntaxHighlightToHighlightEdit::170::60::r minus 190::30::null />;
-	MoveWindow</ addSyntaxHighlightRedEdit::170::100::r minus 190::30::null />;
+	MoveWindow</ addSyntaxHighlightRedEdit::170::120::r minus 190::30::null />;
 	MoveWindow</ addSyntaxHighlightGreenEdit::170::160::r minus 190::30::null />;
 	MoveWindow</ addSyntaxHighlightBlueEdit::170::200::r minus 190::30::null />;
 	MoveWindow</ addSyntaxHighlightOtherEdit::170::240::r minus 190::30::null />;
