@@ -38,7 +38,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[ashSaveButton isEqualTo?? null]| 做Anniu</ ashSaveButton::{Save (Enter)}::500::500::500::500::mainWindow::null />;
 	
 	
-	?? 	test </ 
+	
 	
 	resizeWindowAddSyntaxHighlight<//> >> SetFocus</ addSyntaxHighlightFileExtensionEdit />;
 	renameWindow</ mainWindow:: ashTitle pointer />;
