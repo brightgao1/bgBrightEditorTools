@@ -1,0 +1,43 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:57:16 , 9/29/2,025
+
+File author:              Bright Gao
+
+File name when created:   all.gao
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+
+function noReturn initApp   <//>;
+function noReturn initFonts   <//>;
+function noReturn initPaths<//>; 	
+
+function noReturn goToAddSyntaxHighlight   <//>;
+windowHandler ashFileExtensionEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+
+
+function noReturn resizeWindowAddSyntaxHighlight   <//>;
+
+
+global :" appTitlePrefix;
+global :"ashTitle;
+global :"rshTitle;
+global :"appDataPath.. ADbrightEditorPath;
+global hashMap</ :#:::#::a />;
+
+global windowPointer mainWindow;
+
+global windowPointer addSyntaxHighlightFileExtensionText.. addSyntaxHighlightToHighlightText.. addSyntaxHighlightRedText.. addSyntaxHighlightGreenText;
+global windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
+
+global windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
+global windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSyntaxHighlightOtherEdit;
+global windowPointer ashSaveButton;
+
+global fontPointer arialFont;
+
+global rectangle mainWindowRectangle;
