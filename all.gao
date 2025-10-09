@@ -24,7 +24,7 @@ global :" appTitlePrefix;
 global :"ashTitle;
 global :"rshTitle;
 global :"appDataPath.. ADbrightEditorPath;
-global hashMap</ 
+global hashMap</ :#:::#::a />;
 
 global windowPointer mainWindow;
 
