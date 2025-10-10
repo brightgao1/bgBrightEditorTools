@@ -46,6 +46,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	SetWindowLongPtrW</ addSyntaxHighlightRedEdit::-4::[! LONG_PTR !]ashEditHandler />;	
 	SetWindowLongPtrW</ addSyntaxHighlightGreenEdit::-4::[! LONG_PTR !]ashEditHandler />;	
 	SetWindowLongPtrW</ addSyntaxHighlightBlueEdit::-4::[! LONG_PTR !]ashEditHandler />;	
+	SetWindowLongPtrW</ addSyntaxHighlightOtherEdit::-4::[! LONG_PTR !]ashEditHandler />;
 	ashInitMaps<//>;
 》  
 windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
