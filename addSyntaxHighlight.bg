@@ -52,6 +52,8 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 	? |[message isEqualTo?? WM_COMMAND]| 【
     		
 	】
-	
+	? |[message isEqualTo?? WM_KEYDOWN]| 【
+		    		
+	】	
 	~ 一一ashEditProc</ window::message::parameter1::parameter2 />;
 》
