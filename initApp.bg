@@ -25,7 +25,7 @@ function noReturn initPaths   <//> 《
 	? |[(pathExists</ ADbrightEditorPath />) isEqualTo?? 0]| newDirectory</ ADbrightEditorPath />;
 	 
 》
-function noReturn initMaps   <//> 《
+function noReturn ashInitMaps   <//> 《
 	ashNextControl atKey</ addSyntaxHighlightFileExtensionEdit /> << addSyntaxHighlightToHighlightEdit;
 	ashNextControl atKey</ addSyntaxHighlightToHighlightEdit /> << addSyntaxHighlightRedEdit;
 	ashNextControl atKey</ addSyntaxHighlightRedEdit /> << addSyntaxHighlightGreenEdit;
