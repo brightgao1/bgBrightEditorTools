@@ -11,10 +11,11 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
   	加  								 	all.gao;
 
 function noReturn initApp   <//> 《
-	renameWindow</ mainWindow :: appTitlePrefix pointer /> >> initFonts<//> >> initPaths<//>;		
+	renameWindow</ mainWindow :: appTitlePrefix pointer /> >> initFonts<//> >> initPaths<//>;	
+	initMaps<//>;	
+
 	goToAddSyntaxHighlight<//>;
 	
-	initMaps<//>;
 》
 function noReturn initFonts   <//> 《 
 	arialFont << CreateFontW</  0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Arial} />;	
@@ -25,11 +26,11 @@ function noReturn initPaths   <//> 《
 	 
 》
 function noReturn initMaps   <//> 《
-	ashNextControl[addSyntaxHighlightFileExtensionEdit] << addSyntaxHighlightToHighlightEdit;
-	ashNextControl[addSyntaxHighlightToHighlightEdit] << addSyntaxHighlightRedEdit;
-	ashNextControl[addSyntaxHighlightRedEdit] << addSyntaxHighlightGreenEdit;
-	ashNextControl[addSyntaxHighlightGreenEdit] << addSyntaxHighlightBlueEdit;
-	ashNextControl[addSyntaxHighlightBlueEdit] << addSyntaxHighlightOtherEdit;
-	ashNextControl[addSyntaxHighlightOtherEdit] << ashSaveButton >> ashNextControl atKey</ ashSaveButton /> << addSyntaxHighlightFileExtensionEdit;
+	ashNextControl atKey</ addSyntaxHighlightFileExtensionEdit /> << addSyntaxHighlightToHighlightEdit;
+	ashNextControl atKey</ addSyntaxHighlightToHighlightEdit /> << addSyntaxHighlightRedEdit;
+	ashNextControl atKey</ addSyntaxHighlightRedEdit /> << addSyntaxHighlightGreenEdit;
+	ashNextControl atKey</ addSyntaxHighlightGreenEdit /> << addSyntaxHighlightBlueEdit;
+	ashNextControl atKey</ addSyntaxHighlightBlueEdit /> << addSyntaxHighlightOtherEdit;
+	ashNextControl atKey</ addSyntaxHighlightOtherEdit /> << ashSaveButton >> ashNextControl atKey</ ashSaveButton /> << addSyntaxHighlightFileExtensionEdit;
 		
 》
