@@ -11,11 +11,10 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
   	加  								 	all.gao;
 
 function noReturn initApp   <//> 《
-	renameWindow</ mainWindow :: appTitlePrefix pointer /> >> initFonts<//> >> initPaths<//>;	
-	initMaps<//>;	
-
+	renameWindow</ mainWindow :: appTitlePrefix pointer /> >> initFonts<//> >> initPaths<//>;		
 	goToAddSyntaxHighlight<//>;
 	
+	initMaps<//>;
 》
 function noReturn initFonts   <//> 《 
 	arialFont << CreateFontW</  0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Arial} />;	
