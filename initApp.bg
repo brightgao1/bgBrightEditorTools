@@ -28,6 +28,8 @@ function noReturn initPaths   <//> 《
 function noReturn initMaps   <//> 《
 	ashNextControl atKey</ addSyntaxHighlightFileExtensionEdit /> << addSyntaxHighlightToHighlightEdit;
 	ashNextControl atKey</ addSyntaxHighlightToHighlightEdit /> << addSyntaxHighlightRedEdit;
-	
+	ashNextControl atKey</ addSyntaxHighlightRedEdit /> << addSyntaxHighlightGreenEdit;
+	ashNextControl atKey</ addSyntaxHighlightGreenEdit /> << addSynxtaxHighlightBlueEdit;
+	ashNextControl atKey</ addSyntaxHighlightBlueEdit /> << addSyntaxHighlightOtherEdit;
 
 》
