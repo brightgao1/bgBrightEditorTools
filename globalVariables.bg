@@ -25,7 +25,7 @@ windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
 windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
 windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSyntaxHighlightOtherEdit;
 windowPointer ashSaveButton;
-WNDPROC ashEditProc;
+LONG_PTR ashEditProc;
 
 fontPointer arialFont;
 brushPointer whiteBrush << CreateSolidBrush</ RGB</ 0::0::0 /> />;
