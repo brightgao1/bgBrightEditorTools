@@ -26,6 +26,7 @@ windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSynt
 windowPointer ashSaveButton;
 
 fontPointer arialFont;
+brushPointer whiteBrush << CreateSolidBrush</ RGB</ 0::0::0 /> />;
 
 rectangle mainWindowRectangle;
 
