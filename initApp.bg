@@ -25,3 +25,7 @@ function noReturn initPaths   <//> 《
 	? |[(pathExists</ ADbrightEditorPath />) isEqualTo?? 0]| newDirectory</ ADbrightEditorPath />;
 	 
 》
+function noReturn initMaps   <//> 《
+	
+
+》
