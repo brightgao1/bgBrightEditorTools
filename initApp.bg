@@ -15,7 +15,7 @@ function noReturn initApp   <//> 《
 
 	goToAddSyntaxHighlight<//>;
 
-	initMaps<//>;	
+		
 》
 function noReturn initFonts   <//> 《 
 	arialFont << CreateFontW</  0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Arial} />;	
