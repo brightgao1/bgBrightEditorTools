@@ -14,7 +14,7 @@ function noReturn initFonts   <//>;
 function noReturn initPaths<//>; 	
 
 function noReturn goToAddSyntaxHighlight   <//>;
-windowHandler ashFileExtensionEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 
 function noReturn resizeWindowAddSyntaxHighlight   <//>;
 

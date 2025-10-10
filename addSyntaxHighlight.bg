@@ -42,6 +42,6 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	renameWindow</ mainWindow:: ashTitle pointer />;
 
 》  
-windowHandler ashFileExtensionEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	
 》
