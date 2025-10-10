@@ -1,0 +1,24 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-09__19-45-05.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-09__19-45-10.txt', LF will be replaced by CRLF the next time Git touches it
+[master 7a92209f] BrightEditor autopush 19:45:10 10/9/2025 CST
+ 19 files changed, 29 insertions(+), 3 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-09__19-45-05.txt
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-09__19-45-10.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-07__114__Left Windows
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-08__338__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-08__846__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-08__876__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-08__908__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-08__940__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-08__973__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-09__111__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-09__142__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-09__172__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-09__205__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-09__237__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-09__426__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-09__4__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-09__51__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-09__19-45-09__79__Down
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   a8ebe8ac..7a92209f  master -> master
