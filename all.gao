@@ -35,5 +35,6 @@ global windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. 
 global windowPointer ashSaveButton;
 
 global fontPointer arialFont;
+global brushPointer whiteBrush;
 
 global rectangle mainWindowRectangle;
