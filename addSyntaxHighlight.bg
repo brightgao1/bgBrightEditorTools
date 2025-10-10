@@ -49,6 +49,8 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	
 》  
 windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
-	
+	? |[ message isEqualTo?? WM_COMMAND ]| 【
+    		
+	】
 	一一ashEditProc</ window::message::parameter1::parameter2 />;
 》
