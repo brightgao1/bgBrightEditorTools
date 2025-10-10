@@ -1,0 +1,39 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:56:33 , 9/29/2,025
+
+File author:              Bright Gao
+
+File name when created:   initApp.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+  	加  								 	all.gao;
+
+function noReturn initApp   <//> 《
+	renameWindow</ mainWindow :: appTitlePrefix pointer /> >> initFonts<//> >> initPaths<//>;	
+	initMaps<//>;	
+
+	goToAddSyntaxHighlight<//>;
+	
+》
+function noReturn initFonts   <//> 《 
+	arialFont << CreateFontW</  0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Arial} />;	
+》
+function noReturn initPaths   <//> 《
+	getAppDataPath</ @@appDataPath /> >> ADbrightEditorPath << appDataPath plus {\\BrightWin\\BrightEditor};
+	? |[(pathExists</ ADbrightEditorPath />) isEqualTo?? 0]| newDirectory</ ADbrightEditorPath />;
+	 
+》
+function noReturn initMaps   <//> 《
+	ashNextControl atKey</ addSyntaxHighlightFileExtensionEdit /> << addSyntaxHighlightToHighlightEdit;
+	ashNextControl atKey</ addSyntaxHighlightToHighlightEdit /> << addSyntaxHighlightRedEdit;
+	ashNextControl atKey</ addSyntaxHighlightRedEdit /> << addSyntaxHighlightGreenEdit;
+	ashNextControl atKey</ addSyntaxHighlightGreenEdit /> << addSynxtaxHighlightBlueEdit;
+	ashNextControl atKey</ addSyntaxHighlightBlueEdit /> << addSyntaxHighlightOtherEdit;
+	ashNextControl atKey</ addSyntaxHighlightOtherEdit /> << ashSaveButton;
+	
+》
