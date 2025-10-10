@@ -54,6 +54,7 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 	】
 	? |[message isEqualTo?? WM_KEYDOWN]| 【
 		? |[parameter1 isEqualTo?? VK_TAB]| SetFocus</ ashNextControl[window] />;
+		~一一ashEditProc</ window::message::parameter1::parameter2 />;
 	】	
 	~ 一一ashEditProc</ window::message::parameter1::parameter2 />;
 》
