@@ -16,9 +16,9 @@ function noReturn initPaths<//>;
 function noReturn goToAddSyntaxHighlight   <//>;
 windowHandler ashFileExtensionEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 
-
 function noReturn resizeWindowAddSyntaxHighlight   <//>;
 
+function noReturn setWhiteTextBackground   </ windowPointer w />;
 
 global :" appTitlePrefix;
 global :"ashTitle;
