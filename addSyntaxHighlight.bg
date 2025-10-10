@@ -54,7 +54,7 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 		一一ashEditProc</ window::message::parameter1::parameter2 />;
 	】
 	~? |[message isEqualTo?? WM_KEYUP]| 【
-		? |[parameter1 isEqualTo?? VK_TAB]| renameWindow</ window::{hi} />;
+		? |[parameter1 isEqualTo?? VK_TAB]| renameWindow</ ashNextControl[window]::{hi} />;
 		~一一ashEditProc</ window::message::parameter1::parameter2 />;
 	】	
 	~ 一一ashEditProc</ window::message::parameter1::parameter2 />;
