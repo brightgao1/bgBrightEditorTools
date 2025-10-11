@@ -17,7 +17,6 @@ function noReturn setWhiteTextBackground   </ windowPointer w /> 《
 》
 function noReturn ashSetStaticTextColors   <//> 《
 	SetTextColor</ GetDC</ addSyntaxHighlightRedEdit />::RGB</ 255::0::0 /> />;
-	
 》
 function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	variable notification << first16Bits</ parameter1 />;
