@@ -21,6 +21,7 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 function noReturn resizeWindowAddSyntaxHighlight   <//>;
 
 function noReturn setWhiteTextBackground   </ windowPointer w />;
+function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 
 global :" appTitlePrefix;
 global :"ashTitle;
