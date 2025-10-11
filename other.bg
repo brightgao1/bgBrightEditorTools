@@ -13,7 +13,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
 
 function noReturn setWhiteTextBackground   </ windowPointer w /> 《
-	SetBkColor</ GetDC</ w />::RGB</ 255::255::255 /> />;	
+	SetBkColor</ GetDC</ w />::RGB</ 255::255::255 /> />;
 》
 
 
