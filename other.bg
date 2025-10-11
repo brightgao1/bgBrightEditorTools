@@ -22,4 +22,6 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 		? |[butt isEqualTo?? ashSaveButton]| ashSaveButtonClicked<//>;
 	】
 》
-
+function noReturn clearMainWindow   <//> 《
+	
+》
