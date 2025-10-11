@@ -31,5 +31,7 @@ function noReturn ashInitMaps   <//> 《
 	ashNextControl atKey</ addSyntaxHighlightGreenEdit /> << addSyntaxHighlightBlueEdit;
 	ashNextControl atKey</ addSyntaxHighlightBlueEdit /> << addSyntaxHighlightOtherEdit;
 	ashNextControl atKey</ addSyntaxHighlightOtherEdit /> << addSyntaxHighlightFileExtensionEdit; 
-	ashPrevControl atKey</ addSyntaxHighlightFileExtensionEdit /> << ad		
+	ashPrevControl atKey</ addSyntaxHighlightToHighlightEdit /> << addSyntaxHighlightFileExtensionEdit;
+	ashPrevControl atKey</ addSyntaxHighlightRedEdit /> << addSyntaxHighlightToHighlightEdit;
+
 》
