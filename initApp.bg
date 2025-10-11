@@ -23,6 +23,7 @@ function noReturn initPaths   <//> 《
 	getAppDataPath</ @@appDataPath /> >> ADbrightEditorPath << appDataPath plus {\\BrightWin\\BrightEditor};
 	ADbgBrightEditorToolsPath << appDataPath plus {\\bgBrightEditorTools};
 	? |[(pathExists</ ADbrightEditorPath />) isEqualTo?? 0]| newDirectory</ ADbrightEditorPath />;
+	? |[(pathExists</ ADbgBrightEditorToolsPath />) isEqualTo?? 0]| newDirectory</ ADbgBrightEditorToolsPath />;
 	
 》
 function noReturn ashInitMaps   <//> 《
