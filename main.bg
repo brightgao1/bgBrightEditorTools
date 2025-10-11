@@ -27,7 +27,8 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 	】
 	~? |[message isEqualTo?? WM_CTLCOLORSTATIC]| 【
 		setWhiteTextBackground</ window />;
-		SetBkColor</ GetDC</ window />::RGB</ 255::255::255::/> />;  		
+		SetBkColor</ GetDC</ window />::RGB</ 255::255::255 /> />;
+		SetTextColor</ GetDC</ window />::RGB</ 255::255::255 /> />;  		
 		^^^[! INT_PTR !]whiteBrush;
 	】
     ··· |[ message isEqualTo?? WM_PAINT ]| 【
