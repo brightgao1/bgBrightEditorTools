@@ -56,7 +56,7 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 	】
 	~? |[message isEqualTo?? WM_KEYDOWN]| 【
 		variable key << parameter1;
-		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x01) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x01));
+		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
 		? |[shift && key isEqualTo?? VK_TAB]| SetFocus</ ashPrevControl[window] />;
 		~? |[key isEqualTo?? VK_TAB]| SetFocus</ ashNextControl[window] />;
 		~一一ashEditProc</ window::message::parameter1::parameter2 />;
