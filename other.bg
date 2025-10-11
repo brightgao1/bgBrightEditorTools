@@ -11,6 +11,6 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
 function noReturn setWhiteTextBackground   </ windowPointer w /> 《
 	SetBkColor</ GetDC</ w />::RGB</ 0::0::0::/> />;
-	
+		
 》
 
