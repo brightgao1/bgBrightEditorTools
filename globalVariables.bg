@@ -28,7 +28,7 @@ windowPointer ashSaveButton;
 WNDPROC ashEditProc;
 
 fontPointer arialFont;
-brushPointer whiteBrush << CreateSolidBrush</ RGB</ 0::0::0 /> />;
+brushPointer whiteBrush << CreateSolidBrush</ RGB</ 255::255::255 /> />;
 
 rectangle mainWindowRectangle;
 
