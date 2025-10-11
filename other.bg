@@ -16,7 +16,7 @@ function noReturn setWhiteTextBackground   </ windowPointer w /> 《
 
 function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message isEqualTo?? BN_CLICKED]| 【
-		variable butt << ([! windowPointer !]parameter2);
+		windowPointer butt << parameter2;
 		? |[butt isEqualTo?? ashSaveButton]| ashSaveButtonClicked<//>;
 	】
 》
