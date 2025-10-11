@@ -1,0 +1,20 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-10__20-24-26.txt', LF will be replaced by CRLF the next time Git touches it
+[master adef34dd] BrightEditor autopush 20:24:26 10/10/2025 CST
+ 16 files changed, 26 insertions(+), 6 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-10__20-24-26.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-22__166__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-23__193__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-23__249__;
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-23__345__3
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-23__481__3
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-24__497__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-24__626__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-24__761__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-24__890__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-25__475__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-25__714__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-25__911__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-26__715__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-10__20-24-26__860__Backspace
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   fd512970..adef34dd  master -> master
