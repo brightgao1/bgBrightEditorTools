@@ -66,6 +66,6 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 function noReturn ashSaveButtonClicked   <//> 《
 	:"fileExtension.. :"highlightFilePath << {};
 	getEditText</ addSyntaxHighlightFileExtensionEdit::@@fileExtension />;
-	highlightFilePath <<< ADbrightEditorSyntaxHighlightFolderPath >> highlightFilePath <<< fileExtension;
+	highlightFilePath <<< ADbrightEditorSyntaxHighlightFolderPath >> highlightFilePath addToEnd</ '\\' /> >>  highlightFilePath <<< fileExtension;
 	
 》
