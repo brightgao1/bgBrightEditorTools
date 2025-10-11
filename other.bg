@@ -9,6 +9,9 @@ File name when created:   other.bg
 Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
 
 
+																		  	加all.gao;
+
+
 function noReturn setWhiteTextBackground   </ windowPointer w /> 《
 	SetBkColor</ GetDC</ w />::RGB</ 255::255::255 /> />;	
 》
