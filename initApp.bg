@@ -24,7 +24,7 @@ function noReturn initPaths   <//> 《
 	ADbgBrightEditorToolsPath << appDataPath plus {\\bgBrightEditorTools};
 	? |[(pathExists</ ADbrightEditorPath />) isEqualTo?? 0]| newDirectory</ ADbrightEditorPath />;
 	? |[(pathExists</ ADbgBrightEditorToolsPath />) isEqualTo?? 0]| newDirectory</ ADbgBrightEditorToolsPath />;
-	
+	/!ADbrightEditorPath >> /^ >> /!ADbgBrightEditorToolsPath;
 》
 function noReturn ashInitMaps   <//> 《
 	ashNextControl atKey</ addSyntaxHighlightFileExtensionEdit /> << addSyntaxHighlightToHighlightEdit;
