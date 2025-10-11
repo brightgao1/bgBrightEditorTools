@@ -15,6 +15,7 @@ function noReturn initPaths   <//>;
 function noReturn ashInitMaps   <//>;
 
 function noReturn goToAddSyntaxHighlight   <//>;
+function noReturn ashSaveButtonClicked   <//>;
 windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 
 function noReturn resizeWindowAddSyntaxHighlight   <//>;
