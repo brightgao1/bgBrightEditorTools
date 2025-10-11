@@ -26,7 +26,7 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 global :" appTitlePrefix;
 global :"ashTitle;
 global :"rshTitle;
-global :"appDataPath.. ADbrightEditorPath;
+global :"appDataPath.. ADbrightEditorPath.. ADbgBrightEditorToolsPath;
 global hashMap</ windowPointer::windowPointer::@@ashNextControl />;
 global hashMap</ windowPointer::windowPointer::@@ashPrevControl />;
 
