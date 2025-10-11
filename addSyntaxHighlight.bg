@@ -65,5 +65,5 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 》
 function noReturn ashSaveButtonClicked   <//> 《
 	:"fileExtension;
-	getEditText</ addSyntaxHighlightFileExtensionEdit::
+	getEditText</ addSyntaxHighlightFileExtensionEdit::@@fileExtension />;
 》
