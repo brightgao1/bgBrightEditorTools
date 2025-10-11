@@ -13,3 +13,9 @@ function noReturn setWhiteTextBackground   </ windowPointer w /> 《
 	SetBkColor</ GetDC</ w />::RGB</ 255::255::255 /> />;	
 》
 
+
+function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	
+》
+
+
