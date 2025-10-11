@@ -1,0 +1,11 @@
+[master f8200c21] BrightEditor autopush 21:18:16 10/10/2025 CST
+ 9 files changed, 335 insertions(+), 1 deletion(-)
+ create mode 100644 bgBackups/2025-10-10__21-18-16__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-10-10__21-18-16__all.gao
+ create mode 100644 bgBackups/2025-10-10__21-18-16__globalVariables.bg
+ create mode 100644 bgBackups/2025-10-10__21-18-16__initApp.bg
+ create mode 100644 bgBackups/2025-10-10__21-18-16__main.bg
+ create mode 100644 bgBackups/2025-10-10__21-18-16__other.bg
+ create mode 100644 bgBackups/2025-10-10__21-18-16__resizeWindow.bg
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   ddc5342d..f8200c21  master -> master
