@@ -19,7 +19,7 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 	variable notification << first16Bits</ parameter1 />;
 	? |[notification isEqualTo?? BN_CLICKED]| 【
 		windowPointer butt << ([! windowPointer !]parameter2);
-		? |[butt isEqualTo?? ashSaveButton]| ashSaveButtonClicked<//> >> clearMainWindow<//>;
+		? |[butt isEqualTo?? ashSaveButton]| ashSaveButtonClicked<//>;
 	】
 》
 function noReturn clearMainWindow   <//> 《
