@@ -23,5 +23,10 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 	】
 》
 function noReturn clearMainWindow   <//> 《
-	
+	hide</ addSyntaxHighlightFileExtensionText /> >> hide</ addSyntaxHighlightFileExtensionEdit />;
+	hide</ addSyntaxHighlightToHighlightText /> >> hide</ addSyntaxHighlightToHighlightEdit />;
+	hide</ addSyntaxHighlightRedText /> >> hide</ addSyntaxHighlightRedEdit />;
+	hide</ addSyntaxHighlightGreenText /> >> hide</ addSyntaxHighlightGreenEdit />;
+	hide</ addSyntaxHighlightBlueText /> >> hide</ addSyntaxHighlightBlueEdit />;
+	hide</ addSyntaxHighlightOtherText /> >> hide</ addSyntaxHighlightOtherEdit /> >> hide</ ashSaveButton />;
 》
