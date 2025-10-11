@@ -67,4 +67,5 @@ function noReturn ashSaveButtonClicked   <//> 《
 	:"fileExtension.. :"highlightFilePath << {};
 	getEditText</ addSyntaxHighlightFileExtensionEdit::@@fileExtension />;
 	highlightFilePath <<< ADbrightEditorSyntaxHighlightFolderPath >> highlightFilePath <<< fileExtension;
+	
 》
