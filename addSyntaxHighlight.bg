@@ -68,4 +68,6 @@ function noReturn ashSaveButtonClicked   <//> 《
 	getEditText</ addSyntaxHighlightFileExtensionEdit::@@fileExtension />;
 	highlightFilePath <<< ADbrightEditorSyntaxHighlightFolderPath >> highlightFilePath addToEnd</ '\\' /> >> highlightFilePath <<< fileExtension;
 	? |[(pathExists</ highlightFilePath />) isEqualTo?? 0]| newFile</ highlightFilePath />;
+	
+	
 》
