@@ -15,8 +15,9 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 function noReturn setWhiteTextBackground   </ windowPointer w /> 《
 	SetBkColor</ GetDC</ w />::RGB</ 255::255::255 /> />;
 》
-function noReturn ashSetStaticTextColors   <//> 
-
+function noReturn ashSetStaticTextColors   <//> 《
+	
+》
 function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	variable notification << first16Bits</ parameter1 />;
 	? |[notification isEqualTo?? BN_CLICKED]| 【
