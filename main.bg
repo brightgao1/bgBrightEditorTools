@@ -27,7 +27,6 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 	】
 	~? |[message isEqualTo?? WM_CTLCOLORSTATIC]| 【
 		setWhiteTextBackground</ window />;
-		ashSetStaticTextColors<//>;
 		^^^[! INT_PTR !]whiteBrush;
 	】
     ··· |[ message isEqualTo?? WM_PAINT ]| 【
