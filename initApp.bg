@@ -21,6 +21,7 @@ function noReturn initFonts   <//> 《
 》
 function noReturn initPaths   <//> 《
 	getAppDataPath</ @@appDataPath /> >> ADbrightEditorPath << appDataPath plus {\\BrightWin\\BrightEditor};
+	
 	? |[(pathExists</ ADbrightEditorPath />) isEqualTo?? 0]| newDirectory</ ADbrightEditorPath />;
 	
 》
