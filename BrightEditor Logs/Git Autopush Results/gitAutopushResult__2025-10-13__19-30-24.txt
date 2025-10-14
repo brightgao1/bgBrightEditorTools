@@ -1,0 +1,32 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-13__19-30-19.txt', LF will be replaced by CRLF the next time Git touches it
+[master 340b6dee] BrightEditor autopush 19:30:19 10/13/2025 CST
+ 31 files changed, 412 insertions(+), 8 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-13__19-30-19.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-10__116__F5
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-16__809__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-17__169__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-17__336__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-17__688__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__199__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__231__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__262__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__291__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__324__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__356__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__395__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__420__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__452__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__499__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__532__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__641__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-18__800__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-30-19__605__Left
+ create mode 100644 bgBackups/2025-10-13__19-30-14__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-10-13__19-30-14__all.gao
+ create mode 100644 bgBackups/2025-10-13__19-30-14__globalVariables.bg
+ create mode 100644 bgBackups/2025-10-13__19-30-14__initApp.bg
+ create mode 100644 bgBackups/2025-10-13__19-30-14__main.bg
+ create mode 100644 bgBackups/2025-10-13__19-30-14__other.bg
+ create mode 100644 bgBackups/2025-10-13__19-30-14__resizeWindow.bg
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   967361a2..340b6dee  master -> master
