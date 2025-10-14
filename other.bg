@@ -36,6 +36,9 @@ function noReturn clearMainWindow   <//> 《
 	hide</ addSyntaxHighlightBlueText /> >> hide</ addSyntaxHighlightBlueEdit />;
 	hide</ addSyntaxHighlightOtherText /> >> hide</ addSyntaxHighlightOtherEdit /> >> hide</ ashSaveButton />;
 》
+function returns unicodeString reverseString   <//> 《
+	
+》
 function returns unicodeString trim   </ :"s /> 《
 	口 |[s atIndex</ (s elementCount) minus 1 /> === space || s atIndex</ (s elementCount) minus 1 /> === '\t']|
 		s removeFromEnd;
