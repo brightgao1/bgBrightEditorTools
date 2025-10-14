@@ -108,7 +108,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	newStr <<< greenStr >> newStr addToEnd</ space />;
 	newStr <<< blueStr >> newStr addToEnd</ space />;
 	newStr <<< otherStr;
-	alert</ toUnicodeString</ newStr elementCount /> pointer />;	
+//	alert</ toUnicodeString</ newStr elementCount /> pointer />;	
 
 	highlightFile addToEndOfArray</ newStr />;
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
