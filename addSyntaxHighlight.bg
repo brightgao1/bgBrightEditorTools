@@ -103,7 +103,8 @@ function noReturn ashSaveButtonClicked   <//> 《
 	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
 	
 	? |[error]| 【
-		alert</ 
+		unicodeString errMesssage;
+		alert</ {ERROR. The following were blank:}
 		^^^;
 	】
 	
