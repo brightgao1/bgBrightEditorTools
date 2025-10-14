@@ -102,6 +102,6 @@ function noReturn ashSaveButtonClicked   <//> 《
 	:"otherStr stores {};
 	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
 	
-	changeable unicodeString newHighlight;
+	changeable unicodeString newStr;
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
 》
