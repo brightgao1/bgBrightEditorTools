@@ -45,5 +45,7 @@ function noReturn ashInitMaps   <//> 《
 》
 function noReturn initMainWindowMenu   <//> 《
 	unicodeString syntaxHighlightMenuString << {   Syntax Highlight   };
-	
+	unicodeString 
+
+	SetMenu</ mainWindow::mainMenu />;
 》
