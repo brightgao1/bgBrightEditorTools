@@ -90,14 +90,18 @@ function noReturn ashSaveButtonClicked   <//> 《
 	:"toHighlight stores {};
 	getEditText</ addSyntaxHighlightToHighlightEdit::@@toHighlight />;
 	口 |[toHighlight atIndex</ (toHighlight elementCount) minus 1 /> === space || toHighlight atIndex</ (toHighlight elementCount) minus 1 /> === '\t']|
-		toHighlight removeFromEnd;	
-
+		toHighlight removeFromEnd;
+	
 	:"redStr stores {};
 	getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
+	口 |[toHighlight atIndex</ (toHighlight elementCount) minus 1 /> === space || toHighlight atIndex</ (toHighlight elementCount) minus 1 /> === '\t']|
+		toHighlight removeFromEnd;
+	
 
 	:"greenStr stores {};
 	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
-	
+		
+
 	:"blueStr stores {};
 	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
 
