@@ -42,7 +42,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 function returns variable MyRegisterClass   </ instancePointer in /> 《
     	changeable WNDCLASSEXW c; c.cbSize stores bytes</ WNDCLASSEXW />; 
 	c.hInstance stores in 》》c.style stores CS_HREDRAW | CS_VREDRAW 》》c.lpfnWndProc stores WndProc;
-    	c.cbClsExtra stores null 》》c.cbWndExtra stores null 》》c.hIcon stores null 》》c.hCursor stores LoadCursor</ null, IDC_ARROW />;
+    	c.cbClsExtra stores null 》》c.cbWndExtra stores null 》》c.hIcon stores null 》》c.hCursor stores LoadCursor</ null::IDC_ARROW />;
     	c.lpszMenuName stores null 》》c.hIconSm stores null 》》c.lpszClassName stores mainWindowClassStr pointer;
     	c.hbrBackground stores [! brushPointer !]([! positiveInteger16 !]6); 一一 RegisterClassExW</ &c />;
 》
