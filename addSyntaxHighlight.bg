@@ -104,8 +104,8 @@ function noReturn ashSaveButtonClicked   <//> 《
 	
 	? |[error]| 【
 		unicodeString errMessage;
-		
-		alert</ {ERROR. The following were blank:}
+		errMessage storesItselfPlus</ {ERROR. The following were blank: \n\n} />;
+		alert</ 
 		^^^;
 	】
 	
