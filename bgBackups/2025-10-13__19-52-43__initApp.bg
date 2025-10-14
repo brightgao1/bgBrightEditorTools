@@ -1,3 +1,6 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
 ༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
 
 Creation time & date:     19:56:33 , 9/29/2,025
@@ -45,7 +48,7 @@ function noReturn ashInitMaps   <//> 《
 》
 function noReturn initMainWindowMenu   <//> 《
 	unicodeString syntaxHighlightMenuString << {   Syntax Highlight   };
-	
+	unicodeString 
 	
 	addDropdownMenu</ mainMenu::syntaxHighlightMenu::syntaxHighlightMenuString />;
 	
