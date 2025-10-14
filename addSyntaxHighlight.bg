@@ -103,5 +103,6 @@ function noReturn ashSaveButtonClicked   <//> 《
 	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
 	
 	changeable unicodeString newStr;
+	
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
 》
