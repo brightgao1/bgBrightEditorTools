@@ -48,7 +48,8 @@ function noReturn initMainWindowMenu   <//> 《
 	
 	
 	addDropdownMenu</ mainMenu::syntaxHighlightMenu::syntaxHighlightMenuString />;
-		
+	
+	addStringMenu</ mainMenu::500::syntaxHighlightMenu::unicodeLiteral</ Add Syntax Highlight /> />;
 
 	SetMenu</ mainWindow::mainMenu />;
 》
