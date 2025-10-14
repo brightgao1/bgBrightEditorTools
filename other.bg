@@ -33,6 +33,6 @@ function noReturn clearMainWindow   <//> 《
 function returns unicodeString bgGetEditText   </ windowPointer edit /> 《
 	wideCharacter b[1000];
 	unicodeString s;
-	GetWindowTextW</ b pointer::1000 /> >> s << b;
+	GetWindowTextW</ b::1000 /> >> s << b;
 	^^^s;
 》
