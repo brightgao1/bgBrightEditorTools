@@ -38,7 +38,10 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	SendMessageW</ addSyntaxHighlightOtherEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	? |[ashSaveButton isEqualTo?? null]| 做Anniu</ ashSaveButton::{Save (Enter)}::500::500::500::500::mainWindow::null />;
 		
-	show</ addSyntaxHighlightFileExtensionEdit />;
+	show</ addSyntaxHighlightFileExtensionText /> >> show</ addSyntaxHighlightFileExtensionEdit />;
+	show</ addSyntaxHighlightToHighlightText /> >> show</ addSyntaxHighlightToHighlightEdit />;
+	show</ addSyntaxHighlightRedText /> >> show</ addSyntaxHighlightRedEdit />;
+	show</ addSyntaxHighlightGreenText />>>show</ addSyntaxHighlightGreenEdit />;
 	resizeWindowAddSyntaxHighlight<//> >> SetFocus</ addSyntaxHighlightFileExtensionEdit />;
 	renameWindow</ mainWindow:: ashTitle pointer />;
 	? |[ashEditProc === null]| 【
