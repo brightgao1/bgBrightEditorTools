@@ -42,7 +42,8 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	show</ addSyntaxHighlightToHighlightText /> >> show</ addSyntaxHighlightToHighlightEdit />;
 	show</ addSyntaxHighlightRedText /> >> show</ addSyntaxHighlightRedEdit />;
 	show</ addSyntaxHighlightGreenText /> >> show</ addSyntaxHighlightGreenEdit />;
-	show</ 
+	show</ addSyntaxHighlightBlueText /> >> show</ addSyntaxHighlightBlueEdit />;
+	show</ addSyntaxHighlightOtherText /> >> show</ addSyntaxHighlightOtherEdit />;
 
 	resizeWindowAddSyntaxHighlight<//> >> SetFocus</ addSyntaxHighlightFileExtensionEdit />;
 	renameWindow</ mainWindow:: ashTitle pointer />;
