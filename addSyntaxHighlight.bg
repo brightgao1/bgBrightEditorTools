@@ -93,19 +93,19 @@ function noReturn ashSaveButtonClicked   <//> 《
 	
 	:"redStr stores {};
 	getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
-	trim</ redStr />;	
+	redStr << trimString</ redStr />;	
 
 	:"greenStr stores {};
 	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
-	trim</ greenStr />;
+	greenStr << trimString</ greenStr />;
 
 	:"blueStr stores {};
 	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
-	blueStr << trim</ blueStr />;
+	blueStr << trimString</ blueStr />;
 
 	:"otherStr stores {};
 	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
-	otherStr << trim</ otherStr />;	
+	otherStr << trimString</ otherStr />;	
 	/!toHighlight >> /^ >> /!redStr >> /^ >> /!greenStr >> /^ >> /!blueStr >> /^ >> /!otherStr >> /^;	
 
 	? |[error]| 【
