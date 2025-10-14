@@ -52,4 +52,5 @@ function returns unicodeString trim   </ :"s /> 《
 	口 |[s atIndex</ (s elementCount) minus 1 /> === space || s atIndex</ (s elementCount) minus 1 /> === '\t']|
 		s removeFromEnd;
 	
+	^^^s;
 》
