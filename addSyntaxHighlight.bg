@@ -105,7 +105,8 @@ function noReturn ashSaveButtonClicked   <//> 《
 
 	:"otherStr stores {};
 	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
-	
+	otherStr << trim</ otherStr />;	
+
 	? |[error]| 【
 		unicodeString errMessage;
 		errMessage storesItselfPlus</ {ERROR. The following were blank: \n\n} />;
