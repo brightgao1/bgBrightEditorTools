@@ -38,6 +38,8 @@ function noReturn clearMainWindow   <//> 《
 》
 function returns unicodeString reverseString   </ :"s /> 《
 	positiveInteger32 left.. right;
+	left stores 0;
+	right stores s elementCount minus 1;
 	口 |[
 》
 function returns unicodeString trim   </ :"s /> 《
