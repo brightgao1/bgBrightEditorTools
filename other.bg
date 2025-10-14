@@ -31,7 +31,7 @@ function noReturn clearMainWindow   <//> 《
 	hide</ addSyntaxHighlightOtherText /> >> hide</ addSyntaxHighlightOtherEdit /> >> hide</ ashSaveButton />;
 》
 function returns unicodeString bgGetEditText   </ windowPointer edit /> 《
-	[]</ wideCharacter::@@b />;	
+	unicodeString s;
 	GetWindowTextW</ b::1000 />;
 	
 》
