@@ -1,0 +1,26 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-13__19-44-54.txt', LF will be replaced by CRLF the next time Git touches it
+[master f6692528] BrightEditor autopush 19:44:54 10/13/2025 CST
+ 22 files changed, 54 insertions(+), 14 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-13__19-44-54.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-49__927__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-50__161__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-50__568__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-50__823__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-51__375__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-51__663__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-52__295__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-52__71__Enter
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-53__186__E
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-53__272__N
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-53__423__U
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-53__680__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-53__727__P
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-53__79__M
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-53__881__O
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-53__904__I
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-53__959__N
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-54__119__E
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-54__197__R
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__19-44-54__7__T
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   f5418082..f6692528  master -> master
