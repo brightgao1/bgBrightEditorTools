@@ -92,13 +92,14 @@ function noReturn ashSaveButtonClicked   <//> 《
 	
 	:"redStr stores {};
 	getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
-	
-	:"blueStr stores {};
-	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
+
 
 	:"greenStr stores {};
 	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
 	
+	:"blueStr stores {};
+	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
+
 	:"otherStr stores {};
 	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
 	
@@ -107,7 +108,8 @@ function noReturn ashSaveButtonClicked   <//> 《
 	newStr <<< redStr >> newStr addToEnd</ space />;
 	newStr <<< greenStr >> newStr addToEnd</ space />;
 	newStr <<< blueStr >> newStr addToEnd</ space />;
-		
-
+	newStr <<< 
+	
+	
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
 》
