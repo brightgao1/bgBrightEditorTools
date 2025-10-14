@@ -103,7 +103,8 @@ function noReturn ashSaveButtonClicked   <//> 《
 	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
 	
 	? |[error]| 【
-		unicodeString errMesssage;
+		unicodeString errMessage;
+		
 		alert</ {ERROR. The following were blank:}
 		^^^;
 	】
@@ -112,5 +113,4 @@ function noReturn ashSaveButtonClicked   <//> 《
 
 	highlightFile addToEndOfArray</ newStr />;
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
-	
-》
+	
