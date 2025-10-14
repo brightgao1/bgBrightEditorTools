@@ -36,7 +36,7 @@ function noReturn clearMainWindow   <//> 《
 	hide</ addSyntaxHighlightBlueText /> >> hide</ addSyntaxHighlightBlueEdit />;
 	hide</ addSyntaxHighlightOtherText /> >> hide</ addSyntaxHighlightOtherEdit /> >> hide</ ashSaveButton />;
 》
-function returns unicodeString reverseString   <//> 《
+function returns unicodeString reverseString   </ :"s /> 《
 	
 》
 function returns unicodeString trim   </ :"s /> 《
