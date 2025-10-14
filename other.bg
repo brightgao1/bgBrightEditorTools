@@ -16,13 +16,13 @@ function noReturn setWhiteTextBackground   </ windowPointer w /> 《
 	SetBkColor</ GetDC</ w />::RGB</ 255::255::255 /> />;
 》
 function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	variable notification stores first16Bits</ parameter1 />;
 	? |[[! integer32 !]parameter2 === 0]| 【
 		positiveInteger16 menuID << last16Bits</ parameter1 />;	
 		? |[menuID === 500]| goToAddSyntaxHighlight<//>;
 		~? |[menuID === 505]| clearMainWindow<//>;
 	】
 	~? |[notification isEqualTo?? BN_CLICKED]| 【
-		variable notification stores first16Bits</ parameter1 />;
 		windowPointer butt << ([! windowPointer !]parameter2);
 		? |[butt isEqualTo?? ashSaveButton]| ashSaveButtonClicked<//>;
 	】
