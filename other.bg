@@ -18,7 +18,7 @@ function noReturn setWhiteTextBackground   </ windowPointer w /> 《
 function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[[! integer32 !]parameter2 === 0]| 【
 		positiveInteger16 menuID << last16Bits</ parameter1 />;	
-		? |[menuID === 
+		? |[menuID === 500]| goToAddSyntaxHighlight<//>;
 	】
 	~? |[notification isEqualTo?? BN_CLICKED]| 【
 		variable notification stores first16Bits</ parameter1 />;
