@@ -104,7 +104,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	
 	? |[error]| ^^^;
 	
-	highlightFile addToEndOfArray</ other	/>;
+	highlightFile addToEndOfArray</ 	/>;
 
 	highlightFile addToEndOfArray</ newStr />;
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
