@@ -23,6 +23,7 @@ function noReturn resizeWindowAddSyntaxHighlight   <//>;
 function noReturn setWhiteTextBackground   </ windowPointer w />;
 function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 function noReturn clearMainWindow   <//>;
+function returns unicodeString bgGetEditText   <//>;
 
 global :" appTitlePrefix;
 global :"ashTitle;
