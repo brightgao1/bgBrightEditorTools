@@ -40,6 +40,8 @@ global windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
 global windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
 global windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSyntaxHighlightOtherEdit;
 global windowPointer ashSaveButton;
+global menuPointer mainMenu;
+global menuPointer ashMenu.. rshMenu;
 global WNDPROC ashEditProc; 
 
 global fontPointer arialFont;
