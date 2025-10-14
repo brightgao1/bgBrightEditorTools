@@ -41,7 +41,6 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	show</ addSyntaxHighlightFileExtensionEdit />;
 	resizeWindowAddSyntaxHighlight<//> >> SetFocus</ addSyntaxHighlightFileExtensionEdit />;
 	renameWindow</ mainWindow:: ashTitle pointer />;
-	alert</ {rewf} />;
 	? |[ashEditProc === null]| 【
 		ashEditProc << ([! WNDPROC !]GetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4 />);
 		SetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4::[! LONG_PTR !]ashEditHandler />;	
