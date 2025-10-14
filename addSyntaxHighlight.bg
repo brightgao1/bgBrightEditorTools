@@ -69,14 +69,19 @@ function noReturn ashSaveButtonClicked   <//> 《
 	highlightFilePath <<< ADbrightEditorSyntaxHighlightFolderPath >> highlightFilePath addToEnd</ '\\' /> >> highlightFilePath <<< fileExtension;
 	? |[(pathExists</ highlightFilePath />) isEqualTo?? 0]| newFile</ highlightFilePath />;
 	
-	:"toHighlight << bgGetEditText</ addSyntaxHighlightToHighlightEdit />;
+	:"toHighlight; 
+	getEditText</ addSyntaxHighlightToHighlightEdit::@@toHighlight />;
 	
-	:"redStr << bgGetEditText</ addSyntaxHighlightRedEdit />;
+	:"redStr;
+	getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
 	
-	:"blueStr << bgGetEditText</ addSyntaxHighlightBlueEdit />;
+	:"blueStr;
+	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
 
-	:"greenStr << bgGetEditText</ addSyntaxHighlightGreenEdit/>;
+	:"greenStr;
+	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
 	
-	:"otherStr << bgGetEditText</ addSyntaxHighlightOtherEdit />;
+	:"otherStr;
+	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
 		
 》
