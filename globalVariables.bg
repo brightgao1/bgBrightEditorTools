@@ -25,6 +25,8 @@ windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
 windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
 windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSyntaxHighlightOtherEdit;
 windowPointer ashSaveButton;
+menuPointer mainMenu;
+menuPointer 
 WNDPROC ashEditProc;
 
 fontPointer arialFont;
