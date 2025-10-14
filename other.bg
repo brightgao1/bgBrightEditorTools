@@ -41,6 +41,7 @@ function returns unicodeString reverseString   </ :"s /> 《
 	:##left.. right;
 	left stores 0;
 	right stores (s elementCount) minus 1;
+	alert</ toUnicodeString</ right /> pointer />;
 	口 |[left isLessThan?? right]| 【
 		wideCharacter tmp << s atIndex</ left />;
 		s atIndex</ left /> << s atIndex</ right />;
