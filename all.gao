@@ -25,7 +25,7 @@ function noReturn setWhiteTextBackground   </ windowPointer w />;
 function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 function noReturn clearMainWindow   <//>;
 function returns unicodeString reverseString   <//>;
-function returns unicodeString trim   <//>;
+function returns unicodeString trimString   <//>;
 
 global :" appTitlePrefix;
 global :"ashTitle;
