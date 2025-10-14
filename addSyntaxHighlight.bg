@@ -73,7 +73,7 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 		~? |[key === VK_DOWN]| SetFocus</ ashNextControl[window] />;
 		~? |[key === VK_UP]| SetFocus</ ashPrevControl[window] />;
 		~? |[key isEqualTo?? VK_RETURN]| ashSaveButtonClicked<//>;
-		~一一ashEditProc</ window::message::parameter1::parameter2 />;
+		~^^^ashEditProc</ window::message::parameter1::parameter2 />;
 	】	
 	~ ^^^ashEditProc</ window::message::parameter1::parameter2 />;
 》
