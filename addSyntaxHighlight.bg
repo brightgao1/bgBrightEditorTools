@@ -118,7 +118,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	
 //	highlightFile addToEndOfArray</  />;
 
-	highlightFile addToEndOfArray</ newStr />;
-//	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
+	//highlightFile addToEndOfArray</ newStr />;
+	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
 	
 》
