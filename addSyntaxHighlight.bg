@@ -85,7 +85,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	[]</ :"::@@highlightFile />;
 	fileToDynamicArray</ highlightFilePath::highlightFile />;
 	/!highlightFile elementCount;
-	
+	flag error << 0;
 
 	:"toHighlight stores {};
 	getEditText</ addSyntaxHighlightToHighlightEdit::@@toHighlight />;
@@ -102,13 +102,9 @@ function noReturn ashSaveButtonClicked   <//> 《
 	:"otherStr stores {};
 	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
 	
-	changeable unicodeString newStr;
-	? |[toHighlight elementCount isGreaterThan?? 0]| newStr <<< toHighlight >> newStr <<< ;
-	? |[redStr elementCount isGreaterThan?? 0]| newStr <<< redStr >> newStr addToEnd</ space />;
-	? |[greenStr elementCount isGreaterThan?? 0]| newStr <<< greenStr >> newStr addToEnd</ space />;
-	? |[blueStr elementCount isGreaterThan?? 0]| newStr <<< blueStr >> newStr addToEnd</ space />;
-	? |[otherStr elementCount isGreaterThan?? 0]| newStr <<< otherStr;
-//   alert</ toUnicodeString</ newStr elementCount /> pointer />;	
+	
+
+	highlightFile addToEndOfArray</ other	
 
 	highlightFile addToEndOfArray</ newStr />;
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
