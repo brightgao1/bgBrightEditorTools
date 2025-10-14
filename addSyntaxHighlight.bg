@@ -73,8 +73,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	
 	:"redStr << bgGetEditText</ addSyntaxHighlightRedEdit:: />;
 	
-	:"blueStr;
-	getEditText</ addSyntaxHighlightBlueEdit:: />;
+	:"blueStr << bgGetEditText</ addSyntaxHighlightBlueEdit:: />;
 
 	:"greenStr;
 	getEditText</ addSyntaxHighlightGreenEdit::/>;
