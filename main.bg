@@ -30,9 +30,9 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 		^^^[! INT_PTR !]whiteBrush;
 	】
     ··· |[ message isEqualTo?? WM_PAINT ]| 【
-        changeable PAINTSTRUCT ps;
-        changeable HDC hdc stores BeginPaint</ window::&ps />;
-        EndPaint</ window::&ps />;
+        //changeable PAINTSTRUCT ps;
+        //changeable HDC hdc stores BeginPaint</ window::&ps />;
+        //EndPaint</ window::&ps />;
     】
     ··· |[ message isEqualTo?? WM_DESTROY ]| PostQuitMessage</ [! integer16 !]0 />;
     ·· ^^^DefWindowProcW</ window。。message。。parameter1。。parameter2 />;
