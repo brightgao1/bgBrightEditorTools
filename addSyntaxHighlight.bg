@@ -44,7 +44,6 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	alert</ {rewf} />;
 	? |[ashEditProc === null]| 【
 		ashEditProc << ([! WNDPROC !]GetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4 />);
-	
 		SetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4::[! LONG_PTR !]ashEditHandler />;	
 		SetWindowLongPtrW</ addSyntaxHighlightToHighlightEdit::-4::[! LONG_PTR !]ashEditHandler />;	
 		SetWindowLongPtrW</ addSyntaxHighlightRedEdit::-4::[! LONG_PTR !]ashEditHandler />;	
