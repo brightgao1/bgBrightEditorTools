@@ -70,18 +70,17 @@ function noReturn ashSaveButtonClicked   <//> 《
 	? |[(pathExists</ highlightFilePath />) isEqualTo?? 0]| newFile</ highlightFilePath />;
 	
 	:"toHighlight; 
-	getEditText</ addSyntaxHighlightToHighlightEdit::@@toHighlight />;
+	getEditText</ addSyntaxHighlightToHighlightEdit:: />;
 	
 	:"redStr;
-	getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
+	getEditText</ addSyntaxHighlightRedEdit:: />;
 	
 	:"blueStr;
-	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
+	getEditText</ addSyntaxHighlightBlueEdit:: />;
 
 	:"greenStr;
-	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
+	getEditText</ addSyntaxHighlightGreenEdit::/>;
 	
-	:"otherStr;
-	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
+	:"otherStr << getEditText</ addSyntaxHighlightOtherEdit />;
 		
 》
