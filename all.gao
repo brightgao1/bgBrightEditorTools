@@ -24,8 +24,8 @@ function noReturn resizeWindowAddSyntaxHighlight   <//>;
 function noReturn setWhiteTextBackground   </ windowPointer w />;
 function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 function noReturn clearMainWindow   <//>;
-function returns unicodeString reverseString   <//>;
-function returns unicodeString trimString   <//>;
+function returns unicodeString reverseString   </ :"s />;
+function returns unicodeString trimString   </ :"s />;
 
 global :" appTitlePrefix;
 global :"ashTitle;
