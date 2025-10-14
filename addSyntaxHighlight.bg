@@ -86,7 +86,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	fileToDynamicArray</ highlightFilePath::highlightFile />;
 	/!highlightFile elementCount;
 	flag error << 0;
-
+	
 	:"toHighlight stores {};
 	getEditText</ addSyntaxHighlightToHighlightEdit::@@toHighlight />;
 	
