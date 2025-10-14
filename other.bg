@@ -19,7 +19,7 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 	variable notification << first16Bits</ parameter1 />;
 	positiveInteger16 menuID << last16Bits</ parameter1 />;
 	? |[[! integer32 !]parameter2 === 0]| 【
-		
+		positiveInteger16 menuID << last16Bits</ parameter1 />;	
 	】
 	~? |[notification isEqualTo?? BN_CLICKED]| 【
 		windowPointer butt << ([! windowPointer !]parameter2);
