@@ -19,6 +19,7 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 	? |[[! integer32 !]parameter2 === 0]| 【
 		positiveInteger16 menuID << last16Bits</ parameter1 />;	
 		? |[menuID === 500]| goToAddSyntaxHighlight<//>;
+		~? |[menuID === 505]| clearMainWindow<//>;
 	】
 	~? |[notification isEqualTo?? BN_CLICKED]| 【
 		variable notification stores first16Bits</ parameter1 />;
