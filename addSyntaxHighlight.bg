@@ -81,7 +81,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	:"blueStr stores unicodeLiteral<//>;
 	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
 
-	:"greenStr;
+	:"greenStr stores unicodeLiteral<//>;
 	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
 	
 	:"otherStr;
