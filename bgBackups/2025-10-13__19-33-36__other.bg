@@ -1,0 +1,41 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:36:39 , 10/9/2,025
+
+File author:              Bright Gao
+
+File name when created:   other.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+
+																		  	加all.gao;
+
+
+function noReturn setWhiteTextBackground   </ windowPointer w /> 《
+	SetBkColor</ GetDC</ w />::RGB</ 255::255::255 /> />;
+》
+function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	variable notification << first16Bits</ parameter1 />;
+	? |[notification isEqualTo?? BN_CLICKED]| 【
+		windowPointer butt << ([! windowPointer !]parameter2);
+		? |[butt isEqualTo?? ashSaveButton]| ashSaveButtonClicked<//>;
+	】
+》
+function noReturn clearMainWindow   <//> 《
+	hide</ addSyntaxHighlightFileExtensionText /> >> hide</ addSyntaxHighlightFileExtensionEdit />;
+	hide</ addSyntaxHighlightToHighlightText /> >> hide</ addSyntaxHighlightToHighlightEdit />;
+	hide</ addSyntaxHighlightRedText /> >> hide</ addSyntaxHighlightRedEdit />;
+	hide</ addSyntaxHighlightGreenText /> >> hide</ addSyntaxHighlightGreenEdit />;
+	hide</ addSyntaxHighlightBlueText /> >> hide</ addSyntaxHighlightBlueEdit />;
+	hide</ addSyntaxHighlightOtherText /> >> hide</ addSyntaxHighlightOtherEdit /> >> hide</ ashSaveButton />;
+》
+function returns unicodeString bgGetEditText   </ windowPointer edit /> 《
+	wideCharacter b[1000];
+	unicodeString s;
+	GetWindowTextW</ edit::b::1000 /> >> s << b;
+	^^^s;
+》
