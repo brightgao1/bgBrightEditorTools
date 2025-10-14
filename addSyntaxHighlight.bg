@@ -42,6 +42,8 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	show</ addSyntaxHighlightToHighlightText /> >> show</ addSyntaxHighlightToHighlightEdit />;
 	show</ addSyntaxHighlightRedText /> >> show</ addSyntaxHighlightRedEdit />;
 	show</ addSyntaxHighlightGreenText /> >> show</ addSyntaxHighlightGreenEdit />;
+	show</ 
+
 	resizeWindowAddSyntaxHighlight<//> >> SetFocus</ addSyntaxHighlightFileExtensionEdit />;
 	renameWindow</ mainWindow:: ashTitle pointer />;
 	? |[ashEditProc === null]| 【
