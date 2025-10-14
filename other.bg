@@ -37,7 +37,7 @@ function noReturn clearMainWindow   <//> 《
 	hide</ addSyntaxHighlightOtherText /> >> hide</ addSyntaxHighlightOtherEdit /> >> hide</ ashSaveButton />;
 》
 function returns unicodeString reverseString   </ :"s /> 《
-	? |[s elementCount === 0]|^^^;
+	? |[s elementCount === 0]|^^^s;
 	integer left.. right;
 	left stores 0;
 	right stores (s elementCount) minus 1;
