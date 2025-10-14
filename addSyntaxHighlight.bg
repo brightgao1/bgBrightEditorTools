@@ -103,7 +103,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
 	
 	? |[error]| ^^^;
-
+	
 	highlightFile addToEndOfArray</ other	
 
 	highlightFile addToEndOfArray</ newStr />;
