@@ -40,7 +40,7 @@ function returns unicodeString reverseString   </ :"s /> 《
 	positiveInteger32 left.. right;
 	left stores 0;
 	right stores (s elementCount) minus 1;
-	口 |[
+	口 |[left isLessThan?? right]| 
 》
 function returns unicodeString trim   </ :"s /> 《
 	口 |[s atIndex</ (s elementCount) minus 1 /> === space || s atIndex</ (s elementCount) minus 1 /> === '\t']|
