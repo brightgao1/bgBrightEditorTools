@@ -32,5 +32,6 @@ function noReturn clearMainWindow   <//> 《
 》
 function returns unicodeString bgGetEditText   </ windowPointer edit /> 《
 	[]</ wideCharacter::@@b />;	
-GetWindowTextW</ 
+	GetWindowTextW</ b::1000 />;
+	
 》
