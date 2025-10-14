@@ -44,7 +44,7 @@ function noReturn ashInitMaps   <//> 《
 	ashPrevControl atKey</ addSyntaxHighlightFileExtensionEdit /> << addSyntaxHighlightOtherEdit;
 》
 function noReturn initMainWindowMenu   <//> 《
-	unicodeString syntaxHighlightMenuString << {   Syntax Highlight   };
+	unicodeString syntaxHighlightMenuString << {    Syntax Highlight  };
 	
 	
 	addDropdownMenu</ mainMenu::syntaxHighlightMenu::syntaxHighlightMenuString />;
