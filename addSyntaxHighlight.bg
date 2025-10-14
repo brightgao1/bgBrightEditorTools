@@ -84,7 +84,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	? |[(pathExists</ highlightFilePath />) isEqualTo?? 0]| newFile</ highlightFilePath />;
 	[]</ :"::@@highlightFile />;
 	fileToDynamicArray</ highlightFilePath::highlightFile />;
-	
+	/!highlightFile elementCount;
 
 	:"toHighlight stores {};
 	getEditText</ addSyntaxHighlightToHighlightEdit::@@toHighlight />;
