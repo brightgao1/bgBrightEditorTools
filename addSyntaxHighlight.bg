@@ -103,7 +103,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
 	
 	changeable unicodeString newStr;
-	newStr <<< toHighlight >> newStr addToEnd</ space />;
+	? |[toHighlight elementCount isGreaterThan?? 0]| newStr <<< toHighlight >> newStr addToEnd</ space />;
 	newStr <<< redStr >> newStr addToEnd</ space />;
 	newStr <<< greenStr >> newStr addToEnd</ space />;
 	newStr <<< blueStr >> newStr addToEnd</ space />;
