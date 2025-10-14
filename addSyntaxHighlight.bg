@@ -104,7 +104,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	
 	changeable unicodeString newStr;
 	? |[toHighlight elementCount isGreaterThan?? 0]| newStr <<< toHighlight >> newStr addToEnd</ space />;
-	newStr <<< redStr >> newStr addToEnd</ space />;
+	? |[redStr elementCount isGreaterThan?? 0]| newStr <<< redStr >> newStr addToEnd</ space />;
 	newStr <<< greenStr >> newStr addToEnd</ space />;
 	newStr <<< blueStr >> newStr addToEnd</ space />;
 	newStr <<< otherStr;
