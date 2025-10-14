@@ -36,4 +36,6 @@ function noReturn clearMainWindow   <//> 《
 	hide</ addSyntaxHighlightBlueText /> >> hide</ addSyntaxHighlightBlueEdit />;
 	hide</ addSyntaxHighlightOtherText /> >> hide</ addSyntaxHighlightOtherEdit /> >> hide</ ashSaveButton />;
 》
-
+function returns unicodeString trim   </ :"s /> 《
+	
+》
