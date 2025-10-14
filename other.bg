@@ -46,6 +46,7 @@ function returns unicodeString reverseString   </ :"s /> 《
 		s atIndex</ right /> << tmp;
 		left <<< 1 >> right storesItselfMinus</ 1 />;
 	】
+	^^^s;
 》
 function returns unicodeString trim   </ :"s /> 《
 	口 |[s atIndex</ (s elementCount) minus 1 /> === space || s atIndex</ (s elementCount) minus 1 /> === '\t']|
