@@ -1,0 +1,26 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-13__21-20-09.txt', LF will be replaced by CRLF the next time Git touches it
+[master dcdbce94] BrightEditor autopush 21:20:09 10/13/2025 CST
+ 22 files changed, 36 insertions(+), 10 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-13__21-20-09.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-07__505__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-07__673__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-07__769__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-07__841__,
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-07__952__,
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-08__313__R
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-08__409__E
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-08__41__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-08__809__V
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-08__985__E
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-09__225__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-09__288__E
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-09__489__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-09__56__R
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-09__585__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-09__752__T
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-09__849__R
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-09__897__I
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-09__969__N
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-13__21-20-10__24__G
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   2123ba23..dcdbce94  master -> master
