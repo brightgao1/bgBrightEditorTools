@@ -52,7 +52,7 @@ function returns unicodeString trimString   </ :"s /> 《
 	口 |[s elementCount isGreaterThan?? 0 && (s atIndex</ (s elementCount) minus 1 /> === space || s atIndex</ (s elementCount) minus 1 /> === '\t')]|
 		s removeFromEnd;
 	s << reverseString</ s />;
-	口 |[s elementCount isGreaterThan ?? 0 && (s atIndex</ (s elementCount) minus 1 /> === space || s atIndex</ (s elementCount) minus 1 /> === '\t')]|
+	口 |[s elementCount isGreaterThan?? 0 && (s atIndex</ (s elementCount) minus 1 /> === space || s atIndex</ (s elementCount) minus 1 /> === '\t')]|
 		s removeFromEnd;
 	s << reverseString</ s />;	
 	^^^s;
