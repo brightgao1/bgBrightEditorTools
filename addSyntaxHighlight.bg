@@ -93,7 +93,6 @@ function noReturn ashSaveButtonClicked   <//> 《
 	:"redStr stores {};
 	getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
 
-
 	:"greenStr stores {};
 	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
 	
