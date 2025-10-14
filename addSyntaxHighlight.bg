@@ -102,5 +102,5 @@ function noReturn ashSaveButtonClicked   <//> 《
 	:"otherStr stores {};
 	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
 	
-		
+	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
 》
