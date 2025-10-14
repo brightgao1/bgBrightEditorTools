@@ -38,7 +38,7 @@ function noReturn clearMainWindow   <//> 《
 》
 function returns unicodeString reverseString   </ :"s /> 《
 	//? |[s elementCount === 0]|^^^s;
-	integer left.. right;
+	:##left.. right;
 	left stores 0;
 	right stores (s elementCount) minus 1;
 	口 |[left isLessThan?? right]| 【
