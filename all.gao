@@ -26,6 +26,7 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 function noReturn clearMainWindow   <//>;
 function returns unicodeString reverseString   </ :"s />;
 function returns unicodeString trimString   </ :"s />;
+function returns flag hasLetters   </ :"s /> ;
 
 global :" appTitlePrefix;
 global :"ashTitle;
