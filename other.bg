@@ -58,3 +58,6 @@ function returns unicodeString trimString   </ :"s /> 《
 	s << reverseString</ s />;	
 	^^^s;
 》
+function returns flag hasLetters   </ :"s /> 《
+	
+》
