@@ -94,7 +94,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	getEditText</ addSyntaxHighlightToHighlightEdit::@@toHighlight />;
 	toHighlight << trimString</ toHighlight />;		
 	? |[toHighlight elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {To Highlight} />;
-	
+	-> |[
 
 	:"redStr stores {};
 	getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
