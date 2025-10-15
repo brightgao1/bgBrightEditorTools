@@ -104,7 +104,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	-> |[i.. redStr elementCount]| 【
 		variable c << redStr atIndex</ i />;
 		? |[c isGreaterThanOrEqualTo?? '0' && c isLessThanOrEqualTo?? '9']| 【】
-		~ 
+		~ redHasLetters << 1;
 	】
 
 	:"greenStr stores {};
