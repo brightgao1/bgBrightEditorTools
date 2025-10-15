@@ -38,10 +38,11 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	SendMessageW</ addSyntaxHighlightOtherEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	? |[ashSaveButton isEqualTo?? null]| 做Anniu</ ashSaveButton::{Save (Enter)}::500::500::500::500::mainWindow::null />;
 
-	:"redStr.. greenStr.. blueStr;
+	:"redStr.. greenStr.. blueStr.. otherStr;
 	getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
 	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
 	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
+	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
 	? |[redStr elementCount === 0]| renameWindow</ addSyntaxHighlightRedEdit::{0} />;
 	? |[greenStr elementCount === 0]| renameWindow</ addSyntaxHighlightGreenEdit::{0} />;
 	? |[blueStr elementCount === 0]| renameWindow</ addSyntaxHighlightBlueEdit::{0} />;	
