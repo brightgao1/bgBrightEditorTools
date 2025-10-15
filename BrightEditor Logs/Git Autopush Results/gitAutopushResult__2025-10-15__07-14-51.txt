@@ -1,0 +1,24 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-15__07-14-46.txt', LF will be replaced by CRLF the next time Git touches it
+[master 34eee99e] BrightEditor autopush 07:14:46 10/15/2025 CST
+ 21 files changed, 44 insertions(+), 3 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-15__07-14-46.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-43__168__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-43__594__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-43__927__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-44__183__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-44__458__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-44__644__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-44__833__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-45__190__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-45__733__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-45__8__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-46__324__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-46__42__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-46__505__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-46__672__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-46__988__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-47__149__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-47__312__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-47__668__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-47__945__Down
+fatal: unable to access 'https://github.com/brightgao1/bgBrightEditorTools.git/': Could not resolve host: github.com
