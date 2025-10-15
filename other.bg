@@ -64,5 +64,5 @@ function returns flag hasLetters   </ :"s /> 《
 		? |[c isGreaterThanOrEqualTo?? '0' && c isLessThanOrEqualTo?? '9']| 【】
 		~^^^1;
 	】
-	
+	^^^0;
 》
