@@ -99,7 +99,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	:"redStr stores {};
 	getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
 	redStr << trimString</ redStr />;	
-	flag redHasLetters;
+	flag redHasLetters << 0;
 	? |[redStr elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {Red} />;
 	-> |[i.. redStr elementCount]| 【
 		variable c << redStr atIndex</ i />;
