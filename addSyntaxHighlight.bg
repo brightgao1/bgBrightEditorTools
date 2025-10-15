@@ -117,8 +117,9 @@ function noReturn ashSaveButtonClicked   <//> 《
 	alert</ (toHighlight plus space plus redStr) pointer />;
 	? |[error]| 【
 		unicodeString errMessage;
-		errMessage storesItselfPlus</ {ERROR. The following were blank: \n\n} />;
-		
+		? |[emptyEdits elementCount isGreaterThan?? 0]| 【
+			errMessage storesItselfPlus</ {ERROR. The following were blank: \n\n} />;
+		】
 		alert</ errMessage pointer />;
 		^^^;
 	】
