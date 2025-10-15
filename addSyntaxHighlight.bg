@@ -164,7 +164,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	renameWindow</ addSyntaxHighlightBlueEdit::blueStr pointer />;
 	
 	:"newStr << {};
-	newStr <<< toHighlight >> newStr <<< space;
+	newStr <<< toHighlight >> newStr <<< '\n';
 	newStr <<< redStr >> newStr <<< space >> newStr <<< greenStr >> newStr <<< space >> newStr <<< blueStr >> newStr <<< space;
 	newStr <<< otherStr;
 	
