@@ -129,7 +129,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 			-> |[i.. emptyEdits elementCount]| errMessage <<< emptyEdits[i] >> errMessage addToEnd</ '\n' />;
 		】
 		repeat |[2]| errMessage addToEnd</ '\n' />;
-		? |[wrongFormat isGreaterThan?? 0]| 【
+		? |[wrongFormat elementCount isGreaterThan?? 0]| 【
 			errMessage storesItselfPlus</ {There were alphabetic characters found in the following:\n} />;
 			-> |[i.. wrongFormat elementCount]| errMessage <<< wrongFormat[i] >> errMessage addToEnd</ '\n' />;
 		】
