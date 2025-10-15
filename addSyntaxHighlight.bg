@@ -40,7 +40,10 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 
 	:"redStr.. greenStr.. blueStr;
 	getEditText</ addSyntaxHiglightRedEdit::@@redStr />;
-	
+	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
+	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
+		
+
 	show</ addSyntaxHighlightFileExtensionText /> >> show</ addSyntaxHighlightFileExtensionEdit />;
 	show</ addSyntaxHighlightToHighlightText /> >> show</ addSyntaxHighlightToHighlightEdit />;
 	show</ addSyntaxHighlightRedText /> >> show</ addSyntaxHighlightRedEdit />;
