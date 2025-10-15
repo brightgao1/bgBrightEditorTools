@@ -102,7 +102,8 @@ function noReturn ashSaveButtonClicked   <//> 《
 	? |[redStr elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {Red} />;
 	-> |[i.. redStr elementCount]| 【
 		variable c << redStr atIndex</ i />;
-		? |[c isGreaterThanOrEqualTo?? '0' && c isLessThanOrEqualTo?? '9']| 
+		? |[c isGreaterThanOrEqualTo?? '0' && c isLessThanOrEqualTo?? '9']| 【】
+		
 	】
 
 	:"greenStr stores {};
