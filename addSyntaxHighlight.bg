@@ -101,7 +101,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	redStr << trimString</ redStr />;	
 	flag redHasLetters << 0;
 	? |[redStr elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {Red} />;
-	hasLetters
+	? |[hasLetters</ redStr />]| error << 1 >> wrongFormat addToEnd</ {Red} />;
 
 	:"greenStr stores {};
 	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
