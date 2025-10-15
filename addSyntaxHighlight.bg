@@ -136,6 +136,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 		alert</ errMessage pointer />;
 		^^^;
 	】
+	? |[redStr elementCount isGreaterThan?? 3]| 
 	
 	:"newStr << {};
 	newStr <<< toHighlight >> newStr <<< space;
