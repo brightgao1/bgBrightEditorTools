@@ -39,7 +39,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[ashSaveButton isEqualTo?? null]| 做Anniu</ ashSaveButton::{Save (Enter)}::500::500::500::500::mainWindow::null />;
 
 	:"redStr.. greenStr.. blueStr;
-	getEditText</ addSyntaxHiglightRedEdit::@@redStr />;
+	getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
 	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
 	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
 	? |[redStr elementCount === 0]| renameWindow</ addSyntaxHighlightRedEdit::{0} />;
