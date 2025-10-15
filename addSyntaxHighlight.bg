@@ -120,8 +120,9 @@ function noReturn ashSaveButtonClicked   <//> 《
 		? |[emptyEdits elementCount isGreaterThan?? 0]| 【
 			errMessage storesItselfPlus</ {ERROR. The following were blank: \n\n} />;
 			-> |[i.. emptyEdits elementCount]| errMessage <<< emptyEdits[i] >> errMessage addToEnd</ '\n' />;
-			
 		】
+		repeat |[2]| errMessage addToEnd</ '\n' />;
+		
 		alert</ errMessage pointer />;
 		^^^;
 	】
