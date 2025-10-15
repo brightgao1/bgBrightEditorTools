@@ -130,6 +130,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	:"newStr << {};
 	newStr <<< toHighlight >> newStr <<< space;
 	newStr <<< redStr >> newStr <<< space >> newStr <<< greenStr >> newStr <<< space >> newStr <<< blueStr >> newStr <<< space;
+	
 
 	highlightFile addToEndOfArray</ newStr />;
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
