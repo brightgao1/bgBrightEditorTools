@@ -13,4 +13,6 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 function noReturn goToRemoveSyntaxHighlight   <//> 《
 	clearMainWindow<//>;
 	
+
+	renameWindow</ mainWindow::rshTitle pointer />;
 》
