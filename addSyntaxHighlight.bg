@@ -163,5 +163,5 @@ function noReturn ashSaveButtonClicked   <//> 《
 	highlightFile addToEndOfArray</ newStr />;
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
 	:"successMessage << {};
-	successMessage <<< {Was suc
+	successMessage <<< unicodeLiteral</ Successfully added! /> >> successMessage <<< '\n';
 》
