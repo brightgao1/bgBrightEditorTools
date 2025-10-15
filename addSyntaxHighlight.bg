@@ -87,6 +87,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	/!highlightFile elementCount;
 	flag error << 0;
 	[]</ :"::@@emptyEdits />;
+	[]</ :"::@@wrongFormat />;
 	? |[fileExtension elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {File Extension} />;
 
 	:"toHighlight stores {};
