@@ -117,7 +117,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	otherStr << trimString</ otherStr />;
 	? |[otherStr elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {Other} />;	
 
-	/!toHighlight >> /^ >> /!redStr >> /^ >> /!greenStr >> /^ >> /!blueStr >> /^ >> /!otherStr >> /^;	
+	///!toHighlight >> /^ >> /!redStr >> /^ >> /!greenStr >> /^ >> /!blueStr >> /^ >> /!otherStr >> /^;	
 	//alert</ (toHighlight plus space plus redStr) pointer />;
 	? |[error]| 【
 		unicodeString errMessage;
