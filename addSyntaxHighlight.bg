@@ -107,6 +107,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
 	greenStr << trimString</ greenStr />;
 	? |[greenStr elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {Green} />;
+	? |[hasLetters</ greenStr />]| error << 1 >> wrongFormat addToEnd</ {Green} />;
 
 	:"blueStr stores {};
 	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
