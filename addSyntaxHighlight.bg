@@ -165,5 +165,6 @@ function noReturn ashSaveButtonClicked   <//> 《
 	:"successMessage << {};
 	successMessage <<< unicodeLiteral</ Successfully added! />;
 	repeat |[2]| successMessage addToEnd</ '\n' />;
-	successMessage <<< toHighlight >> successMessage <<< {  } >> successMessage <<< unicodeLiteral</ will be highlighted />;
+	successMessage <<< toHighlight >> successMessage <<< {  } >> successMessage <<< unicodeLiteral</ will be highlighted in . />;
+	successMessage <<< fileExtension >> successMessage addToEnd</ space /> >> successMessage <<< files; 
 》
