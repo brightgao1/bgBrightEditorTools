@@ -148,7 +148,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	? |[greenVal isGreaterThan?? 255]| greenStr << {255};
 	~? |[greenVal isLessThan?? 0]| greenStr << {0};
 	? |[blueVal isGreaterThan?? 255]| blueStr << {255};
-	~? |[blueVal	
+	~? |[blueVal isLessThan?? 0]| blueStr << {0};
 
 	:"newStr << {};
 	newStr <<< toHighlight >> newStr <<< space;
