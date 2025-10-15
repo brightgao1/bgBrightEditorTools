@@ -46,6 +46,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	? |[redStr elementCount === 0]| renameWindow</ addSyntaxHighlightRedEdit::{0} />;
 	? |[greenStr elementCount === 0]| renameWindow</ addSyntaxHighlightGreenEdit::{0} />;
 	? |[blueStr elementCount === 0]| renameWindow</ addSyntaxHighlightBlueEdit::{0} />;	
+	? |[otherStr elementCount === 0]| renameWindow</ addSytnaxHighlightOtherEdit::{0} />;
 
 	show</ addSyntaxHighlightFileExtensionText /> >> show</ addSyntaxHighlightFileExtensionEdit />;
 	show</ addSyntaxHighlightToHighlightText /> >> show</ addSyntaxHighlightToHighlightEdit />;
