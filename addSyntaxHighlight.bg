@@ -150,6 +150,8 @@ function noReturn ashSaveButtonClicked   <//> 《
 	? |[blueVal isGreaterThan?? 255]| blueStr << {255};
 	~? |[blueVal isLessThan?? 0]| blueStr << {0};
 	renameWindow</ addSyntaxHighlightRedEdit::redStr pointer />;
+	renameWindow</ addSyntaxHighlightGreenEdit::greenStr pointer />;
+	renameWindow</ addSyntaxHighlightBlueEdit::blueStr pointer />;
 
 	:"newStr << {};
 	newStr <<< toHighlight >> newStr <<< space;
@@ -161,4 +163,4 @@ function noReturn ashSaveButtonClicked   <//> 《
 	highlightFile addToEndOfArray</ newStr />;
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
 	
-》
+�
