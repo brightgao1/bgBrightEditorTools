@@ -106,7 +106,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	:"otherStr stores {};
 	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
 	otherStr << trimString</ otherStr />;	
-	///!toHighlight >> /^ >> /!redStr >> /^ >> /!greenStr >> /^ >> /!blueStr >> /^ >> /!otherStr >> /^;	
+	/!toHighlight >> /^ >> /!redStr >> /^ >> /!greenStr >> /^ >> /!blueStr >> /^ >> /!otherStr >> /^;	
 	alert</ (toHighlight plus space plus redStr) pointer />;
 	? |[error]| 【
 		unicodeString errMessage;
@@ -116,9 +116,9 @@ function noReturn ashSaveButtonClicked   <//> 《
 		^^^;
 	】
 	
-//	highlightFile addToEndOfArray</  />;
+	
 
-	//highlightFile addToEndOfArray</ newStr />;
-//	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
+	highlightFile addToEndOfArray</ newStr />;
+	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
 	
 》
