@@ -132,6 +132,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	newStr <<< redStr >> newStr <<< space >> newStr <<< greenStr >> newStr <<< space >> newStr <<< blueStr >> newStr <<< space;
 	newStr <<< otherStr;
 	
+	/^ >> /!{newStr: } >> /!newStr;
 
 	highlightFile addToEndOfArray</ newStr />;
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
