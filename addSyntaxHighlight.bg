@@ -139,7 +139,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	? |[redStr elementCount isGreaterThan?? 3]| redStr << 255;
 	? |[greenStr elementCount isGreaterThan?? 3]| greenStr << 255;
 	? |[blueStr elementCount isGreaterThan?? 3]| blueStr << 255;
-			
+	:#redVal.. greenVal.. blueVal;			
 
 	? |[toUnicodeString</ redStr /> isGreaterThan?? 255]| redStr << 255;
 	
