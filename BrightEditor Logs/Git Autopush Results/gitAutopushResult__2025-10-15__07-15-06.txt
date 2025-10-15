@@ -1,0 +1,28 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-15__07-15-01.txt', LF will be replaced by CRLF the next time Git touches it
+[master 919a11bd] BrightEditor autopush 07:15:01 10/15/2025 CST
+ 25 files changed, 35 insertions(+), 3 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-15__07-15-01.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-58__7__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-59__271__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-59__776__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-59__818__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-59__840__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-59__871__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-59__903__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-59__938__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-14-59__972__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-00__111__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-00__143__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-00__15__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-00__175__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-00__207__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-00__238__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-00__272__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-00__305__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-00__37__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-00__611__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-00__72__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-01__211__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-01__389__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-15__07-15-01__566__Right
+fatal: unable to access 'https://github.com/brightgao1/bgBrightEditorTools.git/': Could not resolve host: github.com
