@@ -101,7 +101,8 @@ function noReturn ashSaveButtonClicked   <//> 《
 	redStr << trimString</ redStr />;	
 	? |[redStr elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {Red} />;
 	-> |[i.. redStr elementCount]| 【
-		? |[
+		variable c << redStr atIndex</ i />;
+		? |[redStr atIndex</ i />
 	】
 
 	:"greenStr stores {};
