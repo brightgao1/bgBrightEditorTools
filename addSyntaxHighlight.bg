@@ -85,6 +85,9 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 		~? |[key isEqualTo?? VK_RETURN]| ashSaveButtonClicked<//>;
 		~^^^ashEditProc</ window::message::parameter1::parameter2 />;
 	】	
+	~? |[message === WM_KEYUP]| 【
+		
+	】
 	~ ^^^ashEditProc</ window::message::parameter1::parameter2 />;
 》
 function noReturn ashSaveButtonClicked   <//> 《
