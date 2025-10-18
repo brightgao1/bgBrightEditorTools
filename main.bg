@@ -41,9 +41,9 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 		? |[addSyntaxHighlightGreenEdit]|	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
 		? |[addSyntaxHighlightBlueEdit]| getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
 		? |[hasLetters</ redStr /> || hasLetters</ greenStr /> || hasLetters</ blueStr />]| 【】
-		//~? |[redStr elementCount === 0 || greenStr elementCount === 0 || blueStr elementCount === 0]| 【】
-		alert</ {ok} />;
+		//~? |[redStr elementCount === 0 || greenStr elementCount === 0 || blueStr elementCount === 0]|
 		~ 【 
+			alert</ {ok} />;
 			:#redVal.. greenVal.. blueVal;
 			redVal << 0 >> greenVal << 0 >> blueVal << 0;
 			? |[redStr elementCount isGreaterThan?? 3 || stringToInteger</ redStr /> isGreaterThan?? 255]| 【
