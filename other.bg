@@ -68,5 +68,7 @@ function returns flag hasLetters   </ :"s /> 《
 》
 function noReturn timer400   <//> 《
 	variable withFocus << GetFocus<//>;
-	
+	? |[withFocus === mainWindow]| 【
+		
+	】
 》
