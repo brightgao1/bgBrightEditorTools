@@ -40,6 +40,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 		getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
 		? |[hasLetters</ redStr /> || hasLetters</ greenStr /> || hasLetters</ blueStr />]| 【】
 		~ 【 
+			
 			FillRect</ hdc::&r::CreateSolidBrush</ RGB</ 255::0::0 /> /> />;
       		
 		】
