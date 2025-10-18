@@ -32,38 +32,39 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
     ··· |[ message isEqualTo?? WM_PAINT ]| 【
         changeable PAINTSTRUCT ps;
         changeable HDC hdc stores BeginPaint</ window::&ps />;
-		? |[getMainWindowTitle<//> === ashTitle]|
-		rectangle r;
-		:"redStr.. greenStr..blueStr;
-		redStr << {a} >> greenStr << {b} >> blueStr << {c};
-		r get left << 20 >> r get right << 350 >> r get top << 300 >> r get bottom << 360;
-		? |[addSyntaxHighlightRedEdit]| getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
-		? |[addSyntaxHighlightGreenEdit]|	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
-		? |[addSyntaxHighlightBlueEdit]| getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
-		? |[hasLetters</ redStr /> || hasLetters</ greenStr /> || hasLetters</ blueStr />]| 【】
-		//~? |[redStr elementCount === 0 || greenStr elementCount === 0 || blueStr elementCount === 0]|
-		~ 【 
-			:#redVal.. greenVal.. blueVal;
-			redVal << 0 >> greenVal << 0 >> blueVal << 0;
-			? |[redStr elementCount === 0]| 【】
-			~? |[redStr elementCount isGreaterThan?? 3 || stringToInteger</ redStr /> isGreaterThan?? 255]| 【
-				redVal << 255;
-			】
-			~? |[redStr elementCount isGreaterThan?? 0]| redVal << stringToInteger</ redStr />;
-			
-			? |[greenStr elementCount === 0]| 【】
-			~? |[greenStr elementCount isGreaterThan?? 3 || stringToInteger</ greenStr /> isGreaterThan?? 255]| 【
-				greenVal << 255;
-			】
-			~? |[greenStr elementCount isGreaterThan?? 0 && greenStr[0] isNotEqualTo?? space]| greenVal << stringToInteger</ greenStr />;
-			
-			? |[blueStr elementCount === 0]| 【】
-			~? |[blueStr elementCount isGreaterThan?? 3 || stringToInteger</ blueStr /> isGreaterThan?? 255]| 【
-				blueVal << 255;
-			】
-			~? |[blueStr elementCount isGreaterThan?? 0 && blueStr[0] isNotEqualTo?? space]| blueVal << stringToInteger</ blueStr />;
-			FillRect</ hdc::&r::CreateSolidBrush</ RGB</ redVal::greenVal::blueVal /> /> />;
+		? |[getMainWindowTitle<//> === ashTitle]| 【
+			rectangle r;
+			:"redStr.. greenStr..blueStr;
+			redStr << {a} >> greenStr << {b} >> blueStr << {c};
+			r get left << 20 >> r get right << 350 >> r get top << 300 >> r get bottom << 360;
+			? |[addSyntaxHighlightRedEdit]| getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
+			? |[addSyntaxHighlightGreenEdit]|	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
+			? |[addSyntaxHighlightBlueEdit]| getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
+			? |[hasLetters</ redStr /> || hasLetters</ greenStr /> || hasLetters</ blueStr />]| 【】
+			//~? |[redStr elementCount === 0 || greenStr elementCount === 0 || blueStr elementCount === 0]|
+			~ 【 
+				:#redVal.. greenVal.. blueVal;
+				redVal << 0 >> greenVal << 0 >> blueVal << 0;
+				? |[redStr elementCount === 0]| 【】
+				~? |[redStr elementCount isGreaterThan?? 3 || stringToInteger</ redStr /> isGreaterThan?? 255]| 【
+					redVal << 255;
+				】
+				~? |[redStr elementCount isGreaterThan?? 0]| redVal << stringToInteger</ redStr />;
+				
+				? |[greenStr elementCount === 0]| 【】
+				~? |[greenStr elementCount isGreaterThan?? 3 || stringToInteger</ greenStr /> isGreaterThan?? 255]| 【
+					greenVal << 255;
+				】
+				~? |[greenStr elementCount isGreaterThan?? 0 && greenStr[0] isNotEqualTo?? space]| greenVal << stringToInteger</ greenStr />;
+				
+				? |[blueStr elementCount === 0]| 【】
+				~? |[blueStr elementCount isGreaterThan?? 3 || stringToInteger</ blueStr /> isGreaterThan?? 255]| 【
+					blueVal << 255;
+				】
+				~? |[blueStr elementCount isGreaterThan?? 0 && blueStr[0] isNotEqualTo?? space]| blueVal << stringToInteger</ blueStr />;
+				FillRect</ hdc::&r::CreateSolidBrush</ RGB</ redVal::greenVal::blueVal /> /> />;
       		
+			】
 		】
 		EndPaint</ window::&ps />;
     】
