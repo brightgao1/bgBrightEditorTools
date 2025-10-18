@@ -87,7 +87,7 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 	】	
 	~? |[message isEqualTo?? WM_KEYUP]| 【
 		variable key << parameter1;
-		
+		UpdateWindow</ mainWindow />;
 	】
 	~ ^^^ashEditProc</ window::message::parameter1::parameter2 />;
 》
