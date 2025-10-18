@@ -72,5 +72,6 @@ function noReturn timer400   <//> 《
 		:"title;
 		getEditText</ mainWindow::@@title />;
 		? |[title === ashTitle]| SetFocus</ addSyntaxHighlightFileExtensionEdit />;
+		~? |[title === rshTitle]| alert</ {REMEMBER TO SET THE FOCUS TO FIRST CONTROL} />;
 	】
 》
