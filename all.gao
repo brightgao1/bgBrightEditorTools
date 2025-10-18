@@ -29,6 +29,7 @@ function noReturn clearMainWindow   <//>;
 function returns unicodeString reverseString   </ :"s />;
 function returns unicodeString trimString   </ :"s />;
 function returns flag hasLetters   </ :"s />;
+function noReturn timer400   <//>;
 
 global :" appTitlePrefix;
 global :"ashTitle;
