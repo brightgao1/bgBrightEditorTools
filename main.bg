@@ -53,6 +53,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 			~? |[greenStr elementCount isGreaterThan?? 3 || stringToInteger</ greenStr /> isGreaterThan?? 255]| 【
 				greenVal << 255;
 			】
+			? |[redStr elementCount === 0]| 【】
 			~? |[greenStr elementCount isGreaterThan?? 0 && greenStr[0] isNotEqualTo?? space]| greenVal << stringToInteger</ greenStr />;
 			? |[blueStr elementCount isGreaterThan?? 3 || stringToInteger</ blueStr /> isGreaterThan?? 255]| 【
 				blueVal << 255;
