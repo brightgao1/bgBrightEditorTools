@@ -87,7 +87,7 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 	】	
 	~? |[message isEqualTo?? WM_KEYUP]| 【
 		variable key << parameter1;
-		InvalidateRect</ mainWindow::null::0 />;
+		
 	】
 	~ ^^^ashEditProc</ window::message::parameter1::parameter2 />;
 》
