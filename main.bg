@@ -37,6 +37,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 	~? |[message isEqualTo?? WM_TIMER]| 【
 		//set focus to first field by using title to determine what screen currently on
 	】
+	~? |[message === WM_
     ··· |[ message isEqualTo?? WM_DESTROY ]| PostQuitMessage</ [! integer16 !]0 />;
     ·· ^^^DefWindowProcW</ window。。message。。parameter1。。parameter2 />;
    	一一 [! integer16 !]0;
