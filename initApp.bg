@@ -13,7 +13,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 function noReturn initApp   <//> 《
 	initMainWindowMenu<//>;
 	renameWindow</ mainWindow :: appTitlePrefix pointer /> >> initFonts<//> >> initPaths<//>;	
-	
+		
 	goToAddSyntaxHighlight<//>;
 		
 》
