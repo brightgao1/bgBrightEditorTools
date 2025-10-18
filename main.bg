@@ -34,7 +34,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
         changeable HDC hdc stores BeginPaint</ window::&ps />;
 		rectangle r;
 		r get left << 100 >> r get right << 200 >> r get top << 100 >> r get bottom << 200;
-		FillRect</ 
+		FillRect</ hdc::&r::150 />;
         EndPaint</ window::&ps />;
     】
 	~? |[message isEqualTo?? WM_TIMER]| 【
