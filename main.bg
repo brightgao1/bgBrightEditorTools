@@ -26,8 +26,8 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 		? |[title isEqualTo?? ashTitle]| resizeWindowAddSyntaxHighlight<//>;
 	】
 	~? |[message isEqualTo?? WM_CTLCOLORSTATIC]| 【
-		setWhiteTextBackground</ window />;
-		^^^[! INT_PTR !]whiteBrush;
+//		setWhiteTextBackground</ window />;
+//		^^^[! INT_PTR !]whiteBrush;
 	】
     ··· |[ message isEqualTo?? WM_PAINT ]| 【
         changeable PAINTSTRUCT ps;
