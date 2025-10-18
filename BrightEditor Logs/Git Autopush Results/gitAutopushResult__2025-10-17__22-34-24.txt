@@ -1,0 +1,25 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-17__22-34-19.txt', LF will be replaced by CRLF the next time Git touches it
+[master 63ed86e7] BrightEditor autopush 22:34:19 10/17/2025 CST
+ 21 files changed, 31 insertions(+), 6 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-17__22-34-19.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-16__24__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-16__269__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-16__349__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-16__727__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-16__838__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-16__920__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-16__975__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-17__135__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-17__343__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-17__503__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-17__648__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-18__111__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-18__455__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-19__31__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-20__18__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-20__263__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-20__357__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-20__774__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-17__22-34-20__79__Shift
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   af641b04..63ed86e7  master -> master
