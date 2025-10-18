@@ -76,5 +76,6 @@ function noReturn timer400   <//> 《
 	】
 》
 function returns unicodeString getMainWindowTitle   <//> 《
-	
+	unicodeString s;
+	getEditText</ mainWindow::@@s />;
 》
