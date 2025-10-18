@@ -33,7 +33,6 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
         changeable PAINTSTRUCT ps;
         changeable HDC hdc stores BeginPaint</ window::&ps />;
 		rectangle r;
-		alert</ {1} />;
 		:"redStr.. greenStr..blueStr;
 		redStr << {a} >> greenStr << {b} >> blueStr << {c};
 		r get left << 20 >> r get right << 350 >> r get top << 300 >> r get bottom << 360;
