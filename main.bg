@@ -34,9 +34,10 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
         changeable HDC hdc stores BeginPaint</ window::&ps />;
 		rectangle r;
 		:"redStr.. greenStr..blueStr;
+		redStr << {a} >> greenStr << {b} >> blueStr << {c};
 		r get left << 20 >> r get right << 350 >> r get top << 300 >> r get bottom << 360;
 		? |[addSyntaxHighlightRedEdit]| getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
-		getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
+		? |[addSyntaxHighlight		getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
 		getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
 		? |[hasLetters</ redStr /> || hasLetters</ greenStr /> || hasLetters</ blueStr />]| 【】
 		~ 【 
