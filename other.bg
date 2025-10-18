@@ -71,6 +71,6 @@ function noReturn timer400   <//> 《
 	? |[withFocus === mainWindow]| 【
 		:"title;
 		getEditText</ mainWindow::@@title />;
-		? |[
+		? |[title === ashTitle]| SetFocus</ addSyntaxHighlightFileExtensionEdit />;
 	】
 》
