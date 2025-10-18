@@ -35,7 +35,9 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 		rectangle r;
 		:"redStr.. greenStr..blueStr;
 		r get left << 20 >> r get right << 350 >> r get top << 300 >> r get bottom << 360;
-		getEditText</ 
+		getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
+		getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
+		getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
 		FillRect</ hdc::&r::CreateSolidBrush</ RGB</ 255::0::0 /> /> />;
         EndPaint</ window::&ps />;
     】
