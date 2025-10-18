@@ -38,7 +38,8 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 		getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
 		getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
 		getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
-		FillRect</ hdc::&r::CreateSolidBrush</ RGB</ 255::0::0 /> /> />;
+		? |[hasLetters</ redStr /> || hasLetters</ greenStr /> || hasLetters</ blueStr />]| 【】
+		~ FillRect</ hdc::&r::CreateSolidBrush</ RGB</ 255::0::0 /> /> />;
         EndPaint</ window::&ps />;
     】
 	~? |[message isEqualTo?? WM_TIMER]| 【
