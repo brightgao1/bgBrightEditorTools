@@ -34,6 +34,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
         changeable HDC hdc stores BeginPaint</ window::&ps />;
 		rectangle r;
 		r get left << 20 >> r get right << 350 >> r get top << 300 >> r get bottom << 360;
+		
 		FillRect</ hdc::&r::CreateSolidBrush</ RGB</ 255::0::0 /> /> />;
         EndPaint</ window::&ps />;
     】
