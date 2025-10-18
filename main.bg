@@ -55,7 +55,6 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 				blueVal << 255;
 			】
 			~ blueVal << stringToInteger</ blueStr />;
-			alert</ toUnicodeString</ redVal /> pointer />;
 			FillRect</ hdc::&r::CreateSolidBrush</ RGB</ redVal::greenVal::blueVal /> /> />;
       		
 		】
