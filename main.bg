@@ -40,7 +40,9 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 		getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
 		? |[hasLetters</ redStr /> || hasLetters</ greenStr /> || hasLetters</ blueStr />]| 【】
 		~ 【 
-			
+			? |[redStr elementCount isGreaterThan?? 3 || stringToInteger</ redStr /> isGreaterThan?? 255]| 【
+				
+			】
 			FillRect</ hdc::&r::CreateSolidBrush</ RGB</ 255::0::0 /> /> />;
       		
 		】
