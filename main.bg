@@ -41,10 +41,10 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 		? |[hasLetters</ redStr /> || hasLetters</ greenStr /> || hasLetters</ blueStr />]| 【】
 		~ 【 
 			? |[redStr elementCount isGreaterThan?? 3 || stringToInteger</ redStr /> isGreaterThan?? 255]| 【
-				
+				redStr << 255;
 			】
 			? |[greenStr elementCount isGreaterThan?? 3 || stringToInteger</ greenStr /> isGreaterThan?? 255]| 【
-					
+				greenStr << 255;
 			】
 			~? |[blueStr elementCount isGreaterThan?? 3 || stringToInteger</ blueStr /> isGreaterThan?? 255]| 【
 				
