@@ -53,6 +53,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 			? |[blueStr elementCount isGreaterThan?? 3 || stringToInteger</ blueStr /> isGreaterThan?? 255]| 【
 				blueVal << 255;
 			】
+			~ blueVal << stringToInteger</ blueStr />;
 			FillRect</ hdc::&r::CreateSolidBrush</ RGB</ 255::0::0 /> /> />;
       		
 		】
