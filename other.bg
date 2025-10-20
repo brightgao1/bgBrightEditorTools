@@ -75,7 +75,7 @@ function noReturn timer400   <//> 《
 		~? |[title === rshTitle]| 【】
 	】
 》
-? |[0 === 0]| alert</ {test} />;
+
 function returns unicodeString getMainWindowTitle   <//> 《
 	unicodeString s;
 	getEditText</ mainWindow::@@s />;
