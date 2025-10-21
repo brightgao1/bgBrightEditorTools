@@ -17,7 +17,7 @@ function noReturn goToRemoveSyntaxHighlight   <//> 《
 		SendMessageW</ rshFileExtText::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	】
 	? |[rshToRemoveText === null]| 【
-		做Text</ @@rshToRemoveText::{To Remove:}::20::60::120::30::mainWindow />; 
+		做Text</ @@rshToRemoveText::{To Remove:}::20::63::150::30::mainWindow />; 
 		SendMessageW</ rshToRemoveText::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	】
 	? |[rshFileExtEdit === null]| 【
