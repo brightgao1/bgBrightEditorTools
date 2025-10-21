@@ -23,5 +23,10 @@ function noReturn resizeWindowAddSyntaxHighlight   <//> 《
 	MoveWindow</ ashSaveButton::r minus 150::b minus 70::130::50::null />;
 》
 function noReturn resizeWindowRemoveSyntaxHighlight   <//> 《
-	
+	getRectangle</ mainWindow::@@mainWindowRectangle />;
+	:#l.. r.. t.. b;
+	l << mainWindowRectangle get left >> r << mainWindowRectangle get right;
+	t << mainWindowRectangle get top >> b << mainWindowRectangle get bottom;
+	MoveWindow</ rshFileExtText::185::20::r minus 210::30::null />;
+	MoveWindow</ rshToRemoveEdit::185::60::r minus 210::30::null />;
 》
