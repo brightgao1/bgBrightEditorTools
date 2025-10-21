@@ -36,7 +36,7 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 			:"greenStr;
 			getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
 			? |[greenStr elementCount isGreaterThan?? 3]| greenStr << {255};
-			? |[greenStr elementCount isGreaterThan?? 0 && stringToInteger</ greenStr /> isGreaterThan?? 255]|
+			? |[greenStr elementCount isGreaterThan?? 0 && stringToInteger</ greenStr /> isGreaterThanOrEqualTo?? 255]|
 				renameWindow</ addSyntaxHighlightGreenEdit::{255} />;
 		】
 		~? |[edit === addSyntaxHighlightBlueEdit]| 【
@@ -44,7 +44,7 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 			getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
 			
 			? |[blueStr elementCount isGreaterThan?? 3]| blueStr << {255};
-			? |[blueStr elementCount isGreaterThan?? 0 && stringToInteger</ blueStr /> isGreaterThan?? 255]|
+			? |[blueStr elementCount isGreaterThan?? 0 && stringToInteger</ blueStr /> isGreaterThanOrEqualTo?? 255]|
 				renameWindow</ addSyntaxHighlightBlueEdit::{255} />;
 		】
 			
