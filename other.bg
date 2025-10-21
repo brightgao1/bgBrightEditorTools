@@ -26,6 +26,8 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 		:"title << getMainWindowTitle<//>;
 		variable edit << [! windowPointer !]parameter2;
 		? |[edit === addSyntaxHighlightRedEdit]| 【
+			:"redStr;
+			getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
 			
 		】  
 			
@@ -87,4 +89,3 @@ function returns unicodeString getMainWindowTitle   <//> 《
 	unicodeString s;
 	getEditText</ mainWindow::@@s />;
 	^^^s;
-》
