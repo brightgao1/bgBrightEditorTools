@@ -28,6 +28,7 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 		? |[edit === addSyntaxHighlightRedEdit]| 【
 			:"redStr;
 			getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
+			? |[redStr elementCount isGreaterThan?? 3]| redStr << {255};
 			? |[redStr elementCount isGreaterThan?? 0 && stringToInteger</ redStr /> isGreaterThan?? 255]| 
 				renameWindow</ addSyntaxHighlightRedEdit::{255} />;
 		】
