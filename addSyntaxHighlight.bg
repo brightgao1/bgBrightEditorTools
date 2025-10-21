@@ -176,7 +176,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 
 	highlightFile addToEndOfArray</ newStr />;
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
-	:"communicationFile << {bgBET};
+	:"communicationFile << {syntaxHighlightAdded};
 	
 	:"successMessage << {};
 	successMessage <<< unicodeLiteral</ Successfully added! />;
