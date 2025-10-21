@@ -24,6 +24,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
     		:"title; 
 		getEditText</ mainWindow::@@title />;
 		? |[title isEqualTo?? ashTitle]| resizeWindowAddSyntaxHighlight<//>;
+		~? |[title isEqualTo?? rshTitle]| resizeWindowRemoveSyntaxHighlight<//>;
 	】
 	~? |[message isEqualTo?? WM_CTLCOLORSTATIC]| 【
 		setWhiteTextBackground</ window />;
