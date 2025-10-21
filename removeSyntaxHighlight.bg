@@ -11,7 +11,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
   	加  								 	all.gao;
 
 function noReturn goToRemoveSyntaxHighlight   <//> 《
-	clearMainWindow<//> >> InvalidateRect</ mainWindow::null::1 />;	
+	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>; 
 	? |[rshFileExtText === null]| 【
 		做Text</ @@rshFileExtText::{File Extension:}::20::20::120::30::mainWindow />;
 		SendMessageW</ rshFileExtText::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
