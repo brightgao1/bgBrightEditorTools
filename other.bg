@@ -25,7 +25,9 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 	~? |[notification === EN_KILLFOCUS]| 【
 		:"title << getMainWindowTitle<//>;
 		variable edit << [! windowPointer !]parameter2;
-		? |[edit === addSyntaxHighlightRedEdit || edit === addSyntaxHighlightGreenEdit || edit === addSyntaxHighlightBlueEdit]|   
+		? |[edit === addSyntaxHighlightRedEdit]| 【
+			
+		】  
 			
 	】
 	~? |[notification isEqualTo?? BN_CLICKED]| 【
