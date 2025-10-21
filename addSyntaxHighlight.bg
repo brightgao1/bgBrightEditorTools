@@ -13,11 +13,11 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 function noReturn goToAddSyntaxHighlight   <//> 《
 	clearMainWindow<//>;
 	? |[addSyntaxHighlightFileExtensionText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightFileExtensionText::{File extension:}::20::22::150::30::mainWindow />;
-	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]|   做Text</ @@addSyntaxHighlightToHighlightText  ::{To highlight:}  ::20::64::150::30::mainWindow />;
-	? |[addSyntaxHighlightRedText isEqualTo?? null]| 	       做Text</ @@addSyntaxHighlightRedText          ::{Red (0-255):}  ::20::125::150::30::mainWindow />;
-	? |[addSyntaxHighlightGreenText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightGreenText        ::{Green (0-255):} ::20::165::150::30::mainWindow />;
+	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]|   做Text</ @@addSyntaxHighlightToHighlightText  ::{To highlight:}  ::20::63::150::30::mainWindow />;
+	? |[addSyntaxHighlightRedText isEqualTo?? null]| 	       做Text</ @@addSyntaxHighlightRedText          ::{Red (0-255):}  ::20::124::150::30::mainWindow />;
+	? |[addSyntaxHighlightGreenText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightGreenText        ::{Green (0-255):} ::20::164::150::30::mainWindow />;
 	? |[addSyntaxHighlightBlueText isEqualTo?? null]|          做Text</ @@addSyntaxHighlightBlueText         ::{Blue (0-255):}  ::20::202::150::30::mainWindow />;
-	? |[addSyntaxHighlightOtherText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightOtherText	    ::{Other styles:}  ::20::241::150::30::mainWindow />; 
+	? |[addSyntaxHighlightOtherText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightOtherText	    ::{Other styles:}  ::20::242::150::30::mainWindow />; 
 	SendMessageW</ addSyntaxHighlightFileExtensionText::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightToHighlightText  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightRedText		  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
