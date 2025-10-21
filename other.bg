@@ -40,7 +40,7 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 		~? |[edit === addSyntaxHighlightBlueEdit]| 【
 			:"blueStr;
 			getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
-			? |[stringToInteger</ blueStr /> isGreaterThan?? 255]|
+			? |[blueStr elementCount isGreaterThan?? 0 && stringToInteger</ blueStr /> isGreaterThan?? 255]|
 				renameWindow</ addSyntaxHighlightBlueEdit::{255} />;
 		】
 			
