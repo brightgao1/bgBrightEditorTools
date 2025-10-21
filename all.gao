@@ -51,6 +51,8 @@ global windowPointer ashSaveButton;
 global menuPointer mainMenu.. syntaxHighlightMenu;
 global WNDPROC ashEditProc; 
 
+global windowPointer rshFileExtEdit.. rshToRemove;
+
 global fontPointer arialFont;
 global brushPointer whiteBrush;
 
