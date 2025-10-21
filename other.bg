@@ -89,3 +89,4 @@ function returns unicodeString getMainWindowTitle   <//> 《
 	unicodeString s;
 	getEditText</ mainWindow::@@s />;
 	^^^s;
+》
