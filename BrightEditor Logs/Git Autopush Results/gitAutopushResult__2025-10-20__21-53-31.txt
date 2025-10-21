@@ -1,0 +1,15 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-20__21-53-26.txt', LF will be replaced by CRLF the next time Git touches it
+[master c11ab63f0] BrightEditor autopush 21:53:26 10/20/2025 CST
+ 13 files changed, 641 insertions(+), 1 deletion(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-20__21-53-26.txt
+ create mode 100644 bgBackups/2025-10-20__21-53-22__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-10-20__21-53-22__all.gao
+ create mode 100644 bgBackups/2025-10-20__21-53-22__globalVariables.bg
+ create mode 100644 bgBackups/2025-10-20__21-53-22__initApp.bg
+ create mode 100644 bgBackups/2025-10-20__21-53-22__main.bg
+ create mode 100644 bgBackups/2025-10-20__21-53-22__other.bg
+ create mode 100644 bgBackups/2025-10-20__21-53-22__removeSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-10-20__21-53-22__resizeWindow.bg
+ create mode 100644 bgRelease/tmp.exe
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   b19c2cd46..c11ab63f0  master -> master
