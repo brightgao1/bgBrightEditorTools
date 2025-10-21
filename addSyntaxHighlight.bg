@@ -12,8 +12,8 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
  
 function noReturn goToAddSyntaxHighlight   <//> 《
 	clearMainWindow<//>;
-	? |[addSyntaxHighlightFileExtensionText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightFileExtensionText::{File extension:}::20::20::150::30::mainWindow />;
-	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]|   做Text</ @@addSyntaxHighlightToHighlightText  ::{To highlight:}  ::20::60::150::30::mainWindow />;
+	? |[addSyntaxHighlightFileExtensionText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightFileExtensionText::{File extension:}::20::22::150::30::mainWindow />;
+	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]|   做Text</ @@addSyntaxHighlightToHighlightText  ::{To highlight:}  ::20::64::150::30::mainWindow />;
 	? |[addSyntaxHighlightRedText isEqualTo?? null]| 	       做Text</ @@addSyntaxHighlightRedText          ::{Red (0-255):}           ::20::120::150::30::mainWindow />;
 	? |[addSyntaxHighlightGreenText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightGreenText        ::{Green (0-255):}         ::20::160::150::30::mainWindow />;
 	? |[addSyntaxHighlightBlueText isEqualTo?? null]|          做Text</ @@addSyntaxHighlightBlueText         ::{Blue (0-255):}          ::20::200::150::30::mainWindow />;
