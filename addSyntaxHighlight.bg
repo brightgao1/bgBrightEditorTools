@@ -179,7 +179,8 @@ function noReturn ashSaveButtonClicked   <//> 《
 	:"communicationFilePath;
 	communicationFilePath << ADbrightEditorPath;
 	communicationFilePath addToEnd</ \\ /> >> communicationFilePath <<< {syntaxHighlightAdded};
-	
+	newFile</ communicationFilePath />;	
+
 	:"successMessage << {};
 	successMessage <<< unicodeLiteral</ Successfully added! />;
 	repeat |[2]| successMessage addToEnd</ '\n' />;
