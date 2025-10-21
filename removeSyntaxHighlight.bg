@@ -22,10 +22,10 @@ function noReturn goToRemoveSyntaxHighlight   <//> 《
 	】
 	? |[rshFileExtEdit === null]| 【
 		做Edit</ @@rshFileExtEdit::0::0::10::10::mainWindow />;
-		SendMessageW</ rshToRemoveEdit::WM_SETFONT::[! postitiveInteger32Pointer !]arialFont::0 />;
+		SendMessageW</ rshFileExtEdit::WM_SETFONT::[! postitiveInteger32Pointer !]arialFont::0 />;
 	】
 	? |[rshToRemoveEdit === null]| 【
-		做Edit</ @@rshToRemoveText::0::0::10::10::mainWindow />;
+		做Edit</ @@rshToRemoveEdit::0::0::10::10::mainWindow />;
 		SendMessageW</ rshToRemoveEdit::WM_SETFONT::[! postitiveInteger32Pointer !]arialFont::0 />;
 	】 
 
