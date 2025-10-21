@@ -47,7 +47,6 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 			? |[blueStr elementCount isGreaterThan?? 0 && stringToInteger</ blueStr /> isGreaterThanOrEqualTo?? 255]|
 				renameWindow</ addSyntaxHighlightBlueEdit::{255} />;
 		】
-			
 	】
 	~? |[notification isEqualTo?? BN_CLICKED]| 【
 		windowPointer butt << ([! windowPointer !]parameter2);
