@@ -28,5 +28,6 @@ function noReturn goToRemoveSyntaxHighlight   <//> 《
 	show</ rshFileExtText /> >> show</ rshFileExtEdit />;
 	show</ rshToRemoveText /> >> show</ rshToRemoveEdit />;
 	renameWindow</ mainWindow::rshTitle pointer />;
+	SetFocus</ rshFileExtEdit />;
 	resizeWindowRemoveSyntaxHighlight<//>;
 》
