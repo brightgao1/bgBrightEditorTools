@@ -13,7 +13,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 function noReturn goToRemoveSyntaxHighlight   <//> 《
 	clearMainWindow<//> >> InvalidateRect</ mainWindow::null::1 />;	
 	? |[rshFileExtText === null 【
-		做Text</ rshFileExtText::{File Extension}
+		做Text</ rshFileExtText::{File Extension}::20::20::120::30::mainWindow />;
 	】
 	? |[rshFileExtEdit === null]| 【
 		做Edit</ 
