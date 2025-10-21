@@ -32,10 +32,16 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 				renameWindow</ addSyntaxHighlightRedEdit::{255} />;
 		】
 		~? |[edit === addSyntaxHighlightGreenEdit]| 【
-			
+			:"greenStr;
+			getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
+			? |[stringToInteger</ greenStr /> isGreaterThan?? 255]|
+				renameWindow</ addSyntaxHighlightGreenEdit::{255} />;
 		】
 		~? |[edit === addSyntaxHighlightBlueEdit]| 【
-					
+			:"blueStr;
+			getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
+			? |[stringToInteger</ blueStr /> isGreaterThan?? 255]|
+				renameWindow</ addSyntaxHighlightBlueEdit::{255} />;
 		】
 			
 	】
