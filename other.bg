@@ -22,6 +22,7 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 		? |[menuID === 500]| goToAddSyntaxHighlight<//>;
 		~? |[menuID === 505]| goToRemoveSyntaxHighlight<//>;
 	】
+	~? |[notification === EN_KILLFOCUS]| 
 	~? |[notification isEqualTo?? BN_CLICKED]| 【
 		windowPointer butt << ([! windowPointer !]parameter2);
 		? |[butt isEqualTo?? ashSaveButton]| ashSaveButtonClicked<//>;
