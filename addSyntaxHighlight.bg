@@ -178,7 +178,7 @@ function noReturn ashSaveButtonClicked   <//> 《
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
 	:"communicationFilePath;
 	communicationFilePath << ADbrightEditorPath;
-	communicationFilePath addToEnd</ \\ /> >> communicationFilePath <<< {syntaxHighlightAdded};
+	communicationFilePath <<< {\\} >> communicationFilePath <<< {syntaxHighlightAdded};
 	newFile</ communicationFilePath />;	
 
 	:"successMessage << {};

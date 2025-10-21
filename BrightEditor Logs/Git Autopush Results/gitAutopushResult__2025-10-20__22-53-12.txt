@@ -1,0 +1,25 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-20__22-53-02.txt', LF will be replaced by CRLF the next time Git touches it
+[master 98d2d7549] BrightEditor autopush 22:53:02 10/20/2025 CST
+ 21 files changed, 28 insertions(+), 3 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-20__22-53-02.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-52-58__818__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-52-58__933__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-52-59__259__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-00__144__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-00__652__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-00__684__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-00__716__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-00__746__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-00__779__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-00__929__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-01__216__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-01__353__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-01__497__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-01__632__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-01__73__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-01__776__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-01__923__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-02__615__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-20__22-53-02__65__Backspace
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   ff0242080..98d2d7549  master -> master
