@@ -24,7 +24,8 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 	】
 	~? |[notification === EN_KILLFOCUS]| 【
 		:"title << getMainWindowTitle<//>;
-		? |[title === ashTitle]| 
+		variable edit << [! windowPointer !]parameter2;
+		? |[title === ashTitle]| ash
 	】
 	~? |[notification isEqualTo?? BN_CLICKED]| 【
 		windowPointer butt << ([! windowPointer !]parameter2);
