@@ -21,7 +21,7 @@ function noReturn resizeWindowAddSyntaxHighlight   <//> 《
 	MoveWindow</ addSyntaxHighlightBlueEdit::185::200::r minus 210::30::null />;
 	MoveWindow</ addSyntaxHighlightOtherEdit::185::240::r minus 210::30::null />;
 	MoveWindow</ ashSaveButton::r minus 150::b minus 70::130::50::null />;
-	
+
 	MoveWindow</ rshFileExtEdit::185::20::r minus 210::30::null />;
 	MoveWindow</ rshToRemoveEdit::185::60::r minus 210::30::null />; 
 》
