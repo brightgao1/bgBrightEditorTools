@@ -28,7 +28,7 @@ windowPointer ashSaveButton;
 menuPointer mainMenu << 做Menu.. syntaxHighlightMenu; 
 WNDPROC ashEditProc;
 
-windowPointer rshFileExtEdit.. rshToRemove;
+windowPointer rshFileExtEdit.. rshToRemoveEdit;
 
 fontPointer arialFont;
 brushPointer whiteBrush << CreateSolidBrush</ RGB</ 255::255::255 /> />;

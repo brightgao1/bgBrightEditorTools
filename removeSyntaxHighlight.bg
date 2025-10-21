@@ -12,6 +12,8 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
 function noReturn goToRemoveSyntaxHighlight   <//> 《
 	clearMainWindow<//> >> InvalidateRect</ mainWindow::null::1 />;	
+	
 
+	show</ rshFileExtEdit /> >> show</ rshToRemoveEdit />;
 	renameWindow</ mainWindow::rshTitle pointer />;
 》
