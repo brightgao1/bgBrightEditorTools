@@ -176,7 +176,9 @@ function noReturn ashSaveButtonClicked   <//> 《
 
 	highlightFile addToEndOfArray</ newStr />;
 	[]</ :"::@@finalHighlightFile />;
-	
+	-> |[i..highlightFile elementCount]| 【
+		? |[highlightFile[i] elementCount isGreaterThan?? 0]| finalHighlightFile addToEndOfArray</ highlightFile[i] />;
+	】
 	dynamicArrayToFile</ highlightFilePath::highlightFile />;	
 	:"communicationFilePath;
 	communicationFilePath << ADbrightEditorPath;
