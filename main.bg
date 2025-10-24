@@ -91,11 +91,6 @@ function returns variable InitInstance   </ changeable instancePointer in。。i
    	zuo</ tmp。。mainWindowClassStr pointer。。null。。WS_OVERLAPPEDWINDOW。。[! positiveInteger16 !]50。。[! positiveInteger16 !]50。。[! positiveInteger16 !]800。。[! positiveInteger16 !]600。。null />;
    	mainWindow stores [! windowPointer !]tmp 》》ShowWindow</ mainWindow。。howToShow/> 》》UpdateWindow</ mainWindow />;
    	initApp<//>;
-	
-	initRNG<//>;
-	:#randNum;
-
-	repeat |[5]| getRNG</ randNum /> >> alert</ toUnicodeString</ randNum /> pointer />;	
 		
    	一一 [! integer32 !]1;
 》
