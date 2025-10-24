@@ -94,8 +94,8 @@ function returns variable InitInstance   </ changeable instancePointer in。。i
 	
 	initRNG<//>;
 	:#randNum;
-	getRNG</ randNum />;
-	alert</ toUnicodeString</ randNum /> pointer />;	
+
+	repeat |[5]| getRNG</ randNum /> >> alert</ toUnicodeString</ randNum /> pointer />;	
 		
    	一一 [! integer32 !]1;
 》
