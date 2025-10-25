@@ -99,7 +99,7 @@ function returns integer16 getRandomRGB   <//> 《
 	:#rng;
 	getRNG</ @@rng />;
 	rng << rng % 256;
-	
+	^^^rng;
 》
 function noReturn ashRandomColorButtonClicked   <//> 《
 	:#rng;
