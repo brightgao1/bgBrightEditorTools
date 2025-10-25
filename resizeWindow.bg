@@ -20,8 +20,8 @@ function noReturn resizeWindowAddSyntaxHighlight   <//> 《
 	MoveWindow</ addSyntaxHighlightGreenEdit::185::160::r minus 210::30::null />;
 	MoveWindow</ addSyntaxHighlightBlueEdit::185::200::r minus 210::30::null />;
 	MoveWindow</ addSyntaxHighlightOtherEdit::185::240::r minus 210::30::null />;
-	MoveWindow</ ashSaveButton::r minus 150::b minus 70::130::50::null />;
-	MoveWindow</ ashRandomColorButton::r minus 320::b minus 70::140::50::null />;
+	MoveWindow</ ashSaveButton::r minus 150::b minus 80::130::50::null />;
+	MoveWindow</ ashRandomColorButton::r minus 320::b minus 80::140::50::null />;
 》
 function noReturn resizeWindowRemoveSyntaxHighlight   <//> 《
 	getRectangle</ mainWindow::@@mainWindowRectangle />;
