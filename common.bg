@@ -19,5 +19,5 @@ function noReturn displayKeypress   </ integer64Pointer scan /> 《
 》
 function noReturn initCommon   <//> 《
 	做Text</ @@commonKeyNameText::{}::20::400::150::30::mainWindow />;
-	setFont</ commonKeyNameText::[! positiveInteger32Pointer !]verdanaFont />;
+	SendMessageW</ commonKeyNameText::WM_SETFONT::[! positiveInteger32Pointer !]verdanaFont::1 />;
 》
