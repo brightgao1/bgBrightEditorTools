@@ -32,7 +32,7 @@ windowPointer rshFileExtText.. rshToRemoveText;
 windowPointer rshFileExtEdit.. rshToRemoveEdit;
 
 
-global windowPointer commonKeyNameText;
+windowPointer commonKeyNameText;
 
 
 fontPointer arialFont;
