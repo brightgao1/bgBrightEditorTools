@@ -37,7 +37,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	SendMessageW</ addSyntaxHighlightBlueEdit         ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	SendMessageW</ addSyntaxHighlightOtherEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	? |[ashSaveButton isEqualTo?? null]| 做Anniu</ ashSaveButton::{Add (Enter)}::500::500::500::500::mainWindow::null />;
-	? |[ashRandomColorButton isEqualTo?? null]| 做Anniu</ ashRandomColorButton::{Random color (F2)}::500::500::500::500::mainWindow::null />;
+   //? |[ashRandomColorButton isEqualTo?? null]| 做Anniu</ ashRandomColorButton::{Random color (F2)}::500::500::500::500::mainWindow::null />;
 	
 	
 	:"redStr.. greenStr.. blueStr.. otherStr;
