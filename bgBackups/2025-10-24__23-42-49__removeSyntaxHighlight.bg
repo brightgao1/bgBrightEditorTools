@@ -1,0 +1,40 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     20:31:36 , 10/14/2,025
+
+File author:              Bright Gao
+
+File name when created:   removeSyntaxHighlight.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+  	加  								 	all.gao;
+
+function noReturn goToRemoveSyntaxHighlight   <//> 《
+	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>; 
+	? |[rshFileExtText === null]| 【
+		做Text</ @@rshFileExtText::{File Extension:}::20::22::150::30::mainWindow />;
+		SendMessageW</ rshFileExtText::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	】
+	? |[rshToRemoveText === null]| 【
+		做Text</ @@rshToRemoveText::{To Remove:}::20::63::150::30::mainWindow />; 
+		SendMessageW</ rshToRemoveText::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	】
+	? |[rshFileExtEdit === null]| 【
+		做Edit</ @@rshFileExtEdit::0::0::10::10::mainWindow />;
+		SendMessageW</ rshFileExtEdit::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	】
+	? |[rshToRemoveEdit === null]| 【
+		做Edit</ @@rshToRemoveEdit::0::0::10::10::mainWindow />;
+		SendMessageW</ rshToRemoveEdit::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	】 
+
+	show</ rshFileExtText /> >> show</ rshFileExtEdit />;
+	show</ rshToRemoveText /> >> show</ rshToRemoveEdit />;
+	renameWindow</ mainWindow::rshTitle pointer />;
+	SetFocus</ rshFileExtEdit />;
+	resizeWindowRemoveSyntaxHighlight<//>;
+》
