@@ -25,6 +25,7 @@ function noReturn goToRemoveSyntaxHighlight   <//>;
 
 function noReturn resizeWindowAddSyntaxHighlight   <//>;
 function noReturn resizeWindowRemoveSyntaxHighlight   <//>;
+function noReturn resizeWindowCommon   <//>;
 
 function noReturn setWhiteTextBackground   </ windowPointer w />;
 function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
