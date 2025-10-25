@@ -36,5 +36,5 @@ function noReturn resizeWindowCommon   <//> 《
 	:#l.. r.. t.. b;
 	l << mainWindowRectangle get left >> r << mainWindowRectangle get right;
 	t << mainWindowRectangle get top >> b << mainWindowRectangle get bottom;
-	MoveWindow</ commonKeyNameText::
+	MoveWindow</ commonKeyNameText::10::b minus 30::130::20 />;
 》
