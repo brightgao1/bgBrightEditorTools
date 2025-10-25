@@ -24,7 +24,7 @@ windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
 
 windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
 windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSyntaxHighlightOtherEdit;
-windowPointer ashSaveButton;
+windowPointer ashSaveButton.. ashRandomColorButton;
 menuPointer mainMenu << 做Menu.. syntaxHighlightMenu; 
 WNDPROC ashEditProc;
 
