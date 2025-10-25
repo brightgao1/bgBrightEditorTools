@@ -65,7 +65,7 @@ global windowPointer rshFileExtEdit.. rshToRemoveEdit;
 global windowPointer commonKeyNameText;
 
 
-global fontPointer arialFont;
+global fontPointer arialFont.. verdanaFont;
 global brushPointer whiteBrush;
 
 global rectangle mainWindowRectangle;
