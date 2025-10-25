@@ -36,7 +36,7 @@ function noReturn timer400   <//>;
 function returns unicodeString getMainWindowTitle   <//>; 
 
 
-function noReturn displayKeypress   <//>;
+function noReturn displayKeypress   </ integer64Pointer scan />;
 
 
 global :" appTitlePrefix;
