@@ -97,6 +97,7 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 》
 function noReturn ashRandomColorButtonClicked   <//> 《
 	:#rng;
+	getRNG</ rng />;
 》
 function noReturn ashSaveButtonClicked   <//> 《
 	:"fileExtension.. highlightFilePath << {};
