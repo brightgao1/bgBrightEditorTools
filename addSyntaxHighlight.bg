@@ -103,12 +103,10 @@ function returns integer16 getRandomRGB   <//> 《
 》
 function noReturn ashRandomColorButtonClicked   <//> 《
 	integer16 randomRed << getRandomRGB<//>;
-		
-
 	integer16 randomGreen << getRandomRGB<//>;
-
 	integer16 randomBlue << getRandomRGB<//>;
-
+	
+	
 》
 function noReturn ashSaveButtonClicked   <//> 《
 	:"fileExtension.. highlightFilePath << {};
