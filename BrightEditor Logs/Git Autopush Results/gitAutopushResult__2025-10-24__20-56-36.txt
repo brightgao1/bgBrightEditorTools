@@ -1,0 +1,17 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-24__20-56-26.txt', LF will be replaced by CRLF the next time Git touches it
+error: short read while indexing BrightEditor Logs/keypressCounts.txt
+[master 3732ed097] BrightEditor autopush 20:56:26 10/24/2025 CST
+ 12 files changed, 25 insertions(+), 6 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-24__20-56-26.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-56-23__918__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-56-24__165__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-56-24__37__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-56-25__396__T
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-56-25__476__E
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-56-25__533__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-56-25__604__T
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-56-25__982__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-56-26__133__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-56-26__260__Right
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   f1dde39be..3732ed097  master -> master
