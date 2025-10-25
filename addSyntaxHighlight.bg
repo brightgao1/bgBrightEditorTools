@@ -96,7 +96,9 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 	~ ^^^ashEditProc</ window::message::parameter1::parameter2 />;
 》
 function returns integer16 getRandomRGB   <//> 《
-	
+	:#rng;
+	getRNG</ @@rng />;
+	rng << rng % 255 />;
 》
 function noReturn ashRandomColorButtonClicked   <//> 《
 	:#rng;
