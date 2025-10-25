@@ -35,7 +35,7 @@ windowPointer rshFileExtEdit.. rshToRemoveEdit;
 windowPointer commonKeyNameText;
 
 
-fontPointer arialFont;
+fontPointer arialFont.. verdanaFont;
 brushPointer whiteBrush << CreateSolidBrush</ RGB</ 255::255::255 /> />;
 
 rectangle mainWindowRectangle;
