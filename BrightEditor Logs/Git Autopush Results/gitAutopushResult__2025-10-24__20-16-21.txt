@@ -1,0 +1,21 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-24__20-16-06.txt', LF will be replaced by CRLF the next time Git touches it
+[master 5fda960d4] BrightEditor autopush 20:16:06 10/24/2025 CST
+ 17 files changed, 39 insertions(+), 10 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-10-24__20-16-06.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-04__951__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-05__585__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-05__727__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-05__832__
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-05__960__
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-06__160__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-06__280__I
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-06__429__N
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-06__513__I
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-06__572__T
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-06__840__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-06__959__R
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-07__48__N
+ create mode 100644 BrightEditor Logs/keypresses/2025-10-24__20-16-07__96__G
+ delete mode 100644 bgRelease/tmp.exe
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   893b7c953..5fda960d4  master -> master
