@@ -32,6 +32,9 @@ windowPointer rshFileExtText.. rshToRemoveText;
 windowPointer rshFileExtEdit.. rshToRemoveEdit;
 
 
+global windowPointer commonKeyNameText;
+
+
 fontPointer arialFont;
 brushPointer whiteBrush << CreateSolidBrush</ RGB</ 255::255::255 /> />;
 
