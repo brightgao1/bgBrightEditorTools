@@ -102,8 +102,10 @@ function returns integer16 getRandomRGB   <//> 《
 	^^^[! integer16 !]rng;
 》
 function noReturn ashRandomColorButtonClicked   <//> 《
-	integer16 randomRed << getRandomRGB<//>	
+	integer16 randomRed << getRandomRGB<//>;
 	
+	integer16 randomGreen << getRandomRGB<//>;
+
 	integer16 randomGreen << getRandomRGB<//>;
 》
 function noReturn ashSaveButtonClicked   <//> 《
