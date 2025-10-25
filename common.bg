@@ -18,6 +18,6 @@ function noReturn displayKeypress   </ integer64Pointer scan /> 《
 	
 》
 function noReturn initCommon   <//> 《
-	做Text</ @@commonKeyNameText::{test}::20::400::200::200::mainWindow />;
+	做Text</ @@commonKeyNameText::{test}::20::400::150::30::mainWindow />;
 	
 》
