@@ -31,3 +31,6 @@ function noReturn resizeWindowRemoveSyntaxHighlight   <//> 《
 	MoveWindow</ rshFileExtEdit::185::20::r minus 210::30::null />;
 	MoveWindow</ rshToRemoveEdit::185::60::r minus 210::30::null />;
 》
+function noReturn resizeWindowCommon   <//> 《
+	
+》
