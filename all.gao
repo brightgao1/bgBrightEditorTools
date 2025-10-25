@@ -36,6 +36,9 @@ function noReturn timer400   <//>;
 function returns unicodeString getMainWindowTitle   <//>; 
 
 
+function noReturn displayKeypress   <//> 
+
+
 global :" appTitlePrefix;
 global :"ashTitle;
 global :"rshTitle;
