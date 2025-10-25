@@ -22,7 +22,7 @@ function noReturn initApp   <//> 《
 》
 function noReturn initFonts   <//> 《 
 	arialFont << CreateFontW</  0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Arial} />;	
-	verdanaFont << CreateFontW</ 0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Cascadia Code} />;
+	verdanaFont << CreateFontW</ 0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Verdana} />;
 》
 function noReturn initPaths   <//> 《
 	getAppDataPath</ @@appDataPath /> >> ADbrightEditorPath << appDataPath plus {\\BrightWin\\BrightEditor};
