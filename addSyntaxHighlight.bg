@@ -105,7 +105,6 @@ function noReturn ashRandomColorButtonClicked   <//> 《
 	integer16 randomRed << getRandomRGB<//>;
 	integer16 randomGreen << getRandomRGB<//>;
 	integer16 randomBlue << getRandomRGB<//>;
-	
 	renameWindow</ addSyntaxHighlightRedEdit::toUnicodeString</ randomRed /> pointer />;
 	renameWindow</ addSyntaxHighlightGreenEdit::toUnicodeString</ randomGreen /> pointer />;
 	renameWindow</ addSyntaxHighlightBlueEdit::toUnicodeString</ randomBlue /> pointer />;
