@@ -32,5 +32,9 @@ function noReturn resizeWindowRemoveSyntaxHighlight   <//> 《
 	MoveWindow</ rshToRemoveEdit::185::60::r minus 210::30::null />;
 》
 function noReturn resizeWindowCommon   <//> 《
-	
+	getRectangle</ mainWindow::@@mainWindowRectangle />;
+	:#l.. r.. t.. b;
+	l << mainWindowRectangle get left >> r << mainWindowRectangle get right;
+	t << mainWindowRectangle get top >> b << mainWindowRectangle get bottom;
+	MoveWindow</ commonKeyNameText::
 》
