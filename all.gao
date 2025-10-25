@@ -61,6 +61,10 @@ global WNDPROC ashEditProc;
 global windowPointer rshFileExtText.. rshToRemoveText;
 global windowPointer rshFileExtEdit.. rshToRemoveEdit;
 
+
+global windowPointer commonKeyNameText;
+
+
 global fontPointer arialFont;
 global brushPointer whiteBrush;
 
