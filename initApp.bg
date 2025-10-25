@@ -12,11 +12,11 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
 function noReturn initApp   <//> 《
 	initMainWindowMenu<//> >> initRNG<//>;
-	initCommon<//>;
+	initCommon<//> >> SendMessageW</ mainWindow::WM_SIZE::0::0 />;
 	renameWindow</ mainWindow :: appTitlePrefix pointer /> >> initFonts<//> >> initPaths<//>;	
 	SetTimer</ mainWindow::400::400::null />;	
 	goToAddSyntaxHighlight<//>;
-		
+			
 》
 function noReturn initFonts   <//> 《 
 	arialFont << CreateFontW</  0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Arial} />;	
