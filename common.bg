@@ -17,3 +17,6 @@ function noReturn displayKeypress   </ integer64Pointer scan /> 《
 	GetKeyNameTextW</ scan::keyName::500 />;
 	
 》
+function noReturn initCommon   <//> 《
+	
+》
