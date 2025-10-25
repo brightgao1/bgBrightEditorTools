@@ -103,7 +103,7 @@ function returns integer16 getRandomRGB   <//> 《
 》
 function noReturn ashRandomColorButtonClicked   <//> 《
 	integer16 randomRed << getRandomRGB<//>;
-		
+	alert</ toUnicodeString</ randomRed /> pointer />;	
 
 	integer16 randomGreen << getRandomRGB<//>;
 
