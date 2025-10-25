@@ -107,6 +107,7 @@ function noReturn ashRandomColorButtonClicked   <//> 《
 	integer16 randomBlue << getRandomRGB<//>;
 	
 	renameWindow</ addSyntaxHighlightRedEdit::toUnicodeString</ randomRed /> pointer />;
+	renameWindow</ addSyntaxHighlightGreenEdit::toUnicodeString</ randomGreen /> pointer />;
 》
 function noReturn ashSaveButtonClicked   <//> 《
 	:"fileExtension.. highlightFilePath << {};
