@@ -102,7 +102,7 @@ function returns integer16 getRandomRGB   <//> 《
 	^^^rng;
 》
 function noReturn ashRandomColorButtonClicked   <//> 《
-		
+	getRandomRGB<//>	
 》
 function noReturn ashSaveButtonClicked   <//> 《
 	:"fileExtension.. highlightFilePath << {};
