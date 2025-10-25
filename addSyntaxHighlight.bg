@@ -57,7 +57,7 @@ function noReturn goToAddSyntaxHighlight   <//> 《
 	show</ addSyntaxHighlightBlueText /> >> show</ addSyntaxHighlightBlueEdit />;
 	show</ addSyntaxHighlightOtherText /> >> show</ addSyntaxHighlightOtherEdit />;
 	show</ ashSaveButton />;
-	update</ ashSaveButton />;
+	
 
 	resizeWindowAddSyntaxHighlight<//> >> SetFocus</ addSyntaxHighlightFileExtensionEdit />;
 	renameWindow</ mainWindow:: ashTitle pointer />;
