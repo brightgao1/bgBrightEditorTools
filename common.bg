@@ -14,4 +14,6 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
 function noReturn displayKeypress   </ integer64Pointer scan /> 《
 	WCHAR key[500];
+	GetKeyNameTextW</ scan::key::500 />;
+	alert</ key />;
 》
