@@ -94,6 +94,9 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 	】
 	~ ^^^ashEditProc</ window::message::parameter1::parameter2 />;
 》
+function noReturn ashRandomColorButtonClicked   <//> 《
+	
+》
 function noReturn ashSaveButtonClicked   <//> 《
 	:"fileExtension.. highlightFilePath << {};
 	getEditText</ addSyntaxHighlightFileExtensionEdit::@@fileExtension />;
