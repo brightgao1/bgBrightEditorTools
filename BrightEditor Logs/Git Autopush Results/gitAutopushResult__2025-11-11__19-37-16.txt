@@ -1,0 +1,4 @@
+error: short read while indexing addSyntaxHighlight.bg
+error: addSyntaxHighlight.bg: failed to insert into database
+error: unable to index file 'addSyntaxHighlight.bg'
+fatal: updating files failed
