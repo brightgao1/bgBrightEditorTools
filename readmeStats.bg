@@ -17,7 +17,7 @@ function noReturn goToReadmeStats   <//> 《
 		setFont</ rmsCheckbox::arialFont />;
 	】
 	? |[rmsIntervalEdit === null]| 【
-		做Edit</ rmsIntervalEdit::20::100::400::30::mainWindow />;
+		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | ES_NUMBER::20::100::400::30::mainWindow />;
 		setFont</ rmsIntervalEdit::arialFont />;
 	】
 	
