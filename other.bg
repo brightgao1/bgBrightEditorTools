@@ -62,8 +62,10 @@ function noReturn clearMainWindow   <//> 《
 	hide</ addSyntaxHighlightGreenText /> >> hide</ addSyntaxHighlightGreenEdit />;
 	hide</ addSyntaxHighlightBlueText /> >> hide</ addSyntaxHighlightBlueEdit />;
 	hide</ addSyntaxHighlightOtherText /> >> hide</ addSyntaxHighlightOtherEdit /> >> hide</ ashSaveButton />;
+	hide</ ashRandomColorButton />;
 	hide</ rshFileExtText /> >> hide</ rshFileExtEdit />;
 	hide</ rshToRemoveText /> >> hide</ rshToRemoveEdit />;
+
 》
 function returns unicodeString reverseString   </ :"s /> 《
 	? |[s elementCount === 0]|^^^s;
