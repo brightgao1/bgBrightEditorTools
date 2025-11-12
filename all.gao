@@ -26,6 +26,8 @@ windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 messag
 function noReturn goToRemoveSyntaxHighlight   <//>;
 
 
+function noReturn goToReadmeStats   <//>;
+
 function noReturn resizeWindowAddSyntaxHighlight   <//>;
 function noReturn resizeWindowRemoveSyntaxHighlight   <//>;
 function noReturn resizeWindowCommon   <//>;
