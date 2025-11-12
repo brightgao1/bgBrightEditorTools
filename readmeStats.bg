@@ -16,7 +16,7 @@ function noReturn goToReadmeStats   <//> 《
 		做Text</ rmsPathText::{Full path of README.md:}::20::20::400::30::mainWindow />;
 		setFont</ rmsPathText::arialFont />;
 	】
-	? |[rmsDirectoryEdit === null]| 【
+	? |[rmsPathEdit === null]| 【
 		做Text</ rmsIntervalText::{Milliseconds per write:}::20::170::400::30::mainWindow />;
 		setFont</ rmsIntervalText::arialFont />;
 	】
