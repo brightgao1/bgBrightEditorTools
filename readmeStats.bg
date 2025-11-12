@@ -65,7 +65,8 @@ function noReturn rmsWriteToReadme   <//> 《
 	:"readmeFilePath;
 	getEditText</ rmsPathEdit::@@readmeFilePath />;
 	[]</ :"::@@readmeFileArr />;
-	fileToDynamicArray</ readme
+	fileToDynamicArray</ readmeFilePath::readmeFileArr />;
+	
 》
 function returns flag rmsReadmeExists   <//> 《
 	:"readmePath;
