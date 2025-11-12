@@ -13,7 +13,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 function noReturn goToReadmeStats   <//> 《
 	clearMainWindow<//>;
 	? |[rmsCheckbox === null]| 【
-		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::BS_CHECKBOX::20::20::500::50::null />;
+		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD | BS_CHECKBOX::20::20::500::50::null />;
 		setFont</ rmsCheckbox::arialFont />;
 	】
 	
