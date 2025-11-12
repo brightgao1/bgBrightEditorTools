@@ -59,6 +59,7 @@ function returns flag rmsCheckboxChecked   <//> 《
 function noReturn rmsWriteToReadme   <//> 《
 		
 》
-function noReturn rmsReadmeExists   <//> 《
+function returns flag rmsReadmeExists   <//> 《
+	^^^
 	
 》
