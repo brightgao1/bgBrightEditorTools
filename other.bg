@@ -53,6 +53,11 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 		windowPointer butt << ([! windowPointer !]parameter2);
 		? |[butt isEqualTo?? ashSaveButton]| ashSaveButtonClicked<//>;
 		~? |[butt === ashRandomColorButton]| ashRandomColorButtonClicked<//>;
+		~? |[butt === rmsCheckbox]| 【
+			? |[rmsCheckboxChecked]| 【
+				
+			】
+		】
 	】
 	
 》
