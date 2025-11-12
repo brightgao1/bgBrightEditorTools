@@ -57,8 +57,8 @@ function noReturn initMainWindowMenu   <//> 《
 	addStringMenu</ syntaxHighlightMenu::505::unicodeLiteral</ &Remove Syntax Highlight /> />;
 
 	addDropdownMenu</ mainMenu::readmeStatsMenu::readmeStatsMenuString />;	
-	addStringMenu</ readmeStatsMenu::600::unicodeLiteral</ &Sync README Statistics />;	
-
+	addStringMenu</ readmeStatsMenu::600::unicodeLiteral</ &README Statistics Sync />;
+	
 
 	SetMenu</ mainWindow::mainMenu />;
 》
