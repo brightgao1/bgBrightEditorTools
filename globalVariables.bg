@@ -38,7 +38,7 @@ windowPointer rshFileExtEdit.. rshToRemoveEdit;
 windowPointer commonKeyNameText;
 
 
-windowPointer rmsCheckbox.. rmsIntervalEdit;
+windowPointer rmsCheckbox.. rmsIntervalEdit.. rmsIntervalText;
 
 
 fontPointer arialFont.. verdanaFont;
