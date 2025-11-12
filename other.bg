@@ -59,7 +59,8 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 				show</ rmsIntervalText />;
 			】
 			~ 【
-				hide</ rmsIntervalEdit />;	
+				hide</ rmsIntervalEdit />;
+				hide</ rmsIntervalText />;	
 			】
 		】
 	】
