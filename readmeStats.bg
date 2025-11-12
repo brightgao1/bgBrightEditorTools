@@ -12,16 +12,23 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
 function noReturn goToReadmeStats   <//> 《
 	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
+	? |[rmsDirectoryText === null]| 【
+
+	】
+	? |[rmsDirectoryEdit === null]| 【
+
+	】
+
 	? |[rmsCheckbox === null]| 【
-		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD | BS_AUTOCHECKBOX::20::80::500::50::mainWindow />;
+		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD | BS_AUTOCHECKBOX::20::70::500::50::mainWindow />;
 		setFont</ rmsCheckbox::arialFont />;
 	】
 	? |[rmsIntervalText === null]| 【
-		做Text</ rmsIntervalText::{Milliseconds per write:}::20::180::400::30::mainWindow />;
+		做Text</ rmsIntervalText::{Milliseconds per write:}::20::170::400::30::mainWindow />;
 		setFont</ rmsIntervalText::arialFont />;
 	】
 	? |[rmsIntervalEdit === null]| 【
-		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::215::400::30::mainWindow />;
+		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::205::400::30::mainWindow />;
 		setFont</ rmsIntervalEdit::arialFont />;
 	】
 	
