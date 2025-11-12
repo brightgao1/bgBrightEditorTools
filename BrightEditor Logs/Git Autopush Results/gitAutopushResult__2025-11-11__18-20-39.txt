@@ -1,0 +1,28 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-10__18-50-37.txt', LF will be replaced by CRLF the next time Git touches it
+[master 34b31fae5] BrightEditor autopush 18:50:37 11/10/2025 CST
+ 28 files changed, 1510 insertions(+), 3 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-10__18-50-37.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-10__18-50-13__689__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-10__18-50-13__996__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-10__18-50-19__965__F5
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-10__18-50-32__132__F5
+ create mode 100644 bgBackups/2025-11-10__18-50-25__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-25__all.gao
+ create mode 100644 bgBackups/2025-11-10__18-50-25__common.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-25__globalVariables.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-25__initApp.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-25__main.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-25__other.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-25__removeSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-25__resizeWindow.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-37__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-37__all.gao
+ create mode 100644 bgBackups/2025-11-10__18-50-37__common.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-37__globalVariables.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-37__initApp.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-37__main.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-37__other.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-37__removeSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-10__18-50-37__resizeWindow.bg
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   ec44ef8a6..34b31fae5  master -> master
