@@ -49,7 +49,7 @@ function noReturn ashInitMaps   <//> 《
 》
 function noReturn initMainWindowMenu   <//> 《
 	unicodeString syntaxHighlightMenuString << {    &Syntax Highlight  };
-	unicodeString rmsMenuString << {  &README Stats  };
+	unicodeString readmeStatsMenuString << {  &README Stats  };
 
 
 	addDropdownMenu</ mainMenu::syntaxHighlightMenu::syntaxHighlightMenuString />;
