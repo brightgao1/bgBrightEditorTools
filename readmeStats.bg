@@ -12,5 +12,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
 function noReturn goToReadmeStats   <//> 《
 	clearMainWindow<//>;
-	
+	? |[rmsCheckbox === null]| 【
+		做</ 
+	】
 》
