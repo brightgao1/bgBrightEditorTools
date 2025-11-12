@@ -11,10 +11,10 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 	加 	 								 	all.gao;
 
 function noReturn goToReadmeStats   <//> 《
-	clearMainWindow<//>;
+	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
 	? |[rmsCheckbox === null]| 【
-		alert</ {check} />;
-		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD::20::20::500::50::null />;
+		
+		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD ::20::20::500::50::null />;
 		setFont</ rmsCheckbox::arialFont />;
 	】
 	
