@@ -59,7 +59,8 @@ global windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
 global windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
 global windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSyntaxHighlightOtherEdit;
 global windowPointer ashSaveButton.. ashRandomColorButton;
-global menuPointer mainMenu.. syntaxHighlightMenu;
+
+global menuPointer mainMenu.. syntaxHighlightMenu.. readmeStatsMenu;
 global WNDPROC ashEditProc; 
 
 
