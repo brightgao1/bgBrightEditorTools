@@ -77,6 +77,8 @@ function noReturn clearMainWindow   <//> 《
 	hide</ rshFileExtText /> >> hide</ rshFileExtEdit />;
 	hide</ rshToRemoveText /> >> hide</ rshToRemoveEdit />;
 
+	hide</ rmsCheckbox />;
+	hide</ rmsIntervalEdit /> >> hide</ rmsIntervalText />;
 》
 function returns unicodeString reverseString   </ :"s /> 《
 	? |[s elementCount === 0]|^^^s;
