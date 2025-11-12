@@ -1,0 +1,51 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:40:57 , 11/11/2,025
+
+File author:              Bright Gao
+
+File name when created:   readmeStats.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+	加 	 								 	all.gao;
+
+function noReturn goToReadmeStats   <//> 《
+	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
+	? |[rmsCheckbox === null]| 【
+		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD | BS_AUTOCHECKBOX::20::20::500::50::mainWindow />;
+		setFont</ rmsCheckbox::arialFont />;
+	】
+	? |[rmsIntervalText === null]| 【
+		做Text</ rmsIntervalText::{Milliseconds per write:}::20::130::400::30::mainWindow />;
+		setFont</ rmsIntervalText::arialFont />;
+	】
+	? |[rmsIntervalEdit === null]| 【
+		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::165::400::30::mainWindow />;
+		setFont</ rmsIntervalEdit::arialFont />;
+	】
+	
+	show</ rmsCheckbox />;
+
+	? |[rmsCheckboxChecked<//>]| 【
+		show</ rmsIntervalEdit />;
+		show</ rmsIntervalText />;
+	】
+	~ 【
+		hide</ rmsIntervalEdit />;
+		hide</ rmsIntervalText />;
+	】
+
+	? |[IsWindowVisible</ rmsIntervalEdit />]| SetFocus</ rmsIntervalEdit />;
+	~ SetFocus</ rmsCheckbox />;
+
+	renameWindow</ mainWindow::rmsTitle pointer />;
+	
+》
+function returns flag rmsCheckboxChecked   <//> 《
+	^^^
+	SendMessageW</ rmsCheckbox::BM_GETCHECK::0::0 /> === BST_CHECKED;
+》
