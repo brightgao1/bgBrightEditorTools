@@ -17,11 +17,11 @@ function noReturn goToReadmeStats   <//> 《
 		setFont</ rmsCheckbox::arialFont />;
 	】
 	? |[rmsIntervalText === null 【
-		做Text</ rmsIntervalText::{Milliseconds per write:}::20::20::400::30::mainWindow />;
+		做Text</ rmsIntervalText::{Milliseconds per write:}::20::150::400::30::mainWindow />;
 		setFont</ rmsIntervalText::arialFont />;
 	】
 	? |[rmsIntervalEdit === null]| 【
-		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER::20::100::400::30::mainWindow />;
+		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER::20::200::400::30::mainWindow />;
 		setFont</ rmsIntervalEdit::arialFont />;
 	】
 	
