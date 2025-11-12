@@ -16,6 +16,9 @@ function noReturn goToReadmeStats   <//> 《
 		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD | BS_AUTOCHECKBOX::20::20::500::50::mainWindow />;
 		setFont</ rmsCheckbox::arialFont />;
 	】
+	? |[rmsIntervalEdit === null]| 【
+		做Edit</ rmsIntervalEdit::{}::20::100::400::30 />;
+	】
 	
 	
 	show</ rmsCheckbox />;
