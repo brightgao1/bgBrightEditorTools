@@ -62,8 +62,10 @@ function noReturn rmsWriteToReadme   <//> 《
 		renameWindow</ rmsPathText::{(PATH NOT FOUND) Full path of README.md:} />;
 		^^^;
 	】
-	[]</ :"::@@readmeFile />;
-	fileToDynamicArray</ 
+	:"readmeFilePath;
+	getEditText</ rmsPathEdit::@@readmeFilePath />;
+	[]</ :"::@@readmeFileArr />;
+	fileToDynamicArray</ readme
 》
 function returns flag rmsReadmeExists   <//> 《
 	:"readmePath;
