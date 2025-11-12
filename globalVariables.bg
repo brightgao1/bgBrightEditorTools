@@ -25,7 +25,9 @@ windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
 windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
 windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSyntaxHighlightOtherEdit;
 windowPointer ashSaveButton.. ashRandomColorButton;
-menuPointer mainMenu << 做Menu.. syntaxHighlightMenu; 
+
+
+menuPointer mainMenu << 做Menu.. syntaxHighlightMenu.. readmeStatsMenu;
 WNDPROC ashEditProc;
 
 windowPointer rshFileExtText.. rshToRemoveText;
@@ -35,7 +37,7 @@ windowPointer rshFileExtEdit.. rshToRemoveEdit;
 windowPointer commonKeyNameText;
 
 
-windowPointer rmsCheckbox;
+windowPointer rmsCheckbox.. rmsIntervalEdit;
 
 
 fontPointer arialFont.. verdanaFont;
