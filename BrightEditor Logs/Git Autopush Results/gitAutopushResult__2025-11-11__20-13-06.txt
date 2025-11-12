@@ -1,0 +1,48 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-11__20-12-58.txt', LF will be replaced by CRLF the next time Git touches it
+[master 04d19a44c] BrightEditor autopush 20:12:58 11/11/2025 CST
+ 44 files changed, 61 insertions(+), 14 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-11__20-12-58.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-50__58__Enter
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-51__18__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-51__306__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-51__634__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-51__746__H
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-51__817__O
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-51__826__W
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-52__458__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-52__627__,
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-52__803__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-53__138__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-53__289__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-53__2__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-53__379__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-53__506__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-53__690__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-53__907__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-54__291__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-54__506__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-54__684__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-54__867__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-54__922__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-55__130__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-55__249__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-55__332__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-55__443__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-55__67__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-56__379__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-56__563__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-56__706__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-56__843__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-56__987__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-57__355__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-57__466__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-57__523__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-57__843__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-58__219__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-58__692__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-58__948__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-59__517__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-12-59__636__Down
+ delete mode 100644 bgRelease/tmp.exe
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   4e670de8b..04d19a44c  master -> master
