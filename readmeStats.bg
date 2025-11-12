@@ -27,6 +27,7 @@ function noReturn goToReadmeStats   <//> 《
 
 	? |[rmsCheckboxChecked<//>]| 【
 		show</ rmsIntervalEdit />;
+		hide</ rmsIntervalText />;
 	】
 	~ 【
 		hide</ rmsIntervalEdit />;
