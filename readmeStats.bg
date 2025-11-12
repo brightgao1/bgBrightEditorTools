@@ -14,7 +14,7 @@ function noReturn goToReadmeStats   <//> 《
 	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
 	? |[rmsCheckbox === null]| 【
 
-		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD ::20::20::500::50::mainWindow />;
+		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD | BS_CHECKBOX::20::20::500::50::mainWindow />;
 		setFont</ rmsCheckbox::arialFont />;
 	】
 	
