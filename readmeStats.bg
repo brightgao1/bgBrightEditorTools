@@ -30,5 +30,6 @@ function noReturn goToReadmeStats   <//> 《
 	
 》
 function returns flag rmsCheckboxChecked   <//> 《
-	
+	^^^
+	SendMessageW</ rmsCheckbox::BM_GETCHECK::
 》
