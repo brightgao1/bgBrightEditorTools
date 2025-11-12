@@ -17,7 +17,7 @@ function noReturn goToReadmeStats   <//> 《
 		setFont</ rmsPathText::arialFont />;
 	】
 	? |[rmsPathEdit === null]| 【
-		做Edit</ rmsPathEdit::20::55::400::30::mainWindow />;
+		做Edit</ rmsPathEdit::20::52::400::30::mainWindow />;
 		setFont</ rmsPathEdit::arialFont />;
 	】
 
@@ -30,7 +30,7 @@ function noReturn goToReadmeStats   <//> 《
 		setFont</ rmsIntervalText::arialFont />;
 	】
 	? |[rmsIntervalEdit === null]| 【
-		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::205::400::30::mainWindow />;
+		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::202::400::30::mainWindow />;
 		setFont</ rmsIntervalEdit::arialFont />;
 	】
 	
