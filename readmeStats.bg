@@ -17,7 +17,7 @@ function noReturn goToReadmeStats   <//> 《
 		setFont</ rmsPathText::arialFont />;
 	】
 	? |[rmsPathEdit === null]| 【
-		做Text</ rmsPathEdit::20::170::400::30::mainWindow />;
+		做Edit</ rmsPathEdit::20::170::400::30::mainWindow />;
 		setFont</ rmsPathEdit::arialFont />;
 	】
 
