@@ -1,0 +1,26 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-11__19-49-46.txt', LF will be replaced by CRLF the next time Git touches it
+[master a02d30015] BrightEditor autopush 19:49:46 11/11/2025 CST
+ 22 files changed, 92 insertions(+), 17 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-11__19-49-46.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-44__198__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-44__23__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-44__823__Enter
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-45__16__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-45__375__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-45__712__U
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-45__864__N
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-45__919__I
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-45__991__C
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-46__135__D
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-46__262__E
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-46__574__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-46__87__O
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-47__100__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-47__110__T
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-47__121__R
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-47__181__I
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-47__192__N
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-47__199__G
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-49-47__283__Space
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   cdc644be9..a02d30015  master -> master
