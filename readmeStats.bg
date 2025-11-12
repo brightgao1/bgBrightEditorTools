@@ -20,7 +20,8 @@ function noReturn goToReadmeStats   <//> 《
 	
 	show</ rmsCheckbox />;
 
-	? |[rmsCheckboxChecked<//>]| 
+	? |[rmsCheckboxChecked<//>]| show</ rmsIntervalEdit />;
+	~ hide</ rmsIntevalEdit />;
 
 
 	? |[IsWindowVisible</ rmsIntervalEdit />]| SetFocus</ rmsIntervalEdit />;
