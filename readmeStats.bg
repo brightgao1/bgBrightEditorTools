@@ -57,7 +57,7 @@ function returns flag rmsCheckboxChecked   <//> 《
 	SendMessageW</ rmsCheckbox::BM_GETCHECK::0::0 /> === BST_CHECKED;
 》
 function noReturn rmsWriteToReadme   <//> 《
-		
+	? |[rmsReadmeExists<//>]| renameWindow</ rmsPathText::{Full path of README.md:}
 》
 function returns flag rmsReadmeExists   <//> 《
 	:"readmePath;
