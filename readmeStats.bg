@@ -13,10 +13,12 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 function noReturn goToReadmeStats   <//> 《
 	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
 	? |[rmsDirectoryText === null]| 【
-
+		做Text</ rmsDirectoryText::{Milliseconds per write:}::20::20::400::30::mainWindow />;
+		setFont</ rmsDirectoryText::arialFont />;
 	】
 	? |[rmsDirectoryEdit === null]| 【
-
+		做Text</ rmsIntervalText::{Milliseconds per write:}::20::170::400::30::mainWindow />;
+		setFont</ rmsIntervalText::arialFont />;
 	】
 
 	? |[rmsCheckbox === null]| 【
