@@ -1,0 +1,25 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-11__20-00-03.txt', LF will be replaced by CRLF the next time Git touches it
+[master ae4b76f12] BrightEditor autopush 20:00:03 11/11/2025 CST
+ 21 files changed, 50 insertions(+), 9 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-11__20-00-03.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-48__510__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-48__599__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-48__714__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-48__880__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-48__994__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-49__187__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-49__402__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-49__499__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-55__348__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-55__747__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-55__955__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-56__171__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-59__707__R
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-59__843__M
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__19-59-59__908__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-00-01__284__F
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-00-01__508__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-00-01__594__F
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-11__20-00-01__717__Backspace
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   a2f4536c5..ae4b76f12  master -> master
