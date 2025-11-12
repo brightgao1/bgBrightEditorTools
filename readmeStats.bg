@@ -13,13 +13,14 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 function noReturn goToReadmeStats   <//> 《
 	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
 	? |[rmsCheckbox === null]| 【
-
 		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD | BS_AUTOCHECKBOX::20::20::500::50::mainWindow />;
 		setFont</ rmsCheckbox::arialFont />;
 	】
 	
 	
 	show</ rmsCheckbox />;
+
+	
 
 	renameWindow</ mainWindow::rmsTitle pointer />;
 	
