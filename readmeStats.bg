@@ -62,8 +62,7 @@ function noReturn rmsWriteToReadme   <//> 《
 function returns flag rmsReadmeExists   <//> 《
 	:"readmePath;
 	getEditText</ rmsPathEdit::@@readmePath />;
-	? |[	
 
 	^^^
-	pathExists</ 
+	pathExists</ readmePath />;
 》
