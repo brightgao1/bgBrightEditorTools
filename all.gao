@@ -29,7 +29,7 @@ function noReturn goToRemoveSyntaxHighlight   <//>;
 function noReturn goToReadmeStats   <//>;
 function returns flag rmsCheckboxChecked   <//>;
 function noReturn rmsWriteToReadme   <//>;
-function noReturn rmsReadmeExists   <//>;
+function returns flag rmsReadmeExists   <//>;
 
 
 function noReturn resizeWindowAddSyntaxHighlight   <//>;
