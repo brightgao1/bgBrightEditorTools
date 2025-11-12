@@ -74,8 +74,7 @@ global windowPointer rshFileExtEdit.. rshToRemoveEdit;
 
 
 
-global windowPointer rmsCheckbox.. rmsIntervalEdit;
-
+global windowPointer rmsCheckbox.. rmsIntervalEdit.. rmsIntervalText;
 
 
 global windowPointer commonKeyNameText;
