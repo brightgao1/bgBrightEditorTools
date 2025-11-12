@@ -21,6 +21,7 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 		positiveInteger16 menuID << last16Bits</ parameter1 />;	
 		? |[menuID === 500]| goToAddSyntaxHighlight<//>;
 		~? |[menuID === 505]| goToRemoveSyntaxHighlight<//>;
+		~? |[menuID === 600]| goToReadmeStats<//>;
 	】
 	~? |[notification === EN_KILLFOCUS]| 【
 		:"title << getMainWindowTitle<//>;
