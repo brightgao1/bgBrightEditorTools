@@ -20,9 +20,15 @@ function noReturn goToReadmeStats   <//> 《
 	
 	show</ rmsCheckbox />;
 
+	? |[SendMessageW</ 
+
+
 	? |[IsWindowVisible</ rmsIntervalEdit />]| SetFocus</ rmsIntervalEdit />;
 	~ SetFocus</ rmsCheckbox />;
 
 	renameWindow</ mainWindow::rmsTitle pointer />;
+	
+》
+function returns flag rmsCheckboxChecked   <//> 《
 	
 》
