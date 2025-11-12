@@ -13,7 +13,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 function noReturn goToReadmeStats   <//> 《
 	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
 	? |[rmsPathText === null]| 【
-		做Text</ rmsPathText::{Full path of README.md:}::20::20::400::30::mainWindow />;
+		做Text</ rmsPathText::{Full path of README.md:}::20::10::400::30::mainWindow />;
 		setFont</ rmsPathText::arialFont />;
 	】
 	? |[rmsPathEdit === null]| 【
