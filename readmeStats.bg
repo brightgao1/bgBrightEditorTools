@@ -19,4 +19,7 @@ function noReturn goToReadmeStats   <//> 《
 	
 	
 	show</ rmsCheckbox />;
+
+	renameWindow</ mainWindow::rmsTitle pointer />;
+	
 》
