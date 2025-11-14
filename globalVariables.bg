@@ -50,13 +50,20 @@ WNDPROC ashEditProc.. rmsEditProc;
 windowPointer rshFileExtText.. rshToRemoveText;
 windowPointer rshFileExtEdit.. rshToRemoveEdit;
 
-
-windowPointer commonKeyNameText;
-
-
+	༼   
+		
+		*	readmeStats.bg	*
+	 ༽
 windowPointer rmsPathText.. rmsPathEdit;
 windowPointer rmsCheckbox.. rmsIntervalEdit.. rmsIntervalText;
 windowPointer rmsSaveButton;
+
+	༼   
+
+		*	common.bg	*
+	 ༽
+windowPointer commonKeyNameText;
+
 
 fontPointer arialFont.. verdanaFont;
 brushPointer whiteBrush << CreateSolidBrush</ RGB</ 255::255::255 /> />;
