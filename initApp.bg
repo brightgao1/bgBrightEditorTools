@@ -66,7 +66,9 @@ function noReturn initMainWindowMenu   <//> 《
 	addDropdownMenu</ mainMenu::readmeStatsMenu::readmeStatsMenuString />;	
 	addStringMenu</ readmeStatsMenu::600::unicodeLiteral</ &README Statistics Sync /> />;
 
-	addDropdownMenu</ mainMenu::bgGUICreatorMenu::	
+	addDropdownMenu</ mainMenu::bgGUICreatorMenu::bgGUICreatorMenuString />;
+	addStringMenu</ bgGUICreatorMenu::700::unicodeLiteral</ &Create Screen />;
+		
 
 	SetMenu</ mainWindow::mainMenu />;
 》
