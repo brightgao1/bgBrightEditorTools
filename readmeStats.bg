@@ -105,6 +105,9 @@ function returns flag rmsReadmeExists   <//> 《
 	^^^
 	pathExists</ readmePath />;
 》
+function returns flag rmsValidTimeInterval   <//> 《
+	
+》
 function noReturn rmsSaveButtonClicked   <//> 《
 	alert</ {alfdjslk} />;
 》
