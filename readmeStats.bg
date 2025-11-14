@@ -21,7 +21,7 @@ function noReturn goToReadmeStats   <//> 《
 		setFont</ rmsPathEdit::arialFont />;
 	】
 	? |[rmsIntervalText === null]| 【
-		做Text</ rmsIntervalText::{Milliseconds per write:}::20::190::400::30::mainWindow />;
+		做Text</ rmsIntervalText::{Milliseconds per write:}::20::60::400::30::mainWindow />;
 		setFont</ rmsIntervalText::arialFont />;
 	】
 	? |[rmsIntervalEdit === null]| 【
