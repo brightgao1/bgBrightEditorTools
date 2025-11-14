@@ -59,6 +59,9 @@ global :"rmsTitle;
 global :"appDataPath.. ADbrightEditorPath.. ADbgBrightEditorToolsPath.. ADbrightEditorSyntaxHighlightFolderPath;
 global hashMap</ windowPointer::windowPointer::@@ashNextControl />;
 global hashMap</ windowPointer::windowPointer::@@ashPrevControl />;
+global hashMap</ windowPointer::windowPointer::@@rmsNextControl />;
+global hashMap</ windowPointer::windowPointer::@@rmsPrevControl />;
+
 
 global windowPointer mainWindow;
 
