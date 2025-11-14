@@ -92,8 +92,9 @@ function noReturn rmsWriteToReadme   <//> 《
 		renameWindow</ rmsPathText::{(PATH NOT FOUND) Full path of README.md:} />;
 		^^^;
 	】
-	:"readmeFilePath;
+	:"readmeFilePath.. interval;
 	getEditText</ rmsPathEdit::@@readmeFilePath />;
+	
 	[]</ :"::@@readmeFileArr />;
 	fileToDynamicArray</ readmeFilePath::readmeFileArr />;
 	
