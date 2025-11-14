@@ -49,12 +49,10 @@ function noReturn ashInitMaps   <//> 《
 》
 function noReturn rmsInitMaps   <//> 《
 	rmsNextControl atKey</ rmsPathEdit /> << rmsIntervalEdit;
-	rmsNextControl atKey</ rmsIntervalEdit /> << rmsCheckbox;
-	rmsNextControl atKey</ rmsCheckbox /> << rmsPathEdit;
-
-	rmsPrevControl atKey</ rmsPathEdit /> << rmsCheckbox;
+	rmsNextControl atKey</ rmsIntervalEdit /> << rmsPathEdit;
+	
+	rmsPrevControl atKey</ rmsPathEdit /> << rmsIntervalEdit;
 	rmsPrevControl atKey</ rmsIntervalEdit /> << rmsPathEdit;
-	rmsPrevControl atKey</ rmsCheckbox /> << rmsIntervalEdit;
 》
 function noReturn initMainWindowMenu   <//> 《
 	unicodeString syntaxHighlightMenuString << {    &Syntax Highlight  };
