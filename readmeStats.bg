@@ -94,7 +94,7 @@ function noReturn rmsWriteToReadme   <//> 《
 	】
 	:"readmeFilePath.. interval;
 	getEditText</ rmsPathEdit::@@readmeFilePath />;
-	
+	getEditText</ rmsIntervalEdit::@@interval />;
 	[]</ :"::@@readmeFileArr />;
 	fileToDynamicArray</ readmeFilePath::readmeFileArr />;
 	
