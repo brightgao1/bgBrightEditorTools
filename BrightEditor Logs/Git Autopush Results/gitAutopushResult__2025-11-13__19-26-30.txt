@@ -1,0 +1,41 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-13__19-26-21.txt', LF will be replaced by CRLF the next time Git touches it
+[master 401594541] BrightEditor autopush 19:26:21 11/13/2025 CST
+ 38 files changed, 61 insertions(+), 18 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-13__19-26-21.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-09__613__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-10__174__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-10__581__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-11__115__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-11__147__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-11__437__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-11__85__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-12__404__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-12__69__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-12__837__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-13__181__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-13__724__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-14__36__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-15__694__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-16__156__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-16__340__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-16__980__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-17__685__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-17__765__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-17__989__E
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-18__365__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-18__469__F
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-18__565__O
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-18__660__C
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-18__725__U
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-18__77__T
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-18__982__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-19__302__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-19__476__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-19__574__,
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-19__797__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-20__285__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-20__405__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-20__525__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-21__956__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__19-26-22__93__Delete
+fatal: unable to access 'https://github.com/brightgao1/bgBrightEditorTools.git/': Could not resolve host: github.com
