@@ -54,6 +54,29 @@ function noReturn goToReadmeStats   <//> 《
 	renameWindow</ mainWindow::rmsTitle pointer />;
 	
 》
+windowHandler rmsEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message isEqualTo?? WM_COMMAND]| 【
+    		^^^
+		ashEditProc</ window::message::parameter1::parameter2 />;
+	】
+	~? |[message isEqualTo?? WM_KEYDOWN]| 【
+		variable key << parameter1;
+		displayKeypress</ parameter2 />;
+		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
+		? |[shift && key isEqualTo?? VK_TAB]| SetFocus</ ashPrevControl[window] />;
+		~? |[key isEqualTo?? VK_TAB]| SetFocus</ ashNextControl[window] />;
+		~? |[key === VK_DOWN]| SetFocus</ ashNextControl[window] />;
+		~? |[key === VK_UP]| SetFocus</ ashPrevControl[window] />;
+		~? |[key === VK_F2]| ashRandomColorButtonClicked<//>;
+		~? |[key isEqualTo?? VK_RETURN]| ashSaveButtonClicked<//>;
+		~^^^ashEditProc</ window::message::parameter1::parameter2 />;
+	】	
+	~? |[message isEqualTo?? WM_KEYUP]| 【
+		variable key << parameter1;
+		InvalidateRect</ mainWindow::null::0 />;
+	】
+	~ ^^^ashEditProc</ window::message::parameter1::parameter2 />;
+》
 function returns flag rmsCheckboxChecked   <//> 《
 	^^^
 	SendMessageW</ rmsCheckbox::BM_GETCHECK::0::0 /> === BST_CHECKED;
