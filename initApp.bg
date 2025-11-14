@@ -57,7 +57,7 @@ function noReturn rmsInitMaps   <//> 《
 function noReturn initMainWindowMenu   <//> 《
 	unicodeString syntaxHighlightMenuString << {    &Syntax Highlight  };
 	unicodeString readmeStatsMenuString << {  &README Stats  };
-
+	unicodeString bgGUICreatorMenuString << {  &bgGUICreator };
 
 	addDropdownMenu</ mainMenu::syntaxHighlightMenu::syntaxHighlightMenuString />;
 	addStringMenu</ syntaxHighlightMenu::500::unicodeLiteral</ &Add Syntax Highlight /> />;
@@ -66,7 +66,7 @@ function noReturn initMainWindowMenu   <//> 《
 	addDropdownMenu</ mainMenu::readmeStatsMenu::readmeStatsMenuString />;	
 	addStringMenu</ readmeStatsMenu::600::unicodeLiteral</ &README Statistics Sync /> />;
 
-	addDropdownMenu</ mainMenu::	
+	addDropdownMenu</ mainMenu::bgGUICreatorMenu::	
 
 	SetMenu</ mainWindow::mainMenu />;
 》
