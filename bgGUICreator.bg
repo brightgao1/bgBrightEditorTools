@@ -20,11 +20,8 @@ function noReturn goToGUICreator   <//> 《
 function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
 	
 	menuPointer cm << CreatePopupMenu<//>;
-	addStringMenu</ cm::10000::{Create Text} />;
-	addStringMenu</ cm::10005::{Create Edit} />;
-	addStringMenu</ cm::10010::{Create Button} />;
-	addStringMenu</ cm::10015::{Create Checkbox} />;
-	
+	addStringMenu</ cm::10000::{Create...} />;
+		
 	:#id << TrackPopupMenu</ cm::TPM_NONOTIFY | TPM_RETURNCMD::x::y::0::mainWindow::null />;
 //	? |[id === 10000]| 
 》
