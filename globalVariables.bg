@@ -20,6 +20,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 :"ashTitle << appTitlePrefix plus { - Add Syntax Highlight};
 :"rshTitle << appTitlePrefix plus { - Remove Syntax Highlight};
 :"rmsTitle << appTitlePrefix plus { - Sync README Statistics};
+:"bgguiTitle << appTitlePrefix plus { - bgGUICreator};
 :"appDataPath.. ADbrightEditorPath.. ADbgBrightEditorToolsPath.. ADbrightEditorSyntaxHighlightFolderPath;
 hashMap</ windowPointer::windowPointer::@@ashNextControl />;
 hashMap</ windowPointer::windowPointer::@@ashPrevControl />;
