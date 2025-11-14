@@ -50,7 +50,7 @@ function noReturn goToReadmeStats   <//> 《
 //	? |[IsWindowVisible</ rmsIntervalEdit />]| SetFocus</ rmsIntervalEdit />;
 //	~ SetFocus</ rmsCheckbox />;
 
-	SetFocus</
+	SetFocus</ rmsCheckbox />;
 	renameWindow</ mainWindow::rmsTitle pointer />;
 	
 》
