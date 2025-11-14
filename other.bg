@@ -78,7 +78,7 @@ function noReturn clearMainWindow   <//> 《
 	hide</ rshToRemoveText /> >> hide</ rshToRemoveEdit />;
 
 	hide</ rmsPathText /> >> hide</ rmsPathEdit />;
-	hide</ rmsIntervalEdit /> >> hide</ rmsIntervalText />;
+	hide</ rmsIntervalText /> >> hide</ rmsIntervalEdit />;
 	hide</ rmsCheckbox />;
 	
 》
