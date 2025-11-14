@@ -24,7 +24,7 @@ function noReturn bgguiShowContextMenu   <//> 《
 	addStringMenu</ cm::10010::{Create Button} />;
 	addStringMenu</ cm::10015::{Create Checkbox} />;
 	
-	TrackPopupMenu</ 
+	TrackPopupMenu</ cm::TPM_NONOTIFY | TPM_RETURNCMD::
 》
 
 
