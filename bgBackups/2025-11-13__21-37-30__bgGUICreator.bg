@@ -1,0 +1,35 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:32:02 , 11/11/2,025
+
+File author:              Bright Gao
+
+File name when created:   bgGUICreator.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+加 	 	 	 	 	 	        								 	all.gao;
+
+
+function noReturn goToGUICreator   <//> 《
+	clearMainWindow<//>;
+	
+	
+	renameWindow</ mainWindow::bgguiTitle pointer />;	
+》
+function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
+	
+	menuPointer cm << CreatePopupMenu<//>;
+	addStringMenu</ cm::10000::{Create Text} />;
+	addStringMenu</ cm::10005::{Create Edit} />;
+	addStringMenu</ cm::10010::{Create Button} />;
+	addStringMenu</ cm::10015::{Create Checkbox} />;
+	
+	TrackPopupMenu</ cm::TPM_NONOTIFY | TPM_RETURNCMD::x::y::0::mainWindow::null />;
+	
+》
+
+
