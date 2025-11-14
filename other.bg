@@ -22,6 +22,7 @@ function noReturn handleMainWindowCommandMessage   </ windowPointer window::posi
 		? |[menuID === 500]| goToAddSyntaxHighlight<//>;
 		~? |[menuID === 505]| goToRemoveSyntaxHighlight<//>;
 		~? |[menuID === 600]| goToReadmeStats<//>;
+		~? |[menuID === 700]| goToGUICreator<//>;
 	】
 	~? |[notification === EN_KILLFOCUS]| 【
 		:"title << getMainWindowTitle<//>;
