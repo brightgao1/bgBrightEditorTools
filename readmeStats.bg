@@ -115,5 +115,5 @@ function noReturn rmsSaveButtonClicked   <//> 《
 	alert</ {alfdjslk} />;
 	:"rmsDataPath << ADbgBrightEditorToolsPath plus {\\rmsData.txt};
 	[]</ :"::@@data />;
-	dynamicArrayToFile</ 
+	dynamicArrayToFile</ rmsDataPath::data />;
 》
