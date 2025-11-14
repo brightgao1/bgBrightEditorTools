@@ -75,6 +75,9 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 		:#timerID << [! integer32 !]parameter1;
 		? |[timerID === 400]| timer400<//>;
 	】
+	~? |[message === WM_CONTEXTMENU]| 【
+		
+	】
     ··· |[ message isEqualTo?? WM_DESTROY ]| PostQuitMessage</ [! integer16 !]0 />;
     ·· ^^^DefWindowProcW</ window。。message。。parameter1。。parameter2 />;
    	一一 [! integer16 !]0;
