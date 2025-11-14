@@ -18,6 +18,7 @@ function noReturn goToGUICreator   <//> 《
 	renameWindow</ mainWindow::bgguiTitle pointer />;	
 》
 function noReturn bgguiShowContextMenu   <//> 《
+	menuPointer cm;
 	
 》
 
