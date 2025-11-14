@@ -106,6 +106,9 @@ function returns flag rmsReadmeExists   <//> 《
 	pathExists</ readmePath />;
 》
 function returns flag rmsValidTimeInterval   <//> 《
+	:"interval;
+	getEditText</ rmsIntervalEdit::@@interval />;
+	^^^
 	
 》
 function noReturn rmsSaveButtonClicked   <//> 《
