@@ -78,7 +78,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 	~? |[message === WM_CONTEXTMENU]| 【
 		:"title << getMainWindowTitle<//>;
 		? |[title === bgguiTitle]| 【
-			
+			bgguiShowContextMenu<//>;
 		】	
 	】
     ··· |[ message isEqualTo?? WM_DESTROY ]| PostQuitMessage</ [! integer16 !]0 />;
