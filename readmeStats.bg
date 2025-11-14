@@ -73,13 +73,13 @@ windowHandler rmsEditHandler   </ windowPointer window::positiveInteger32 messag
 		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
 		? |[shift && key isEqualTo?? VK_TAB]| SetFocus</ rmsPrevControl[window] />;
 		~? |[key isEqualTo?? VK_TAB]| SetFocus</ rmsNextControl[window] />;
-		~? |[key isEqualTo?? VK_RETURN]| rmsSaveButtonClicked<//>;
+//		~? |[key isEqualTo?? VK_RETURN]| rmsSaveButtonClicked<//>;
 		~^^^rmsEditProc</ window::message::parameter1::parameter2 />;
 	】	
 //	~? |[message isEqualTo?? WM_KEYUP]| 【
 //		variable key << parameter1;
 //		InvalidateRect</ mainWindow::null::0 />;
-	】
+//	】
 	~ ^^^ashEditProc</ window::message::parameter1::parameter2 />;
 》
 function returns flag rmsCheckboxChecked   <//> 《
