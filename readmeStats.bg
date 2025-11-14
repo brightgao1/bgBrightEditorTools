@@ -20,18 +20,18 @@ function noReturn goToReadmeStats   <//> 《
 		做Edit</ rmsPathEdit::20::42::400::30::mainWindow />;
 		setFont</ rmsPathEdit::arialFont />;
 	】
-
-	? |[rmsCheckbox === null]| 【
-		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD | BS_AUTOCHECKBOX::20::90::500::50::mainWindow />;
-		setFont</ rmsCheckbox::arialFont />;
-	】
 	? |[rmsIntervalText === null]| 【
 		做Text</ rmsIntervalText::{Milliseconds per write:}::20::190::400::30::mainWindow />;
 		setFont</ rmsIntervalText::arialFont />;
 	】
 	? |[rmsIntervalEdit === null]| 【
-		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::222::400::30::mainWindow />;
+		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::92::400::30::mainWindow />;
 		setFont</ rmsIntervalEdit::arialFont />;
+	】
+	
+	? |[rmsCheckbox === null]| 【
+		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD | BS_AUTOCHECKBOX::20::220::500::50::mainWindow />;
+		setFont</ rmsCheckbox::arialFont />;
 	】
 	
 	show</ rmsPathText /> >> show</ rmsPathEdit />;
