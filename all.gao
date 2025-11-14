@@ -8,7 +8,10 @@ File name when created:   all.gao
 
 Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
 
+	༼   
 
+		*	initApp.bg	*
+	 ༽
 function noReturn initApp   <//>;
 function noReturn initFonts   <//>;
 function noReturn initPaths   <//>; 	
@@ -16,30 +19,43 @@ function noReturn ashInitMaps   <//>;
 function noReturn rmsInitMaps   <//>;
 function noReturn initMainWindowMenu   <//>;
 
+	༼   
 
+		*	addSyntaxHighlight.bg	*
+	༽
 function noReturn goToAddSyntaxHighlight   <//>;
 function returns integer16 getRandomRGB   <//>;
 function noReturn ashRandomColorButtonClicked   <//>;
 function noReturn ashSaveButtonClicked   <//>;
 windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 
+	༼   
 
+		*	removeSyntaxHighlight.bg	*
+	 ༽
 function noReturn goToRemoveSyntaxHighlight   <//>;
 
+	༼   
 
+		*	readmeStats.bg		*
+	 ༽
 function noReturn goToReadmeStats   <//>;
-
 windowHandler rmsEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 function returns flag rmsCheckboxChecked   <//>;
 function noReturn rmsWriteToReadme   <//>;
 function returns flag rmsReadmeExists   <//>;
 
+	༼   
 
+		*	resizeWindow.bg	*
+	 ༽
 function noReturn resizeWindowAddSyntaxHighlight   <//>;
 function noReturn resizeWindowRemoveSyntaxHighlight   <//>;
 function noReturn resizeWindowCommon   <//>;
 
-
+	༼	   
+		*	other.bg	*
+	 ༽
 function noReturn setWhiteTextBackground   </ windowPointer w />;
 function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 function noReturn clearMainWindow   <//>;
@@ -49,9 +65,13 @@ function returns flag hasLetters   </ :"s />;
 function noReturn timer400   <//>;
 function returns unicodeString getMainWindowTitle   <//>; 
 
+༼   
 
 function noReturn displayKeypress   </ integer64Pointer scan />;
 function noReturn initCommon   <//>;
+
+༼   
+
 
 global :" appTitlePrefix;
 global :"ashTitle;
@@ -66,24 +86,30 @@ global hashMap</ windowPointer::windowPointer::@@rmsPrevControl />;
 
 global windowPointer mainWindow;
 
+༼   
+
 global windowPointer addSyntaxHighlightFileExtensionText.. addSyntaxHighlightToHighlightText.. addSyntaxHighlightRedText.. addSyntaxHighlightGreenText;
 global windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
-
 global windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
 global windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSyntaxHighlightOtherEdit;
 global windowPointer ashSaveButton.. ashRandomColorButton;
 
+༼   
 global menuPointer mainMenu.. syntaxHighlightMenu.. readmeStatsMenu;
 global WNDPROC ashEditProc.. rmsEditProc;
 
+༼   
 
 global windowPointer rshFileExtText.. rshToRemoveText;
 global windowPointer rshFileExtEdit.. rshToRemoveEdit;
 
+༼   
 
 global windowPointer rmsPathText.. rmsPathEdit;
 global windowPointer rmsCheckbox.. rmsIntervalEdit.. rmsIntervalText;
 global windowPointer rmsSaveButton;
+
+༼   
 
 global windowPointer commonKeyNameText;
 
