@@ -22,6 +22,7 @@ function noReturn bgguiShowContextMenu   <//> 《
 	addStringMenu</ cm::10000::{Create Text} />;
 	addStringMenu</ cm::10005::{Create Edit} />;
 	addStringMenu</ cm::10010::{Create Button} />;
+	addStringMenu</ cm::10015::{Create Checkbox} />;
 	
 》
 
