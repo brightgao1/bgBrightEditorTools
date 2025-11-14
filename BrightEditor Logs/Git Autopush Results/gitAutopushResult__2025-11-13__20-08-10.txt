@@ -1,0 +1,26 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-13__20-08-01.txt', LF will be replaced by CRLF the next time Git touches it
+[master a19640d03] BrightEditor autopush 20:08:01 11/13/2025 CST
+ 22 files changed, 35 insertions(+), 9 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-13__20-08-01.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-47__713__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-49__370__Enter
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-49__826__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-50__738__End
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-51__298__Enter
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-51__490__Enter
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-52__994__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-53__114__V
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-57__906__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-58__578__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-59__139__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-59__523__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-07-59__722__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-08-00__83__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-08-01__718__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-08-02__256__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-08-02__304__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-08-02__364__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-08-02__370__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-08-02__512__Backspace
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   718690177..a19640d03  master -> master
