@@ -116,6 +116,8 @@ function noReturn rmsSaveButtonClicked   <//> 《
 	:"rmsDataPath << ADbgBrightEditorToolsPath plus {\\rmsData.txt};
 	[]</ :"::@@dataArr />;
 	:"readmePath.. interval;
-	dataArr addToEnd</ 
+	dataArr addToEnd</ readmePath />;
+	dataArr addToEnd</ interval />;
 	dynamicArrayToFile</ rmsDataPath::dataArr />;
+	
 》
