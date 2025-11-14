@@ -67,14 +67,14 @@ function returns unicodeString getMainWindowTitle   <//>;
 
 	༼ 
   
-		*	common.bg
+		*	common.bg	*
 	 ༽
 function noReturn displayKeypress   </ integer64Pointer scan />;
 function noReturn initCommon   <//>;
 
-༼   
+	༼   
 
-
+		*
 global :" appTitlePrefix;
 global :"ashTitle;
 global :"rshTitle;
