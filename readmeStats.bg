@@ -57,7 +57,6 @@ function noReturn goToReadmeStats   <//> 《
 		rmsEditProc << ([! WNDPROC !]GetWindowLongPtrW</ rmsPathEdit::-4 />);	
 		SetWindowLongPtrW</ rmsPathEdit::-4::[! LONG_PTR !]rmsEditHandler />;	
 		SetWindowLongPtrW</ rmsIntervalEdit::-4::[! LONG_PTR !]rmsEditHandler />;	
-		SetWindowLongPtrW</ rmsCheckbox::-1::[! LONG_PTR !]rmsEditHandler />;
 		rmsInitMaps<//>;
 	】
 	
