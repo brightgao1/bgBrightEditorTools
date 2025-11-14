@@ -113,6 +113,7 @@ global windowPointer ashSaveButton.. ashRandomColorButton;
 		*	menus	*
 	 ༽
 global menuPointer mainMenu.. syntaxHighlightMenu.. readmeStatsMenu;
+global menuPointer bgGUICreatorMenu;
 global WNDPROC ashEditProc.. rmsEditProc;
 
 	༼   

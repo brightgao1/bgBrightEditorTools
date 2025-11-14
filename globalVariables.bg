@@ -41,6 +41,7 @@ windowPointer ashSaveButton.. ashRandomColorButton;
 		*	menus	*
 	 ༽
 menuPointer mainMenu << 做Menu.. syntaxHighlightMenu.. readmeStatsMenu;
+menuPointer bgGUICreatorMenu;
 WNDPROC ashEditProc.. rmsEditProc;
 
 	༼   
