@@ -65,8 +65,10 @@ function returns flag hasLetters   </ :"s />;
 function noReturn timer400   <//>;
 function returns unicodeString getMainWindowTitle   <//>; 
 
-༼   
-
+	༼ 
+  
+		*	common.bg
+	 ༽
 function noReturn displayKeypress   </ integer64Pointer scan />;
 function noReturn initCommon   <//>;
 
