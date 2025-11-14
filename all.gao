@@ -89,20 +89,27 @@ global hashMap</ windowPointer::windowPointer::@@rmsPrevControl />;
 
 global windowPointer mainWindow;
 
-༼   
+	༼   
 
+		*	addSyntaxHighlight.bg	*
+	 ༽
 global windowPointer addSyntaxHighlightFileExtensionText.. addSyntaxHighlightToHighlightText.. addSyntaxHighlightRedText.. addSyntaxHighlightGreenText;
 global windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
 global windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
 global windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSyntaxHighlightOtherEdit;
 global windowPointer ashSaveButton.. ashRandomColorButton;
 
-༼   
+	༼	
+
+		*	menus	*
+	 ༽
 global menuPointer mainMenu.. syntaxHighlightMenu.. readmeStatsMenu;
 global WNDPROC ashEditProc.. rmsEditProc;
 
-༼   
+	༼   
 
+		*	removeSyntaxHighlight.bg	*
+	 ༽
 global windowPointer rshFileExtText.. rshToRemoveText;
 global windowPointer rshFileExtEdit.. rshToRemoveEdit;
 
