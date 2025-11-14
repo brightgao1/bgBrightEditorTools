@@ -51,7 +51,8 @@ function noReturn rmsInitMaps   <//> 《
 	rmsNextControl atKey</ rmsPathEdit /> << rmsIntervalEdit;
 	rmsNextControl atKey</ rmsIntervalEdit /> << rmsCheckbox;
 	rmsNextControl atKey</ rmsCheckbox /> << rmsPathEdit;
-	rmsPrevControl atKey</ rmsPathEdit /> << rmsIntervalEdit;
+
+	rmsPrevControl atKey</ rmsPathEdit /> << rmsCheckbox;
 	rmsPrevControl atKey</ rmsIntervalEdit /> << rmsPathEdit;
 》
 function noReturn initMainWindowMenu   <//> 《
