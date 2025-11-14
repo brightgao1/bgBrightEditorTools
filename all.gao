@@ -47,6 +47,10 @@ function returns flag rmsReadmeExists   <//>;
 function returns flag rmsValidTimeInterval   <//>;
 function noReturn rmsSaveButtonClicked   <//>;
 
+	༼   
+
+		*	bgGUICreator.bg	*
+	 ༽
 function noReturn goToGUICreator   <//>;
 
 
