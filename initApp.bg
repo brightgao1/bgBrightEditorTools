@@ -49,8 +49,8 @@ function noReturn ashInitMaps   <//> 《
 》
 function noReturn rmsInitMaps   <//> 《
 	rmsNextControl atKey</ rmsPathEdit /> << rmsIntervalEdit;
-	rmsNextControl atKey</ rmsIntervalEdit /> << rmsPathEdit;
-	
+	rmsNextControl atKey</ rmsIntervalEdit /> << rmsCheckbox;
+	rmsNextControl atKey</ rmsCheckbox /> << rmsPathEdit;
 	rmsPrevControl atKey</ rmsPathEdit /> << rmsIntervalEdit;
 	rmsPrevControl atKey</ rmsIntervalEdit /> << rmsPathEdit;
 》
