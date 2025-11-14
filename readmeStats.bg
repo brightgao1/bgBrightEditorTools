@@ -54,7 +54,7 @@ function noReturn goToReadmeStats   <//> 《
 	renameWindow</ mainWindow::rmsTitle pointer />;
 
 	? |[rmsEditProc === null]| 【
-		rmsEditProc << ([! WNDPROC !]GetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4 />);
+		rmsEditProc << ([! WNDPROC !]GetWindowLongPtrW</ rmsPathEdit::-4 />);
 		SetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4::[! LONG_PTR !]ashEditHandler />;	
 		SetWindowLongPtrW</ addSyntaxHighlightToHighlightEdit::-4::[! LONG_PTR !]ashEditHandler />;	
 		SetWindowLongPtrW</ addSyntaxHighlightRedEdit::-4::[! LONG_PTR !]ashEditHandler />;	
