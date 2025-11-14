@@ -52,7 +52,7 @@ function noReturn rmsSaveButtonClicked   <//>;
 		*	bgGUICreator.bg	*
 	 ༽
 function noReturn goToGUICreator   <//>;
-
+function noReturn bgguiShowContextMenu<//>;
 
 	༼   
 
