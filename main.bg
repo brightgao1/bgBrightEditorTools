@@ -78,8 +78,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 	~? |[message === WM_CONTEXTMENU]| 【
 		:"title << getMainWindowTitle<//>;
 		? |[title === bgguiTitle]| 【
-			:#x = GET_X_LPARAM(parameter2); 
-			:#y = GET_Y_LPARAM(parameter2);
+			
 			bgguiShowContextMenu</ x::y />;
 		】	
 	】
