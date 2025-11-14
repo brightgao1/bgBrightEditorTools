@@ -89,6 +89,7 @@ global :" appTitlePrefix;
 global :"ashTitle;
 global :"rshTitle;
 global :"rmsTitle;
+global :"bgguiTitle;
 global :"appDataPath.. ADbrightEditorPath.. ADbgBrightEditorToolsPath.. ADbrightEditorSyntaxHighlightFolderPath;
 global hashMap</ windowPointer::windowPointer::@@ashNextControl />;
 global hashMap</ windowPointer::windowPointer::@@ashPrevControl />;
