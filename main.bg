@@ -76,6 +76,7 @@ windowHandler WndProc   </ changeable windowPointer window。。nonMutable posit
 		? |[timerID === 400]| timer400<//>;
 	】
 	~? |[message === WM_CONTEXTMENU]| 【
+		:"title << getMainWindowTitle<//>;
 		
 	】
     ··· |[ message isEqualTo?? WM_DESTROY ]| PostQuitMessage</ [! integer16 !]0 />;
