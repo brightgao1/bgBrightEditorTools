@@ -17,7 +17,7 @@ function noReturn goToReadmeStats   <//> 《
 		setFont</ rmsPathText::arialFont />;
 	】
 	? |[rmsPathEdit === null]| 【
-		做Edit</ rmsPathEdit::20::42::400::30::mainWindow />;
+		做Edit</ rmsPathEdit::20::40::400::30::mainWindow />;
 		setFont</ rmsPathEdit::arialFont />;
 	】
 	? |[rmsIntervalText === null]| 【
@@ -25,7 +25,7 @@ function noReturn goToReadmeStats   <//> 《
 		setFont</ rmsIntervalText::arialFont />;
 	】
 	? |[rmsIntervalEdit === null]| 【
-		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::132::400::30::mainWindow />;
+		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::130::400::30::mainWindow />;
 		setFont</ rmsIntervalEdit::arialFont />;
 	】
 	
@@ -73,7 +73,6 @@ windowHandler rmsEditHandler   </ windowPointer window::positiveInteger32 messag
 		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
 		? |[shift && key isEqualTo?? VK_TAB]| SetFocus</ rmsPrevControl[window] />;
 		~? |[key isEqualTo?? VK_TAB]| SetFocus</ rmsNextControl[window] />;
-//		~? |[key isEqualTo?? VK_RETURN]| rmsSaveButtonClicked<//>;
 		~^^^rmsEditProc</ window::message::parameter1::parameter2 />;
 	】	
 //	~? |[message isEqualTo?? WM_KEYUP]| 【
