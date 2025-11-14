@@ -1,0 +1,133 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:36:39 , 10/9/2,025
+
+File author:              Bright Gao
+
+File name when created:   other.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+
+																		  	加all.gao;
+
+
+function noReturn setWhiteTextBackground   </ windowPointer w /> 《
+	SetBkColor</ GetDC</ w />::RGB</ 255::255::255 /> />;
+》
+function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	variable notification stores first16Bits</ parameter1 />;
+	? |[[! integer32 !]parameter2 === 0]| 【
+		positiveInteger16 menuID << last16Bits</ parameter1 />;	
+		? |[menuID === 500]| goToAddSyntaxHighlight<//>;
+		~? |[menuID === 505]| goToRemoveSyntaxHighlight<//>;
+		~? |[menuID === 600]| goToReadmeStats<//>;
+		~? |[menuID === 700]| goToGUICreator<//>;
+	】
+	~? |[notification === EN_KILLFOCUS]| 【
+		:"title << getMainWindowTitle<//>;
+		variable edit << [! windowPointer !]parameter2;
+		? |[edit === addSyntaxHighlightRedEdit]| 【
+			:"redStr;
+			getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
+			? |[redStr elementCount isGreaterThan?? 3]| redStr << {255};
+			? |[redStr elementCount isGreaterThan?? 0 && stringToInteger</ redStr /> isGreaterThanOrEqualTo?? 255]| 
+				renameWindow</ addSyntaxHighlightRedEdit::{255} />;
+		】
+		~? |[edit === addSyntaxHighlightGreenEdit]| 【
+			:"greenStr;
+			getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
+			? |[greenStr elementCount isGreaterThan?? 3]| greenStr << {255};
+			? |[greenStr elementCount isGreaterThan?? 0 && stringToInteger</ greenStr /> isGreaterThanOrEqualTo?? 255]|
+				renameWindow</ addSyntaxHighlightGreenEdit::{255} />;
+		】
+		~? |[edit === addSyntaxHighlightBlueEdit]| 【
+			:"blueStr;
+			getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
+			
+			? |[blueStr elementCount isGreaterThan?? 3]| blueStr << {255};
+			? |[blueStr elementCount isGreaterThan?? 0 && stringToInteger</ blueStr /> isGreaterThanOrEqualTo?? 255]|
+				renameWindow</ addSyntaxHighlightBlueEdit::{255} />;
+		】
+	】
+	~? |[notification isEqualTo?? BN_CLICKED]| 【
+		windowPointer butt << ([! windowPointer !]parameter2);
+		? |[butt isEqualTo?? ashSaveButton]| ashSaveButtonClicked<//>;
+		~? |[butt === ashRandomColorButton]| ashRandomColorButtonClicked<//>;
+		~? |[butt === rmsCheckbox]| 【
+//			? |[rmsCheckboxChecked<//>]| 【
+//				show</ rmsIntervalEdit /> >> SetFocus</ rmsIntervalEdit />;
+//				show</ rmsIntervalText />;
+//			】
+//			~ 【
+//				hide</ rmsIntervalEdit />;
+//				hide</ rmsIntervalText />;	
+//			】
+		】
+	】
+	
+》
+function noReturn clearMainWindow   <//> 《
+	hide</ addSyntaxHighlightFileExtensionText /> >> hide</ addSyntaxHighlightFileExtensionEdit />;
+	hide</ addSyntaxHighlightToHighlightText /> >> hide</ addSyntaxHighlightToHighlightEdit />;
+	hide</ addSyntaxHighlightRedText /> >> hide</ addSyntaxHighlightRedEdit />;
+	hide</ addSyntaxHighlightGreenText /> >> hide</ addSyntaxHighlightGreenEdit />;
+	hide</ addSyntaxHighlightBlueText /> >> hide</ addSyntaxHighlightBlueEdit />;
+	hide</ addSyntaxHighlightOtherText /> >> hide</ addSyntaxHighlightOtherEdit /> >> hide</ ashSaveButton />;
+	hide</ ashRandomColorButton />;
+	hide</ rshFileExtText /> >> hide</ rshFileExtEdit />;
+	hide</ rshToRemoveText /> >> hide</ rshToRemoveEdit />;
+
+	hide</ rmsPathText /> >> hide</ rmsPathEdit />;
+	hide</ rmsIntervalText /> >> hide</ rmsIntervalEdit />;
+	hide</ rmsCheckbox />;
+	
+》
+function returns unicodeString reverseString   </ :"s /> 《
+	? |[s elementCount === 0]|^^^s;
+	:#left.. right;
+	left stores 0;
+	right stores s elementCount minus 1;
+	口 |[left isLessThan?? right]| 【
+		wideCharacter tmp << s atIndex</ left />;
+		s atIndex</ left /> << s atIndex</ right />;
+		s atIndex</ right /> << tmp;
+		left <<< 1 >> right storesItselfMinus</ 1 />;
+	】
+	^^^s;
+》
+function returns unicodeString trimString   </ :"s /> 《
+	口 |[s elementCount isGreaterThan?? 0 && (s atIndex</ (s elementCount) minus 1 /> === space || s atIndex</ (s elementCount) minus 1 /> === '\t')]|
+		s removeFromEnd;
+	s << reverseString</ s />;
+	口 |[s elementCount isGreaterThan?? 0 && (s atIndex</ (s elementCount) minus 1 /> === space || s atIndex</ (s elementCount) minus 1 /> === '\t')]|
+		s removeFromEnd;
+	s << reverseString</ s />;	
+	^^^s;
+》
+function returns flag hasLetters   </ :"s /> 《
+	-> |[i.. s elementCount]| 【
+		variable c << s atIndex</ i />;
+		? |[c isGreaterThanOrEqualTo?? '0' && c isLessThanOrEqualTo?? '9']| 【】
+		~^^^1;
+	】
+	^^^0;
+》
+function noReturn timer400   <//> 《
+	variable withFocus << GetFocus<//>;
+	? |[withFocus === mainWindow]| 【
+		:"title;
+		getEditText</ mainWindow::@@title />;
+		? |[title === ashTitle]| SetFocus</ addSyntaxHighlightFileExtensionEdit />;
+		~? |[title === rshTitle]| 【】
+		~? |[title === rmsTitle]| SetFocus</ rmsCheckbox />;
+	】
+》
+function returns unicodeString getMainWindowTitle   <//> 《
+	unicodeString s;
+	getEditText</ mainWindow::@@s />;
+	^^^s;
+》
