@@ -47,6 +47,9 @@ function noReturn ashInitMaps   <//> 《
 	ashPrevControl atKey</ addSyntaxHighlightOtherEdit /> << addSyntaxHighlightBlueEdit;
 	ashPrevControl atKey</ addSyntaxHighlightFileExtensionEdit /> << addSyntaxHighlightOtherEdit;
 》
+function noReturn rmsInitMaps   <//> 《
+	
+》
 function noReturn initMainWindowMenu   <//> 《
 	unicodeString syntaxHighlightMenuString << {    &Syntax Highlight  };
 	unicodeString readmeStatsMenuString << {  &README Stats  };
