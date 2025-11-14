@@ -117,6 +117,7 @@ function noReturn timer400   <//> 《
 		getEditText</ mainWindow::@@title />;
 		? |[title === ashTitle]| SetFocus</ addSyntaxHighlightFileExtensionEdit />;
 		~? |[title === rshTitle]| 【】
+		~? |[title === rmsTitle]| SetFocus</ rmsPathEdit />;
 	】
 》
 function returns unicodeString getMainWindowTitle   <//> 《
