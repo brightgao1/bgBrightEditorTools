@@ -113,8 +113,10 @@ global WNDPROC ashEditProc.. rmsEditProc;
 global windowPointer rshFileExtText.. rshToRemoveText;
 global windowPointer rshFileExtEdit.. rshToRemoveEdit;
 
-༼   
-
+	༼   
+		
+		*	readmeStats.bg	*
+	 ༽
 global windowPointer rmsPathText.. rmsPathEdit;
 global windowPointer rmsCheckbox.. rmsIntervalEdit.. rmsIntervalText;
 global windowPointer rmsSaveButton;
