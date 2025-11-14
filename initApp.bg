@@ -65,7 +65,8 @@ function noReturn initMainWindowMenu   <//> 《
 
 	addDropdownMenu</ mainMenu::readmeStatsMenu::readmeStatsMenuString />;	
 	addStringMenu</ readmeStatsMenu::600::unicodeLiteral</ &README Statistics Sync /> />;
-	
+
+	addDropdownMenu</ mainMenu::	
 
 	SetMenu</ mainWindow::mainMenu />;
 》
