@@ -60,7 +60,6 @@ function noReturn goToReadmeStats   <//> 《
 		rmsInitMaps<//>;
 	】
 	
-	
 》
 windowHandler rmsEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message isEqualTo?? WM_COMMAND]| 【
@@ -73,6 +72,7 @@ windowHandler rmsEditHandler   </ windowPointer window::positiveInteger32 messag
 		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
 		? |[shift && key isEqualTo?? VK_TAB]| SetFocus</ rmsPrevControl[window] />;
 		~? |[key isEqualTo?? VK_TAB]| SetFocus</ rmsNextControl[window] />;
+		~? |[key === VK_RETURN]| rmsSaveButtonClicked<//>;
 		~^^^rmsEditProc</ window::message::parameter1::parameter2 />;
 	】	
 //	~? |[message isEqualTo?? WM_KEYUP]| 【
