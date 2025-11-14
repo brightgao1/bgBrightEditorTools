@@ -63,12 +63,9 @@ windowHandler rmsEditHandler   </ windowPointer window::positiveInteger32 messag
 		variable key << parameter1;
 		displayKeypress</ parameter2 />;
 		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
-		? |[shift && key isEqualTo?? VK_TAB]| SetFocus</ ashPrevControl[window] />;
-		~? |[key isEqualTo?? VK_TAB]| SetFocus</ ashNextControl[window] />;
-		~? |[key === VK_DOWN]| SetFocus</ ashNextControl[window] />;
-		~? |[key === VK_UP]| SetFocus</ ashPrevControl[window] />;
-		~? |[key === VK_F2]| ashRandomColorButtonClicked<//>;
-		~? |[key isEqualTo?? VK_RETURN]| ashSaveButtonClicked<//>;
+		? |[shift && key isEqualTo?? VK_TAB]| SetFocus</ rmsPrevControl[window] />;
+		~? |[key isEqualTo?? VK_TAB]| SetFocus</ rmsNextControl[window] />;
+		~? |[key isEqualTo?? VK_RETURN]| rmsSaveButtonClicked<//>;
 		~^^^ashEditProc</ window::message::parameter1::parameter2 />;
 	】	
 //	~? |[message isEqualTo?? WM_KEYUP]| 【
