@@ -21,16 +21,16 @@ function noReturn goToReadmeStats   <//> 《
 		setFont</ rmsPathEdit::arialFont />;
 	】
 	? |[rmsIntervalText === null]| 【
-		做Text</ rmsIntervalText::{Milliseconds per write:}::20::80::400::30::mainWindow />;
+		做Text</ rmsIntervalText::{Milliseconds per write:}::20::100::400::30::mainWindow />;
 		setFont</ rmsIntervalText::arialFont />;
 	】
 	? |[rmsIntervalEdit === null]| 【
-		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::112::400::30::mainWindow />;
+		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::132::400::30::mainWindow />;
 		setFont</ rmsIntervalEdit::arialFont />;
 	】
 	
 	? |[rmsCheckbox === null]| 【
-		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD | BS_AUTOCHECKBOX::20::220::500::50::mainWindow />;
+		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD | BS_AUTOCHECKBOX::20::240::500::50::mainWindow />;
 		setFont</ rmsCheckbox::arialFont />;
 	】
 	
