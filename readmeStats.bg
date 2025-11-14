@@ -109,7 +109,7 @@ function returns flag rmsValidTimeInterval   <//> 《
 	:"interval;
 	getEditText</ rmsIntervalEdit::@@interval />;
 	^^^
-	
+	(interval elementCount isGreaterThan?? 3 && interval elementCount isLessThan?? 10);
 》
 function noReturn rmsSaveButtonClicked   <//> 《
 	alert</ {alfdjslk} />;
