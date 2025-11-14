@@ -29,7 +29,7 @@ windowPointer ashSaveButton.. ashRandomColorButton;
 
 
 menuPointer mainMenu << 做Menu.. syntaxHighlightMenu.. readmeStatsMenu;
-WNDPROC ashEditProc;
+WNDPROC ashEditProc.. rmsEditProc;
 
 windowPointer rshFileExtText.. rshToRemoveText;
 windowPointer rshFileExtEdit.. rshToRemoveEdit;

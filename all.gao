@@ -70,7 +70,7 @@ global windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. 
 global windowPointer ashSaveButton.. ashRandomColorButton;
 
 global menuPointer mainMenu.. syntaxHighlightMenu.. readmeStatsMenu;
-global WNDPROC ashEditProc; 
+global WNDPROC ashEditProc.. rmsEditProc;
 
 
 global windowPointer rshFileExtText.. rshToRemoveText;
