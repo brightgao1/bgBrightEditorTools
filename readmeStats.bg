@@ -117,7 +117,7 @@ function noReturn rmsSaveButtonClicked   <//> 《
 	[]</ :"::@@dataArr />;
 	:"readmePath.. interval;
 	getEditText</ rmsPathEdit::@@readmePath />;
-	getEditText</ rmsIntervalEdit::@@interval />
+	getEditText</ rmsIntervalEdit::@@interval />;
 	dataArr addToEnd</ readmePath />;
 	dataArr addToEnd</ interval />;
 	dynamicArrayToFile</ rmsDataPath::dataArr />;

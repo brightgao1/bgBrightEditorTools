@@ -1,0 +1,36 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-13__20-43-26.txt', LF will be replaced by CRLF the next time Git touches it
+[master c583e3578] BrightEditor autopush 20:43:26 11/13/2025 CST
+ 35 files changed, 1097 insertions(+), 11 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-13__20-43-26.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-12__414__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-12__443__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-12__585__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-13__181__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-13__32__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-13__574__
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-13__597__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-14__109__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-14__205__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-14__293__
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-14__726__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-14__830__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-14__957__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-15__157__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-15__542__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-15__621__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-15__92__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-16__174__F5
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-13__20-43-25__622__Down
+ create mode 100644 bgBackups/2025-11-13__20-43-22__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-13__20-43-22__all.gao
+ create mode 100644 bgBackups/2025-11-13__20-43-22__bgGUICreator.bg
+ create mode 100644 bgBackups/2025-11-13__20-43-22__common.bg
+ create mode 100644 bgBackups/2025-11-13__20-43-22__globalVariables.bg
+ create mode 100644 bgBackups/2025-11-13__20-43-22__initApp.bg
+ create mode 100644 bgBackups/2025-11-13__20-43-22__main.bg
+ create mode 100644 bgBackups/2025-11-13__20-43-22__other.bg
+ create mode 100644 bgBackups/2025-11-13__20-43-22__readmeStats.bg
+ create mode 100644 bgBackups/2025-11-13__20-43-22__removeSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-13__20-43-22__resizeWindow.bg
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   90d1fa048..c583e3578  master -> master
