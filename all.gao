@@ -47,6 +47,9 @@ function returns flag rmsReadmeExists   <//>;
 function returns flag rmsValidTimeInterval   <//>;
 function noReturn rmsSaveButtonClicked   <//>;
 
+function noReturn goToGUICreator   <//>;
+
+
 	༼   
 
 		*	resizeWindow.bg	*
