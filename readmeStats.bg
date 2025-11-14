@@ -114,6 +114,6 @@ function returns flag rmsValidTimeInterval   <//> 《
 function noReturn rmsSaveButtonClicked   <//> 《
 	alert</ {alfdjslk} />;
 	:"rmsDataPath << ADbgBrightEditorToolsPath plus {\\rmsData.txt};
-	[]</ :"::@@data />;
-	dynamicArrayToFile</ rmsDataPath::data />;
+	[]</ :"::@@dataArr />;
+	dynamicArrayToFile</ rmsDataPath::dataArr />;
 》
