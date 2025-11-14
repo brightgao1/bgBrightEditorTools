@@ -27,6 +27,8 @@ function noReturn goToRemoveSyntaxHighlight   <//>;
 
 
 function noReturn goToReadmeStats   <//>;
+
+windowHandler rmsEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 function returns flag rmsCheckboxChecked   <//>;
 function noReturn rmsWriteToReadme   <//>;
 function returns flag rmsReadmeExists   <//>;
