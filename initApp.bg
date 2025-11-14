@@ -48,7 +48,11 @@ function noReturn ashInitMaps   <//> 《
 	ashPrevControl atKey</ addSyntaxHighlightFileExtensionEdit /> << addSyntaxHighlightOtherEdit;
 》
 function noReturn rmsInitMaps   <//> 《
+	rmsNextControl atKey</ rmsPathEdit /> << rmsIntervalEdit;
+	rmsNextControl atKey</ rmsIntervalEdit /> << rmsPathEdit;
 	
+	rmsPrevControl atKey</ rmsPathEdit /> << rmsIntervalEdit;
+	rmsPrevControl atKey</ rmsIntervalEdit /> << rmsPathEdit;
 》
 function noReturn initMainWindowMenu   <//> 《
 	unicodeString syntaxHighlightMenuString << {    &Syntax Highlight  };
