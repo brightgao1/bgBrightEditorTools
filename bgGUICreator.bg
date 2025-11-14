@@ -21,7 +21,7 @@ function noReturn bgguiShowContextMenu   <//> 《
 	menuPointer cm << CreatePopupMenu<//>;
 	addStringMenu</ cm::10000::{Create Text} />;
 	addStringMenu</ cm::10005::{Create Edit} />;
-	addStringMenu</ cm::10010::{Create } />;
+	addStringMenu</ cm::10010::{Create Button} />;
 	
 》
 
