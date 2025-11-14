@@ -44,6 +44,7 @@ windowHandler rmsEditHandler   </ windowPointer window::positiveInteger32 messag
 function returns flag rmsCheckboxChecked   <//>;
 function noReturn rmsWriteToReadme   <//>;
 function returns flag rmsReadmeExists   <//>;
+function returns flag rmsValidTimeInterval   <//>;
 function noReturn rmsSaveButtonClicked   <//>;
 
 	༼   
