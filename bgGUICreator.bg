@@ -23,7 +23,7 @@ function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
 	addStringMenu</ cm::10000::{Create Control} />;
 	
 	:#id << TrackPopupMenu</ cm::TPM_NONOTIFY | TPM_RETURNCMD::x::y::0::mainWindow::null />;
-	? |[id === 10000]| alert</ {pop up form w/ combobox for control type, text to name it, width, height, etc} />;
+	? |[id === 10000]| initbgguiDialog<//>;
 	
 》
 //windowHandler bgguiDialogHandler   </ 
