@@ -52,6 +52,7 @@ function noReturn rmsSaveButtonClicked   <//>;
 		*	bgGUICreator.bg	*
 	 ༽
 function noReturn goToGUICreator   <//>;
+function noReturn initbgguiDialog   <//>;
 function noReturn bgguiShowContextMenu   </ :#x:::#y/>;
 function returns variable registerbgguiDialogClass   </ instancePointer in />;
 
