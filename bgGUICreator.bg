@@ -31,6 +31,8 @@ function noReturn initbgguiDialog   <//> 《
 》
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	
+	^^^
+	DefWindowProc</ window::message::parameter1::parameter2 />;
 》
 function returns variable registerbgguiDialogClass   </ instancePointer in /> 《
     	changeable WNDCLASSEXW c; c.cbSize stores bytes</ WNDCLASSEXW />; 
