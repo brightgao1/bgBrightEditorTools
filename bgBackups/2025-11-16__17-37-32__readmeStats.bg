@@ -1,0 +1,128 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:40:57 , 11/11/2,025
+
+File author:              Bright Gao
+
+File name when created:   readmeStats.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+	加 	 								 	all.gao;
+
+function noReturn goToReadmeStats   <//> 《
+	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
+	? |[rmsPathText === null]| 【
+		做Text</ rmsPathText::{Full path of README.md:}::20::10::400::30::mainWindow />;
+		setFont</ rmsPathText::arialFont />;
+	】
+	? |[rmsPathEdit === null]| 【
+		做Edit</ rmsPathEdit::20::40::400::30::mainWindow />;
+		setFont</ rmsPathEdit::arialFont />;
+	】
+	? |[rmsIntervalText === null]| 【
+		做Text</ rmsIntervalText::{Milliseconds per write:}::20::100::400::30::mainWindow />;
+		setFont</ rmsIntervalText::arialFont />;
+	】
+	? |[rmsIntervalEdit === null]| 【
+		做</ rmsIntervalEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::130::400::30::mainWindow />;
+		setFont</ rmsIntervalEdit::arialFont />;
+	】
+	
+	? |[rmsCheckbox === null]| 【
+		做</ rmsCheckbox::{Button}::{Sync README with BrightEditor Statistics}::WS_CHILD | BS_AUTOCHECKBOX::20::240::500::50::mainWindow />;
+		setFont</ rmsCheckbox::arialFont />;
+	】
+	
+	show</ rmsPathText /> >> show</ rmsPathEdit />;
+	show</ rmsCheckbox />;
+	show</ rmsIntervalEdit /> >> show</ rmsIntervalText />;
+
+//	? |[rmsCheckboxChecked<//>]| 【
+//		show</ rmsIntervalEdit />;
+//		show</ rmsIntervalText />;
+//	】
+//	~ 【
+//		hide</ rmsIntervalEdit />;
+//		hide</ rmsIntervalText />;
+//	】
+
+//	? |[IsWindowVisible</ rmsIntervalEdit />]| SetFocus</ rmsIntervalEdit />;
+//	~ SetFocus</ rmsCheckbox />;
+
+	SetFocus</ rmsCheckbox />;
+	renameWindow</ mainWindow::rmsTitle pointer />;
+
+	? |[rmsEditProc === null]| 【
+		rmsEditProc << ([! WNDPROC !]GetWindowLongPtrW</ rmsPathEdit::-4 />);	
+		SetWindowLongPtrW</ rmsPathEdit::-4::[! LONG_PTR !]rmsEditHandler />;	
+		SetWindowLongPtrW</ rmsIntervalEdit::-4::[! LONG_PTR !]rmsEditHandler />;	
+		rmsInitMaps<//>;
+	】
+	
+》
+windowHandler rmsEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message isEqualTo?? WM_COMMAND]| 【
+    		^^^
+		ashEditProc</ window::message::parameter1::parameter2 />;
+	】
+	~? |[message isEqualTo?? WM_KEYDOWN]| 【
+		variable key << parameter1;
+		displayKeypress</ parameter2 />;
+		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
+		? |[shift && key isEqualTo?? VK_TAB]| SetFocus</ rmsPrevControl[window] />;
+		~? |[key isEqualTo?? VK_TAB]| SetFocus</ rmsNextControl[window] />;
+		~? |[key === VK_RETURN]| rmsSaveButtonClicked<//>;
+		~^^^rmsEditProc</ window::message::parameter1::parameter2 />;
+	】	
+//	~? |[message isEqualTo?? WM_KEYUP]| 【
+//		variable key << parameter1;
+//		InvalidateRect</ mainWindow::null::0 />;
+//	】
+	~ ^^^ashEditProc</ window::message::parameter1::parameter2 />;
+》
+function returns flag rmsCheckboxChecked   <//> 《
+	^^^
+	SendMessageW</ rmsCheckbox::BM_GETCHECK::0::0 /> === BST_CHECKED;
+》
+function noReturn rmsWriteToReadme   <//> 《
+	? |[rmsReadmeExists<//>]| renameWindow</ rmsPathText::{Full path of README.md:} />;
+	~ 【
+		renameWindow</ rmsPathText::{(PATH NOT FOUND) Full path of README.md:} />;
+		^^^;
+	】
+	:"readmeFilePath.. interval;
+	getEditText</ rmsPathEdit::@@readmeFilePath />;
+	getEditText</ rmsIntervalEdit::@@interval />;
+	[]</ :"::@@readmeFileArr />;
+	fileToDynamicArray</ readmeFilePath::readmeFileArr />;
+	
+》
+function returns flag rmsReadmeExists   <//> 《
+	:"readmePath;
+	getEditText</ rmsPathEdit::@@readmePath />;
+
+	^^^
+	pathExists</ readmePath />;
+》
+function returns flag rmsValidTimeInterval   <//> 《
+	:"interval;
+	getEditText</ rmsIntervalEdit::@@interval />;
+	^^^
+	(interval elementCount isGreaterThan?? 3 && interval elementCount isLessThan?? 11);
+》
+function noReturn rmsSaveButtonClicked   <//> 《
+	alert</ {alfdjslk} />;
+	:"rmsDataPath << ADbgBrightEditorToolsPath plus {\\rmsData.txt};
+	[]</ :"::@@dataArr />;
+	:"readmePath.. interval;
+	getEditText</ rmsPathEdit::@@readmePath />;
+	getEditText</ rmsIntervalEdit::@@interval />;
+	dataArr addToEnd</ readmePath />;
+	dataArr addToEnd</ interval />;
+	dynamicArrayToFile</ rmsDataPath::dataArr />;
+	
+》
