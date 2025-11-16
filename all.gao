@@ -55,7 +55,7 @@ function noReturn goToGUICreator   <//>;
 function noReturn initbgguiDialog   <//>;
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 function noReturn bgguiShowContextMenu   </ :#x:::#y/>;
-function returns variable registerbgguiDialogClass   </ instancePointer in />;
+function returns variable registerbgguiDialogClass   <//>;
 
 
 	༼   
