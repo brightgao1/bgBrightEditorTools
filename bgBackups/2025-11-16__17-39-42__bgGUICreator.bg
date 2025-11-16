@@ -1,3 +1,6 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
 ༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
 
 Creation time & date:     19:32:02 , 11/11/2,025
@@ -28,7 +31,7 @@ function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
 》
 function noReturn initbgguiDialog   <//> 《
 	做</ bgguiDialog::MAKEINTATOM</ registerbgguiDialogClass</ null />/>::{Create Control}::WS_POPUPWINDOW | WS_CAPTION | WS_CLIPCHILDREN::
-		300::300::400::300::null::null />;
+		300::300::400::300::null />;
 》
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	
