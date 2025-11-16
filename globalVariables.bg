@@ -62,6 +62,12 @@ windowPointer rmsSaveButton;
 
 	༼   
 
+		*	addSyntaxHighlight.bg	*
+	 ༽
+windowPointer bgguiDialog;
+
+	༼   
+
 		*	common.bg	*
 	 ༽
 windowPointer commonKeyNameText;
