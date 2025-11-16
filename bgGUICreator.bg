@@ -27,7 +27,7 @@ function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
 	
 》
 function noReturn initbgguiDialog   <//> 《
-	做</ 	
+	做</ MAKEINTATOM</ registerbgguiDialogClass</ null />/> 	
 》
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	
