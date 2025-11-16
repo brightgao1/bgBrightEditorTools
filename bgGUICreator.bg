@@ -26,6 +26,9 @@ function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
 	? |[id === 10000]| initbgguiDialog<//>;
 	
 》
+function noReturn initbgguiDialog   <//> 《
+	
+》
 //windowHandler bgguiDialogHandler   </ 
 function returns variable registerbgguiDialogClass   </ instancePointer in /> 《
     	changeable WNDCLASSEXW c; c.cbSize stores bytes</ WNDCLASSEXW />; 
