@@ -1,0 +1,53 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-16__18-43-11.txt', LF will be replaced by CRLF the next time Git touches it
+[master dd31cae1a] BrightEditor autopush 18:43:11 11/16/2025 CST
+ 53 files changed, 1180 insertions(+), 14 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-16__18-43-11.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-47__630__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-47__634__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-47__791__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-48__296__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-48__394__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-48__498__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-48__717__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-49__121__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-49__196__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-49__314__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-49__422__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-49__591__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-49__6__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-50__278__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-50__463__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-50__79__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-50__815__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-51__951__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-52__126__[
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-52__655__C
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-53__574__O
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-53__734__M
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-54__646__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-54__823__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-54__982__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-56__503__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-56__638__]
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-56__919__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-57__183__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-57__599__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-57__727__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-57__896__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-58__351__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-58__71__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__18-42-58__959__F5
+ create mode 100644 bgBackups/2025-11-16__18-43-05__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-16__18-43-05__all.gao
+ create mode 100644 bgBackups/2025-11-16__18-43-05__bgGUICreator.bg
+ create mode 100644 bgBackups/2025-11-16__18-43-05__common.bg
+ create mode 100644 bgBackups/2025-11-16__18-43-05__globalVariables.bg
+ create mode 100644 bgBackups/2025-11-16__18-43-05__initApp.bg
+ create mode 100644 bgBackups/2025-11-16__18-43-05__main.bg
+ create mode 100644 bgBackups/2025-11-16__18-43-05__other.bg
+ create mode 100644 bgBackups/2025-11-16__18-43-05__readmeStats.bg
+ create mode 100644 bgBackups/2025-11-16__18-43-05__removeSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-16__18-43-05__resizeWindow.bg
+ create mode 100644 bgRelease/tmp.exe
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   138a95a30..dd31cae1a  master -> master
