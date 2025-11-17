@@ -23,10 +23,10 @@ function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
 	addStringMenu</ cm::10000::{Create Control} />;
 	
 	:#id << TrackPopupMenu</ cm::TPM_NONOTIFY | TPM_RETURNCMD::x::y::0::mainWindow::null />;
-	? |[id === 10000]| initbgguiDialog<//>;
+	? |[id === 10000]| initbgguiDialog</ x::y />;
 	
 》
-function noReturn initbgguiDialog   <//> 《
+function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	asciiString title;
 	bgguiDialog << CreateWindowA</ MAKEINTATOM</ registerbgguiDialogClass<//>/>::title pointer::WS_POPUPWINDOW | WS_CAPTION | WS_CLIPCHILDREN::
 		400::100::750::500::null::null::null::null />;
