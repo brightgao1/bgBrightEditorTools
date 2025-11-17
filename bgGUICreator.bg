@@ -95,7 +95,7 @@ windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 me
 			~ SetFocus</ bgguiDialogControlTypeCB />;			
 		】
 	】
-	~? |[message === WM_DESTROY]| EnableWindow</ mainWindow::1 />;
+	~? |[message === WM_DESTROY]| hide</ bgguiDialog /> >> EnableWindow</ mainWindow::1 />;
 	^^^
 	DefWindowProc</ window::message::parameter1::parameter2 />;
 》
