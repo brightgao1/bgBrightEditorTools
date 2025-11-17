@@ -86,9 +86,9 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 		做</ tmp::{Button}::controlText pointer::WS_CHILD | BS_AUTOCHECKBOX::bgguiContextMenuX::bgguiContextMenuY::
 			600::50::mainWindow />;
 	~? |[control === {Edit}]|
-		做Edit</ tmp::bgguiContextMenuX::bgguiContextMenuY::500::25::bgguiDialog />;	
+		做Edit</ tmp::bgguiContextMenuX::bgguiContextMenuY::1000::25::bgguiDialog />;	
 	~? |[control === {Text}]|
-		做Text</ tmp::
+		做Text</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::1000
 》
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_COMMAND]| 【
