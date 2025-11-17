@@ -68,6 +68,7 @@ windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 me
 		? |[shift && key isEqualTo?? VK_TAB]| 【
 			? |[window === bgguiDialogControlTypeCB]| SetFocus</ bgguiDialogDirectoryEdit />;
 			~? |[window === bgguiDialogDirectoryEdit]| SetFocus</ bgguiDialogTextEdit />;
+			~ SetFocus</ bgguiDialogControlTypeCB />;
 		】
 		~? |[key isEqualTo?? VK_TAB]| 【
 			
