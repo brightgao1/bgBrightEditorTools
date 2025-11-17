@@ -1,0 +1,78 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:32:02 , 11/11/2,025
+
+File author:              Bright Gao
+
+File name when created:   bgGUICreator.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+加 	 	 	 	 	 	        								 	all.gao;
+
+
+function noReturn goToGUICreator   <//> 《
+	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
+	
+	
+	renameWindow</ mainWindow::bgguiTitle pointer />;	
+》
+function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
+	
+	menuPointer cm << CreatePopupMenu<//>;
+	addStringMenu</ cm::10000::{Create Control} />;
+	
+	:#id << TrackPopupMenu</ cm::TPM_NONOTIFY | TPM_RETURNCMD::x::y::0::mainWindow::null />;
+	? |[id === 10000]| initbgguiDialog<//>;
+	
+》
+function noReturn initbgguiDialog   <//> 《
+	asciiString title;
+	bgguiDialog << CreateWindowA</ MAKEINTATOM</ registerbgguiDialogClass<//>/>::title pointer::WS_POPUPWINDOW | WS_CAPTION | WS_CLIPCHILDREN::
+		400::100::600::600::null::null::null::null />;
+	show</ bgguiDialog />;
+	UpdateWindow</ bgguiDialog />;
+	EnableWindow</ mainWindow::0 />;
+	windowPointer txt;	
+
+	做Text</ txt::{Control Type:\n\n\n\n\nDirectory:\n\n}::10::10::400::500::bgguiDialog />;
+	
+	做</ bgguiDialogControlTypeCB::{combobox}::{}::CBS_DROPDOWN | CBS_HASSTRINGS | WS_CHILD::10::40::300::300::bgguiDialog::null />;
+	show</ bgguiDialogControlTypeCB />;
+	[]</ :"::@@cbStrings />;
+	cbStrings addToEnd</ {Button} />;
+	cbStrings addToEnd</ {Checkbox} />;
+	cbStrings addToEnd</ {Edit} />;
+	cbStrings addToEnd</ {Text} />;
+	-> |[i.. cbStrings elementCount]| 
+		SendMessageW</ bgguiDialogControlTypeCB::CB_ADDSTRING::0::[! integer64Pointer !]cbStrings[i] pointer />;
+	做Edit</ bgguiDialogDirectoryEdit::10::140::300::30::bgguiDialog />;	
+	
+	
+	setFont</ txt::arialFont />;
+	setFont</ bgguiDialogControlTypeCB::arialFont />;
+	setFont</ bgguiDialogDirectoryEdit::arialFont />;
+		
+》
+windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message === WM_COMMAND]| 【
+
+	】
+	~? |[message === WM_DESTROY]| EnableWindow</ mainWindow::1 />;
+	^^^
+	DefWindowProc</ window::message::parameter1::parameter2 />;
+》
+function returns ATOM registerbgguiDialogClass   <//> 《
+    	changeable WNDCLASSEXW c; c.cbSize stores bytes</ WNDCLASSEXW />; 
+	c.hInstance stores null 》》c.style stores CS_HREDRAW | CS_VREDRAW 》》c.lpfnWndProc stores bgguiDialogHandler;
+    	c.cbClsExtra stores null 》》c.cbWndExtra stores null 》》c.hIcon stores null 》》c.hCursor stores LoadCursor</ null::IDC_ARROW />;
+    	c.lpszMenuName stores null 》》c.hIconSm stores null 》》c.lpszClassName stores {bggui Dialog};
+    	c.hbrBackground stores [! brushPointer !]([! positiveInteger16 !]6);
+	^^^
+	RegisterClassExW</ &c />;
+》
+
+
