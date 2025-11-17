@@ -1,0 +1,4 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-16__19-29-51.txt', LF will be replaced by CRLF the next time Git touches it
+error: open("bgRelease/tmp.exe"): No such file or directory
+error: unable to index file 'bgRelease/tmp.exe'
+fatal: adding files failed
