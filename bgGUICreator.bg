@@ -35,7 +35,7 @@ function noReturn initbgguiDialog   <//> 《
 	windowPointer txt;	
 
 	做Text</ txt::{text}::10::10::400::700::bgguiDialog />;
-	
+	做</ 
 》
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	
