@@ -70,9 +70,9 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	getEditText</ bgguiDialogDirectoryEdit::@@directory />;
 	:"controlText;
 	getEditText</ bgguiDialogTextEdit::@@controlText />;
-	:"width;
-	getEditText</ bgguiDialogWidthEdit::@@width />;
-	
+	:"widthStr;
+	getEditText</ bgguiDialogWidthEdit::@@widthStr />;
+	:#width << stringToInteger</ width />;
 	
 
 	EnableWindow</ mainWindow::1 /> >> DestroyWindow</ bgguiDialog />;
