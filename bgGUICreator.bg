@@ -71,9 +71,11 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 		
 
 	EnableWindow</ mainWindow::1 /> >> DestroyWindow</ bgguiDialog />;
-	windowPointer tmp;
-	做Edit</ tmp::10::10::300::30::mainWindow />;	
 	
+	? |[control === {Button}]|
+		
+
+
 》
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_COMMAND]| 【
