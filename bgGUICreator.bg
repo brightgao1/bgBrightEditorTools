@@ -60,12 +60,13 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	SetFocus</ bgguiDialogControlTypeCB />;
 》
 function noReturn bgguiCreateButtonClicked   <//> 《
-	:"controlStr;
-	getEditText</ bgguiDialogControlTypeCB::@@controlStr />;
-	:"directoryStr;
-	getEditText</ bgguiDialogDirectoryEdit::@@directoryStr />;
+	:"control;
+	getEditText</ bgguiDialogControlTypeCB::@@control />;
+	:"directory;
+	getEditText</ bgguiDialogDirectoryEdit::@@directory />;
 	:"controlText;
 	getEditText</ bgguiDialogTextEdit::@@controlText />;
+	
 	
 		
 
