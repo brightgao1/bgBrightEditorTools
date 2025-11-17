@@ -84,7 +84,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 		做Anniu</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::120::60::mainWindow::null />;
 	~? |[control === {Checkbox}]|
 		做</ rmsCheckbox::{Button}::controlText pointer::WS_CHILD | BS_AUTOCHECKBOX::bgguiContextMenuX::bgguiContextMenuY::
-			500::50::mainWindow />;
+			600::50::mainWindow />;
 	~? |[control === {Edit}]|
 		
 	~? |[control === {Text}]|
