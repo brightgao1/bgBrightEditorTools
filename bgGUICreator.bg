@@ -68,7 +68,8 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	getEditText</ bgguiDialogDirectoryEdit::@@directory />;
 	:"controlText;
 	getEditText</ bgguiDialogTextEdit::@@controlText />;
-	
+	:"width;
+	getEditText</ bgguiDialogWidthEdit::@@width />;
 	
 	
 
