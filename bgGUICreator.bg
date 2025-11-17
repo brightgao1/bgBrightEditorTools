@@ -65,7 +65,6 @@ windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 me
 	】
 	~? |[message === WM_KEYDOWN]| 【
 		variable key << parameter1;
-		displayKeypress</ parameter2 />;
 		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
 		? |[shift && key isEqualTo?? VK_TAB]| 【
 			? |[window === bgguiDialogControlTypeCB]| SetFocus</ bgguiDialogDirectoryEdit />;
