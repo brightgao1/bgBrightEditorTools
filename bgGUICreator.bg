@@ -77,7 +77,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	pt get x << bgguiContextMenuX;
 	pt get y << bgguiContextMenuY;
 	ScreenToClient</ mainWindow::&pt />;
-	
+	bgguiContextMenuX << pt get x >> bgguiContextMenuY << pt get y;
 	
 	windowPointer tmp;
 	? |[control === {Button}]|
