@@ -29,7 +29,7 @@ function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
 function noReturn initbgguiDialog   <//> 《
 	asciiString title;
 	bgguiDialog << CreateWindowA</ MAKEINTATOM</ registerbgguiDialogClass<//>/>::title pointer::WS_POPUPWINDOW | WS_CAPTION | WS_CLIPCHILDREN::
-		300::300::400::300::null::null::null::null />;
+		300::300::600::500::null::null::null::null />;
 	show</ bgguiDialog />;
 	UpdateWindow</ bgguiDialog />;
 	
