@@ -32,6 +32,7 @@ function noReturn initbgguiDialog   <//> 《
 		300::300::600::600::null::null::null::null />;
 	show</ bgguiDialog />;
 	UpdateWindow</ bgguiDialog />;
+	EnableWindow</ mainWindow::0 />;
 	windowPointer txt;	
 
 	做Text</ txt::{Directory:\n\n}::10::10::400::500::bgguiDialog />;
