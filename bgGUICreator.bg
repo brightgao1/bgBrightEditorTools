@@ -41,6 +41,7 @@ function noReturn initbgguiDialog   <//> 《
 	show</ bgguiDialogControlTypeCB />;
 	[]</ :"::@@cbStrings />;
 	cbStrings addToEnd</ {Button} />;
+	cbStrings addToEnd</ {Checkbox} />;
 	cbStrings addToEnd</ {Edit} />;
 	cbStrings addToEnd</ {Text} />;
 	cbStrings addToEnd</ {} />;
