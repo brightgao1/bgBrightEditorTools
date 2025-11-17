@@ -58,7 +58,7 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	setFont</ bgguiDialogTextEdit::arialFont />;
 	renameWindow</ bgguiDialog::{Create Control} />;
 	SetFocus</ bgguiDialogControlTypeCB />;
-	
+	bgguiContextMenuX << x >> bgguiContextMenuY << y;
 》
 function noReturn bgguiCreateButtonClicked   <//> 《
 	:"control;
