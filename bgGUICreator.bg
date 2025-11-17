@@ -62,6 +62,11 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 function noReturn bgguiCreateButtonClicked   <//> 《
 	:"controlStr;
 	getEditText</ bgguiDialogControlTypeCB::@@controlStr />;
+	:"directoryStr;
+	getEditText</ bgguiDialogDirectoryEdit::@@directoryStr />;
+	:"controlText;
+	getEditText</ bgguiDialogTextEdit::@@controlText />;
+		
 
 	EnableWindow</ mainWindow::1 /> >> DestroyWindow</ bgguiDialog />;
 	windowPointer tmp;
