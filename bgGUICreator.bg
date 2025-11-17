@@ -60,7 +60,8 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	SetFocus</ bgguiDialogControlTypeCB />;
 》
 function noReturn bgguiCreateButtonClicked   <//> 《
-	
+	:"controlStr;
+	getEditText</ bgguiDialogControlTypeCB::@@controlStr />;
 
 	EnableWindow</ mainWindow::1 /> >> DestroyWindow</ bgguiDialog />;
 	windowPointer tmp;
