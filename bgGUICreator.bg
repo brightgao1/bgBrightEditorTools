@@ -44,7 +44,8 @@ function noReturn initbgguiDialog   <//> 《
 	cbStrings addToEnd</ {Checkbox} />;
 	cbStrings addToEnd</ {Edit} />;
 	cbStrings addToEnd</ {Text} />;
-	
+	-> |[i.. cbStrings elementCount]| 
+		ComboBox_AddString</ bgguiDialogControlTypeCB::cbStrings[i] />;
 	做Edit</ bgguiDialogDirectoryEdit::10::140::300::30::bgguiDialog />;	
 	
 》
