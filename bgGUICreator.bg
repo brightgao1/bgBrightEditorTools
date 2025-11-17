@@ -59,6 +59,9 @@ function noReturn initbgguiDialog   <//> 《
 	renameWindow</ bgguiDialog::{Create Control} />;
 	SetFocus</ bgguiDialogControlTypeCB />;
 》
+function noReturn bgguiCreateButtonClicked   <//> 《
+	
+》
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_COMMAND]| 【
 		variable notification stores first16Bits</ parameter1 />;
