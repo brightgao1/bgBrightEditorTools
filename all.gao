@@ -143,7 +143,7 @@ global windowPointer rmsSaveButton;
 	 ༽
 global windowPointer bgguiDialog;
 global windowPointer bgguiDialogControlTypeCB.. bgguiDialogDirectoryEdit.. bgguiDialogTextEdit;
-global windowPointer bgguiDialogButton;
+global windowPointer bgguiDialogWidthEdit.. bgguiDialogButton;
 
 global :#bgguiContextMenuX.. bgguiContextMenuY.. bgguiDialogNum;
 
