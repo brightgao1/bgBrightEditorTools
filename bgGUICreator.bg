@@ -67,7 +67,7 @@ windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 me
 		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
 		? |[shift && key isEqualTo?? VK_TAB]| 【
 			? |[window === bgguiDialogControlTypeCB]| SetFocus</ bgguiDialogDirectoryEdit />;
-			
+			~? |[window === bgguiDialogDirectoryEdit]| SetFocus</ bgguiDialogTextEdit />;
 		】
 		~? |[key isEqualTo?? VK_TAB]| 【
 			
