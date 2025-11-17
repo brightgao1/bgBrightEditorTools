@@ -77,7 +77,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	? |[control === {Button}]|
 		做Anniu</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::120::60::mainWindow::null />;
 	
-
+	
 》
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_COMMAND]| 【
