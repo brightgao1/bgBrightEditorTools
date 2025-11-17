@@ -48,7 +48,7 @@ function noReturn initbgguiDialog   <//> 《
 		SendMessageW</ bgguiDialogControlTypeCB::CB_ADDSTRING::0::[! integer64Pointer !]cbStrings[i] pointer />;
 	做Edit</ bgguiDialogDirectoryEdit::10::140::300::30::bgguiDialog />;	
 	
-	做Anniu</ 
+	做Anniu</ bgguiDialogButton::
 	
 	setFont</ txt::arialFont />;
 	setFont</ bgguiDialogControlTypeCB::arialFont />;
