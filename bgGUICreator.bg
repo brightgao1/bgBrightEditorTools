@@ -40,7 +40,10 @@ function noReturn initbgguiDialog   <//> 《
 	做</ bgguiDialogControlTypeCB::{combobox}::{}::CBS_DROPDOWN | CBS_HASSTRINGS | WS_CHILD::10::40::300::30::bgguiDialog::null />;
 	show</ bgguiDialogControlTypeCB />;
 	[]</ :"::@@cbStrings />;
-
+	cbStrings addToEnd</ {Button} />;
+	cbStrings addToEnd</ {Edit} />;
+	cbStrings addToEnd</ {Text} />;
+	cbStrings addToEnd</ {} />;
 	做Edit</ bgguiDialogDirectoryEdit::10::140::300::30::bgguiDialog />;	
 	
 》
