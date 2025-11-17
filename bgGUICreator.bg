@@ -38,6 +38,7 @@ function noReturn initbgguiDialog   <//> 《
 	
 	做</ bgguiDialogControlTypeCB::{}::CBS_DROPDOWN | CBS_HASSTRINGS | WS_CHILD::10::40::300::30::bgguiDialog::null::null::null />;
 	show</ bgguiDialogControlTypeCB />;
+	做Edit</ bgguiDialogDirectoryEdit::10::140::300::30::bgguiDialog />;	
 	
 》
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
