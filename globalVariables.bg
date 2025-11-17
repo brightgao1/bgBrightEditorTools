@@ -67,6 +67,9 @@ windowPointer rmsSaveButton;
 windowPointer bgguiDialog;
 windowPointer bgguiDialogControlTypeCB.. bgguiDialogDirectoryEdit.. bgguiDialogTextEdit;
 windowPointer bgguiDialogButton;
+
+:#bgguiContextMenuX.. bgguiContextMenuY;
+
 	༼   
 
 		*	common.bg	*
