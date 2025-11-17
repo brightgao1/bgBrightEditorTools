@@ -65,9 +65,12 @@ windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 me
 		variable key << parameter1;
 		displayKeypress</ parameter2 />;
 		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
-		? |[shift && key isEqualTo?? VK_TAB]| SetFocus</ ashPrevControl[window] />;
-		~? |[key isEqualTo?? VK_TAB]| SetFocus</ ashNextControl[window] />;
-		
+		? |[shift && key isEqualTo?? VK_TAB]| 【
+			
+		】
+		~? |[key isEqualTo?? VK_TAB]| 【
+			
+		】
 	】
 	~? |[message === WM_DESTROY]| EnableWindow</ mainWindow::1 />;
 	^^^
