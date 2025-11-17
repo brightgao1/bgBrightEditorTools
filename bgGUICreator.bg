@@ -74,7 +74,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	EnableWindow</ mainWindow::1 /> >> DestroyWindow</ bgguiDialog />;
 	windowPointer tmp;
 	? |[control === {Button}]|
-		做Anniu</ tmp::controlText pointer::
+		做Anniu</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::
 
 
 》
