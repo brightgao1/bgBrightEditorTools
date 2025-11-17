@@ -52,8 +52,8 @@ function noReturn rmsSaveButtonClicked   <//>;
 		*	bgGUICreator.bg	*
 	 ༽
 function noReturn goToGUICreator   <//>;
-function noReturn initbgguiDialog   <//>;
-function noReturn bgguiCreateButtonClicked   <//>;
+function noReturn initbgguiDialog   </ :#x:::#y />;
+function noReturn bgguiCreateButtonClicked   </ :#x:::#y />;
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 function noReturn bgguiShowContextMenu   </ :#x:::#y/>;
 function returns ATOM registerbgguiDialogClass   <//>;
