@@ -27,7 +27,7 @@ function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
 	
 》
 function noReturn initbgguiDialog   <//> 《
-	bgguiDialog << CreateWindowW</ MAKEINTATOM</ registerbgguiDialogClass<//>/>::{Create Control}::WS_POPUPWINDOW | WS_CAPTION | WS_CLIPCHILDREN::
+	bgguiDialog << CreateWindowA</ MAKEINTATOM</ registerbgguiDialogClass<//>/>::{Create Control}::WS_POPUPWINDOW | WS_CAPTION | WS_CLIPCHILDREN::
 		300::300::400::300::null::null::null::null />;
 》
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
