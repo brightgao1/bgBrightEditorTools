@@ -74,6 +74,8 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 
 	EnableWindow</ mainWindow::1 /> >> DestroyWindow</ bgguiDialog />;
 	POINT pt;
+	pt get x << bgguiContextMenuX;
+	pt get y << bgguiContextMenuY;
 	ScreenToClient</ mainWindow::&pt />;
 	
 	
