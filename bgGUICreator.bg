@@ -58,6 +58,7 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	setFont</ bgguiDialogTextEdit::arialFont />;
 	renameWindow</ bgguiDialog::{Create Control} />;
 	SetFocus</ bgguiDialogControlTypeCB />;
+	
 》
 function noReturn bgguiCreateButtonClicked   <//> 《
 	:"control;
@@ -73,7 +74,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	EnableWindow</ mainWindow::1 /> >> DestroyWindow</ bgguiDialog />;
 	windowPointer tmp;
 	? |[control === {Button}]|
-		做Anniu</ tmp::
+		做Anniu</ tmp::controlText pointer::
 
 
 》
