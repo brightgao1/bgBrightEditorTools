@@ -71,7 +71,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	
 		
 
-	EnableWindow</ mainWindow::1 /> >> hide</ bgguiDialog />;
+	EnableWindow</ mainWindow::1 /> >> DestroyWindow</ bgguiDialog />;
 	windowPointer tmp;
 	? |[control === {Button}]|
 		做Anniu</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::120::60::mainWindow::null />;
@@ -95,7 +95,7 @@ windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 me
 			~ SetFocus</ bgguiDialogControlTypeCB />;			
 		】
 	】
-	~? |[message === WM_DESTROY]| hide</ bgguiDialog /> >> EnableWindow</ mainWindow::1 />;
+	~? |[message === WM_DESTROY]| EnableWindow</ mainWindow::1 />;
 	^^^
 	DefWindowProc</ window::message::parameter1::parameter2 />;
 》
