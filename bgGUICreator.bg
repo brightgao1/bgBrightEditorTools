@@ -50,7 +50,7 @@ function noReturn initbgguiDialog   <//> 《
 	做Edit</ bgguiDialogTextEdit::10::235::300::30::bgguiDialog />;	
 	
 	
-	做Anniu</ bgguiDialogButton::{Create (Enter)}::580::350::120::60::bgguiDialog::null />;
+	做Anniu</ bgguiDialogButton::{Create (Enter)}::600::380::120::50::bgguiDialog::null />;
 	
 	setFont</ txt::arialFont />;
 	setFont</ bgguiDialogControlTypeCB::arialFont />;
