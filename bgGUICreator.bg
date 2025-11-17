@@ -46,9 +46,10 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	cbStrings addToEnd</ {Text} />;
 	-> |[i.. cbStrings elementCount]|
 		SendMessageW</ bgguiDialogControlTypeCB::CB_ADDSTRING::0::[! integer64Pointer !]cbStrings[i] pointer />;
-	做Edit</ bgguiDialogDirectoryEdit::10::140::300::30::bgguiDialog />;	
-	做Edit</ bgguiDialogTextEdit::10::235::300::30::bgguiDialog />;	
+	renameWindow</ bgguiDialogControlTypeCB::cbStrings[0] pointer />;
 	
+	做Edit</ bgguiDialogDirectoryEdit::10::140::300::30::bgguiDialog />;	
+	做Edit</ bgguiDialogTextEdit::10::235::300::30::bgguiDialog />;
 	
 	做Anniu</ bgguiDialogButton::{Create (Enter)}::590::380::120::50::bgguiDialog::null />;
 	
@@ -92,7 +93,7 @@ windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 me
 		~? |[key isEqualTo?? VK_TAB]| 【
 			? |[window === bgguiDialogControlTypeCB]| SetFocus</ bgguiDialogDirectoryEdit />;
 			~? |[window === bgguiDialogDirectoryEdit]| SetFocus</ bgguiDialogTextEdit />;
-			~ SetFocus</ bgguiDialogControlTypeCB />;			
+			~ SetFocus</ bgguiDialogControlTypeCB />;		
 		】
 	】
 	~? |[message === WM_DESTROY]| EnableWindow</ mainWindow::1 />;
