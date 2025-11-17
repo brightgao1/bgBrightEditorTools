@@ -51,7 +51,9 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	做Edit</ bgguiDialogDirectoryEdit::10::140::300::30::bgguiDialog />;	
 	做Edit</ bgguiDialogTextEdit::10::235::300::30::bgguiDialog />;
 	做Edit</ bgguiDialogWidthEdit::10::330::300::30::bgguiDialog />;
-	
+	做</ bgguiDialogWidthEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::20::130::400::30::mainWindow />;
+		
+
 	做Anniu</ bgguiDialogButton::{Create (Enter)}::590::380::120::50::bgguiDialog::null />;
 	
 	setFont</ txt::arialFont />;
