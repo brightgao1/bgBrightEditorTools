@@ -1,0 +1,30 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-16__19-10-16.txt', LF will be replaced by CRLF the next time Git touches it
+[master 9d69a13a3] BrightEditor autopush 19:10:16 11/16/2025 CST
+ 30 files changed, 1207 insertions(+), 12 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-16__19-10-16.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__19-09-53__413__1
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__19-09-53__604__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__19-09-53__760__;
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__19-09-53__979__;
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__19-09-54__128__0
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__19-09-54__192__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__19-09-54__333__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__19-09-54__419__
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__19-09-54__656__;
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__19-09-54__679__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__19-09-54__759__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-16__19-09-55__792__F5
+ create mode 100644 bgBackups/2025-11-16__19-10-03__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-16__19-10-03__all.gao
+ create mode 100644 bgBackups/2025-11-16__19-10-03__bgGUICreator.bg
+ create mode 100644 bgBackups/2025-11-16__19-10-03__common.bg
+ create mode 100644 bgBackups/2025-11-16__19-10-03__globalVariables.bg
+ create mode 100644 bgBackups/2025-11-16__19-10-03__initApp.bg
+ create mode 100644 bgBackups/2025-11-16__19-10-03__main.bg
+ create mode 100644 bgBackups/2025-11-16__19-10-03__other.bg
+ create mode 100644 bgBackups/2025-11-16__19-10-03__readmeStats.bg
+ create mode 100644 bgBackups/2025-11-16__19-10-03__removeSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-16__19-10-03__resizeWindow.bg
+ create mode 100644 bgRelease/tmp.exe
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   3a8d23703..9d69a13a3  master -> master
