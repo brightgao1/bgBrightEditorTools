@@ -73,6 +73,8 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 		
 
 	EnableWindow</ mainWindow::1 /> >> DestroyWindow</ bgguiDialog />;
+	POINT pt;
+	ScreenToClient</ mainWindow::&pt />;
 	
 	
 	windowPointer tmp;
