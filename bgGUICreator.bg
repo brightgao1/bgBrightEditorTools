@@ -47,7 +47,7 @@ function noReturn initbgguiDialog   <//> 《
 	-> |[i.. cbStrings elementCount]|
 		SendMessageW</ bgguiDialogControlTypeCB::CB_ADDSTRING::0::[! integer64Pointer !]cbStrings[i] pointer />;
 	做Edit</ bgguiDialogDirectoryEdit::10::140::300::30::bgguiDialog />;	
-	做Edit</ bgguiDialogTextEdit::10::140::300::30::bgguiDialog />;	
+	做Edit</ bgguiDialogTextEdit::10::240::300::30::bgguiDialog />;	
 	
 
 	做Anniu</ bgguiDialogButton::{Create (Enter)}::600::350::150::80::bgguiDialog::null />;
