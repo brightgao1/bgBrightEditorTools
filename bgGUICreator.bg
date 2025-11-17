@@ -51,8 +51,9 @@ function noReturn initbgguiDialog   <//> 《
 	
 	setFont</ txt::arialFont />;
 	setFont</ bgguiDialogControlTypeCB::arialFont />;
-	setFont</ bgguiDialogDirectoryEdit::arialFont />;	
-		
+	setFont</ bgguiDialogDirectoryEdit::arialFont />;
+
+	SendMessageW</ 		
 》
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_COMMAND]| 【
