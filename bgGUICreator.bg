@@ -44,7 +44,7 @@ function noReturn initbgguiDialog   <//> 《
 	cbStrings addToEnd</ {Checkbox} />;
 	cbStrings addToEnd</ {Edit} />;
 	cbStrings addToEnd</ {Text} />;
-	-> |[i.. cbStrings elementCount]| 
+	-> |[i.. cbStrings elementCount]|
 		SendMessageW</ bgguiDialogControlTypeCB::CB_ADDSTRING::0::[! integer64Pointer !]cbStrings[i] pointer />;
 	做Edit</ bgguiDialogDirectoryEdit::10::140::300::30::bgguiDialog />;	
 	
@@ -59,6 +59,14 @@ function noReturn initbgguiDialog   <//> 《
 》
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_COMMAND]| 【
+		
+	】
+	~? |[message === WM_KEYDOWN]| 【
+		variable key << parameter1;
+		displayKeypress</ parameter2 />;
+		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
+		? |[shift && key isEqualTo?? VK_TAB]| SetFocus</ ashPrevControl[window] />;
+		~? |[key isEqualTo?? VK_TAB]| SetFocus</ ashNextControl[window] />;
 		
 	】
 	~? |[message === WM_DESTROY]| EnableWindow</ mainWindow::1 />;
