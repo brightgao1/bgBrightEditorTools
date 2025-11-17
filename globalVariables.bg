@@ -69,6 +69,7 @@ windowPointer bgguiDialogControlTypeCB.. bgguiDialogDirectoryEdit.. bgguiDialogT
 windowPointer bgguiDialogButton;
 
 :#bgguiContextMenuX.. bgguiContextMenuY;
+:#bgguiDialogNum << 0;
 
 	༼   
 
