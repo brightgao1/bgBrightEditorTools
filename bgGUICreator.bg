@@ -69,7 +69,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	:"control;
 	getEditText</ bgguiDialogControlTypeCB::@@control />;
 	:"varName;
-	getEditText</ bgguiDialogVarNameEdit::@@directory />;
+	getEditText</ bgguiDialogVarNameEdit::@@varName />;
 	:"controlText;
 	getEditText</ bgguiDialogTextEdit::@@controlText />;
 	:"widthStr;
@@ -108,9 +108,9 @@ windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 me
 
 		】
 		~? |[key isEqualTo?? VK_TAB]| 【
-			? |[window === bgguiDialogControlTypeCB]| SetFocus</ bgguiDialogDirectoryEdit />;
-			~? |[window === bgguiDialogDirectoryEdit]| SetFocus</ bgguiDialogTextEdit />;
-			~ SetFocus</ bgguiDialogControlTypeCB />;		
+//			? |[window === bgguiDialogControlTypeCB]| SetFocus</ bgguiDialogDirectoryEdit />;
+//			~? |[window === bgguiDialogDirectoryEdit]| SetFocus</ bgguiDialogTextEdit />;
+//			~ SetFocus</ bgguiDialogControlTypeCB />;		
 		】
 	】
 	~? |[message === WM_DESTROY]| EnableWindow</ mainWindow::1 />;
