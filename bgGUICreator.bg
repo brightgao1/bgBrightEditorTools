@@ -111,7 +111,12 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 》
 
 windowHandler bgguiDialogEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
-	
+	? |[message === WM_COMMAND]| 【
+
+	】
+	~? |[message === ]| 【
+		
+	】	
 》
 windowHandler bgguiDialogEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_COMMAND]| 【
