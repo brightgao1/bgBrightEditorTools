@@ -130,7 +130,7 @@ windowHandler bgguiDialogEditHandler   </ windowPointer window::positiveInteger3
 windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_COMMAND]| 【
 		variable notification stores first16Bits</ parameter1 />;
-		? |[notification === BN_CLICKED]| bgguiCreateButtonClicked<//>;		
+		? |[notification === BN_CLICKED]| bgguiCreateButtonClicked<//>;
 	】
 	~? |[message === WM_KEYDOWN]| 【
 		variable key << parameter1;
