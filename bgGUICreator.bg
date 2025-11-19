@@ -74,6 +74,7 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	】
 	? |[bgguiDialogCBProc === null]| 【
 		bgguiDialogCBProc << ([! WNDPROC !]GetWindowLongPtrW</ bgguiDialogControlTypeCB::-4 />);
+		SetWindowLongPtrW</ bgguiDialogControlTypeCB::-4::[! LONG_PTR !]bgguiDialogCBHandler />;
 	】
 	
 》
