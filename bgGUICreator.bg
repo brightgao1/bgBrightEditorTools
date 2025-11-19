@@ -62,8 +62,6 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	setFont</ bgguiDialogWidthEdit::arialFont />;
 
 	renameWindow</ bgguiDialog::{Create Control} />;
-	UpdateWindow</ bgguiDialogControlTypeCB />;
-	SendMessageW</ bgguiDialogControlTypeCB::CB_SHOWDROPDOWN::[! positiveInteger32Pointer !]1::0 />;
 	SetFocus</ bgguiDialogVarNameEdit />;
 	bgguiContextMenuX << x >> bgguiContextMenuY << y;
 	
