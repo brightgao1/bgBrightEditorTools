@@ -157,18 +157,6 @@ windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 me
 		variable notification stores first16Bits</ parameter1 />;
 		? |[notification === BN_CLICKED]| bgguiCreateButtonClicked<//>;
 	】
-	~? |[message === WM_KEYDOWN]| 【
-		variable key << parameter1;
-		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
-		? |[shift && key isEqualTo?? VK_TAB]| 【
-
-		】
-		~? |[key isEqualTo?? VK_TAB]| 【
-//			? |[window === bgguiDialogControlTypeCB]| SetFocus</ bgguiDialogDirectoryEdit />;
-//			~? |[window === bgguiDialogDirectoryEdit]| SetFocus</ bgguiDialogTextEdit />;
-//			~ SetFocus</ bgguiDialogControlTypeCB />;		
-		】
-	】
 	~? |[message === WM_DESTROY]| EnableWindow</ mainWindow::1 />;
 	^^^
 	DefWindowProc</ window::message::parameter1::parameter2 />;
@@ -183,5 +171,5 @@ function returns ATOM registerbgguiDialogClass   <//> 《
 	^^^
 	RegisterClassExW</ &c />;
 》
-
+function returns
 
