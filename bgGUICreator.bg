@@ -26,7 +26,7 @@ function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
 	addStringMenu</ cm::10015::{Create Text} />;
 	
 	:#id << TrackPopupMenu</ cm::TPM_NONOTIFY | TPM_RETURNCMD::x::y::0::mainWindow::null />;
-	? |[id === 10000]| initbgguiDialog</ x::y />;
+	? |[id === 10000]| initbgguiDialog</ x::y::{Button} />;
 	
 》
 function noReturn initbgguiDialog   </ :#x:::#y /> 《
