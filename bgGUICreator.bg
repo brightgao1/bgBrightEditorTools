@@ -68,8 +68,8 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	? |[bgguiDialogEditProc === null]| 【
 		bgguiDialogEditProc << ([! WNDPROC !]GetWindowLongPtrW</ bgguiDialogVarNameEdit::-4 />);
 		SetWindowLongPtrW</ bgguiDialogVarNameEdit::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
-		SetWindowLongPtrW</ bgguiDialogEdit::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
-		
+		SetWindowLongPtrW</ bgguiDialogTextEdit::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
+		SetWindowLongPtrW</ bgguiDialogWidthEdit::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
 	】
 》
 function noReturn bgguiCreateButtonClicked   <//> 《
