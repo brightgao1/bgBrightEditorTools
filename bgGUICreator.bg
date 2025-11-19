@@ -72,6 +72,9 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 		SetWindowLongPtrW</ bgguiDialogTextEdit::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
 		SetWindowLongPtrW</ bgguiDialogWidthEdit::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
 	】
+	? |[bgguiDialogCBProc === null]| 【
+		
+	】
 	
 》
 function noReturn bgguiCreateButtonClicked   <//> 《
