@@ -20,8 +20,8 @@ function noReturn goToGUICreator   <//> 《
 function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
 	
 	menuPointer cm << CreatePopupMenu<//>;
-	addStringMenu</ cm::10000::{Create Control} />;
-	
+	addStringMenu</ cm::10000::{Create Button} />;
+	addStirngMenu</ cm::10005::{Create 
 	:#id << TrackPopupMenu</ cm::TPM_NONOTIFY | TPM_RETURNCMD::x::y::0::mainWindow::null />;
 	? |[id === 10000]| initbgguiDialog</ x::y />;
 	
@@ -60,8 +60,6 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	setFont</ bgguiDialogVarNameEdit::arialFont />;
 	setFont</ bgguiDialogTextEdit::arialFont />;
 	setFont</ bgguiDialogWidthEdit::arialFont />;
-
-	renameWindow</ bgguiDialog::{Create Control} />;
 	SetFocus</ bgguiDialogVarNameEdit />;
 	bgguiContextMenuX << x >> bgguiContextMenuY << y;
 	
