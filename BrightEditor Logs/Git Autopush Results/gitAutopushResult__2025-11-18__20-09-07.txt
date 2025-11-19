@@ -1,0 +1,78 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-18__20-08-42.txt', LF will be replaced by CRLF the next time Git touches it
+[master 63358ae94] BrightEditor autopush 20:08:42 11/18/2025 CST
+ 75 files changed, 171 insertions(+), 18 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-18__20-08-42.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-19__328__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-19__447__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-19__931__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-21__167__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-21__759__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-21__959__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-22__335__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-22__855__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-23__56__Left
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-23__583__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-23__911__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-24__639__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__140__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__184__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__216__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__246__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__277__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__309__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__341__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__373__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__404__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__449__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__480__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__513__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__543__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__575__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__719__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-25__880__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-26__151__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-26__15__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-26__287__Right
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-26__519__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-26__656__E
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-26__807__D
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-26__905__I
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-26__968__T
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-27__551__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-27__688__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-27__816__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-28__441__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-28__799__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-29__23__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-29__360__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-29__864__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-30__263__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-30__496__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-34__458__Page Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-34__593__Page Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-35__800__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-36__552__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-36__857__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-37__370__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-37__400__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-37__431__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-37__462__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-37__494__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-37__801__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-38__305__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-38__336__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-38__367__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-38__399__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-38__545__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-38__777__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-39__400__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-40__648__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-40__817__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-41__208__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-41__602__Enter
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-41__961__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-42__257__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-42__361__V
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-18__20-08-43__119__Up
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   6855bbf2e..63358ae94  master -> master
