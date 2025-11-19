@@ -28,8 +28,8 @@ function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
 	:#id << TrackPopupMenu</ cm::TPM_NONOTIFY | TPM_RETURNCMD::x::y::0::mainWindow::null />;
 	? |[id === 10000]| initbgguiDialog</ x::y::{Button} />;
 	~? |[id === 10005]| initbgguiDialog</ x::y::{Checkbox} />;
-	~? |[id === 10005]| initbgguiDialog</ x::y::{Edit} />;
-	~ |[id === 10005]| initbgguiDialog</ x::y::{Text} />;
+	~? |[id === 10010]| initbgguiDialog</ x::y::{Edit} />;
+	~ initbgguiDialog</ x::y::{Text} />;
 》
 function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	asciiString title;
