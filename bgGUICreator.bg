@@ -63,7 +63,6 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 
 	renameWindow</ bgguiDialog::{Create Control} />;
 	SetFocus</ bgguiDialogControlTypeCB />;
-	SendMessageW</ bgguiDialogControlTypeCB::CB_SHOWDROPDOWN::1::0 />;
 	bgguiContextMenuX << x >> bgguiContextMenuY << y;
 	
 	? |[bgguiDialogEditProc === null]| 【
