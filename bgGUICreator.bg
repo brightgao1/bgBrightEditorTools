@@ -48,7 +48,7 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 		SendMessageW</ bgguiDialogControlTypeCB::CB_ADDSTRING::0::[! integer64Pointer !]cbStrings[i] pointer />;
 	renameWindow</ bgguiDialogControlTypeCB::cbStrings[0] pointer />;
 	
-	做Edit</ bgguiDialogDirectoryEdit::10::140::700::30::bgguiDialog />;	
+	做Edit</ bgguiDialogVarNameEdit::10::140::700::30::bgguiDialog />;	
 	做Edit</ bgguiDialogTextEdit::10::235::700::30::bgguiDialog />;
 	做</ bgguiDialogWidthEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::10::330::700::30::bgguiDialog />;
 	renameWindow</ bgguiDialogWidthEdit::{300} />;
@@ -57,7 +57,7 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	
 	setFont</ txt::arialFont />;
 	setFont</ bgguiDialogControlTypeCB::arialFont />;
-	setFont</ bgguiDialogDirectoryEdit::arialFont />;
+	setFont</ bgguiDialogVarNameEdit::arialFont />;
 	setFont</ bgguiDialogTextEdit::arialFont />;
 	setFont</ bgguiDialogWidthEdit::arialFont />;
 
