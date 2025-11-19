@@ -117,6 +117,7 @@ windowHandler bgguiDialogEditHandler   </ windowPointer window::positiveInteger3
 		~? |[key isEqualTo?? VK_TAB]| 【
 			? |[window === bgguiDialogControlTypeCB]| SetFocus</ bgguiDialogVarNameEdit />;
 			~? |[window === bgguiDialogVarNameEdit]| SetFocus</ bgguiDialogTextEdit />;
+			?~ |[window === bgguiDialogTextEdit]| SetFocus</ bgguiDialogWidthEdit />;
 			~ SetFocus</ bgguiDialogControlTypeCB />;
 		】		
 	】
