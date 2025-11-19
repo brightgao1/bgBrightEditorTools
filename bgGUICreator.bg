@@ -89,7 +89,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	:"widthStr;
 	getEditText</ bgguiDialogWidthEdit::@@widthStr />;
 	:#width << stringToInteger</ widthStr />;
-		
+	
 
 	EnableWindow</ mainWindow::1 /> >> DestroyWindow</ bgguiDialog />;
 	POINT pt;
