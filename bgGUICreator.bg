@@ -128,7 +128,9 @@ windowHandler bgguiDialogCBHandler   </ windowPointer window::positiveInteger32 
 》
 windowHandler bgguiDialogEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_COMMAND]| 【
-
+		
+		^^^
+		bgguiDialogEditProc</ window::message::parameter1::parameter2 />;
 	】
 	~? |[message === WM_KEYDOWN]| 【
 		variable key << parameter1;
