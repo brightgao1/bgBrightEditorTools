@@ -114,6 +114,7 @@ windowHandler bgguiDialogCBHandler   </ windowPointer window::positiveInteger32 
 
 	】
 	~? |[message === WM_KEYDOWN]| 【
+		alert</ {here} />;
 		variable key << parameter1;
 		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
 		? |[shift && key isEqualTo?? VK_TAB]| 【
