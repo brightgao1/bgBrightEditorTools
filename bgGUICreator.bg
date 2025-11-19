@@ -64,6 +64,10 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	renameWindow</ bgguiDialog::{Create Control} />;
 	SetFocus</ bgguiDialogControlTypeCB />;
 	bgguiContextMenuX << x >> bgguiContextMenuY << y;
+
+	? |[bgguiDialogEditProc === null]| 【
+		bgguiDialogEditProc << ([! WNDPROC !]GetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4 />);
+		SetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4::[! LONG_PTR !]ashEditHandler />;
 》
 function noReturn bgguiCreateButtonClicked   <//> 《
 	:"control;
