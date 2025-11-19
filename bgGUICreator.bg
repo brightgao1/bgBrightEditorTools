@@ -67,7 +67,7 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 
 	? |[bgguiDialogEditProc === null]| 【
 		bgguiDialogEditProc << ([! WNDPROC !]GetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4 />);
-		SetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4::[! LONG_PTR !]ashEditHandler />;
+		SetWindowLongPtrW</ bgguiDialogVarNameEdit::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
 》
 function noReturn bgguiCreateButtonClicked   <//> 《
 	:"control;
