@@ -145,7 +145,8 @@ global windowPointer bgguiDialog;
 global windowPointer bgguiDialogControlTypeCB.. bgguiDialogDirectoryEdit.. bgguiDialogTextEdit;
 global windowPointer bgguiDialogWidthEdit.. bgguiDialogButton;
 
-global :#bgguiContextMenuX.. bgguiContextMenuY.. bgguiDialogNum;
+global :#bgguiContextMenuX.. bgguiContextMenuY;
+global :#bgguiDialogNum;
 
 	༼   
 
