@@ -121,7 +121,7 @@ windowHandler bgguiDialogCBHandler   </ windowPointer window::positiveInteger32 
 			
 		】
 		~? |[key isEqualTo?? VK_TAB]| 【
-			
+			SetFocus</ bgguiDialogVarNameEdit />;
 		】		
 		
 	】	
