@@ -35,7 +35,7 @@ function noReturn initbgguiDialog   </ :#x:::#y /> 《
 	EnableWindow</ mainWindow::0 />;
 	windowPointer txt;	
 
-	做Text</ txt::{Control Type:\n\n\n\nDirectory:\n\n\n\nText in the new control:\n\n\n\nControl width:}::10::10::400::500::bgguiDialog />;
+	做Text</ txt::{Control Type:\n\n\n\nVariable name:\n\n\n\nText in the new control:\n\n\n\nControl width:}::10::10::400::500::bgguiDialog />;
 	
 	做</ bgguiDialogControlTypeCB::{combobox}::{}::CBS_DROPDOWN | CBS_HASSTRINGS | WS_CHILD::10::40::300::400::bgguiDialog::null />;
 	show</ bgguiDialogControlTypeCB />;
