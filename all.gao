@@ -52,7 +52,7 @@ function noReturn rmsSaveButtonClicked   <//>;
 		*	bgGUICreator.bg	*
 	 ༽
 function noReturn goToGUICreator   <//>;
-function noReturn initbgguiDialog   </ :#x:::#y />;
+function noReturn initbgguiDialog   </ :#x:::#y:::"controlType />;
 function noReturn bgguiCreateButtonClicked   <//>;
 windowHandler bgguiDialogCBHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 windowHandler bgguiDialogEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
