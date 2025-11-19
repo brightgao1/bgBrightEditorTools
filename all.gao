@@ -144,6 +144,7 @@ global windowPointer rmsSaveButton;
 global windowPointer bgguiDialog;
 global windowPointer bgguiDialogControlTypeCB.. bgguiDialogVarNameEdit.. bgguiDialogTextEdit;
 global windowPointer bgguiDialogWidthEdit.. bgguiDialogButton;
+global WNDPROC bgguiDialogEditProc;
 
 global :#bgguiContextMenuX.. bgguiContextMenuY;
 global :#bgguiDialogNum;
