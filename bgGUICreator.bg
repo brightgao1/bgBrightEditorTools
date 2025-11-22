@@ -293,7 +293,7 @@ function returns ATOM registerbgguiDialogClass   <//> 《
 	^^^
 	RegisterClassExW</ &c />;
 》
-function returns ATOM registerbgguiDialogClass   <//> 《
+function returns ATOM registerbgguiEmitDialogClass   <//> 《
     	changeable WNDCLASSEXW c; c.cbSize stores bytes</ WNDCLASSEXW />; 
 	c.hInstance stores null 》》c.style stores CS_HREDRAW | CS_VREDRAW 》》c.lpfnWndProc stores bgguiDialogHandler;
     	c.cbClsExtra stores null 》》c.cbWndExtra stores null 》》c.hIcon stores null 》》c.hCursor stores LoadCursor</ null::IDC_ARROW />;
