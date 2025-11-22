@@ -283,6 +283,15 @@ windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 me
 	^^^
 	DefWindowProc</ window::message::parameter1::parameter2 />;
 》
+windowHandler bgguiEmitDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message === WM_COMMAND]| 【
+		variable notification stores first16Bits</ parameter1 />;
+		? |[notification === BN_CLICKED]| bgguiCreateButtonClicked<//>;
+	】
+	~? |[message === WM_DESTROY]| EnableWindow</ mainWindow::1 />;
+	^^^
+	DefWindowProc</ window::message::parameter1::parameter2 />;
+》
 function returns ATOM registerbgguiDialogClass   <//> 《
     	changeable WNDCLASSEXW c; c.cbSize stores bytes</ WNDCLASSEXW />; 
 	c.hInstance stores null 》》c.style stores CS_HREDRAW | CS_VREDRAW 》》c.lpfnWndProc stores bgguiDialogHandler;
