@@ -288,3 +288,6 @@ function returns unicodeString getbgFunctionClose   <//> 《
 	^^^
 	ret;
 》
+function returns unicodeString getbgguiWindowDecl   <//> 《
+	
+》
