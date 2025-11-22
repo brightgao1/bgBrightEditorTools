@@ -288,7 +288,7 @@ function returns unicodeString getbgFunctionClose   <//> 《
 	^^^
 	ret;
 》
-function returns unicodeString getbgguiWindowDecl   <//> 《
+function returns unicodeString getbgguiWindowDecl   </ :"varName /> 《
 	:"ret;
 	ret <<< {windowPointer  };
 	ret <<< 
