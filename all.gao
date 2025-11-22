@@ -152,7 +152,7 @@ global windowPointer rmsSaveButton;
 
 		*	bgGUICreator.bg	*
 	 ༽
-global windowPointer bgguiDialog;
+global windowPointer bgguiDialog.. bgguiEmitDialog;
 global windowPointer bgguiDialogControlTypeCB.. bgguiDialogVarNameEdit.. bgguiDialogTextEdit;
 global windowPointer bgguiDialogWidthEdit.. bgguiDialogButton;
 global WNDPROC bgguiDialogEditProc.. bgguiDialogCBProc.. checkboxProc..buttonProc;
