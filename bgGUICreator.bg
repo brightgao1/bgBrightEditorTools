@@ -90,7 +90,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	getEditText</ bgguiDialogWidthEdit::@@widthStr />;
 	:#width << stringToInteger</ widthStr />;
 	
-
+	
 	EnableWindow</ mainWindow::1 /> >> DestroyWindow</ bgguiDialog />;
 	POINT pt;
 	pt get x << bgguiContextMenuX;
@@ -171,8 +171,8 @@ function returns ATOM registerbgguiDialogClass   <//> 《
 	^^^
 	RegisterClassExW</ &c />;
 》
-//function returns unicodeString getDoubleColon   <//> 《
-//
-//》
+function returns unicodeString getDoubleColon   <//> 《
+	
+》
 
 
