@@ -113,6 +113,38 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 		做Text</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::width::25::mainWindow />;
 	
 》
+
+windowHandler bgguiCreatorCheckboxHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message === WM_KEYDOWN]| 【
+		variable key << parameter1;
+		flag arrowKey;
+		arrowKey << ((key === VK_UP) || (key === VK_LEFT) || (key === VK_DOWN) || (key === VK_RIGHT));
+		? |[arrowKey]| 【
+			rectangle rec.. whRec;
+			POINT pt;
+			GetWindowRect</ window::&rec />;
+			pt get x << rec get left;
+			pt get y << rec get top;
+			ScreenToClient</ mainWindow::&pt />;
+			getRectangle</ window::whRec />;
+			:#r.. b;
+			r << whRec get right;
+			b << whRec get bottom;
+
+			? |[key === VK_UP]| 
+				move</ window::pt get x::pt get y minus 1::r::b />;
+			~? |[key === VK_DOWN]| 
+				move</ window::pt get x::pt get y plus 1::r::b />;
+			~? |[key === VK_LEFT]|
+				move</ window::pt get x minus 1::pt get y::r::b />;
+			~ move</ window::pt get x plus 1::pt get y::r::b />;
+		】
+		
+	】
+	^^^
+	ashEditProc</ window::message::parameter1::parameter2 />;
+》
+
 windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_KEYDOWN]| 【
 		variable key << parameter1;
