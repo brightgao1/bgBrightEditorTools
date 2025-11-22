@@ -122,7 +122,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 		>> checkboxProc << ([! WNDPROC !]GetWindowLongPtrW</ tmp::-4 />)
 		>> SetWindowLongPtrW</ tmp::-4::[! LONG_PTR !]bgguiCreatorCheckboxHandler />
 		>> wi get type << {Checkbox}
-		>> wi get width << width >>
+		>> wi get height << 50;
 	~? |[control === {Edit}]|
 		做Edit</ tmp::bgguiContextMenuX::bgguiContextMenuY::width::25::mainWindow />
 		>> SetWindowLongPtrW</ tmp::-4::[! LONG_PTR !]bgguiCreatorEditHandler />;
