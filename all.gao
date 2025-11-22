@@ -55,7 +55,7 @@ function noReturn goToGUICreator   <//>;
 function noReturn initbgguiDialog   </ :#x:::#y:::"controlType />;
 function noReturn bgguiCreateButtonClicked   <//>;
 
-windowHandler bgguiCreatorCheckboxHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 windowHandler bgguiCreatorCheckboxHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 windowHandler bgguiDialogCBHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
