@@ -180,7 +180,10 @@ function returns unicodeString getbgDoubleColon   <//> 《
 》
 function returns unicodeString getbgFunctionOpen   <//> 《
 	:"ret;
-	ret <<< 
+	ret addToEnd</ '<' />;
+	ret addToEnd</ '/' />;
+	^^^
+	ret;
 》
 
 function returns unicodeString getbgFunction   <//> 《
