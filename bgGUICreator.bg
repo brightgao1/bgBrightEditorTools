@@ -104,7 +104,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	~? |[control === {Checkbox}]|
 		做</ tmp::{Button}::controlText pointer::WS_CHILD | BS_AUTOCHECKBOX::bgguiContextMenuX::bgguiContextMenuY::
 			width::50::mainWindow />
-		>> checkboxProc << ([! WNDPROC !]GetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4 />);
+		>> checkboxProc << ([! WNDPROC !]GetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4 />)
 		>> SetWindowLongPtrW</ tmp::-4::[! LONG_PTR !]bgguiCreatorCheckboxHandler />;
 	~? |[control === {Edit}]|
 		做Edit</ tmp::bgguiContextMenuX::bgguiContextMenuY::width::25::mainWindow />
