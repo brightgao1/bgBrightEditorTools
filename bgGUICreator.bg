@@ -117,6 +117,7 @@ windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger
 		
 	】
 	^^^
+	ashEditProc</ window::message::parameter1::parameter2 />;
 》
 windowHandler bgguiDialogCBHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_KEYDOWN]| 【
