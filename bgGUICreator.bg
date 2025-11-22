@@ -179,6 +179,10 @@ function returns unicodeString getbgDoubleColon   <//> 《
 	ret;	
 》
 function returns unicodeString getbgFunctionOpen   <//> 《
-	
+	:"ret;
+	ret <<< 
 》
 
+function returns unicodeString getbgFunction   <//> 《
+	
+》
