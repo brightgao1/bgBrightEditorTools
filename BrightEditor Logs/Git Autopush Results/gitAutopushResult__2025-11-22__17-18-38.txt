@@ -1,0 +1,28 @@
+[master 7a76fbd50] BrightEditor autopush 17:18:24 11/22/2025 CST
+ 27 files changed, 2722 insertions(+), 2 deletions(-)
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__17-18-15__824__F5
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__17-18-16__434__F5
+ create mode 100644 bgBackups/2025-11-22__17-18-17__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-17__all.gao
+ create mode 100644 bgBackups/2025-11-22__17-18-17__bgGUICreator.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-17__common.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-17__globalVariables.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-17__initApp.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-17__main.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-17__other.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-17__readmeStats.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-17__removeSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-17__resizeWindow.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-24__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-24__all.gao
+ create mode 100644 bgBackups/2025-11-22__17-18-24__bgGUICreator.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-24__common.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-24__globalVariables.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-24__initApp.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-24__main.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-24__other.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-24__readmeStats.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-24__removeSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-22__17-18-24__resizeWindow.bg
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   0520cc145..7a76fbd50  master -> master
