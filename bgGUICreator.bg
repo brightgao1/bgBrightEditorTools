@@ -120,7 +120,8 @@ windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger
 			rectangle rec;
 			POINT pt;
 			GetWindowRect</ window::&rec />;
-			
+			pt get x << rec get left;
+			pt get y << rec get top;
 			ScreenToClient</ mainWindow::&pt />;
 			
 			? |[key === VK_UP]| move</ 
