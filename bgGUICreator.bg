@@ -118,8 +118,10 @@ windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger
 		arrowKey << (key === VK_UP) || (key === VK_LEFT) || (key === VK_DOWN) || (key === VK_RIGHT);
 		? |[arrowKey]| 【
 			rectangle rec;
-			GetWindowRect</ window::&rec />;
 			POINT pt;
+			GetWindowRect</ window::&rec />;
+			ScreenToClient</ mainWindow::&pt />;
+			
 			? |[key === VK_UP]| move</ 
 		】
 			
