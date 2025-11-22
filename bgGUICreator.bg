@@ -131,6 +131,8 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 		>> wi get height << 35;
 
 
+	windowToInfoMap[tmp] << wi;
+
 //	:"test;
 //	test <<< wi get type >> test <<< wi get varName;
 //	alert</ test pointer />;
