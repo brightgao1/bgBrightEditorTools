@@ -68,7 +68,7 @@ function noReturn initMainWindowMenu   <//> 《
 
 	addDropdownMenu</ mainMenu::bgGUICreatorMenu::bgGUICreatorMenuString />;
 	addStringMenu</ bgGUICreatorMenu::700::unicodeLiteral</ &bgGUICreator /> />;
-		
+	addStringMenu</ bgguiCreatorMenu::705::{&Make Screen} />;		
 
 	SetMenu</ mainWindow::mainMenu />;
 》
