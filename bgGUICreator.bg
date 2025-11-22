@@ -131,7 +131,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	~? |[control === {Text}]|
 		做Text</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::width::25::mainWindow />
 		>> wi get type << {Text}
-		>> wi get heigth << 25;
+		>> wi get height << 25;
 》
 
 windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
