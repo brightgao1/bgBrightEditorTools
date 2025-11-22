@@ -187,5 +187,6 @@ function returns unicodeString getbgFunctionOpen   <//> 《
 》
 
 function returns unicodeString getbgFunction   <//> 《
+	:"ret;
 	
 》
