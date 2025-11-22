@@ -106,7 +106,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 			width::50::mainWindow />;
 	~? |[control === {Edit}]|
 		做Edit</ tmp::bgguiContextMenuX::bgguiContextMenuY::width::25::mainWindow />
-		>> SetWindowLongPtrW</ bgguiDialogWidthEdit::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
+		>> SetWindowLongPtrW</ bgguiDialogWidthEdit::-4::[! LONG_PTR !]bgguiCreatorEditHandler />;
 	~? |[control === {Text}]|
 		做Text</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::width::25::mainWindow />;
 	
