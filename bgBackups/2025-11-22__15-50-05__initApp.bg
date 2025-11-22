@@ -1,0 +1,77 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:56:33 , 9/29/2,025
+
+File author:              Bright Gao
+
+File name when created:   initApp.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+  	加  								 	all.gao;
+
+function noReturn initApp   <//> 《
+	initMainWindowMenu<//> >> initRNG<//>;
+	renameWindow</ mainWindow :: appTitlePrefix pointer /> >> initFonts<//> >> initPaths<//>;	
+	SetTimer</ mainWindow::400::400::null />;	
+	initCommon<//> >> SendMessageW</ mainWindow::WM_SIZE::0::0 />;
+
+
+	goToAddSyntaxHighlight<//>;
+	
+》
+function noReturn initFonts   <//> 《 
+	arialFont << CreateFontW</  0::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Arial} />;	
+	verdanaFont << CreateFontW</ 14::0::0::0::0::0::0::0::0::0::0::CLEARTYPE_QUALITY::0::{Verdana} />;
+》
+function noReturn initPaths   <//> 《
+	getAppDataPath</ @@appDataPath /> >> ADbrightEditorPath << appDataPath plus {\\BrightWin\\BrightEditor};
+	ADbgBrightEditorToolsPath << appDataPath plus {\\bgBrightEditorTools};
+	ADbrightEditorSyntaxHighlightFolderPath << ADbrightEditorPath plus {\\syntaxHighlight};
+	? |[(pathExists</ ADbrightEditorPath />) isEqualTo?? 0]| newDirectory</ ADbrightEditorPath />;
+	? |[(pathExists</ ADbgBrightEditorToolsPath />) isEqualTo?? 0]| newDirectory</ ADbgBrightEditorToolsPath />;
+	? |[(pathExists</ ADbrightEditorSyntaxHighlightFolderPath />) isEqualTo?? 0]| newDirectory</ ADbrightEditorSyntaxHighlightFolderPath />;
+	
+》
+function noReturn ashInitMaps   <//> 《
+	ashNextControl atKey</ addSyntaxHighlightFileExtensionEdit /> << addSyntaxHighlightToHighlightEdit;
+	ashNextControl atKey</ addSyntaxHighlightToHighlightEdit /> << addSyntaxHighlightRedEdit;
+	ashNextControl atKey</ addSyntaxHighlightRedEdit /> << addSyntaxHighlightGreenEdit;
+	ashNextControl atKey</ addSyntaxHighlightGreenEdit /> << addSyntaxHighlightBlueEdit;
+	ashNextControl atKey</ addSyntaxHighlightBlueEdit /> << addSyntaxHighlightOtherEdit;
+	ashNextControl atKey</ addSyntaxHighlightOtherEdit /> << addSyntaxHighlightFileExtensionEdit; 
+	ashPrevControl atKey</ addSyntaxHighlightToHighlightEdit /> << addSyntaxHighlightFileExtensionEdit;
+	ashPrevControl atKey</ addSyntaxHighlightRedEdit /> << addSyntaxHighlightToHighlightEdit;
+	ashPrevControl atKey</ addSyntaxHighlightGreenEdit /> << addSyntaxHighlightRedEdit;
+	ashPrevControl atKey</ addSyntaxHighlightBlueEdit /> << addSyntaxHighlightGreenEdit;
+	ashPrevControl atKey</ addSyntaxHighlightOtherEdit /> << addSyntaxHighlightBlueEdit;
+	ashPrevControl atKey</ addSyntaxHighlightFileExtensionEdit /> << addSyntaxHighlightOtherEdit;
+》
+function noReturn rmsInitMaps   <//> 《
+	rmsNextControl atKey</ rmsPathEdit /> << rmsIntervalEdit;
+	rmsNextControl atKey</ rmsIntervalEdit /> << rmsPathEdit;
+	
+	rmsPrevControl atKey</ rmsPathEdit /> << rmsIntervalEdit;
+	rmsPrevControl atKey</ rmsIntervalEdit /> << rmsPathEdit;
+》
+function noReturn initMainWindowMenu   <//> 《
+	unicodeString syntaxHighlightMenuString << {    &Syntax Highlight  };
+	unicodeString readmeStatsMenuString << {  &README Stats  };
+	unicodeString bgGUICreatorMenuString << {  &bgGUICreator  };
+
+	addDropdownMenu</ mainMenu::syntaxHighlightMenu::syntaxHighlightMenuString />;
+	addStringMenu</ syntaxHighlightMenu::500::unicodeLiteral</ &Add Syntax Highlight /> />;
+	addStringMenu</ syntaxHighlightMenu::505::unicodeLiteral</ &Remove Syntax Highlight /> />;
+
+	addDropdownMenu</ mainMenu::readmeStatsMenu::readmeStatsMenuString />;	
+	addStringMenu</ readmeStatsMenu::600::unicodeLiteral</ &README Statistics Sync /> />;
+
+	addDropdownMenu</ mainMenu::bgGUICreatorMenu::bgGUICreatorMenuString />;
+	addStringMenu</ bgGUICreatorMenu::700::unicodeLiteral</ &bgGUICreator /> />;
+	addStringMenu</ bgguiCreatorMenu::705::{&Emit Code} />;		
+
+	SetMenu</ mainWindow::mainMenu />;
+》
