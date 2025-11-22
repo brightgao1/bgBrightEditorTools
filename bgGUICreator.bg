@@ -293,6 +293,16 @@ function returns ATOM registerbgguiDialogClass   <//> 《
 	^^^
 	RegisterClassExW</ &c />;
 》
+function returns ATOM registerbgguiDialogClass   <//> 《
+    	changeable WNDCLASSEXW c; c.cbSize stores bytes</ WNDCLASSEXW />; 
+	c.hInstance stores null 》》c.style stores CS_HREDRAW | CS_VREDRAW 》》c.lpfnWndProc stores bgguiDialogHandler;
+    	c.cbClsExtra stores null 》》c.cbWndExtra stores null 》》c.hIcon stores null 》》c.hCursor stores LoadCursor</ null::IDC_ARROW />;
+    	c.lpszMenuName stores null 》》c.hIconSm stores null 》》c.lpszClassName stores ({bggui Emit Code Dialog } plus toUnicodeString</ bgguiDialogNum />) pointer;
+	bgguiDialogNum <<< 1;
+    	c.hbrBackground stores [! brushPointer !]([! positiveInteger16 !]6);
+	^^^
+	RegisterClassExW</ &c />;
+》
 function returns unicodeString getbgDoubleColon   <//> 《
 	:"ret;
 	repeat |[2]| 
