@@ -128,7 +128,7 @@ windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger
 			r << whRec get right;
 			b << whRec get bottom;		
 
-			? |[key === VK_UP]| MoveWindow</ window::pt get x::pt get y minus 1::r::b::null />;
+			? |[key === VK_UP]| move</ window::pt get x::pt get y minus 1::r::b />;
 		】
 		
 	】
