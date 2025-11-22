@@ -1,0 +1,25 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-22__15-45-43.txt', LF will be replaced by CRLF the next time Git touches it
+[master 7ca397456] BrightEditor autopush 15:45:43 11/22/2025 CST
+ 21 files changed, 66 insertions(+), 10 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-22__15-45-43.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-29__993__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-30__304__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-39__216__Page Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-39__384__Page Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-40__329__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-40__473__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-40__624__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-40__808__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-41__201__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-42__273__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-42__337__;
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-42__497__'
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-42__961__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-43__128__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-43__401__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-43__748__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-44__366__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-44__771__;
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__15-45-44__782__'
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   c35c400e4..7ca397456  master -> master
