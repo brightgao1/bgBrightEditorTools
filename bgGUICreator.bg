@@ -15,7 +15,7 @@ dataStructure bgguiWindowInfo 【
 	:#x.. y.. width.. height;
 	:"type;
 】
-hashMap</ windowPointer::bgguiWindowInfo::@@windowToInfoMap />;
+hashMap</ windowPointer::bgguiWindowInfo::@@bgguiWindowToInfoMap />;
 
 function noReturn goToGUICreator   <//> 《
 	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
