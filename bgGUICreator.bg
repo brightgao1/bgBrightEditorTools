@@ -119,6 +119,7 @@ windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger
 		? |[arrowKey]| 【
 			rectangle r;
 			getRectangle</ window::r />;
+			:#l.. r.. t.. b;
 			
 		】
 			
