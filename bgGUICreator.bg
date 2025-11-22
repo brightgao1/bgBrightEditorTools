@@ -128,7 +128,7 @@ windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteg
 			pt get x << rec get left;
 			pt get y << rec get top;
 			ScreenToClient</ mainWindow::&pt />;
-			getRectangle</ window::whRec />;
+			GetWindowRect</ window::whRec />;
 			:#r.. b.. l.. t;
 			r << whRec get right >> l << whRec get left;
 			b << whRec get bottom >> t << whRec get top;
