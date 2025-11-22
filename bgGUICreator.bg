@@ -131,7 +131,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 		做Text</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::width::35::mainWindow />
 		>> wi get height << 35;
 
-	windowToInfoMap[tmp] << wi;
+	bgguiWindowToInfoMap[tmp] << wi;
 
 //	:"test;
 //	test <<< wi get type >> test <<< wi get varName;
