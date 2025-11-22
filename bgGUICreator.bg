@@ -134,7 +134,7 @@ windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteg
 			b << whRec get bottom >> t << whRec get top;
 
 			? |[key === VK_UP]| 
-				move</ window::pt get x::pt get y minus 1::r::b />;
+				move</ window::pt get x::pt get y minus 1::r minus l::b minus t />;
 			~? |[key === VK_DOWN]| 
 				move</ window::pt get x::pt get y plus 1::r::b />;
 			~? |[key === VK_LEFT]|
