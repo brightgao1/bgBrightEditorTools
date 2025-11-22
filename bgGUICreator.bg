@@ -289,5 +289,7 @@ function returns unicodeString getbgFunctionClose   <//> 《
 	ret;
 》
 function returns unicodeString getbgguiWindowDecl   <//> 《
-	
+	:"ret;
+	ret <<< {windowPointer  };
+	ret <<< 
 》
