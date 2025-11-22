@@ -117,6 +117,7 @@ windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger
 		flag arrowKey;
 		arrowKey << ((key === VK_UP) || (key === VK_LEFT) || (key === VK_DOWN) || (key === VK_RIGHT));
 		? |[arrowKey]| 【
+			alert</ {up} />;
 			rectangle rec.. whRec;
 			POINT pt;
 			GetWindowRect</ window::&rec />;
