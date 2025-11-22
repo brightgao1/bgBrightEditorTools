@@ -107,12 +107,14 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 	windowPointer tmp;
 	bgguiWindowInfo wi;
 	wi get window << tmp;
+	wi get x << bgguiContextMenuX;
+	wi get y << bgguiContextMenuY;
 	? |[control === {Button}]|
 		做Anniu</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::width::60::mainWindow::null />
 		>> buttonProc << ([! WNDPROC !]GetWindowLongPtrW</ tmp::-4 />)
 		>> SetWindowLongPtrW</ tmp::-4::[! LONG_PTR !]bgguiCreatorButtonHandler />
 		>> wi get type << {Button}
-		>> wi get
+		>> wi get width << 
 	~? |[control === {Checkbox}]|
 		做</ tmp::{Button}::controlText pointer::WS_CHILD | BS_AUTOCHECKBOX::bgguiContextMenuX::bgguiContextMenuY::
 			width::50::mainWindow />
