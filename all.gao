@@ -54,6 +54,7 @@ function noReturn rmsSaveButtonClicked   <//>;
 function noReturn goToGUICreator   <//>;
 function noReturn initbgguiDialog   </ :#x:::#y:::"controlType />;
 function noReturn bgguiCreateButtonClicked   <//>;
+function noReturn initbgguiEmitDialog   <//>;
 
 windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
 windowHandler bgguiCreatorCheckboxHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
