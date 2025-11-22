@@ -85,6 +85,7 @@ function noReturn initbgguiDialog   </ :#x:::#y:::"controlType /> 《
 	
 	
 》
+
 function noReturn bgguiCreateButtonClicked   <//> 《
 	:"control;
 	getEditText</ bgguiDialogControlTypeCB::@@control />;
