@@ -13,7 +13,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 dataStructure bgguiWindowInfo 【
 	windowPointer window;
 	:#x.. y.. width.. height;
-	:"type;
+	:"type.. varName;
 】;
 hashMap</ windowPointer::bgguiWindowInfo::@@bgguiWindowToInfoMap />;
 
