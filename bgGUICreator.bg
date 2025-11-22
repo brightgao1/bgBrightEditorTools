@@ -142,7 +142,7 @@ windowHandler bgguiCreatorCheckboxHandler   </ windowPointer window::positiveInt
 		
 	】
 	^^^
-	ashEditProc</ window::message::parameter1::parameter2 />;
+	checkboxProc</ window::message::parameter1::parameter2 />;
 》
 
 windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
