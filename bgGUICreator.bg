@@ -127,8 +127,8 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 		>> SetWindowLongPtrW</ tmp::-4::[! LONG_PTR !]bgguiCreatorEditHandler />
 		>> wi get height << 25;
 	~? |[control === {Text}]|
-		做Text</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::width::25::mainWindow />
-		>> wi get height << 25;
+		做Text</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::width::35::mainWindow />
+		>> wi get height << 35;
 
 	:"test;
 	test <<< wi get type >> test <<< wi get varName;
