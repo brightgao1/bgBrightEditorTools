@@ -119,10 +119,7 @@ windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger
 		? |[arrowKey]| 【
 			rectangle rec;
 			GetWindowRect</ window::&rec />;
-			
-			:#l.. r.. t.. b;
-			l << rec get left >> r << rec get right;
-			t << rec get top >> b << rec get bottom;
+			POINT pt;
 			? |[key === VK_UP]| move</ 
 		】
 			
