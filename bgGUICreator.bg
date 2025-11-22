@@ -171,12 +171,14 @@ function returns ATOM registerbgguiDialogClass   <//> 《
 	^^^
 	RegisterClassExW</ &c />;
 》
-function returns unicodeString getDoubleColon   <//> 《
+function returns unicodeString getbgDoubleColon   <//> 《
 	:"ret;
 	repeat |[2]| 
 		ret addToEnd</ ':' />;
 	^^^
 	ret;	
 》
-function returns unicodeString get
+function returns unicodeString getbgFunctionOpen   <//> 《
+	
+》
 
