@@ -168,7 +168,10 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	】
 	repeat |[2]|
 		code addToEnd</ newLine />;
-	
+
+	code <<< {function noReturn };
+
+
 	alert</ code pointer />;
 》
 windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
