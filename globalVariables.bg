@@ -67,6 +67,7 @@ windowPointer rmsSaveButton;
 windowPointer bgguiDialog.. bgguiEmitDialog;
 windowPointer bgguiDialogControlTypeCB.. bgguiDialogVarNameEdit.. bgguiDialogTextEdit;
 windowPointer bgguiDialogWidthEdit.. bgguiDialogButton;
+windowPointer bgguiEmitDialogDirectoryEdit.. bgguiEmitDialogFileNameEdit;
 WNDPROC bgguiDialogEditProc.. bgguiDialogCBProc.. checkboxProc..buttonProc;
 
 :#bgguiContextMenuX.. bgguiContextMenuY;
