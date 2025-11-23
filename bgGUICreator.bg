@@ -160,7 +160,7 @@ function noReturn initbgguiEmitDialog   <//> 《
 function noReturn bgguiEmitCodeClicked   <//> 《
 	
 	
-	:"code << {Auto-generated using bgGUICreator, a visual GUI creator in bgBrightEditorTools.};
+	:"code << {Auto-generated using bgGUICreator, a visual GUI creator in bgBrightEditorTools.\n\n};
 	code <<< 
 》
 windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
