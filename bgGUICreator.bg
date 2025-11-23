@@ -149,7 +149,9 @@ function noReturn initbgguiEmitDialog   <//> 《
 	setFont</ txt::arialFont />;
 	setFont</ bgguiEmitDialogDirectoryEdit::arialFont />;
 	setFont</ bgguiEmitDialogFileNameEdit::arialFont />;
-	
+	show</ txt />;
+	show</ bgguiEmitDialogDirectoryEdit />;
+	show</ bgguiEmitDialogFileNameEdit />;
 	
 	
 》
