@@ -183,7 +183,11 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		
 		? |[wi get type === {Button}]| 【
 			code <<< {Anniu};
-			code <<< {
+			code <<< getbgFunctionOpen<//>;
+			repeat |[2]| code addToEnd</ space />;
+			code <<< getbgDoubleAt<//>;
+			code <<< wi get varName;
+			code <<< getbgDoubleColon<//>;
 		】
 		~? |[wi get type === {Checkbox}]| 【
 			
