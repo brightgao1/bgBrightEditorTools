@@ -153,8 +153,7 @@ function noReturn initbgguiEmitDialog   <//> 《
 	show</ txt />;
 	show</ bgguiEmitDialogDirectoryEdit />;
 	show</ bgguiEmitDialogFileNameEdit />;
-	setFocus</ bgguiEmitDialogFileNameEdit />;
-	
+	SetFocus</ bgguiEmitDialogFileNameEdit />;
 	
 	
 》
