@@ -214,12 +214,14 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< toUnicodeString</ wi get height />;
 			code <<< getbgDoubleColon<//>;
 		
-			
+			code <<< {mainWindow};
+					
 		】
 		~? |[wi get type === {Text}]| 【
 			code <<< wi get type;
 		】
 		
+		code <<< getbgFunctionClose<//>;
 		code <<< {\n\t};
 	】	
 	
