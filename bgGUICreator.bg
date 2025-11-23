@@ -358,4 +358,4 @@ function returns unicodeString getbgguiWindowDecl   </ :"varName /> 《
 	ret addToEnd</ ';' /> >> ret addToEnd</ newLine />;
 	^^^
 	ret;
-》
+》
