@@ -141,7 +141,7 @@ function noReturn initbgguiEmitDialog   <//> 《
 	bgguiEmitDialog << CreateWindowA</ MAKEINTATOM</ registerbgguiDialogClass<//>/>::title pointer::WS_POPUPWINDOW | WS_CAPTION | WS_CLIPCHILDREN::
 		400::100::750::500::null::null::null::null />;
 	show</ bgguiEmitDialog />;
-	renameWindow</ asciiLiteral</ Emit/Generate Code From bgGUICreator />/>;
+	renameWindow</ bgguiEmitDialog::asciiLiteral</ Emit/Generate Code From bgGUICreator />/>;
 	windowPointer txt;
 	做Text</ txt::{Directory:\n\n\n\nFile name:\n\n\n\n}::10::10::400::500::bgguiEmitDialog />;
 	
