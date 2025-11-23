@@ -182,10 +182,11 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		code <<< {\u505A};
 		
 		? |[wi get type === {Button}]| 【
-			code <<< {Anniu}
+			code <<< {Anniu};
+			code <<< {
 		】
 		~? |[wi get type === {Checkbox}]| 【
-
+			
 		】
 		~? |[wi get type === {Edit}]| 【
 
