@@ -191,7 +191,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		~? |[wi get type === {Edit}]| 【
 			code <<< wi get type;
 			code <<< getbgFunctionOpen<//>;
-						
+			code <<< 			
 		】
 		~? |[wi get type === {Text}]| 【
 			code <<< wi get type;
@@ -400,4 +400,8 @@ function returns unicodeString getbgguiWindowDecl   </ :"varName /> 《
 	ret addToEnd</ ';' /> >> ret addToEnd</ newLine />;
 	^^^
 	ret;
+》
+function returns unicodeString getbgDoubleAt   <//> 《
+	:"ret;
+	
 》
