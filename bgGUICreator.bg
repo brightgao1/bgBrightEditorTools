@@ -192,9 +192,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< wi get varName;
 			code <<< getbgDoubleColon<//>;
 		
-			code <<< {\u007B};
-			code <<< wi get controlText;
-			code <<< {\u007D};
+			code <<< {\u007B} >> code <<< wi get controlText >> code <<< {\u007D};
 			code <<< getbgDoubleColon<//>;
 	//	X POSITION
 			code <<< toUnicodeString</ wi get x />;
