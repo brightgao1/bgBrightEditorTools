@@ -175,7 +175,10 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	code <<< getbgFunctionOpen<//>;
 	code <<< getbgFunctionClose<//>;
 	code addToEnd</ space /> >> code <<< {\u300A\n\t};
+	
+	loopArray |[element.. bgguiWindowToInfoMap]| 【
 		
+	】	
 
 	alert</ code pointer />;
 》
