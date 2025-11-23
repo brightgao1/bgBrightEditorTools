@@ -1,0 +1,25 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-22__19-06-33.txt', LF will be replaced by CRLF the next time Git touches it
+[master f03ff2b86] BrightEditor autopush 19:06:33 11/22/2025 CST
+ 23 files changed, 73 insertions(+), 13 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-22__19-06-33.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-20__746__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-20__783__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-20__906__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-21__193__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-21__831__Space
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-24__853__Left Windows
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-25__664__[
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-26__218__Enter
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-26__37__Enter
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-26__630__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-26__727__]
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-27__111__Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-27__397__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-27__919__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-28__247__Left Windows
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-29__222__Left Windows
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-29__805__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-29__989__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-06-30__365__F5
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   e9b5dc51c..f03ff2b86  master -> master
