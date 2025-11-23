@@ -204,7 +204,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< wi get type;
 		】
 		
-		
+		code <<< {\n\t};
 	】	
 	
 	
