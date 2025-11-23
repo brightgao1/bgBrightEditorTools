@@ -145,7 +145,7 @@ function noReturn initbgguiEmitDialog   <//> 《
 	做Text</ txt::{Directory:\n\n\n\nFile name:\n\n\n\n}::10::10::400::500::bgguiEmitDialog />;
 	做Edit</ bgguiEmitDialogDirectoryEdit::10::40::700::30::bgguiEmitDialog />;	
 	做Edit</ bgguiEmitDialogFileNameEdit::10::135::700::30::bgguiEmitDialog />;
-	做Anniu</ bgguiDialogButton::{Emit Code (Enter)}::590::380::120::50::bgguiDialog::null />;
+	做Anniu</ bgguiEmitDialogButton::{Emit Code (Enter)}::590::380::120::50::bgguiDialog::null />;
 
 	setFont</ txt::arialFont />;
 	setFont</ bgguiEmitDialogDirectoryEdit::arialFont />;
