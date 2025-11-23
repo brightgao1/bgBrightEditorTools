@@ -172,8 +172,8 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	code <<< {function noReturn };
 
 	code <<< {   };
-	code <<< getbgguiFunctionOpen<//>;
-	code <<< getbgguiFunctionClose<//>;
+	code <<< getbgFunctionOpen<//>;
+	code <<< getbgFunctionClose<//>;
 	code <<< {\u300A\n\t};
 	
 
