@@ -68,6 +68,7 @@ windowPointer bgguiDialog.. bgguiEmitDialog;
 windowPointer bgguiDialogControlTypeCB.. bgguiDialogVarNameEdit.. bgguiDialogTextEdit;
 windowPointer bgguiDialogWidthEdit.. bgguiDialogButton;
 windowPointer bgguiEmitDialogDirectoryEdit.. bgguiEmitDialogFileNameEdit;
+windowPointer bgguiEmitDialogButton;
 WNDPROC bgguiDialogEditProc.. bgguiDialogCBProc.. checkboxProc..buttonProc;
 
 :#bgguiContextMenuX.. bgguiContextMenuY;
