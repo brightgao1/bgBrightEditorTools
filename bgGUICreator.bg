@@ -189,10 +189,11 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			
 		】
 		~? |[wi get type === {Edit}]| 【
-
+			code <<< wi get type;
+			
 		】
 		~? |[wi get type === {Text}]| 【
-
+			code <<< wi get type;
 		】
 		
 		
