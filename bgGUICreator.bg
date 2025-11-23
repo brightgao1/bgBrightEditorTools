@@ -204,7 +204,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	//	HEIGHT
 			code <<< toUnicodeString</ wi get height />;
 			code <<< getbgDoubleColon<//>;
-						
+			
 
 		】
 		~? |[wi get type === {Checkbox}]| 【
