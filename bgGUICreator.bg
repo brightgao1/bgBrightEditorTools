@@ -192,7 +192,9 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< wi get varName;
 			code <<< getbgDoubleColon<//>;
 		
+			code <<< {\u007B};
 			code <<< wi get controlText;
+			code <<< {\u007D};
 			code <<< getbgDoubleColon<//>;
 	//	X POSITION
 			code <<< toUnicodeString</ wi get x />;
@@ -244,7 +246,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		code <<< {  };
 		code <<< getbgFunctionClose<//>;
 		code <<< {;\n\t};
-	】	
+	】
 	
 	
 	code removeFromEnd >> code <<< {\u300B};
@@ -455,4 +457,4 @@ function returns unicodeString getbgDoubleAt   <//> 《
 	^^^
 	ret;
 》
-
+
