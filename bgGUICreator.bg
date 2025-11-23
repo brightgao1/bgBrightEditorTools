@@ -201,21 +201,20 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< wi get varName;
 			code <<< getbgDoubleColon<//>;
 			
-			//	X POSITION
+	//	X POSITION
 			code <<< toUnicodeString</ wi get x />;
 			code <<< getbgDoubleColon<//>;
-
-			//	Y POSITION
+	//	Y POSITION
 			code <<< toUnicodeString</ wi get y />;
 			code <<< getbgDoubleColon<//>;
-			
-			//	WIDTH
+	//	WIDTH
 			code <<< toUnicodeString</ wi get width />;
 			code <<< getbgDoubleColon<//>;
-			
-			//	HEIGHT
+	//	HEIGHT
 			code <<< toUnicodeString</ wi get height />;
 			code <<< getbgDoubleColon<//>;
+		
+			
 		】
 		~? |[wi get type === {Text}]| 【
 			code <<< wi get type;
