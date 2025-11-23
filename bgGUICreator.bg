@@ -158,7 +158,7 @@ function noReturn initbgguiEmitDialog   <//> 《
 	
 》
 function noReturn bgguiEmitCodeClicked   <//> 《
-	alert</ {a} />;
+	alert</ {abcd} />;
 》
 windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_KEYDOWN]| 【
