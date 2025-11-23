@@ -166,7 +166,9 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		bgguiWindowInfo wi << bgguiWindowToInfoMap[window];
 		code <<< getbgguiWindowDecl</ wi get varName />;
 	】
-
+	repeat |[2]|
+		code addToEnd</ newLine />;
+	
 	alert</ code pointer />;
 》
 windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
