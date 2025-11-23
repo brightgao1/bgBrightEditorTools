@@ -1,0 +1,27 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-22__18-21-58.txt', LF will be replaced by CRLF the next time Git touches it
+[master 451c7984c] BrightEditor autopush 18:21:58 11/22/2025 CST
+ 27 files changed, 1457 insertions(+), 10 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-22__18-21-58.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__18-21-45__826__F5
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__18-21-54__607__Shift
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__18-21-54__834__E
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__18-21-54__998__M
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__18-21-55__150__T
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__18-21-55__54__I
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__18-21-55__838__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__18-21-56__423__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__18-21-56__774__F5
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__18-21-56__8__S
+ create mode 100644 bgBackups/2025-11-22__18-21-54__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-22__18-21-54__all.gao
+ create mode 100644 bgBackups/2025-11-22__18-21-54__bgGUICreator.bg
+ create mode 100644 bgBackups/2025-11-22__18-21-54__common.bg
+ create mode 100644 bgBackups/2025-11-22__18-21-54__globalVariables.bg
+ create mode 100644 bgBackups/2025-11-22__18-21-54__initApp.bg
+ create mode 100644 bgBackups/2025-11-22__18-21-54__main.bg
+ create mode 100644 bgBackups/2025-11-22__18-21-54__other.bg
+ create mode 100644 bgBackups/2025-11-22__18-21-54__readmeStats.bg
+ create mode 100644 bgBackups/2025-11-22__18-21-54__removeSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-22__18-21-54__resizeWindow.bg
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   d59de2d54..451c7984c  master -> master

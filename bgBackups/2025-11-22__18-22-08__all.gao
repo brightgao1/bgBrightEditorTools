@@ -1,0 +1,178 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:57:16 , 9/29/2,025
+
+File author:              Bright Gao
+
+File name when created:   all.gao
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+	༼   
+
+		*	initApp.bg	*
+	 ༽
+function noReturn initApp   <//>;
+function noReturn initFonts   <//>;
+function noReturn initPaths   <//>; 	
+function noReturn ashInitMaps   <//>;
+function noReturn rmsInitMaps   <//>;
+function noReturn initMainWindowMenu   <//>;
+
+	༼   
+
+		*	addSyntaxHighlight.bg	*
+	༽
+function noReturn goToAddSyntaxHighlight   <//>;
+function returns integer16 getRandomRGB   <//>;
+function noReturn ashRandomColorButtonClicked   <//>;
+function noReturn ashSaveButtonClicked   <//>;
+windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+
+	༼   
+
+		*	removeSyntaxHighlight.bg	*
+	 ༽
+function noReturn goToRemoveSyntaxHighlight   <//>;
+
+	༼   
+
+		*	readmeStats.bg		*
+	 ༽
+function noReturn goToReadmeStats   <//>;
+windowHandler rmsEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+function returns flag rmsCheckboxChecked   <//>;
+function noReturn rmsWriteToReadme   <//>;
+function returns flag rmsReadmeExists   <//>;
+function returns flag rmsValidTimeInterval   <//>;
+function noReturn rmsSaveButtonClicked   <//>;
+
+	༼   
+
+		*	bgGUICreator.bg	*
+	 ༽
+function noReturn goToGUICreator   <//>;
+function noReturn initbgguiDialog   </ :#x:::#y:::"controlType />;
+function noReturn bgguiCreateButtonClicked   <//>;
+function noReturn initbgguiEmitDialog   <//>;
+
+windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+windowHandler bgguiCreatorCheckboxHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+windowHandler bgguiDialogCBHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+windowHandler bgguiDialogEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+windowHandler bgguiEmitDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+function noReturn bgguiShowContextMenu   </ :#x:::#y/>;
+function returns ATOM registerbgguiDialogClass   <//>;
+function returns ATOM registerbgguiEmitDialogClass   <//>; 
+function returns unicodeString getbgDoubleColon   <//>;
+function returns unicodeString getbgFunctionOpen   <//>;
+function returns unicodeString getbgFunctionClose   <//>;
+function returns unicodeString getbgguiWindowDecl   </ :"varName />;
+
+	༼   
+
+		*	resizeWindow.bg	*
+	 ༽
+function noReturn resizeWindowAddSyntaxHighlight   <//>;
+function noReturn resizeWindowRemoveSyntaxHighlight   <//>;
+function noReturn resizeWindowCommon   <//>;
+
+	༼	   
+		*	other.bg	*
+	 ༽
+function noReturn setWhiteTextBackground   </ windowPointer w />;
+function noReturn handleMainWindowCommandMessage   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 />;
+function noReturn clearMainWindow   <//>;
+function returns unicodeString reverseString   </ :"s />;
+function returns unicodeString trimString   </ :"s />;
+function returns flag hasLetters   </ :"s />;
+function noReturn timer400   <//>;
+function returns unicodeString getMainWindowTitle   <//>; 
+
+	༼ 
+  
+		*	common.bg	*
+	 ༽
+function noReturn displayKeypress   </ integer64Pointer scan />;
+function noReturn initCommon   <//>;
+
+	༼   
+
+		*	globalVariables.bg	*
+	 ༽
+global :" appTitlePrefix;
+global :"ashTitle;
+global :"rshTitle;
+global :"rmsTitle;
+global :"bgguiTitle;
+global :"appDataPath.. ADbrightEditorPath.. ADbgBrightEditorToolsPath.. ADbrightEditorSyntaxHighlightFolderPath;
+global hashMap</ windowPointer::windowPointer::@@ashNextControl />;
+global hashMap</ windowPointer::windowPointer::@@ashPrevControl />;
+global hashMap</ windowPointer::windowPointer::@@rmsNextControl />;
+global hashMap</ windowPointer::windowPointer::@@rmsPrevControl />;
+
+global windowPointer mainWindow;
+
+	༼   
+
+		*	addSyntaxHighlight.bg	*
+	 ༽
+global windowPointer addSyntaxHighlightFileExtensionText.. addSyntaxHighlightToHighlightText.. addSyntaxHighlightRedText.. addSyntaxHighlightGreenText;
+global windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
+global windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
+global windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSyntaxHighlightOtherEdit;
+global windowPointer ashSaveButton.. ashRandomColorButton;
+
+	༼	
+
+		*	menus	*
+	 ༽
+global menuPointer mainMenu.. syntaxHighlightMenu.. readmeStatsMenu;
+global menuPointer bgGUICreatorMenu;
+global WNDPROC ashEditProc.. rmsEditProc;
+
+	༼   
+
+		*	removeSyntaxHighlight.bg	*
+	 ༽
+global windowPointer rshFileExtText.. rshToRemoveText;
+global windowPointer rshFileExtEdit.. rshToRemoveEdit;
+
+	༼   
+		
+		*	readmeStats.bg	*
+	 ༽
+global windowPointer rmsPathText.. rmsPathEdit;
+global windowPointer rmsCheckbox.. rmsIntervalEdit.. rmsIntervalText;
+global windowPointer rmsSaveButton;
+
+	༼   
+
+		*	bgGUICreator.bg	*
+	 ༽
+global windowPointer bgguiDialog.. bgguiEmitDialog;
+global windowPointer bgguiDialogControlTypeCB.. bgguiDialogVarNameEdit.. bgguiDialogTextEdit;
+global windowPointer bgguiDialogWidthEdit.. bgguiDialogButton;
+global windowPointer bgguiEmitDialogDirectoryEdit.. bgguiEmitDialogFileNameEdit;
+global windowPointer bgguiEmitDialogButton;
+global WNDPROC bgguiDialogEditProc.. bgguiDialogCBProc.. checkboxProc..buttonProc;
+
+global :#bgguiContextMenuX.. bgguiContextMenuY;
+global :#bgguiDialogNum;
+
+	༼   
+
+		*	common.bg	*
+	 ༽
+global windowPointer commonKeyNameText;
+
+
+global fontPointer arialFont.. verdanaFont;
+global brushPointer whiteBrush;
+
+global rectangle mainWindowRectangle;
