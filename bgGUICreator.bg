@@ -241,8 +241,9 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< wi get type;
 		】
 		
+		code <<< {  };
 		code <<< getbgFunctionClose<//>;
-		code <<< {\n\t};
+		code <<< {;\n\t};
 	】	
 	
 	
