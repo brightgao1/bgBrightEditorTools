@@ -1,3 +1,6 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
 ༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
 
 Creation time & date:     19:32:02 , 11/11/2,025
@@ -145,7 +148,7 @@ function noReturn initbgguiEmitDialog   <//> 《
 	做Text</ txt::{Directory:\n\n\n\nFile name:\n\n\n\n}::10::10::400::500::bgguiEmitDialog />;
 	做Edit</ bgguiEmitDialogDirectoryEdit::10::40::700::30::bgguiEmitDialog />;	
 	做Edit</ bgguiEmitDialogFileNameEdit::10::135::700::30::bgguiEmitDialog />;
-	做Anniu</ bgguiEmitDialogButton::{Emit Code (Enter)}::590::280::120::50::bgguiEmitDialog::null />;
+	做Anniu</ bgguiEmitDialogButton::{Emit Code (Enter)}::590::280::120::50::bgguiDialog::null />;
 
 	setFont</ txt::arialFont />;
 	setFont</ bgguiEmitDialogDirectoryEdit::arialFont />;
