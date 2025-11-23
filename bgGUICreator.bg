@@ -188,6 +188,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< getbgDoubleAt<//>;
 			code <<< wi get varName;
 			code <<< getbgDoubleColon<//>;
+			
 		】
 		~? |[wi get type === {Checkbox}]| 【
 			
@@ -199,6 +200,9 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< getbgDoubleAt<//>;
 			code <<< wi get varName;
 			code <<< getbgDoubleColon<//>;
+			
+			//	X POSITION
+			
 		】
 		~? |[wi get type === {Text}]| 【
 			code <<< wi get type;
