@@ -145,6 +145,8 @@ function noReturn initbgguiEmitDialog   <//> 《
 	做Text</ txt::{Directory:\n\n\n\nFile name:\n\n\n\n}::10::10::400::500::bgguiEmitDialog />;
 	setFont</ text::arialFont />;
 
+	做Edit</ bgguiDialogVarNameEdit::10::40::700::30::bgguiEmitDialog />;	
+	做Edit</ bgguiDialogTextEdit::10::135::700::30::bgguiEmitDialog />;
 	
 	
 》
