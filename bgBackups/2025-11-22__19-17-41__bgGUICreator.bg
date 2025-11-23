@@ -1,0 +1,372 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:32:02 , 11/11/2,025
+
+File author:              Bright Gao
+
+File name when created:   bgGUICreator.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+加 	 	 	 	 	 	        								 	all.gao;
+
+dataStructure bgguiWindowInfo 【
+	windowPointer window;
+	:#x.. y.. width.. height;
+	:"type.. varName;
+】;
+hashMap</ windowPointer::bgguiWindowInfo::@@bgguiWindowToInfoMap />;
+
+function noReturn goToGUICreator   <//> 《
+	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
+	
+	
+	renameWindow</ mainWindow::bgguiTitle pointer />;	
+》
+function noReturn bgguiShowContextMenu   </ :#x:::#y /> 《
+	
+	menuPointer cm << CreatePopupMenu<//>;
+	addStringMenu</ cm::10000::{Create Button} />;
+	addStringMenu</ cm::10010::{Create Checkbox} />;
+	addStringMenu</ cm::10020::{Create Edit} />;
+	addStringMenu</ cm::10030::{Create Text} />;
+	
+	:#id << TrackPopupMenu</ cm::TPM_NONOTIFY | TPM_RETURNCMD::x::y::0::mainWindow::null />;
+	? |[id === 10000]| initbgguiDialog</ x::y::{Button} />;
+	~? |[id === 10010]| initbgguiDialog</ x::y::{Checkbox} />;
+	~? |[id === 10020]| initbgguiDialog</ x::y::{Edit} />;
+	~? |[id === 10030]| initbgguiDialog</ x::y::{Text} />;
+》
+function noReturn initbgguiDialog   </ :#x:::#y:::"controlType /> 《
+	asciiString title;
+	bgguiDialog << CreateWindowA</ MAKEINTATOM</ registerbgguiDialogClass<//>/>::title pointer::WS_POPUPWINDOW | WS_CAPTION | WS_CLIPCHILDREN::
+		400::100::750::500::null::null::null::null />;
+	show</ bgguiDialog />;
+	EnableWindow</ mainWindow::0 />;
+	windowPointer txt;
+	
+	做Text</ txt::{Control Type:\n\n\n\nVariable name:\n\n\n\nText in the new control:\n\n\n\nControl width:}::10::10::400::500::bgguiDialog />;
+	
+	做</ bgguiDialogControlTypeCB::{combobox}::{}::CBS_DROPDOWN | CBS_HASSTRINGS | WS_CHILD::10::40::300::400::bgguiDialog::null />;
+	show</ bgguiDialogControlTypeCB />;
+	[]</ :"::@@cbStrings />;
+	cbStrings addToEnd</ {Button} />;
+	cbStrings addToEnd</ {Checkbox} />;
+	cbStrings addToEnd</ {Edit} />;
+	cbStrings addToEnd</ {Text} />;
+	-> |[i.. cbStrings elementCount]|
+		SendMessageW</ bgguiDialogControlTypeCB::CB_ADDSTRING::0::[! integer64Pointer !]cbStrings[i] pointer />;
+	-> |[i.. cbStrings elementCount]| ? |[controlType === cbStrings[i]]|
+		renameWindow</ bgguiDialogControlTypeCB::cbStrings[i] pointer />;
+	
+	做Edit</ bgguiDialogVarNameEdit::10::140::700::30::bgguiDialog />;	
+	做Edit</ bgguiDialogTextEdit::10::235::700::30::bgguiDialog />;
+	做</ bgguiDialogWidthEdit::{Edit}::{}::WS_CHILD | WS_BORDER | ES_NUMBER | ES_AUTOHSCROLL::10::330::700::30::bgguiDialog />;
+	renameWindow</ bgguiDialogWidthEdit::{300} />;
+
+	做Anniu</ bgguiDialogButton::{Create (Enter)}::590::380::120::50::bgguiDialog::null />;
+	
+	setFont</ txt::arialFont />;
+	setFont</ bgguiDialogControlTypeCB::arialFont />;
+	setFont</ bgguiDialogVarNameEdit::arialFont />;
+	setFont</ bgguiDialogTextEdit::arialFont />;
+	setFont</ bgguiDialogWidthEdit::arialFont />;
+	SetFocus</ bgguiDialogVarNameEdit />;
+	bgguiContextMenuX << x >> bgguiContextMenuY << y;
+	
+	bgguiDialogEditProc << ([! WNDPROC !]GetWindowLongPtrW</ bgguiDialogVarNameEdit::-4 />);
+	SetWindowLongPtrW</ bgguiDialogVarNameEdit::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
+	SetWindowLongPtrW</ bgguiDialogTextEdit::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
+	SetWindowLongPtrW</ bgguiDialogWidthEdit::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
+	
+	bgguiDialogCBProc << ([! WNDPROC !]GetWindowLongPtrW</ bgguiDialogControlTypeCB::-4 />);
+	SetWindowLongPtrW</ bgguiDialogControlTypeCB::-4::[! LONG_PTR !]bgguiDialogCBHandler />;
+	
+	
+》
+
+function noReturn bgguiCreateButtonClicked   <//> 《
+	:"control;
+	getEditText</ bgguiDialogControlTypeCB::@@control />;
+	:"varName;
+	getEditText</ bgguiDialogVarNameEdit::@@varName />;
+	:"controlText;
+	getEditText</ bgguiDialogTextEdit::@@controlText />;
+	:"widthStr;
+	getEditText</ bgguiDialogWidthEdit::@@widthStr />;
+	:#width << stringToInteger</ widthStr />;
+	
+	
+	EnableWindow</ mainWindow::1 /> >> DestroyWindow</ bgguiDialog />;
+	POINT pt;
+	pt get x << bgguiContextMenuX;
+	pt get y << bgguiContextMenuY;
+	ScreenToClient</ mainWindow::&pt />;
+	bgguiContextMenuX << pt get x >> bgguiContextMenuY << pt get y;
+	
+	windowPointer tmp;
+	bgguiWindowInfo wi;
+	wi get window << tmp;
+	wi get x << bgguiContextMenuX;
+	wi get y << bgguiContextMenuY;
+	wi get width << width;
+	wi get type << control >> wi get varName << varName;
+	? |[control === {Button}]|
+		做Anniu</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::width::60::mainWindow::null />
+		>> buttonProc << ([! WNDPROC !]GetWindowLongPtrW</ tmp::-4 />)
+		>> SetWindowLongPtrW</ tmp::-4::[! LONG_PTR !]bgguiCreatorButtonHandler />
+		>> wi get height << 60;
+	~? |[control === {Checkbox}]|
+		做</ tmp::{Button}::controlText pointer::WS_CHILD | BS_AUTOCHECKBOX::bgguiContextMenuX::bgguiContextMenuY::
+			width::50::mainWindow />
+		>> checkboxProc << ([! WNDPROC !]GetWindowLongPtrW</ tmp::-4 />)
+		>> SetWindowLongPtrW</ tmp::-4::[! LONG_PTR !]bgguiCreatorCheckboxHandler />
+		>> wi get height << 50;
+	~? |[control === {Edit}]|
+		做Edit</ tmp::bgguiContextMenuX::bgguiContextMenuY::width::25::mainWindow />
+		>> SetWindowLongPtrW</ tmp::-4::[! LONG_PTR !]bgguiCreatorEditHandler />
+		>> wi get height << 25;
+	~? |[control === {Text}]|
+		做Text</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::width::35::mainWindow />
+		>> wi get height << 35;
+
+	bgguiWindowToInfoMap[tmp] << wi;
+
+//	:"test;
+//	test <<< wi get type >> test <<< wi get varName;
+//	alert</ test pointer />;
+》
+function noReturn initbgguiEmitDialog   <//> 《
+	asciiString title;
+	bgguiEmitDialog << CreateWindowA</ MAKEINTATOM</ registerbgguiEmitDialogClass<//>/>::title pointer::WS_POPUPWINDOW | WS_CAPTION | WS_CLIPCHILDREN::
+		400::100::750::350::null::null::null::null />;
+	show</ bgguiEmitDialog />;
+	windowPointer txt;
+	做Text</ txt::{Directory:\n\n\n\nFile name:\n\n\n\n}::10::10::400::500::bgguiEmitDialog />;
+	做Edit</ bgguiEmitDialogDirectoryEdit::10::40::700::30::bgguiEmitDialog />;	
+	做Edit</ bgguiEmitDialogFileNameEdit::10::135::700::30::bgguiEmitDialog />;
+	做Anniu</ bgguiEmitDialogButton::{Emit Code (Enter)}::570::240::140::50::bgguiEmitDialog::null />;
+
+	setFont</ txt::arialFont />;
+	setFont</ bgguiEmitDialogDirectoryEdit::arialFont />;
+	setFont</ bgguiEmitDialogFileNameEdit::arialFont />;
+	show</ txt />;
+	show</ bgguiEmitDialogDirectoryEdit />;
+	show</ bgguiEmitDialogFileNameEdit />;
+	SetFocus</ bgguiEmitDialogFileNameEdit />;
+	
+	
+》
+function noReturn bgguiEmitCodeClicked   <//> 《
+	
+	
+	:"code << {Auto-generated using bgGUICreator, a visual GUI creator in bgBrightEditorTools.\n\n};
+	loopArray |[element.. bgguiWindowToInfoMap]| 【
+		windowPointer window << element get first;
+		bgguiWindowInfo wi << bgguiWindowToInfoMap[window];
+		code <<< getbgWindowDecl</ wi get varName />;
+	】
+
+	alert</ code pointer />;
+》
+windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message === WM_KEYDOWN]| 【
+		variable key << parameter1;
+		flag arrowKey;
+		arrowKey << ((key === VK_UP) || (key === VK_LEFT) || (key === VK_DOWN) || (key === VK_RIGHT));
+		? |[arrowKey]| 【
+			rectangle rec.. whRec;
+			POINT pt;
+			GetWindowRect</ window::&rec />;
+			pt get x << rec get left;
+			pt get y << rec get top;
+			ScreenToClient</ mainWindow::&pt />;
+			GetWindowRect</ window::&whRec />;
+			:#r.. b.. l.. t;
+			r << whRec get right >> l << whRec get left;
+			b << whRec get bottom >> t << whRec get top;
+
+			? |[key === VK_UP]| 
+				move</ window::pt get x::pt get y minus 1::r minus l::b minus t />;
+			~? |[key === VK_DOWN]| 
+				move</ window::pt get x::pt get y plus 1::r minus l::b minus t />;
+			~? |[key === VK_LEFT]|
+				move</ window::pt get x minus 1::pt get y::r minus l::b minus t />;
+			~ move</ window::pt get x plus 1::pt get y::r minus l::b minus t />;
+		】
+		
+	】
+	^^^
+	buttonProc</ window::message::parameter1::parameter2 />;
+》
+windowHandler bgguiCreatorCheckboxHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message === WM_KEYDOWN]| 【
+		variable key << parameter1;
+		flag arrowKey;
+		arrowKey << ((key === VK_UP) || (key === VK_LEFT) || (key === VK_DOWN) || (key === VK_RIGHT));
+		? |[arrowKey]| 【
+			rectangle rec.. whRec;
+			POINT pt;
+			GetWindowRect</ window::&rec />;
+			pt get x << rec get left;
+			pt get y << rec get top;
+			ScreenToClient</ mainWindow::&pt />;
+			getRectangle</ window::whRec />;
+			:#r.. b;
+			r << whRec get right;
+			b << whRec get bottom;
+
+			? |[key === VK_UP]| 
+				move</ window::pt get x::pt get y minus 1::r::b />;
+			~? |[key === VK_DOWN]| 
+				move</ window::pt get x::pt get y plus 1::r::b />;
+			~? |[key === VK_LEFT]|
+				move</ window::pt get x minus 1::pt get y::r::b />;
+			~ move</ window::pt get x plus 1::pt get y::r::b />;
+		】
+		
+	】
+	^^^
+	checkboxProc</ window::message::parameter1::parameter2 />;
+》
+windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message === WM_KEYDOWN]| 【
+		variable key << parameter1;
+		flag arrowKey;
+		arrowKey << ((key === VK_UP) || (key === VK_LEFT) || (key === VK_DOWN) || (key === VK_RIGHT));
+		? |[arrowKey]| 【
+			rectangle rec.. whRec;
+			POINT pt;
+			GetWindowRect</ window::&rec />;
+			pt get x << rec get left;
+			pt get y << rec get top;
+			ScreenToClient</ mainWindow::&pt />;
+			getRectangle</ window::whRec />;
+			:#r.. b;
+			r << whRec get right;
+			b << whRec get bottom;
+
+			? |[key === VK_UP]| 
+				move</ window::pt get x::pt get y minus 1::r::b />;
+			~? |[key === VK_DOWN]| 
+				move</ window::pt get x::pt get y plus 1::r::b />;
+			~? |[key === VK_LEFT]|
+				move</ window::pt get x minus 1::pt get y::r::b />;
+			~ move</ window::pt get x plus 1::pt get y::r::b />;
+		】
+		
+	】
+	^^^
+	ashEditProc</ window::message::parameter1::parameter2 />;
+》
+windowHandler bgguiDialogCBHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message === WM_KEYDOWN]| 【
+		variable key << parameter1;
+		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
+		? |[shift && key isEqualTo?? VK_TAB]| 【
+			SetFocus</ bgguiDialogWidthEdit />;
+		】
+		~? |[key isEqualTo?? VK_TAB]| 【
+			SetFocus</ bgguiDialogVarNameEdit />;
+		】		
+		
+	】	
+	^^^
+	bgguiDialogCBProc</ window::message::parameter1::parameter2 />;
+》
+windowHandler bgguiDialogEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message === WM_COMMAND]| 【
+		
+		^^^
+		bgguiDialogEditProc</ window::message::parameter1::parameter2 />;
+	】
+	~? |[message === WM_KEYDOWN]| 【
+		variable key << parameter1;
+		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
+		? |[shift && key isEqualTo?? VK_TAB]| 【
+			? |[window === bgguiDialogVarNameEdit]| SetFocus</ bgguiDialogWidthEdit />;
+			~? |[window === bgguiDialogTextEdit]| SetFocus</ bgguiDialogVarNameEdit />;
+			~ SetFocus</ bgguiDialogTextEdit />;
+
+		】
+		~? |[key isEqualTo?? VK_TAB]| 【
+			? |[window === bgguiDialogVarNameEdit]| SetFocus</ bgguiDialogTextEdit />;
+			~? |[window === bgguiDialogTextEdit]| SetFocus</ bgguiDialogWidthEdit />;
+			~ SetFocus</ bgguiDialogVarNameEdit />;
+		】	
+		~? |[key === VK_RETURN]| bgguiCreateButtonClicked<//>;	
+	】
+
+	^^^
+	bgguiDialogEditProc</ window::message::parameter1::parameter2 />;
+》	
+windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message === WM_COMMAND]| 【
+		variable notification stores first16Bits</ parameter1 />;
+		? |[notification === BN_CLICKED]| bgguiCreateButtonClicked<//>;
+	】
+	~? |[message === WM_DESTROY]| EnableWindow</ mainWindow::1 />;
+	^^^
+	DefWindowProc</ window::message::parameter1::parameter2 />;
+》
+windowHandler bgguiEmitDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message === WM_COMMAND]| 【
+		variable notification stores first16Bits</ parameter1 />;
+		? |[notification === BN_CLICKED]| bgguiEmitCodeClicked<//>;
+	】
+	^^^
+	DefWindowProc</ window::message::parameter1::parameter2 />;
+》
+function returns ATOM registerbgguiDialogClass   <//> 《
+    	changeable WNDCLASSEXW c; c.cbSize stores bytes</ WNDCLASSEXW />; 
+	c.hInstance stores null 》》c.style stores CS_HREDRAW | CS_VREDRAW 》》c.lpfnWndProc stores bgguiDialogHandler;
+    	c.cbClsExtra stores null 》》c.cbWndExtra stores null 》》c.hIcon stores null 》》c.hCursor stores LoadCursor</ null::IDC_ARROW />;
+    	c.lpszMenuName stores null 》》c.hIconSm stores null 》》c.lpszClassName stores ({bggui Dialog } plus toUnicodeString</ bgguiDialogNum />) pointer;
+	bgguiDialogNum <<< 1;
+    	c.hbrBackground stores [! brushPointer !]([! positiveInteger16 !]6);
+	^^^
+	RegisterClassExW</ &c />;
+》
+function returns ATOM registerbgguiEmitDialogClass   <//> 《
+    	changeable WNDCLASSEXW c; c.cbSize stores bytes</ WNDCLASSEXW />; 
+	c.hInstance stores null 》》c.style stores CS_HREDRAW | CS_VREDRAW 》》c.lpfnWndProc stores bgguiEmitDialogHandler;
+    	c.cbClsExtra stores null 》》c.cbWndExtra stores null 》》c.hIcon stores null 》》c.hCursor stores LoadCursor</ null::IDC_ARROW />;
+    	c.lpszMenuName stores null 》》c.hIconSm stores null 》》c.lpszClassName stores ({bggui Emit Code Dialog } plus toUnicodeString</ bgguiDialogNum />) pointer;
+	bgguiDialogNum <<< 1;
+    	c.hbrBackground stores [! brushPointer !]([! positiveInteger16 !]6);
+	^^^
+	RegisterClassExW</ &c />;
+》
+function returns unicodeString getbgDoubleColon   <//> 《
+	:"ret;
+	repeat |[2]| 
+		ret addToEnd</ ':' />;
+	^^^
+	ret;	
+》
+function returns unicodeString getbgFunctionOpen   <//> 《
+	:"ret;
+	ret addToEnd</ '<' />;
+	ret addToEnd</ '/' />;
+	^^^
+	ret;
+》
+
+function returns unicodeString getbgFunctionClose   <//> 《
+	:"ret;
+	ret addToEnd</ '/' />;
+	ret addToEnd</ '>' />;
+	^^^
+	ret;
+》
+function returns unicodeString getbgguiWindowDecl   </ :"varName /> 《
+	:"ret;
+	ret <<< {windowPointer   };
+	ret <<< varName;
+	ret addToEnd</ ';' /> >> ret addToEnd</ newLine />;
+	^^^
+	ret;
+》
