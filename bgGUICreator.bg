@@ -170,6 +170,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		code addToEnd</ newLine />;
 
 	code <<< {function noReturn };
+	code <<< 
 
 
 	alert</ code pointer />;
