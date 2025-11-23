@@ -403,5 +403,8 @@ function returns unicodeString getbgguiWindowDecl   </ :"varName /> 《
 》
 function returns unicodeString getbgDoubleAt   <//> 《
 	:"ret;
-	
+	repeat |[2]|
+		ret addToEnd</ '@' />;
+	^^^
+	ret;
 》
