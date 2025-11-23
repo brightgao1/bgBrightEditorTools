@@ -1,0 +1,28 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-22__19-35-43.txt', LF will be replaced by CRLF the next time Git touches it
+[master 6d99f8d01] BrightEditor autopush 19:35:43 11/22/2025 CST
+ 28 files changed, 1509 insertions(+), 9 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-22__19-35-43.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-35-30__541__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-35-30__631__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-35-30__839__Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-35-31__445__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-35-31__531__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-35-31__618__A
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-35-32__19__F5
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-35-42__351__Ctrl
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-35-42__487__S
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-35-43__951__Num 4
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-35-45__231__Up
+ create mode 100644 bgBackups/2025-11-22__19-35-40__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-22__19-35-40__all.gao
+ create mode 100644 bgBackups/2025-11-22__19-35-40__bgGUICreator.bg
+ create mode 100644 bgBackups/2025-11-22__19-35-40__common.bg
+ create mode 100644 bgBackups/2025-11-22__19-35-40__globalVariables.bg
+ create mode 100644 bgBackups/2025-11-22__19-35-40__initApp.bg
+ create mode 100644 bgBackups/2025-11-22__19-35-40__main.bg
+ create mode 100644 bgBackups/2025-11-22__19-35-40__other.bg
+ create mode 100644 bgBackups/2025-11-22__19-35-40__readmeStats.bg
+ create mode 100644 bgBackups/2025-11-22__19-35-40__removeSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-22__19-35-40__resizeWindow.bg
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   fda1374ab..6d99f8d01  master -> master
