@@ -1,0 +1,27 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-22__19-13-38.txt', LF will be replaced by CRLF the next time Git touches it
+[master 1056ef6a3] BrightEditor autopush 19:13:38 11/22/2025 CST
+ 23 files changed, 49 insertions(+), 5 deletions(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-22__19-13-38.txt
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-25__331__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-25__911__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-25__978__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-27__292__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-27__51__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-27__547__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-27__812__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-28__219__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-28__412__Backspace
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-28__52__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-28__668__Tab
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-29__803__Page Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-30__204__Page Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-31__467__Page Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-35__956__Page Up
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-37__565__Page Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-37__796__Page Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-38__165__Page Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-38__934__Page Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-39__875__Page Down
+ create mode 100644 BrightEditor Logs/keypresses/2025-11-22__19-13-40__198__Page Up
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   c414a5290..1056ef6a3  master -> master
