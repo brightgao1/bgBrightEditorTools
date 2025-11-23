@@ -194,6 +194,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			repeat |[2]| code addToEnd</ space />;
 			code <<< getbgDoubleAt<//>;
 			code <<< wi get varName;
+			code <<< getbgDoubleColon<//>;
 		】
 		~? |[wi get type === {Text}]| 【
 			code <<< wi get type;
