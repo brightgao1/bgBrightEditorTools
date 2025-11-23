@@ -1,0 +1,91 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     19:55:49 , 9/29/2,025
+
+File author:              Bright Gao
+
+File name when created:   globalVariables.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+
+  	加   	all.gao;
+
+
+	༼   
+
+		*	globalVariables.bg	*
+	 ༽
+:"appTitlePrefix << {bgBrightEditorTools};
+:"ashTitle << appTitlePrefix plus { - Add Syntax Highlight};
+:"rshTitle << appTitlePrefix plus { - Remove Syntax Highlight};
+:"rmsTitle << appTitlePrefix plus { - Sync README Statistics};
+:"bgguiTitle << appTitlePrefix plus { - bgGUICreator};
+:"appDataPath.. ADbrightEditorPath.. ADbgBrightEditorToolsPath.. ADbrightEditorSyntaxHighlightFolderPath;
+hashMap</ windowPointer::windowPointer::@@ashNextControl />;
+hashMap</ windowPointer::windowPointer::@@ashPrevControl />;
+hashMap</ windowPointer::windowPointer::@@rmsNextControl />;
+hashMap</ windowPointer::windowPointer::@@rmsPrevControl />;
+
+	༼   
+
+		*	addSyntaxHighlight.bg	*
+	 ༽
+windowPointer addSyntaxHighlightFileExtensionText.. addSyntaxHighlightToHighlightText.. addSyntaxHighlightRedText.. addSyntaxHighlightGreenText;
+windowPointer addSyntaxHighlightBlueText.. addSyntaxHighlightOtherText;
+windowPointer addSyntaxHighlightFileExtensionEdit.. addSyntaxHighlightToHighlightEdit.. addSyntaxHighlightRedEdit;
+windowPointer addSyntaxHighlightGreenEdit.. addSyntaxHighlightBlueEdit.. addSyntaxHighlightOtherEdit;
+windowPointer ashSaveButton.. ashRandomColorButton;
+
+	༼	
+
+		*	menus	*
+	 ༽
+menuPointer mainMenu << 做Menu.. syntaxHighlightMenu.. readmeStatsMenu;
+menuPointer bgGUICreatorMenu;
+WNDPROC ashEditProc.. rmsEditProc;
+
+	༼   
+
+		*	removeSyntaxHighlight.bg	*
+	 ༽
+windowPointer rshFileExtText.. rshToRemoveText;
+windowPointer rshFileExtEdit.. rshToRemoveEdit;
+
+	༼   
+		
+		*	readmeStats.bg	*
+	 ༽
+windowPointer rmsPathText.. rmsPathEdit;
+windowPointer rmsCheckbox.. rmsIntervalEdit.. rmsIntervalText;
+windowPointer rmsSaveButton;
+
+	༼   
+
+		*	bgGUICreator.bg	*
+	 ༽
+windowPointer bgguiDialog.. bgguiEmitDialog;
+windowPointer bgguiDialogControlTypeCB.. bgguiDialogVarNameEdit.. bgguiDialogTextEdit;
+windowPointer bgguiDialogWidthEdit.. bgguiDialogButton;
+windowPointer bgguiEmitDialogDirectoryEdit.. bgguiEmitDialogFileNameEdit;
+windowPointer bgguiEmitDialogButton;
+WNDPROC bgguiDialogEditProc.. bgguiDialogCBProc.. checkboxProc..buttonProc;
+
+:#bgguiContextMenuX.. bgguiContextMenuY;
+:#bgguiDialogNum << 0;
+ 
+	༼   
+
+		*	common.bg	*
+	 ༽
+windowPointer commonKeyNameText;
+
+
+fontPointer arialFont.. verdanaFont;
+brushPointer whiteBrush << CreateSolidBrush</ RGB</ 255::255::255 /> />;
+
+rectangle mainWindowRectangle;
+
