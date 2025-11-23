@@ -152,6 +152,8 @@ function noReturn initbgguiEmitDialog   <//> 《
 	show</ bgguiEmitDialogDirectoryEdit />;
 	show</ bgguiEmitDialogFileNameEdit />;
 	setFocus</ bgguiEmitDialogFileNameEdit />;
+
+	
 	
 》
 windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
@@ -352,4 +354,4 @@ function returns unicodeString getbgguiWindowDecl   </ :"varName /> 《
 	ret addToEnd</ ';' /> >> ret addToEnd</ newLine />;
 	^^^
 	ret;
-�
+》
