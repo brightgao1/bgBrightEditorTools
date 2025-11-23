@@ -115,13 +115,15 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 		做Anniu</ tmp::controlText pointer::bgguiContextMenuX::bgguiContextMenuY::width::60::mainWindow::null />
 		>> buttonProc << ([! WNDPROC !]GetWindowLongPtrW</ tmp::-4 />)
 		>> SetWindowLongPtrW</ tmp::-4::[! LONG_PTR !]bgguiCreatorButtonHandler />
-		>> wi get height << 60;
+		>> wi get height << 60
+		>> wi get controlText << controlText;
 	~? |[control === {Checkbox}]|
 		做</ tmp::{Button}::controlText pointer::WS_CHILD | BS_AUTOCHECKBOX::bgguiContextMenuX::bgguiContextMenuY::
 			width::50::mainWindow />
 		>> checkboxProc << ([! WNDPROC !]GetWindowLongPtrW</ tmp::-4 />)
 		>> SetWindowLongPtrW</ tmp::-4::[! LONG_PTR !]bgguiCreatorCheckboxHandler />
-		>> wi get height << 50;
+		>> wi get height << 50
+		>> wi get controlText << controlText;
 	~? |[control === {Edit}]|
 		做Edit</ tmp::bgguiContextMenuX::bgguiContextMenuY::width::25::mainWindow />
 		>> SetWindowLongPtrW</ tmp::-4::[! LONG_PTR !]bgguiCreatorEditHandler />
