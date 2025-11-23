@@ -19,7 +19,7 @@ hashMap</ windowPointer::bgguiWindowInfo::@@bgguiWindowToInfoMap />;
 
 function noReturn goToGUICreator   <//> 《
 	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
-
+	
 	
 	renameWindow</ mainWindow::bgguiTitle pointer />;	
 》
@@ -82,6 +82,7 @@ function noReturn initbgguiDialog   </ :#x:::#y:::"controlType /> 《
 	bgguiDialogCBProc << ([! WNDPROC !]GetWindowLongPtrW</ bgguiDialogControlTypeCB::-4 />);
 	SetWindowLongPtrW</ bgguiDialogControlTypeCB::-4::[! LONG_PTR !]bgguiDialogCBHandler />;
 	
+	initBrowseFolder</ bgguiDialogVarNameEdit />;
 	
 》
 
