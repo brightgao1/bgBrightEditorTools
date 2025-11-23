@@ -208,6 +208,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	】	
 	
 	
+	code <<< {\u300B};
 	alert</ code pointer />;
 》
 windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
