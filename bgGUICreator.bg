@@ -177,6 +177,8 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	code addToEnd</ space /> >> code <<< {\u300A\n\t};
 	
 	loopArray |[element.. bgguiWindowToInfoMap]| 【
+		windowPointer window << element get first;
+		bgguiWindowInfo wi << bgguiWindowToInfoMap[window];
 		
 	】	
 
