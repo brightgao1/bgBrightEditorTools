@@ -179,9 +179,25 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	loopArray |[element.. bgguiWindowToInfoMap]| 【
 		windowPointer window << element get first;
 		bgguiWindowInfo wi << bgguiWindowToInfoMap[window];
+		code <<< {\u505A};
+		
+		? |[wi get type === {Button}]| 【
+			
+		】
+		~? |[wi get type === {Checkbox}]| 【
+
+		】
+		~? |[wi get type === {Edit}]| 【
+
+		】
+		~? |[wi get type === {Text}]| 【
+
+		】
+		
 		
 	】	
-
+	
+	
 	alert</ code pointer />;
 》
 windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
