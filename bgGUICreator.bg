@@ -399,7 +399,7 @@ function returns unicodeString getbgguiWindowDecl   </ :"varName /> 《
 	ret <<< varName;
 	ret addToEnd</ ';' /> >> ret addToEnd</ newLine />;
 	^^^
-	ret;
+	ret ;
 》
 function returns unicodeString getbgDoubleAt   <//> 《
 	:"ret;

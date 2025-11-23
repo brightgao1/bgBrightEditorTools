@@ -70,6 +70,8 @@ function returns unicodeString getbgDoubleColon   <//>;
 function returns unicodeString getbgFunctionOpen   <//>;
 function returns unicodeString getbgFunctionClose   <//>;
 function returns unicodeString getbgguiWindowDecl   </ :"varName />;
+function returns unicodeString getbgDoubleAt   <//>;
+
 
 	༼   
 
