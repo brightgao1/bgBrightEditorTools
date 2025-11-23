@@ -161,7 +161,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	
 	
 	:"code << {Auto-generated using bgGUICreator, a visual GUI creator in bgBrightEditorTools.\n\n};
-	loopArray |[key.. bgguiWindowToInfoMap]| 【
+	loopArray |[element.. bgguiWindowToInfoMap]| 【
 		
 	】
 》
