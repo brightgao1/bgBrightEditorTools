@@ -13,7 +13,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 dataStructure bgguiWindowInfo 【
 	windowPointer window;
 	:#x.. y.. width.. height;
-	:"type.. varName;
+	:"type.. varName.. controlText;
 】;
 hashMap</ windowPointer::bgguiWindowInfo::@@bgguiWindowToInfoMap />;
 
@@ -188,7 +188,21 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< getbgDoubleAt<//>;
 			code <<< wi get varName;
 			code <<< getbgDoubleColon<//>;
-			
+		
+	//	X POSITION
+			code <<< toUnicodeString</ wi get x />;
+			code <<< getbgDoubleColon<//>;
+	//	Y POSITION
+			code <<< toUnicodeString</ wi get y />;
+			code <<< getbgDoubleColon<//>;
+	//	WIDTH
+			code <<< toUnicodeString</ wi get width />;
+			code <<< getbgDoubleColon<//>;
+	//	HEIGHT
+			code <<< toUnicodeString</ wi get height />;
+			code <<< getbgDoubleColon<//>;
+						
+
 		】
 		~? |[wi get type === {Checkbox}]| 【
 			
