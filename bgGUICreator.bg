@@ -19,7 +19,7 @@ hashMap</ windowPointer::bgguiWindowInfo::@@bgguiWindowToInfoMap />;
 
 function noReturn goToGUICreator   <//> 《
 	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
-	
+
 	
 	renameWindow</ mainWindow::bgguiTitle pointer />;	
 》
