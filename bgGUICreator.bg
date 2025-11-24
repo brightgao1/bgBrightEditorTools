@@ -173,7 +173,9 @@ function noReturn initbgguiEmitDialog   <//> 《
 	
 》
 function noReturn bgguiEmitCodeClicked   <//> 《
-	
+	:"emitDir.. emitFileName;
+	getEditText</ bgguiEmitDialogFileNameEdit::@@emitFileName />;
+		
 	
 	:"code << {Auto-generated using bgGUICreator, a visual GUI creator in bgBrightEditorTools.\n\n};
 	loopArray |[element.. bgguiWindowToInfoMap]| 【
@@ -185,9 +187,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		code addToEnd</ newLine />;
 
 	code <<< {function noReturn };
-	:"funcName;
-	getEditText</ bgguiEmitDialogFileNameEdit::@@funcName />;
-	code <<< funcName;
+	code <<< emitFileName;
 	code <<< {   };
 	code <<< getbgFunctionOpen<//>;
 	code <<< getbgFunctionClose<//>;
