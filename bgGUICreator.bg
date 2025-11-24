@@ -402,7 +402,8 @@ windowHandler bgguiEmitDialogHandler   </ windowPointer window::positiveInteger3
 			? |[butt === bgguiEmitDialogBrowseButton]| 【
 				initFolderDialog</ bgguiEmitDialogDirectoryEdit::{Choose bg Project directory where code will be generated} />;
 				:"saveFile << ADbgBrightEditorToolsPath;
-				:"
+				:"chosenDir;
+				getEditText</ bgguiEmitDialogDirectoryEdit::@@chosenDir />;
 				saveFile <<< {\\bgguiEmitDialogDirectoryEdit};
 				
 				newFile</ saveFile />;
