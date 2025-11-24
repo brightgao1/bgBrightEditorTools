@@ -186,6 +186,8 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 
 	code <<< {function noReturn };
 	:"funcName;
+	getEditText</ bgguiEmitDialogFileNameEdit::@@funcName />;
+	code <<< funcName
 	code <<< {   };
 	code <<< getbgFunctionOpen<//>;
 	code <<< getbgFunctionClose<//>;
