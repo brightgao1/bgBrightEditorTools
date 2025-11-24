@@ -397,7 +397,11 @@ windowHandler bgguiDialogHandler   </ windowPointer window::positiveInteger32 me
 windowHandler bgguiEmitDialogHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
 	? |[message === WM_COMMAND]| 【
 		variable notification stores first16Bits</ parameter1 />;
-		? |[notification === BN_CLICKED]| bgguiEmitCodeClicked<//>;
+		? |[notification === BN_CLICKED]| 【
+			windowPointer butt << ([! windowPointer !]parameter2);
+			? |[butt === bgguiEmitDialogBrowseButton]| 
+			~? |[butt === bgguiEmitDialogButton]| bgguiEmitCodeClicked<//>;
+		】
 	】
 	^^^
 	DefWindowProc</ window::message::parameter1::parameter2 />;
