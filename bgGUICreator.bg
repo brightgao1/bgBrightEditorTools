@@ -185,7 +185,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		code addToEnd</ newLine />;
 
 	code <<< {function noReturn };
-	
+	:"funcName;
 	code <<< {   };
 	code <<< getbgFunctionOpen<//>;
 	code <<< getbgFunctionClose<//>;
