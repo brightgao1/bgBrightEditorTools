@@ -160,7 +160,7 @@ function noReturn initbgguiEmitDialog   <//> 《
 	show</ bgguiEmitDialogDirectoryEdit />;
 	show</ bgguiEmitDialogBrowseButton />;
 	show</ bgguiEmitDialogFileNameEdit />;
-	:"savedDirStr;
+	[]</ :"::@@savedDirStr />;
 	:"dirFile << ADbgBrightEditorToolsPath;
 	dirFile <<< {\\bgguiEmitDialogDirectoryEdit};
 	fileToUnicodeString</ savedDirStr::dirFile />;
