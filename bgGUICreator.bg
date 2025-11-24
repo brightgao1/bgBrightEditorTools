@@ -148,6 +148,8 @@ function noReturn initbgguiEmitDialog   <//> 《
 	windowPointer txt;
 	做Text</ txt::{Directory:\n\n\n\nFile name:\n\n\n\n}::10::10::400::500::bgguiEmitDialog />;
 	做Edit</ bgguiEmitDialogDirectoryEdit::10::40::700::30::bgguiEmitDialog />;	
+	做Anniu</ bgguiEmitDialogBrowseButton::{Emit Code (Enter)}::570::240::140::50::bgguiEmitDialog::null />;
+	
 	做Edit</ bgguiEmitDialogFileNameEdit::10::135::700::30::bgguiEmitDialog />;
 	做Anniu</ bgguiEmitDialogButton::{Emit Code (Enter)}::570::240::140::50::bgguiEmitDialog::null />;
 
