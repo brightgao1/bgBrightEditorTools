@@ -178,6 +178,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	getEditText</ bgguiEmitDialogFileNameEdit::@@emitFileName />;
 	:"fullEmitPath << emitDir;
 	fullEmitPath <<< {\\} >> fullEmitPath <<< emitFileName;
+	newFile</ fullEmitPath />;
 	
 	:"code << {Auto-generated using bgGUICreator, a visual GUI creator in bgBrightEditorTools.\n\n};
 	loopArray |[element.. bgguiWindowToInfoMap]| 【
