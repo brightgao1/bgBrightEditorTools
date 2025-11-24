@@ -400,6 +400,7 @@ windowHandler bgguiEmitDialogHandler   </ windowPointer window::positiveInteger3
 		? |[notification === BN_CLICKED]| 【
 			windowPointer butt << ([! windowPointer !]parameter2);
 			? |[butt === bgguiEmitDialogBrowseButton]| 
+				initFolderDialog</ bgguiEmitDialogDirectoryEdit::{Choose bg Project directory where code will be generated} />;
 			~? |[butt === bgguiEmitDialogButton]| bgguiEmitCodeClicked<//>;
 		】
 	】
