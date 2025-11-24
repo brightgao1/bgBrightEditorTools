@@ -1,3 +1,6 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
 ༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
 
 Creation time & date:     19:32:02 , 11/11/2,025
@@ -178,6 +181,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	getEditText</ bgguiEmitDialogFileNameEdit::@@emitFileName />;
 	:"fullEmitPath << emitDir;
 	fullEmitPath <<< {\\} >> fullEmitPath <<< emitFileName;
+	newFile</ fullEmitPath />;
 	
 	:"code << {Auto-generated using bgGUICreator, a visual GUI creator in bgBrightEditorTools.\n\n};
 	loopArray |[element.. bgguiWindowToInfoMap]| 【
