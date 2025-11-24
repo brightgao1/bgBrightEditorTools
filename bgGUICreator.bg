@@ -160,6 +160,9 @@ function noReturn initbgguiEmitDialog   <//> 《
 	show</ bgguiEmitDialogDirectoryEdit />;
 	show</ bgguiEmitDialogBrowseButton />;
 	show</ bgguiEmitDialogFileNameEdit />;
+	:"savedDirStr;
+	renameWindow</ bgguiEmitDialogDirectoryEdit::
+
 	SetFocus</ bgguiEmitDialogFileNameEdit />;
 	
 	
