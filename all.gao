@@ -158,7 +158,7 @@ global windowPointer bgguiDialog.. bgguiEmitDialog;
 global windowPointer bgguiDialogControlTypeCB.. bgguiDialogVarNameEdit.. bgguiDialogTextEdit;
 global windowPointer bgguiDialogWidthEdit.. bgguiDialogButton;
 global windowPointer bgguiEmitDialogDirectoryEdit.. bgguiEmitDialogFileNameEdit;
-global windowPointer bgguiEmitDialogButton;
+global windowPointer bgguiEmitDialogBrowseButton.. bgguiEmitDialogButton;
 global WNDPROC bgguiDialogEditProc.. bgguiDialogCBProc.. checkboxProc..buttonProc;
 
 global :#bgguiContextMenuX.. bgguiContextMenuY;
