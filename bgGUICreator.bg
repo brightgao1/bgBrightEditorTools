@@ -160,10 +160,12 @@ function noReturn initbgguiEmitDialog   <//> 《
 	show</ bgguiEmitDialogDirectoryEdit />;
 	show</ bgguiEmitDialogBrowseButton />;
 	show</ bgguiEmitDialogFileNameEdit />;
-	[]</ :"::@@savedDirStr />;
+	[]</ :"::@@savedDir />;
 	:"dirFile << ADbgBrightEditorToolsPath;
 	dirFile <<< {\\bgguiEmitDialogDirectoryEdit};
-	fileToUnicodeString</ savedDirStr::dirFile />;
+	fileToDynamicArray</ savedDir::dirFile />;
+	? |[savedDir elementCount isGreaterThan?? 0]|
+		
 	renameWindow</ bgguiEmitDialogDirectoryEdit::savedDirStr />;
 
 	SetFocus</ bgguiEmitDialogFileNameEdit />;
