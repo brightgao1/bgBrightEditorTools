@@ -1,0 +1,5 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-24__12-22-50.txt', LF will be replaced by CRLF the next time Git touches it
+[master 9cf5cac35] BrightEditor autopush 12:22:50 11/24/2025 CST
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-24__12-22-50.txt
+fatal: unable to access 'https://github.com/brightgao1/bgBrightEditorTools.git/': Failed to connect to github.com port 443 after 21069 ms: Could not connect to server
