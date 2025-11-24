@@ -405,8 +405,7 @@ windowHandler bgguiEmitDialogHandler   </ windowPointer window::positiveInteger3
 				saveFile <<< {\\bgguiEmitDialogDirectoryEdit};
 				:"chosenDir;
 				getEditText</ bgguiEmitDialogDirectoryEdit::@@chosenDir />;
-				
-				newFile</ saveFile />;
+				unicodeStringToFile</ chosenDir::saveFile />;
 				
 			】
 			~? |[butt === bgguiEmitDialogButton]| bgguiEmitCodeClicked<//>;
