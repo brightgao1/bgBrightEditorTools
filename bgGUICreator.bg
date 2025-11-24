@@ -401,7 +401,9 @@ windowHandler bgguiEmitDialogHandler   </ windowPointer window::positiveInteger3
 			windowPointer butt << ([! windowPointer !]parameter2);
 			? |[butt === bgguiEmitDialogBrowseButton]| 【
 				initFolderDialog</ bgguiEmitDialogDirectoryEdit::{Choose bg Project directory where code will be generated} />;
-				
+				:"saveFile << ADbgBrightEditorToolsPath;
+				saveFile <<< {\\bgguiEmitDialogDirectoryEdit};
+				newFile</ ADbgBrightEditorToolsPath />
 			】
 			~? |[butt === bgguiEmitDialogButton]| bgguiEmitCodeClicked<//>;
 		】
