@@ -165,8 +165,7 @@ function noReturn initbgguiEmitDialog   <//> 《
 	dirFile <<< {\\bgguiEmitDialogDirectoryEdit};
 	fileToDynamicArray</ savedDir::dirFile />;
 	? |[savedDir elementCount isGreaterThan?? 0]|
-		
-	renameWindow</ bgguiEmitDialogDirectoryEdit::savedDirStr />;
+		renameWindow</ bgguiEmitDialogDirectoryEdit::savedDir[0] />;
 
 	SetFocus</ bgguiEmitDialogFileNameEdit />;
 	
