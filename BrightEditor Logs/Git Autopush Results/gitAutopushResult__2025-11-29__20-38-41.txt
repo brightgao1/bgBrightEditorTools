@@ -1,0 +1,28 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-29__20-37-11.txt', LF will be replaced by CRLF the next time Git touches it
+[master 0d12b05e2] BrightEditor autopush 20:37:11 11/29/2025 CST
+ 25 files changed, 3124 insertions(+), 1 deletion(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-11-29__20-37-11.txt
+ create mode 100644 bgBackups/2025-11-29__20-36-54__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-29__20-36-54__all.gao
+ create mode 100644 bgBackups/2025-11-29__20-36-54__bgGUICreator.bg
+ create mode 100644 bgBackups/2025-11-29__20-36-54__common.bg
+ create mode 100644 bgBackups/2025-11-29__20-36-54__globalVariables.bg
+ create mode 100644 bgBackups/2025-11-29__20-36-54__initApp.bg
+ create mode 100644 bgBackups/2025-11-29__20-36-54__main.bg
+ create mode 100644 bgBackups/2025-11-29__20-36-54__other.bg
+ create mode 100644 bgBackups/2025-11-29__20-36-54__readmeStats.bg
+ create mode 100644 bgBackups/2025-11-29__20-36-54__removeSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-29__20-36-54__resizeWindow.bg
+ create mode 100644 bgBackups/2025-11-29__20-37-07__addSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-29__20-37-07__all.gao
+ create mode 100644 bgBackups/2025-11-29__20-37-07__bgGUICreator.bg
+ create mode 100644 bgBackups/2025-11-29__20-37-07__common.bg
+ create mode 100644 bgBackups/2025-11-29__20-37-07__globalVariables.bg
+ create mode 100644 bgBackups/2025-11-29__20-37-07__initApp.bg
+ create mode 100644 bgBackups/2025-11-29__20-37-07__main.bg
+ create mode 100644 bgBackups/2025-11-29__20-37-07__other.bg
+ create mode 100644 bgBackups/2025-11-29__20-37-07__readmeStats.bg
+ create mode 100644 bgBackups/2025-11-29__20-37-07__removeSyntaxHighlight.bg
+ create mode 100644 bgBackups/2025-11-29__20-37-07__resizeWindow.bg
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   eea2953ed..0d12b05e2  master -> master
