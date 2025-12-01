@@ -268,15 +268,31 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< getbgDoubleColon<//>;
 			
 	//	X POSITION
+			code <<< getbgOpenComment<//>
+			>> code <<< {X POSITION}
+			>> code <<< getbgCloseComment<//>;
+			
 			code <<< toUnicodeString</ wi get x />;
 			code <<< getbgDoubleColon<//>;
 	//	Y POSITION
+			code <<< getbgOpenComment<//>
+			>> code <<< {Y POS}
+			>> code <<< getbgCloseComment<//>;			
+
 			code <<< toUnicodeString</ wi get y />;
 			code <<< getbgDoubleColon<//>;
 	//	WIDTH
+			code <<< getbgOpenComment<//>
+			>> code <<< {WIDTH}
+			>> code <<< getbgCloseComment<//>;
+			
 			code <<< toUnicodeString</ wi get width />;
 			code <<< getbgDoubleColon<//>;
 	//	HEIGHT
+			code <<< getbgOpenComment<//>
+			>> code <<< {HEIGHT}
+			>> code <<< getbgCloseComment<//>;
+			
 			code <<< toUnicodeString</ wi get height />;
 			code <<< getbgDoubleColon<//>;
 		
