@@ -317,12 +317,17 @@ windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteg
 			b << whRec get bottom >> t << whRec get top;
 
 			? |[key === VK_UP]| 
-				move</ window::pt get x::pt get y minus 1::r minus l::b minus t />;
+				move</ window::pt get x::pt get y minus 1::r::b />
+				>> bgguiWindowToInfoMap[window] get y << bgguiWindowToInfoMap[window] get y minus 1;
 			~? |[key === VK_DOWN]| 
-				move</ window::pt get x::pt get y plus 1::r minus l::b minus t />;
+				move</ window::pt get x::pt get y plus 1::r::b />
+				>> bgguiWindowToInfoMap[window] get y <<< 1;
 			~? |[key === VK_LEFT]|
-				move</ window::pt get x minus 1::pt get y::r minus l::b minus t />;
-			~ move</ window::pt get x plus 1::pt get y::r minus l::b minus t />;
+				move</ window::pt get x minus 1::pt get y::r::b />
+				>> bgguiWindowToInfoMap[window] get x << bgguiWindowToInfoMap[window] get x minus 1;
+			~ move</ window::pt get x plus 1::pt get y::r::b />
+			>> bgguiWindowToInfoMap[window] get x <<< 1;	
+
 		】
 		
 	】
