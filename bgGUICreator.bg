@@ -194,6 +194,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	>> code <<< {Auto-generated using bgGUICreator, a visual GUI creator in bgBrightEditorTools.\n\n}
 
 	>> code <<< getbgCloseComment<//>;
+
 	loopArray |[element.. bgguiWindowToInfoMap]| 【
 		windowPointer window << element get first;
 		bgguiWindowInfo wi << bgguiWindowToInfoMap[window];
