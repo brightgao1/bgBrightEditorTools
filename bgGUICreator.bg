@@ -300,7 +300,14 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		code <<< {  };
 		code <<< getbgFunctionClose<//>;
 		code <<< {;\n\t};
-
+//	SETFONT OF NEW CONTROL
+		code <<< {setFont}
+		>> code <<< getbgFunctionOpen<//>
+		>> code <<< {  }
+		
+		>> code <<< {  }
+		>> code <<< getbgFunctionClose<//>
+		>> code <<< {;\n\t};
 //	Closing bold sq bracket
 		code <<< {\u3011\n\t};
 		
