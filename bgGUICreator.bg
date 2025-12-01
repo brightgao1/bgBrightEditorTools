@@ -569,5 +569,7 @@ function returns unicodeString getbgCheckNull   </ :"varName /> 《
 	^^^
 	ret; 
 》
-
+function noReturn clearbgguiControls   <//> 《
+	
+》
 
