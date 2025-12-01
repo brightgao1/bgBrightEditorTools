@@ -284,12 +284,13 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< {mainWindow} >> code <<< getbgDoubleColon<//>;
 			
 		】
-//	Closing bold sq bracket
-		code <<< {\u3011};
-		
 		code <<< {  };
 		code <<< getbgFunctionClose<//>;
 		code <<< {;\n\t};
+
+//	Closing bold sq bracket
+		code <<< {\u3011\n};
+		
 	】
 	code removeFromEnd >> code <<< {\u300B};
 	
