@@ -353,7 +353,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		>> code <<< getbgOpenComment<//>
 		>> code <<< {STANDARD FONTPOINTER FOR ALL CONTROLS}
 		>> code <<< getbgCloseComment<//>
-		>> code <<< {arialFont}
+		>> code <<< {stdFont}
 		>> code <<< {  }
 		>> code <<< getbgFunctionClose<//>
 		>> code <<< {;\n\t};
