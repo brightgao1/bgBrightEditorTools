@@ -172,7 +172,7 @@ function noReturn initbgguiEmitDialog   <//> 《
 	SetFocus</ bgguiEmitDialogFileNameEdit />;
 	bgguiEmitDialogEditProc << ([! WNDPROC !]GetWindowLongPtrW</ bgguiEmitDialogFileNameEdit::-4 />);
 	SetWindowLongPtrW</ bgguiEmitDialogEditProc::-4::[! LONG_PTR !]bgguiEmitDialogFileNameHandler />;
-		
+	
 	
 》
 function noReturn bgguiEmitCodeClicked   <//> 《
@@ -474,6 +474,9 @@ windowHandler bgguiEmitDialogHandler   </ windowPointer window::positiveInteger3
 	】
 	^^^
 	DefWindowProc</ window::message::parameter1::parameter2 />;
+》
+windowHandler bgguiEmitDialogFileNameHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	
 》
 function returns ATOM registerbgguiDialogClass   <//> 《
     	changeable WNDCLASSEXW c; c.cbSize stores bytes</ WNDCLASSEXW />; 
