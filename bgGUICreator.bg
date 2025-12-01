@@ -385,7 +385,8 @@ windowHandler bgguiCreatorEditHandler   </ windowPointer window::positiveInteger
 			~? |[key === VK_LEFT]|
 				move</ window::pt get x minus 1::pt get y::r::b />
 				>> bgguiWindowToInfoMap[window] get x << bgguiWindowToInfoMap[window] get x plus 1;
-			~ move</ window::pt get x plus 1::pt get y::r::b />;
+			~ move</ window::pt get x plus 1::pt get y::r::b />
+			>> bgguiWindowToInfoMap[window] get x <<< 1;	
 		】
 		
 	】
