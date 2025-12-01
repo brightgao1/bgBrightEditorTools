@@ -293,7 +293,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		
 	】
 //	End the func
-	code removeFromEnd >> code <<< {\u300B};
+	code removeFromEnd >> code <<< {\n\u300B};
 	
 	
 //	unicodeStringToFile</ fullEmitPath::code />;
