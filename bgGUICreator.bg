@@ -169,7 +169,9 @@ function noReturn initbgguiEmitDialog   <//> 《
 		renameWindow</ bgguiEmitDialogDirectoryEdit::savedDir[0] pointer />;
 
 	SetFocus</ bgguiEmitDialogFileNameEdit />;
-	
+	bgguiEmitDialogEditProc << ([! WNDPROC !]GetWindowLongPtrW</ bgguiEmitDialogFileNameEdit::-4 />);
+	SetWindowLongPtrW</ bgguiEmitDialogEditProc::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
+		
 	
 》
 function noReturn bgguiEmitCodeClicked   <//> 《
