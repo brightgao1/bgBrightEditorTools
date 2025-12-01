@@ -1,0 +1,43 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     20:36:22 , 9/30/2,025
+
+File author:              Bright Gao
+
+File name when created:   resizeWindow.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+									加  																 	all.gao;
+
+function noReturn resizeWindowAddSyntaxHighlight   <//> 《
+	getRectangle</ mainWindow::@@mainWindowRectangle />;
+	:#l.. r.. t.. b;
+	l << mainWindowRectangle get left >> r << mainWindowRectangle get right >> t << mainWindowRectangle get top >> b << mainWindowRectangle get bottom;
+	MoveWindow</ addSyntaxHighlightFileExtensionEdit::185::20::r minus 210::30::null />;
+	MoveWindow</ addSyntaxHighlightToHighlightEdit::185::60::r minus 210::30::null />;
+	MoveWindow</ addSyntaxHighlightRedEdit::185::120::r minus 210::30::null />;
+	MoveWindow</ addSyntaxHighlightGreenEdit::185::160::r minus 210::30::null />;
+	MoveWindow</ addSyntaxHighlightBlueEdit::185::200::r minus 210::30::null />;
+	MoveWindow</ addSyntaxHighlightOtherEdit::185::240::r minus 210::30::null />;
+	MoveWindow</ ashSaveButton::r minus 150::b minus 80::130::50::null />;
+	MoveWindow</ ashRandomColorButton::r minus 320::b minus 80::155::50::null />;
+》
+function noReturn resizeWindowRemoveSyntaxHighlight   <//> 《
+	getRectangle</ mainWindow::@@mainWindowRectangle />;
+	:#l.. r.. t.. b;
+	l << mainWindowRectangle get left >> r << mainWindowRectangle get right;
+	t << mainWindowRectangle get top >> b << mainWindowRectangle get bottom;
+	MoveWindow</ rshFileExtEdit::185::20::r minus 210::30::null />;
+	MoveWindow</ rshToRemoveEdit::185::60::r minus 210::30::null />;
+》
+function noReturn resizeWindowCommon   <//> 《
+	getRectangle</ mainWindow::@@mainWindowRectangle />;
+	:#l.. r.. t.. b;
+	l << mainWindowRectangle get left >> r << mainWindowRectangle get right;
+	t << mainWindowRectangle get top >> b << mainWindowRectangle get bottom;
+	MoveWindow</ commonKeyNameText::7::b minus 20::130::20::null />;
+》
