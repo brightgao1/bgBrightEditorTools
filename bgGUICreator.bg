@@ -652,3 +652,39 @@ function noReturn clearbgguiControls   <//> 《
 》
 
 
+
+
+
+
+
+---------------------------
+Alert
+---------------------------
+     ༼     
+Auto-generated using bgGUICreator, a visual GUI creator in bgBrightEditorTools.
+
+     ༽
+
+windowPointer   txt;
+windowPointer   ed;
+windowPointer   butt;
+
+
+function noReturn file   <//> 《
+	?|[txt   ===   null]|【
+		做Text</  @@txt{some text slkjfdslfjslkdfj}::     ༼     X POSITION     ༽148::     ༼     Y POS     ༽134::     ༼     WIDTH     ༽300::     ༼     HEIGHT     ༽35::mainWindow  />;
+		setFont</  txt::arialFont  />;
+	】
+	?|[ed   ===   null]|【
+		做Edit</  @@ed::     ༼     X POSITION     ༽176::     ༼     Y POS     ༽273::     ༼     WIDTH     ༽300::     ༼     HEIGHT     ༽25::mainWindow  />;
+		setFont</  ed::arialFont  />;
+	】
+	?|[butt   ===   null]|【
+		做Anniu</  @@butt::{BUTTON}::     ༼     X POSITION     ༽147::     ༼     Y POS     ༽371::     ༼     WIDTH     ༽300::     ༼     HEIGHT     ༽60::mainWindow::null  />;
+		setFont</  butt::arialFont  />;
+	】
+	show</  txt  />;
+	show</  ed  />;
+	show</  butt  />;
+
+》
