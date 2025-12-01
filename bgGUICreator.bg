@@ -16,6 +16,7 @@ dataStructure bgguiWindowInfo 【
 	:"type.. varName.. controlText;
 】;
 hashMap</ windowPointer::bgguiWindowInfo::@@bgguiWindowToInfoMap />;
+WNDPROC bgguiEmitDialogEditProc;
 
 function noReturn goToGUICreator   <//> 《
 	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>;
@@ -170,7 +171,7 @@ function noReturn initbgguiEmitDialog   <//> 《
 
 	SetFocus</ bgguiEmitDialogFileNameEdit />;
 	bgguiEmitDialogEditProc << ([! WNDPROC !]GetWindowLongPtrW</ bgguiEmitDialogFileNameEdit::-4 />);
-	SetWindowLongPtrW</ bgguiEmitDialogEditProc::-4::[! LONG_PTR !]bgguiDialogEditHandler />;
+	SetWindowLongPtrW</ bgguiEmitDialogEditProc::-4::[! LONG_PTR !]bgguiEmitDialogFileNameHandler />;
 		
 	
 》
