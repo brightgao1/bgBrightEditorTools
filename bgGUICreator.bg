@@ -306,7 +306,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		>> code <<< {  }
 		>> code <<< wi get varName
 		>> code <<< getbgDoubleColon<//>
-		>> code <<< g
+		>> code <<< {arialFont}
 		>> code <<< {  }
 		>> code <<< getbgFunctionClose<//>
 		>> code <<< {;\n\t};
