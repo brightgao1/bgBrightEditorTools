@@ -571,7 +571,8 @@ function returns unicodeString getbgCheckNull   </ :"varName /> 《
 》
 function noReturn clearbgguiControls   <//> 《
 	loopArray |[element.. bgguiWindowToInfoMap]| 【	
-		
+		windowPointer control << element get first;
+		hide</ control />;
 	】
 》
 
