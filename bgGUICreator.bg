@@ -296,7 +296,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	code removeFromEnd >> code <<< {\u300B};
 	
 	
-	unicodeStringToFile</ fullEmitPath::code />;
+//	unicodeStringToFile</ fullEmitPath::code />;
 	alert</ code pointer />;
 》
 windowHandler bgguiCreatorButtonHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
