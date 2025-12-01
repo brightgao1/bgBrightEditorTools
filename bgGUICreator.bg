@@ -171,7 +171,7 @@ function noReturn initbgguiEmitDialog   <//> 《
 
 	SetFocus</ bgguiEmitDialogFileNameEdit />;
 	bgguiEmitDialogEditProc << ([! WNDPROC !]GetWindowLongPtrW</ bgguiEmitDialogFileNameEdit::-4 />);
-	SetWindowLongPtrW</ bgguiEmitDialogEditProc::-4::[! LONG_PTR !]bgguiEmitDialogFileNameHandler />;
+	SetWindowLongPtrW</ bgguiEmitDialogFileNameEdit::-4::[! LONG_PTR !]bgguiEmitDialogFileNameHandler />;
 	
 	
 》
