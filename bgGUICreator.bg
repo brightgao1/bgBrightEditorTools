@@ -138,6 +138,7 @@ function noReturn bgguiCreateButtonClicked   <//> 《
 		>> wi get height << 35
 		>> wi get controlText << controlText;
 
+	setFont</ tmp::arialFont />;
 	bgguiWindowToInfoMap[tmp] << wi;
 
 //	:"test;
