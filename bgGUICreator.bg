@@ -486,6 +486,10 @@ function returns unicodeString getbgDoubleAt   <//> 《
 	^^^
 	ret;
 》
-function returns unicodeString getbgCheckNull   <//> 《
+function returns unicodeString getbgCheckNull   </ :"varName /> 《
+	:"ret;
+	ret <<< {\u003F};
+	ret addToEnd</ '|' />;
+	ret addToEnd</ '[' />;
 	
 》
