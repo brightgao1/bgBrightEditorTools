@@ -191,7 +191,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	】	
 	:"code;
 	code <<< getbgOpenComment<//>
-	>> code <<< {Auto-generated using bgGUICreator, a visual GUI creator in bgBrightEditorTools.\n\n}
+	>> code <<< {\nAuto-generated using bgGUICreator, a visual GUI creator in bgBrightEditorTools.\n\n}
 
 	>> code <<< getbgCloseComment<//>;
 
