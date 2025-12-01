@@ -82,7 +82,7 @@ function noReturn clearMainWindow   <//> 《
 	hide</ rmsPathText /> >> hide</ rmsPathEdit />;
 	hide</ rmsIntervalText /> >> hide</ rmsIntervalEdit />;
 	hide</ rmsCheckbox />;
-	
+	clearbgguiControls<//>;
 》
 function returns unicodeString reverseString   </ :"s /> 《
 	? |[s elementCount === 0]|^^^s;
