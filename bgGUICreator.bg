@@ -285,7 +285,8 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			
 		】
 //	Closing bold sq bracket
-		code <<< {\u3011}
+		code <<< {\u3011};
+		
 		code <<< {  };
 		code <<< getbgFunctionClose<//>;
 		code <<< {;\n\t};
