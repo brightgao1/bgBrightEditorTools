@@ -479,6 +479,7 @@ windowHandler bgguiEmitDialogFileNameHandler   </ windowPointer window::positive
 	? |[message === WM_KEYDOWN]| 【
 		variable key << parameter1;
 		? |[key === VK_RETURN]|
+			bgguiEmitCodeClicked<//>;
 	】	
 	^^^
 	bgguiEmitDialogEditProc</ window::message::parameter1::parameter2 />;
