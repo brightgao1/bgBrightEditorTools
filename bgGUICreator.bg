@@ -580,13 +580,13 @@ function returns unicodeString getbgCheckNull   </ :"varName /> 《
 》
 function returns unicodeString getbgOpenComment   <//> 《
 	:"ret;
-	ret << {\uF3C     };
+	ret << {\u0F3C     };
 	^^^
 	ret;
 》
 function returns unicodeString getbgCloseComment   <//> 《
 	:"ret;
-	ret << {     \uF3D};
+	ret << {     \u0F3D};
 	^^^
 	ret;
 》
