@@ -201,7 +201,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	loopArray |[element.. bgguiWindowToInfoMap]| 【
 		windowPointer window << element get first;
 		bgguiWindowInfo wi << bgguiWindowToInfoMap[window];
-		code <<< getbgCheckNull<//>;
+		code <<< getbgCheckNull</ wi get varName />;
 		code <<< {\u505A};		
 		? |[wi get type === {Button}]| 【
 			code <<< {Anniu};
@@ -495,7 +495,8 @@ function returns unicodeString getbgCheckNull   </ :"varName /> 《
 	repeat |[3]| ret addToEnd</ space />;
 	repeat |[3]| ret addToEnd</ '=' />;
 	ret <<< {   null};
-	
+	ret addToEnd</ ']' />;
+	ret addToEnd</ '|' />;
 	^^^
 	ret; 
 》
