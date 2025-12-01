@@ -304,7 +304,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		>> code <<< wi get varName
 		>> code <<< {  }
 		>> code <<< getbgFunctionClose<//>
-		>> code addToEnd</ ';' />;
+		>> code <<< {;\n};
 		
 	】
 	
