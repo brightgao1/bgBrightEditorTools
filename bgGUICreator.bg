@@ -292,6 +292,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		code <<< {\u3011\n};
 		
 	】
+//	End function
 	code removeFromEnd >> code <<< {\u300B};
 	
 	
