@@ -235,12 +235,21 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< toUnicodeString</ wi get x />;
 			code <<< getbgDoubleColon<//>;
 	//	Y POSITION
+			code <<< getbgOpenComment<//>
+			>> code <<< {Y POSITION}
+			>> code <<< getbgCloseComment<//>;
 			code <<< toUnicodeString</ wi get y />;
 			code <<< getbgDoubleColon<//>;
 	//	WIDTH
+			code <<< getbgOpenComment<//>
+			>> code <<< {WIDTH}
+			>> code <<< getbgCloseComment<//>;
 			code <<< toUnicodeString</ wi get width />;
 			code <<< getbgDoubleColon<//>;
 	//	HEIGHT
+			code <<< getbgOpenComment<//>
+			>> code <<< {HEIGHT}
+			>> code <<< getbgCloseComment<//>;
 			code <<< toUnicodeString</ wi get height />;
 			code <<< getbgDoubleColon<//>;
 			
