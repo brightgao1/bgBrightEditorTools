@@ -73,6 +73,7 @@ function returns unicodeString getbgFunctionClose   <//>;
 function returns unicodeString getbgguiWindowDecl   </ :"varName />;
 function returns unicodeString getbgDoubleAt   <//>;
 function returns unicodeString getbgCheckNull   </ :"varName />;
+function noReturn clearbgguiControls   <//>;
 
 	༼   
 
