@@ -282,7 +282,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< getbgDoubleColon<//>;
 			
 			code <<< {mainWindow} >> code <<< getbgDoubleColon<//>;
-
+			
 		】
 		
 		code <<< {  };
