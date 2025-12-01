@@ -192,8 +192,9 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	:"code;
 	code <<< getbgOpenComment<//>
 	>> code <<< {\nAuto-generated using bgGUICreator, a visual GUI creator in bgBrightEditorTools.\n\n}
-
-	>> code <<< getbgCloseComment<//>;
+	
+	>> code <<< getbgCloseComment<//>
+	>> code <<< {\n\n};
 
 	loopArray |[element.. bgguiWindowToInfoMap]| 【
 		windowPointer window << element get first;
