@@ -476,7 +476,11 @@ windowHandler bgguiEmitDialogHandler   </ windowPointer window::positiveInteger3
 	DefWindowProc</ window::message::parameter1::parameter2 />;
 》
 windowHandler bgguiEmitDialogFileNameHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
-	
+	~? |[message === WM_KEYDOWN]| 【
+		variable key << parameter1;
+	】	
+	^^^
+	bgguiEmitDialogEditProc</ window::message::parameter1::parameter2 />;
 》
 function returns ATOM registerbgguiDialogClass   <//> 《
     	changeable WNDCLASSEXW c; c.cbSize stores bytes</ WNDCLASSEXW />; 
