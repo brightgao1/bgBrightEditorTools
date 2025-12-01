@@ -209,7 +209,8 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 
 		code <<< getbgOpenComment<//>
 		>> code <<< wi get type
-		>> code <<< getbgCloseComment<//>;
+		>> code <<< getbgCloseComment<//>
+		>> code addToEnd</ newLine />;
 		code <<< getbgguiWindowDecl</ wi get varName />;
 	】
 	repeat |[2]|
