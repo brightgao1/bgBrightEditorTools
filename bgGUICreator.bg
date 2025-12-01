@@ -343,7 +343,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		】
 		code <<< {  };
 		code <<< getbgFunctionClose<//>;
-		code <<< {;\n\t};
+		code <<< {;\n\t\t};
 //	SETFONT OF NEW CONTROL
 		code <<< {setFont}
 		>> code <<< getbgFunctionOpen<//>
