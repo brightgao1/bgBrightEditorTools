@@ -581,7 +581,7 @@ function returns unicodeString getbgOpenComment   <//> 《
 》
 function returns unicodeString getbgCloseComment   <//> 《
 	:"ret;
-	ret << {     \uF3C};
+	ret << {     \uF3D};
 	^^^
 	ret;
 》
