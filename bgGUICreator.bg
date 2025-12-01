@@ -229,6 +229,9 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< {\u007B} >> code <<< wi get controlText >> code <<< {\u007D};
 			code <<< getbgDoubleColon<//>;
 	//	X POSITION
+			code <<< getbgOpenComment<//>
+			>> code <<< {X POSITION}
+			>> code <<< getbgCloseComment<//>;
 			code <<< toUnicodeString</ wi get x />;
 			code <<< getbgDoubleColon<//>;
 	//	Y POSITION
