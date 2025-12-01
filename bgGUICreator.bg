@@ -320,7 +320,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			repeat |[2]| code addToEnd</ space />;
 			code <<< getbgDoubleAt<//>
 			>> code <<< wi get varName
-			>> getbgDoubleColon<//>;
+			>> code <<< getbgDoubleColon<//>;
 	
 			code <<< {\u007B} >> code <<< wi get controlText >> code <<< {\u007D};
 			code <<< getbgDoubleColon<//>;
