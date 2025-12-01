@@ -300,6 +300,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		bgguiWindowInfo wi << bgguiWindowToInfoMap[window];
 		code <<< {show}
 		>> code <<< getbgFunctionOpen<//>
+		>> code <<< wi get varName
 		>> code <<< getbgFunctionClose<//>
 		>> code addToEnd</ ';' />;
 		
