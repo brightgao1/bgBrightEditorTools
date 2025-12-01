@@ -486,4 +486,6 @@ function returns unicodeString getbgDoubleAt   <//> 《
 	^^^
 	ret;
 》
-
+function returns unicodeString getbgCheckNull   <//> 《
+	
+》
