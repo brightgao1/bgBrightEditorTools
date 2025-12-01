@@ -295,6 +295,11 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		code <<< {\u3011\n};
 		
 	】
+	loopArray |[element.. bgguiWindowToInfoMap]| 【
+		
+	】
+	
+
 //	End the func
 	code removeFromEnd >> code <<< {\n\u300B};
 	
