@@ -202,7 +202,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		windowPointer window << element get first;
 		bgguiWindowInfo wi << bgguiWindowToInfoMap[window];
 		code <<< getbgCheckNull</ wi get varName />;
-//	bold bracket	
+//	Bold sq bracket	
 		code <<< {\u3010}
 		code <<< {\u505A};		
 		? |[wi get type === {Button}]| 【
