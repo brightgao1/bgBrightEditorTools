@@ -201,9 +201,9 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 	loopArray |[element.. bgguiWindowToInfoMap]| 【
 		windowPointer window << element get first;
 		bgguiWindowInfo wi << bgguiWindowToInfoMap[window];
-		code <<< {\u505A};
 	// Check null
-				
+		code <<< 
+		code <<< {\u505A};		
 		? |[wi get type === {Button}]| 【
 			code <<< {Anniu};
 			code <<< getbgFunctionOpen<//>;
