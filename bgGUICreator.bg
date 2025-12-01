@@ -492,6 +492,10 @@ function returns unicodeString getbgCheckNull   </ :"varName /> 《
 	ret addToEnd</ '|' />;
 	ret addToEnd</ '[' />;
 	ret <<< varName;
+	repeat |[3]| ret addToEnd</ space />;
 	repeat |[3]| ret addToEnd</ '=' />;
-	 
+	ret <<< {   null};
+		
+	^^^
+	ret; 
 》
