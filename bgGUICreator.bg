@@ -284,7 +284,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< toUnicodeString</ wi get height />;
 			code <<< getbgDoubleColon<//>;
 			
-			code <<< {mainWindow} >> code <<< getbgDoubleColon<//>;
+			code <<< {mainWindow};
 			
 		】
 		code <<< {  };
@@ -292,7 +292,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		code <<< {;\n\t};
 
 //	Closing bold sq bracket
-		code <<< {\u3011\n};
+		code <<< {\u3011\n\t};
 		
 	】
 	loopArray |[element.. bgguiWindowToInfoMap]| 【
@@ -304,7 +304,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 		>> code <<< wi get varName
 		>> code <<< {  }
 		>> code <<< getbgFunctionClose<//>
-		>> code <<< {;\n};
+		>> code <<< {;\n\t};
 		
 	】
 	
