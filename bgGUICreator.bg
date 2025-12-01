@@ -236,7 +236,7 @@ function noReturn bgguiEmitCodeClicked   <//> 《
 			code <<< getbgDoubleColon<//>;
 	//	Y POSITION
 			code <<< getbgOpenComment<//>
-			>> code <<< {Y POSITION}
+			>> code <<< {Y POS}
 			>> code <<< getbgCloseComment<//>;
 			code <<< toUnicodeString</ wi get y />;
 			code <<< getbgDoubleColon<//>;
@@ -602,7 +602,7 @@ function returns unicodeString getbgCheckNull   </ :"varName /> 《
 》
 function returns unicodeString getbgOpenComment   <//> 《
 	:"ret;
-	ret << {\u0F3C     };
+	ret << {     \u0F3C     };
 	^^^
 	ret;
 》
@@ -618,4 +618,5 @@ function noReturn clearbgguiControls   <//> 《
 		hide</ control />;
 	】
 》
+
 
