@@ -10,7 +10,7 @@ Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorToo
 
   	加  								 	all.gao;
 
-function noReturn goToRemoveSyntaxHighlight   <//> 《
+function noReturn 12goToRemoveSyntaxHighlight   <//> 《
 	InvalidateRect</ mainWindow::null::1 /> >> clearMainWindow<//>; 
 	? |[rshFileExtText === null]| 【
 		做Text</ @@rshFileExtText::{File Extension:}::20::22::150::30::mainWindow />;
@@ -28,7 +28,7 @@ function noReturn goToRemoveSyntaxHighlight   <//> 《
 		做Edit</ @@rshToRemoveEdit::0::0::10::10::mainWindow />;
 		SendMessageW</ rshToRemoveEdit::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
 	】 
-
+	
 	show</ rshFileExtText /> >> show</ rshFileExtEdit />;
 	show</ rshToRemoveText /> >> show</ rshToRemoveEdit />;
 	renameWindow</ mainWindow::rshTitle pointer />;
