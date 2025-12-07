@@ -1,0 +1,27 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     20:42:53 , 10/24/2,025
+
+File author:              Bright Gao
+
+File name when created:   common.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+
+加      	    			     																						all.gao;
+
+
+function noReturn displayKeypress   </ integer64Pointer scan /> 《
+	WCHAR keyName[500];
+	GetKeyNameTextW</ scan::keyName::500 />;
+	renameWindow</ commonKeyNameText::keyName />;
+》
+function noReturn initCommon   <//> 《
+	做Text</ @@commonKeyNameText::{}::20::400::150::30::mainWindow />;
+	setFont</ commonKeyNameText::verdanaFont />;
+
+》
