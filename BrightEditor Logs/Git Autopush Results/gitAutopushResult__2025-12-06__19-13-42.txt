@@ -1,0 +1,4 @@
+error: short read while indexing bgGUICreator.bg
+error: bgGUICreator.bg: failed to insert into database
+error: unable to index file 'bgGUICreator.bg'
+fatal: updating files failed
