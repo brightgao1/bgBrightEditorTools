@@ -73,7 +73,10 @@ function noReturn initbgguiDialog   </ :#x:::#y:::"controlType /> 《
 
 	做Anniu</ bgguiDialogButton::{Create (Enter)}::590::380::120::50::bgguiDialog::null />;
 	
-	setFont</ txt::arialFont />;
+	setFont</ txt::arialFont />
+	>> setFont</ txt2::arialFont />
+	>> setFont</ txt3::arialFont />
+	>> setFont</ txt4::arialFont />;
 	setFont</ bgguiDialogControlTypeCB::arialFont />;
 	setFont</ bgguiDialogVarNameEdit::arialFont />;
 	setFont</ bgguiDialogTextEdit::arialFont />;
