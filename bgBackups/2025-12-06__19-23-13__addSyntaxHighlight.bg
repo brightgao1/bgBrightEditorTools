@@ -1,0 +1,221 @@
+༼        The file name is the date & time bgCompiler was invoked on this file (in CST (Central Standard Time))
+
+YYYY-MM-DD__Hr-Min-Sec__filename.bg/gao        ༽
+༼        Created w/ BrightWin & BrightEditor (both written by Bright Gao)
+
+Creation time & date:     20:05:51 , 9/30/2,025
+
+File author:              Bright Gao
+
+File name when created:   addSyntaxHighlight.bg
+
+Directory created in:     C:\Users\brigh\Documents\zkyProjects\bgBrightEditorTools        ༽
+
+加  								 	all.gao;
+
+function noReturn goToAddSyntaxHighlight   <//> 《
+	clearMainWindow<//>;
+	? |[addSyntaxHighlightFileExtensionText isEqualTo?? null]| 做Text</ @@addSyntaxHighlightFileExtensionText::{File extension:}::20::22::150::30::mainWindow />;
+	? |[addSyntaxHighlightToHighlightText isEqualTo?? null]|   做Text</ @@addSyntaxHighlightToHighlightText  ::{To highlight:}  ::20::63::150::30::mainWindow />;
+	? |[addSyntaxHighlightRedText isEqualTo?? null]| 	       做Text</ @@addSyntaxHighlightRedText          ::{Red (0-255):}  ::20::124::150::30::mainWindow />;
+	? |[addSyntaxHighlightGreenText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightGreenText        ::{Green (0-255):} ::20::164::150::30::mainWindow />;
+	? |[addSyntaxHighlightBlueText isEqualTo?? null]|          做Text</ @@addSyntaxHighlightBlueText         ::{Blue (0-255):}  ::20::202::150::30::mainWindow />;
+	? |[addSyntaxHighlightOtherText isEqualTo?? null]|         做Text</ @@addSyntaxHighlightOtherText	    ::{Other styles:}  ::20::242::150::30::mainWindow />; 
+	SendMessageW</ addSyntaxHighlightFileExtensionText::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightToHighlightText  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightRedText		  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightGreenText        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightBlueText         ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightOtherText        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	? |[addSyntaxHighlightFileExtensionEdit isEqualTo?? null]| 做Edit</ @@addSyntaxHighlightFileExtensionEdit::170::20::200::30::mainWindow />;
+	? |[addSyntaxHighlightToHighlightEdit isEqualTo?? null]|   做Edit</ @@addSyntaxHighlightToHighlightEdit  ::170::60::200::30::mainWindow />;
+	? |[addSyntaxHighlightRedEdit isEqualTo?? null]|           做Edit</ @@addSyntaxHighlightRedEdit          ::170::120::200::30::mainWindow />;
+	? |[addSyntaxHighlightGreenEdit isEqualTo?? null]|         做Edit</ @@addSyntaxHighlightGreenEdit        ::170::160::200::30::mainWindow />;
+	? |[addSyntaxHighlightBlueEdit isEqualTo?? null]|          做Edit</ @@addSyntaxHighlightBlueEdit         ::170::200::200::30::mainWindow />;
+	? |[addSyntaxHighlightOtherEdit isEqualTo?? null]|          做Edit</ @@addSyntaxHighlightOtherEdit         ::170::240::200::30::mainWindow />;
+	SendMessageW</ addSyntaxHighlightFileExtensionEdit::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightToHighlightEdit  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightRedEdit		  ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightGreenEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightBlueEdit         ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	SendMessageW</ addSyntaxHighlightOtherEdit        ::WM_SETFONT::[! positiveInteger32Pointer !]arialFont::0 />;
+	? |[ashSaveButton isEqualTo?? null]| 做Anniu</ ashSaveButton::{Add (Enter)}::500::500::500::500::mainWindow::null />;
+   	? |[ashRandomColorButton isEqualTo?? null]| 做Anniu</ ashRandomColorButton::{Random color (F2)}::500::500::500::500::mainWindow::null />;
+	
+	
+	:"redStr.. greenStr.. blueStr.. otherStr;
+	getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
+	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
+	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
+	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
+	? |[redStr elementCount === 0]| renameWindow</ addSyntaxHighlightRedEdit::{0} />;
+	? |[greenStr elementCount === 0]| renameWindow</ addSyntaxHighlightGreenEdit::{0} />;
+	? |[blueStr elementCount === 0]| renameWindow</ addSyntaxHighlightBlueEdit::{0} />;	
+	? |[otherStr elementCount === 0]| renameWindow</ addSyntaxHighlightOtherEdit::{0} />;
+	resizeWindowAddSyntaxHighlight<//>;
+
+	show</ addSyntaxHighlightFileExtensionText /> >> show</ addSyntaxHighlightFileExtensionEdit />;
+	show</ addSyntaxHighlightToHighlightText /> >> show</ addSyntaxHighlightToHighlightEdit />;
+	show</ addSyntaxHighlightRedText /> >> show</ addSyntaxHighlightRedEdit />;
+	show</ addSyntaxHighlightGreenText /> >> show</ addSyntaxHighlightGreenEdit />;
+	show</ addSyntaxHighlightBlueText /> >> show</ addSyntaxHighlightBlueEdit />;
+	show</ addSyntaxHighlightOtherText /> >> show</ addSyntaxHighlightOtherEdit />;
+	show</ ashSaveButton />;
+	
+
+	SetFocus</ addSyntaxHighlightFileExtensionEdit />;
+	renameWindow</ mainWindow:: ashTitle pointer />;
+	? |[ashEditProc === null]| 【
+		ashEditProc << ([! WNDPROC !]GetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4 />);
+		SetWindowLongPtrW</ addSyntaxHighlightFileExtensionEdit::-4::[! LONG_PTR !]ashEditHandler />;	
+		SetWindowLongPtrW</ addSyntaxHighlightToHighlightEdit::-4::[! LONG_PTR !]ashEditHandler />;	
+		SetWindowLongPtrW</ addSyntaxHighlightRedEdit::-4::[! LONG_PTR !]ashEditHandler />;	
+		SetWindowLongPtrW</ addSyntaxHighlightGreenEdit::-4::[! LONG_PTR !]ashEditHandler />;	
+		SetWindowLongPtrW</ addSyntaxHighlightBlueEdit::-4::[! LONG_PTR !]ashEditHandler />;	
+		SetWindowLongPtrW</ addSyntaxHighlightOtherEdit::-4::[! LONG_PTR !]ashEditHandler />;	
+		ashInitMaps<//>;
+	】
+	
+》  
+windowHandler ashEditHandler   </ windowPointer window::positiveInteger32 message::positiveInteger32Pointer parameter1::integer64Pointer parameter2 /> 《
+	? |[message isEqualTo?? WM_COMMAND]| 【
+    		
+		一一ashEditProc</ window::message::parameter1::parameter2 />;
+	】
+	~? |[message isEqualTo?? WM_KEYDOWN]| 【
+		variable key << parameter1;
+		displayKeypress</ parameter2 />;
+		flag shift << ((GetAsyncKeyState</ VK_LSHIFT /> & 0x8000) || (GetAsyncKeyState</ VK_RSHIFT /> & 0x8000));
+		? |[shift && key isEqualTo?? VK_TAB]| SetFocus</ ashPrevControl[window] />;
+		~? |[key isEqualTo?? VK_TAB]| SetFocus</ ashNextControl[window] />;
+		~? |[key === VK_DOWN]| SetFocus</ ashNextControl[window] />;
+		~? |[key === VK_UP]| SetFocus</ ashPrevControl[window] />;
+		~? |[key === VK_F2]| ashRandomColorButtonClicked<//>;
+		~? |[key isEqualTo?? VK_RETURN]| ashSaveButtonClicked<//>;
+		~^^^ashEditProc</ window::message::parameter1::parameter2 />;
+	】	
+	~? |[message isEqualTo?? WM_KEYUP]| 【
+		variable key << parameter1;
+		InvalidateRect</ mainWindow::null::0 />;
+	】
+	~ ^^^ashEditProc</ window::message::parameter1::parameter2 />;
+》
+function returns integer16 getRandomRGB   <//> 《
+	:#rng;
+	getRNG</ @@rng />;
+	rng << rng % 256;
+	^^^[! integer16 !]rng;
+》
+function noReturn ashRandomColorButtonClicked   <//> 《
+	integer16 randomRed << getRandomRGB<//>;
+	integer16 randomGreen << getRandomRGB<//>;
+	integer16 randomBlue << getRandomRGB<//>;
+	renameWindow</ addSyntaxHighlightRedEdit::toUnicodeString</ randomRed /> pointer />;
+	renameWindow</ addSyntaxHighlightGreenEdit::toUnicodeString</ randomGreen /> pointer />;
+	renameWindow</ addSyntaxHighlightBlueEdit::toUnicodeString</ randomBlue /> pointer />;
+》
+function noReturn ashSaveButtonClicked   <//> 《
+	:"fileExtension.. highlightFilePath << {};
+	getEditText</ addSyntaxHighlightFileExtensionEdit::@@fileExtension />;
+	highlightFilePath <<< ADbrightEditorSyntaxHighlightFolderPath >> highlightFilePath addToEnd</ '\\' /> >> highlightFilePath <<< fileExtension;
+	? |[(pathExists</ highlightFilePath />) isEqualTo?? 0]| newFile</ highlightFilePath />;
+	[]</ :"::@@highlightFile />;
+	fileToDynamicArray</ highlightFilePath::highlightFile />;
+	/!highlightFile elementCount;
+	flag error << 0;
+	[]</ :"::@@emptyEdits />;
+	[]</ :"::@@wrongFormat />;
+	? |[fileExtension elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {File Extension} />;
+
+	:"toHighlight stores {};
+	getEditText</ addSyntaxHighlightToHighlightEdit::@@toHighlight />;
+	toHighlight << trimString</ toHighlight />;		
+	? |[toHighlight elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {To Highlight} />;
+	
+
+	:"redStr stores {};
+	getEditText</ addSyntaxHighlightRedEdit::@@redStr />;
+	redStr << trimString</ redStr />;	
+	flag redHasLetters << 0;
+	? |[redStr elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {Red} />;
+	? |[hasLetters</ redStr />]| error << 1 >> wrongFormat addToEnd</ {Red} />;
+
+	:"greenStr stores {};
+	getEditText</ addSyntaxHighlightGreenEdit::@@greenStr />;
+	greenStr << trimString</ greenStr />;
+	? |[greenStr elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {Green} />;
+	? |[hasLetters</ greenStr />]| error << 1 >> wrongFormat addToEnd</ {Green} />;
+
+	:"blueStr stores {};
+	getEditText</ addSyntaxHighlightBlueEdit::@@blueStr />;
+	blueStr << trimString</ blueStr />;
+	? |[blueStr elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {Blue} />;
+	? |[hasLetters</ blueStr />]| error << 1 >> wrongFormat addToEnd</ {Blue} />;
+
+	:"otherStr stores {};
+	getEditText</ addSyntaxHighlightOtherEdit::@@otherStr />;
+	otherStr << trimString</ otherStr />;
+	? |[otherStr elementCount === 0]| error << 1 >> emptyEdits addToEnd</ {Other} />;	
+
+	///!toHighlight >> /^ >> /!redStr >> /^ >> /!greenStr >> /^ >> /!blueStr >> /^ >> /!otherStr >> /^;	
+	//alert</ (toHighlight plus space plus redStr) pointer />;
+	? |[error]| 【
+		unicodeString errMessage;
+		? |[emptyEdits elementCount isGreaterThan?? 0]| 【
+			errMessage storesItselfPlus</ {ERROR.\n\nThe following were blank: \n} />;
+			-> |[i.. emptyEdits elementCount]| errMessage <<< emptyEdits[i] >> errMessage addToEnd</ '\n' />;
+			repeat |[2]| errMessage addToEnd</ '\n' />;
+		】
+		? |[wrongFormat elementCount isGreaterThan?? 0]| 【
+			errMessage storesItselfPlus</ {There were alphabetic characters found in the following:\n} />;
+			-> |[i.. wrongFormat elementCount]| errMessage <<< wrongFormat[i] >> errMessage addToEnd</ '\n' />;
+		】
+		alert</ errMessage pointer />;
+		^^^;
+	】
+	? |[redStr elementCount isGreaterThan?? 3]| redStr << {255};
+	? |[greenStr elementCount isGreaterThan?? 3]| greenStr << {255};
+	? |[blueStr elementCount isGreaterThan?? 3]| blueStr << {255};
+	:#redVal.. greenVal.. blueVal;			
+	redVal << stringToInteger</ redStr />;
+	greenVal << stringToInteger</ greenStr />;
+	blueVal << stringToInteger</ blueStr />;
+	? |[redVal isGreaterThan?? 255]| redStr << {255};
+	~? |[redVal isLessThan?? 0]| redStr << {0};
+	? |[greenVal isGreaterThan?? 255]| greenStr << {255};
+	~? |[greenVal isLessThan?? 0]| greenStr << {0};
+	? |[blueVal isGreaterThan?? 255]| blueStr << {255};
+	~? |[blueVal isLessThan?? 0]| blueStr << {0};
+	renameWindow</ addSyntaxHighlightRedEdit::redStr pointer />;
+	renameWindow</ addSyntaxHighlightGreenEdit::greenStr pointer />;
+	renameWindow</ addSyntaxHighlightBlueEdit::blueStr pointer />;
+	
+	:"newStr << {};
+	newStr <<< toHighlight >> newStr <<< '\n';
+	newStr <<< redStr >> newStr <<< space >> newStr <<< greenStr >> newStr <<< space >> newStr <<< blueStr >> newStr <<< space;
+	newStr <<< otherStr;
+	
+	/^ >> /!{newStr: } >> /!newStr;
+
+	highlightFile addToEndOfArray</ newStr />;
+	[]</ :"::@@finalHighlightFile />;
+	-> |[i..highlightFile elementCount]| 【
+		? |[highlightFile[i] elementCount isGreaterThan?? 0]| finalHighlightFile addToEndOfArray</ highlightFile[i] />;
+	】
+	dynamicArrayToFile</ highlightFilePath::finalHighlightFile />;	
+	:"communicationFilePath;
+	communicationFilePath << ADbrightEditorPath;
+	communicationFilePath <<< {\\} >> communicationFilePath <<< {syntaxHighlightAdded};
+	newFile</ communicationFilePath />;
+
+	:"successMessage << {};
+	successMessage <<< unicodeLiteral</ Successfully added! />;
+	repeat |[2]| successMessage addToEnd</ '\n' />;
+	successMessage <<< toHighlight >> successMessage <<< { } >> successMessage <<< unicodeLiteral</ will be highlighted in . />;
+	successMessage <<< fileExtension >> successMessage addToEnd</ space /> >> successMessage <<< unicodeLiteral</ files. />;
+	repeat |[2]| successMessage addToEnd</ '\n' />;
+	successMessage <<< {Red: } >> successMessage <<< redStr >> successMessage addToEnd</ '\n' />;
+	successMessage <<< {Green: } >> successMessage <<< greenStr >> successMessage addToEnd</ '\n' />;
+	successMessage <<< {Blue: } >> successMessage <<< blueStr >> successMessage addToEnd</ '\n' />;
+	alert</ successMessage pointer />;
+》
