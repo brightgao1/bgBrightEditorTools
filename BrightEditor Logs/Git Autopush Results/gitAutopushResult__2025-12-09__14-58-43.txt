@@ -1,0 +1,3 @@
+fatal: Out of memory, calloc failed
+warning: die() called many times. Recursion error or racy threaded death!
+fatal: Out of memory, calloc failed
