@@ -1,0 +1,24 @@
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-25-23.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-28-18.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-30-48.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-32-53.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-36-38.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-37-53.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-40-23.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-43-18.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-48-18.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-52-03.txt', LF will be replaced by CRLF the next time Git touches it
+[master 1e2512c10] BrightEditor autopush 12:52:03 12/9/2025 CST
+ 11 files changed, 20 insertions(+), 1 deletion(-)
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-25-23.txt
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-28-18.txt
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-30-48.txt
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-32-53.txt
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-36-38.txt
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-37-53.txt
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-40-23.txt
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-43-18.txt
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-48-18.txt
+ create mode 100644 BrightEditor Logs/Git Autopush Results/gitAutopushResult__2025-12-09__12-52-03.txt
+To https://github.com/brightgao1/bgBrightEditorTools.git
+   aa91139b2..1e2512c10  master -> master
